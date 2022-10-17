@@ -1,0 +1,954 @@
+{
+  "98bfe1fa": {},
+  "26be58ae": {},
+  "4988401e": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest$3.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "add_field",
+      "method testLongReversed()V",
+      "method match(Lrx/Observable;Lrx/Observable;)Lcom/github/davidmoten/rx/testing/TestSubscriber2;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest$4.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest$1.class": [
+      "method call(Ljava/lang/Integer;)Ljava/lang/Integer;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest$2.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "8bfd43b9": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$ErrorFrom.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$CompletedFrom.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "add_field",
+      "method drain()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MySubscriber.class": [
+      "method onCompleted()V",
+      "method onError(Ljava/lang/Throwable;)V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch.class": [
+      "nochange"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "method testLongReversed()V",
+      "method testLongShifted()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest$1.class": [
+      "method call(Ljava/lang/Integer;)Ljava/lang/Integer;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest$2.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "7eec3a50": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "add_field",
+      "method emit(Lcom/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Item;)I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch.class": [
+      "change_field_declaration"
+    ]
+  },
+  "a6434357": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "method drain()V"
+    ]
+  },
+  "4dd35375": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "add_field",
+      "method emit(Lcom/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Item;)I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Obs.class": [
+      "add_static_method",
+      "method match(Lrx/Observable;Lrx/Observable;Lrx/functions/Func1;Lrx/functions/Func1;Lrx/functions/Func2;)Lrx/Observable;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MySubscriber.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch.class": [
+      "change_field_declaration",
+      "method call(Lrx/Subscriber;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "method testLongReversed()V",
+      "add_instance_method"
+    ]
+  },
+  "dc62df58": {},
+  "6dc5c879": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "add_static_method",
+      "add_instance_method"
+    ]
+  },
+  "f28b35b7": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "method testLongReversed()V",
+      "method match(Lrx/Observable;Lrx/Observable;)Lcom/github/davidmoten/rx/testing/TestSubscriber2;",
+      "method testLongShifted()V",
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest$1.class": [
+      "add_field",
+      "method call(Ljava/lang/Integer;)Ljava/lang/Integer;",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "6ce896b5": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "method drain()V",
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "method testVeryLongShifted()V",
+      "add_instance_method"
+    ]
+  },
+  "830166cd": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "remove_instance_method",
+      "method drain()V"
+    ]
+  },
+  "e269d67c": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "add_field",
+      "method drain()V",
+      "add_instance_method"
+    ]
+  },
+  "8a551aba": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "8becfeed": {},
+  "e50195c4": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "method drain()V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "method testUnsubscribe()V"
+    ]
+  },
+  "e6e2616f": {},
+  "eb2d5530": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest$3.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "method testLongReversed()V",
+      "method testUnsubscribe()V",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest$1.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest$2.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "c84cdf8b": {
+    "com/github/davidmoten/rx/Transformers.class": [
+      "add_static_method"
+    ],
+    "com/github/davidmoten/rx/Transformers$26.class": [
+      "add_class"
+    ]
+  },
+  "48c3ba31": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "88155ac7": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "a2bf6449": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "remove_instance_method",
+      "method testLongShifted()V",
+      "method testVeryLongShifted()V",
+      "add_instance_method"
+    ]
+  },
+  "f45ce295": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "method drain()V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MySubscriber.class": [
+      "method onError(Ljava/lang/Throwable;)V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch.class": [
+      "nochange"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "method testShifted(IZ)V",
+      "add_instance_method"
+    ]
+  },
+  "2dff9792": {
+    "com/github/davidmoten/rx/testing/TestSubscriber2.class": [
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "method testAsynchronous()V"
+    ]
+  },
+  "8fcff90a": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "method drain()V",
+      "add_instance_method"
+    ]
+  },
+  "9230a7c8": {
+    "com/github/davidmoten/rx/internal/operators/OperatorBufferPredicateBoundary$BoundedBeforeSubscriber.class": [
+      "method drain()V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OrderedMerge$SourceSubscriber.class": [
+      "method onNext(Ljava/lang/Object;)V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OperatorBufferPredicateBoundary$BoundedAfterSubscriber.class": [
+      "method drain()V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OperatorBufferPredicateBoundary$BoundedSubscriber.class": [
+      "remove_field",
+      "method onNext(Ljava/lang/Object;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OrderedMerge$MergeProducer.class": [
+      "method emit()V",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/RollingSPSCQueue.class": [
+      "method unsubscribe()V"
+    ],
+    "com/github/davidmoten/rx/SchedulersTest.class": [
+      "method doesWait()V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "method testUnsubscribe()V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/ObservableServerSocketTest$7$1.class": [
+      "method call()Lrx/Observable;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/ObservableServerSocketTest.class": [
+      "method testLoad()V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OperatorBufferToFileTest.class": [
+      "method resetBefore()V"
+    ]
+  },
+  "1bdcbbf6": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "method drain()V"
+    ]
+  },
+  "56c52485": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "method handleItem(Ljava/lang/Object;Lcom/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Source;)I"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "1263c8ab": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "add_instance_method",
+      "method handleCompleted(Lcom/github/davidmoten/rx/internal/operators/OnSubscribeMatch$CompletedFrom;)V",
+      "method handleItem(Ljava/lang/Object;Lcom/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Source;)I"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "add_instance_method",
+      "change_signature"
+    ]
+  },
+  "9ac8d60d": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "change_field_declaration",
+      "method drain()V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "dfa13325": {
+    "com/github/davidmoten/rx/Functions$6.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$10.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "method call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$8.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/Functions$12.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$9.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "method call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "com/github/davidmoten/rx/Functions$14.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/Functions$15.class": [
+      "method call(Ljava/lang/Object;)Ljava/lang/Boolean;"
+    ],
+    "com/github/davidmoten/rx/Functions$17.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Functions$11.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "method handleItem(Ljava/lang/Object;Lcom/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Source;)I"
+    ],
+    "com/github/davidmoten/rx/Functions$16.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions.class": [
+      "method alwaysFalse2()Lrx/functions/Func2;",
+      "method alwaysTrue()Lrx/functions/Func1;",
+      "method constant0(Ljava/lang/Object;)Lrx/functions/Func0;",
+      "method add()Lrx/functions/Func2;",
+      "method isNotNull()Lrx/functions/Func1;",
+      "method identity()Lrx/functions/Func1;",
+      "method alwaysTrue2()Lrx/functions/Func2;",
+      "method toFunc2(Ljava/util/Comparator;)Lrx/functions/Func2;",
+      "method toFunc0(Ljava/util/concurrent/Callable;)Lrx/functions/Func0;",
+      "method toComparator(Lrx/functions/Func2;)Ljava/util/Comparator;",
+      "method isNull()Lrx/functions/Func1;",
+      "method not(Lrx/functions/Func1;)Lrx/functions/Func1;",
+      "method alwaysFalse()Lrx/functions/Func1;",
+      "add_static_method",
+      "method just()Lrx/functions/Func1;",
+      "method collectStats()Lrx/functions/Func2;",
+      "method constant(Ljava/lang/Object;)Lrx/functions/Func1;"
+    ],
+    "com/github/davidmoten/rx/Functions$5.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$ThrowingException.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Functions$7.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "method call(Ljava/lang/Object;)Ljava/lang/Object;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$13.class": [
+      "method call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Boolean;"
+    ],
+    "com/github/davidmoten/rx/Functions$3.class": [
+      "method call(Ljava/lang/Object;)Ljava/lang/Boolean;"
+    ],
+    "com/github/davidmoten/rx/Functions$4.class": [
+      "add_instance_method",
+      "remove_field",
+      "method call(Ljava/lang/Object;)Ljava/lang/Object;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$1.class": [
+      "method call(Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "com/github/davidmoten/rx/Functions$2.class": [
+      "remove_instance_method",
+      "method call(Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "a46af650": {
+    "com/github/davidmoten/rx/Functions$6.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$10.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "method call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$8.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/Functions$12.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$9.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "method call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer$Emitted.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Functions$14.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/Functions$15.class": [
+      "method call(Ljava/lang/Object;)Ljava/lang/Boolean;"
+    ],
+    "com/github/davidmoten/rx/Functions$17.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$18.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Functions$11.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "remove_instance_method",
+      "method drain()V",
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/Functions$16.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions.class": [
+      "method alwaysFalse2()Lrx/functions/Func2;",
+      "method alwaysTrue()Lrx/functions/Func1;",
+      "method constant0(Ljava/lang/Object;)Lrx/functions/Func0;",
+      "method add()Lrx/functions/Func2;",
+      "method throwing()Lrx/functions/Func1;",
+      "method isNotNull()Lrx/functions/Func1;",
+      "method identity()Lrx/functions/Func1;",
+      "method alwaysTrue2()Lrx/functions/Func2;",
+      "method toFunc2(Ljava/util/Comparator;)Lrx/functions/Func2;",
+      "method toFunc0(Ljava/util/concurrent/Callable;)Lrx/functions/Func0;",
+      "method toComparator(Lrx/functions/Func2;)Ljava/util/Comparator;",
+      "method isNull()Lrx/functions/Func1;",
+      "method not(Lrx/functions/Func1;)Lrx/functions/Func1;",
+      "method alwaysFalse()Lrx/functions/Func1;",
+      "add_static_method",
+      "method just()Lrx/functions/Func1;",
+      "method collectStats()Lrx/functions/Func2;",
+      "method constant(Ljava/lang/Object;)Lrx/functions/Func1;"
+    ],
+    "com/github/davidmoten/rx/Functions$5.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$7.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "method call(Ljava/lang/Object;)Ljava/lang/Object;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$13.class": [
+      "method call(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Boolean;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer$Status.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Functions$3.class": [
+      "method call(Ljava/lang/Object;)Ljava/lang/Boolean;"
+    ],
+    "com/github/davidmoten/rx/Functions$4.class": [
+      "add_field",
+      "remove_instance_method",
+      "method call(Ljava/lang/Object;)Ljava/lang/Object;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Functions$1.class": [
+      "method call(Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "com/github/davidmoten/rx/Functions$2.class": [
+      "add_instance_method",
+      "method call(Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "f9dc22fc": {},
+  "a651ba53": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "remove_instance_method",
+      "method drain()V",
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MySubscriber.class": [
+      "method onCompleted()V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch.class": [
+      "nochange"
+    ]
+  },
+  "9b5be7ec": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$ItemA.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "add_static_method",
+      "method drain()V",
+      "method handleItem(Ljava/lang/Object;Lcom/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Source;)Lcom/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer$Emitted;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MySubscriber.class": [
+      "add_static_method",
+      "method onError(Ljava/lang/Throwable;)V",
+      "method onNext(Ljava/lang/Object;)V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch.class": [
+      "add_field",
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyError.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatchTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "95efda8a": {
+    "com/github/davidmoten/rx/internal/operators/ObservableServerSocketTest$7$1.class": [
+      "method call()Lrx/Observable;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeDoOnEmptyTest.class": [
+      "method testBackPressure()V"
+    ]
+  },
+  "f3a1d10a": {
+    "com/github/davidmoten/rx/internal/operators/ObservableServerSocketTest$7.class": [
+      "method call(Ljava/lang/Integer;)Lrx/Observable;"
+    ]
+  },
+  "70b4dbd5": {
+    "com/github/davidmoten/rx/internal/operators/ObservableReverse$2.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Transformers$27.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/operators/ObservableReverse$2$1.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Transformers.class": [
+      "add_static_method"
+    ],
+    "com/github/davidmoten/rx/internal/operators/ObservableReverse.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Obs.class": [
+      "add_static_method"
+    ],
+    "com/github/davidmoten/rx/internal/operators/ObservableReverse$1.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/operators/ObservableReverseTest.class": [
+      "add_class"
+    ]
+  },
+  "1ebb3d0f": {
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "change_base_class",
+      "change_field_declaration",
+      "method drain()V",
+      "method request(J)V",
+      "update_constructor_or_update_field_initialization",
+      "method handleItem(Ljava/lang/Object;Lcom/github/davidmoten/rx/internal/operators/OnSubscribeMatch$Source;)Lcom/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer$Emitted;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MySubscriber.class": [
+      "nochange"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch.class": [
+      "nochange"
+    ]
+  },
+  "e7c408dc": {
+    "com/github/davidmoten/rx/internal/operators/ObservableReverse$2$1.class": [
+      "add_instance_method"
+    ]
+  },
+  "08155cb6": {
+    "com/github/davidmoten/rx/RetryWhen$Builder$2.class": [
+      "add_field",
+      "method call(Ljava/lang/Integer;)Ljava/lang/Long;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/RetryWhen$Builder.class": [
+      "method exponentialBackoff(JLjava/util/concurrent/TimeUnit;D)Lcom/github/davidmoten/rx/RetryWhen$Builder;",
+      "add_instance_method"
+    ]
+  },
+  "85ab0bb4": {
+    "com/github/davidmoten/rx/Schedulers.class": [
+      "method computation(Ljava/lang/String;)Lrx/Scheduler;",
+      "method withId(Lrx/Scheduler;)Lrx/Scheduler;"
+    ],
+    "com/github/davidmoten/rx/internal/SchedulerWithId$1$2.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/SchedulerWithId$1.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Functions$17.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/internal/SchedulerWithId.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Functions$18.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OnSubscribeMatch$MyProducer.class": [
+      "method drain()V"
+    ],
+    "com/github/davidmoten/rx/Functions.class": [
+      "method throwing2()Lrx/functions/Func2;",
+      "method throwing()Lrx/functions/Func1;"
+    ],
+    "com/github/davidmoten/rx/internal/SchedulerWithId$1$1.class": [
+      "add_class"
+    ]
+  },
+  "55e2fb9e": {
+    "com/github/davidmoten/rx/internal/operators/OrderedMerge$SourceSubscriber.class": [
+      "method onCompleted()V",
+      "method onError(Ljava/lang/Throwable;)V",
+      "method onNext(Ljava/lang/Object;)V"
+    ]
+  },
+  "f01f00be": {
+    "com/github/davidmoten/rx/internal/operators/TransformerStateMachineTest.class": [
+      "method testForMemoryLeaks()V"
+    ]
+  },
+  "52f177f1": {
+    "com/github/davidmoten/rx/RetryWhen.class": [
+      "add_static_method"
+    ],
+    "com/github/davidmoten/rx/RetryWhen$Builder.class": [
+      "add_instance_method"
+    ]
+  },
+  "92243356": {
+    "com/github/davidmoten/rx/Transformers$22$1$1.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Transformers$16.class": [
+      "change_field_declaration",
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OrderedMerge$SourceSubscriber.class": [
+      "change_field_declaration",
+      "method onStart()V",
+      "method onNext(Ljava/lang/Object;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$14.class": [
+      "change_field_declaration",
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$11.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$27.class": [
+      "add_field",
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OrderedMerge.class": [
+      "add_field",
+      "method create(Ljava/util/Collection;)Lrx/Observable;",
+      "add_static_method",
+      "remove_static_method",
+      "method call(Lrx/Subscriber;)V",
+      "method create(Ljava/util/Collection;Ljava/util/Comparator;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$8.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OrderedMerge$1.class": [
+      "nochange"
+    ],
+    "com/github/davidmoten/rx/Transformers$9.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$24$1.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Transformers$7.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers.class": [
+      "method onBackpressureBufferToFile(Lcom/github/davidmoten/rx/buffertofile/DataSerializer;Lrx/Scheduler;Lcom/github/davidmoten/rx/buffertofile/Options;)Lrx/Observable$Transformer;",
+      "method groupByEvicting(Lrx/functions/Func1;Lrx/functions/Func1;Lrx/functions/Func1;)Lrx/Observable$Transformer;",
+      "method collectWhile(Lrx/functions/Func0;Lrx/functions/Action2;Lrx/functions/Func2;)Lrx/Observable$Transformer;",
+      "method reverse()Lrx/Observable$Transformer;",
+      "method cache(JLjava/util/concurrent/TimeUnit;Lrx/Scheduler$Worker;)Lrx/Observable$Transformer;",
+      "method collectWhile(Lrx/functions/Func0;Lrx/functions/Action2;Lrx/functions/Func2;Lrx/functions/Func1;)Lrx/Observable$Transformer;",
+      "method matchWith(Lrx/Observable;Lrx/functions/Func1;Lrx/functions/Func1;Lrx/functions/Func2;J)Lrx/Observable$Transformer;",
+      "method mapLast(Lrx/functions/Func1;)Lrx/Observable$Transformer;",
+      "method matchWith(Lrx/Observable;Lrx/functions/Func1;Lrx/functions/Func1;Lrx/functions/Func2;)Lrx/Observable$Transformer;",
+      "method repeatLast()Lrx/Observable$Transformer;",
+      "add_static_method",
+      "method doOnNext(ILrx/functions/Action1;)Lrx/Observable$Transformer;",
+      "method sampleFirst(JLjava/util/concurrent/TimeUnit;Lrx/Scheduler;)Lrx/Observable$Transformer;",
+      "method delay(Lrx/functions/Func1;Lrx/functions/Func0;JLrx/Scheduler;)Lrx/Observable$Transformer;",
+      "method toListWhile(Lrx/functions/Func2;)Lrx/Observable$Transformer;",
+      "method windowMax(ILjava/util/Comparator;)Lrx/Observable$Transformer;",
+      "method ignoreElementsThen(Lrx/Observable;)Lrx/Observable$Transformer;",
+      "method removePairs(Lrx/functions/Func1;Lrx/functions/Func2;)Lrx/Observable$Transformer;",
+      "method doOnEmpty(Lrx/functions/Action0;)Lrx/Observable$Transformer;",
+      "method windowMin(ILjava/util/Comparator;)Lrx/Observable$Transformer;"
+    ],
+    "com/github/davidmoten/rx/Transformers$6.class": [
+      "method call(Lrx/Observable;)Lrx/Observable;"
+    ],
+    "com/github/davidmoten/rx/Transformers$28.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Transformers$10.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/util/RxRingBuffer.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Transformers$15.class": [
+      "change_field_declaration",
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Obs.class": [
+      "method match(Lrx/Observable;Lrx/Observable;Lrx/functions/Func1;Lrx/functions/Func1;Lrx/functions/Func2;J)Lrx/Observable;",
+      "method create(Ljava/util/Collection;Z)Lrx/Observable;",
+      "method repeating(Ljava/lang/Object;)Lrx/Observable;",
+      "method create(Ljava/util/Collection;Ljava/util/Comparator;Z)Lrx/Observable;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OrderedMerge$MergeProducer.class": [
+      "method emit()V",
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$12.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "method call(Ljava/lang/Object;)Ljava/lang/Object;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$22$1.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Transformers$13.class": [
+      "change_field_declaration",
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$25.class": [
+      "change_field_declaration",
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$21$2.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Transformers$26.class": [
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$21$1.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$20.class": [
+      "change_field_declaration",
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$17.class": [
+      "change_field_declaration",
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$21.class": [
+      "change_field_declaration",
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$24.class": [
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$22.class": [
+      "change_field_declaration",
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$19.class": [
+      "change_field_declaration",
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$23.class": [
+      "add_field",
+      "method call(Lrx/Observable;)Lrx/Observable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/github/davidmoten/rx/Transformers$18.class": [
+      "method call(Lrx/Observable;)Lrx/Observable;"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OrderedMergeTest.class": [
+      "method testTake()V",
+      "method testErrorImmediatelyDelayed()V",
+      "method testErrorInMiddleDelayed()V"
+    ]
+  },
+  "169a89b9": {
+    "com/github/davidmoten/rx/internal/operators/OrderedMerge$MergeProducer.class": [
+      "method emit()V"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OrderedMergeTest.class": [
+      "add_instance_method"
+    ],
+    "com/github/davidmoten/rx/internal/operators/OrderedMergeTest$2.class": [
+      "add_class"
+    ]
+  },
+  "a91d2ba7": {
+    "com/github/davidmoten/rx/Obs.class": [
+      "add_static_method",
+      "remove_static_method",
+      "change_signature"
+    ]
+  },
+  "51346285": {
+    "com/github/davidmoten/rx/internal/operators/TransformerStringSplit$4.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/operators/TransformerStringSplit.class": [
+      "add_static_method"
+    ],
+    "com/github/davidmoten/rx/internal/operators/TransformerStringSplit$State.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Transformers.class": [
+      "add_static_method"
+    ],
+    "com/github/davidmoten/rx/internal/operators/TransformerStringSplit$3.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Benchmarks$4.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/operators/StringSplitWithLimitTest$1.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Benchmarks$3.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/internal/operators/StringSplitWithLimitTest.class": [
+      "add_class"
+    ],
+    "com/github/davidmoten/rx/Benchmarks.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "936197df": {}
+}

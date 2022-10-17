@@ -1,0 +1,778 @@
+{
+  "4391645e": {
+    "org/logicng/formulas/Implication.class": [
+      "method restrict(Lorg/logicng/datastructures/Assignment;)Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/datastructures/Assignment.class": [
+      "method addLiteral(Lorg/logicng/formulas/Literal;)V",
+      "update_constructor_or_update_field_initialization",
+      "method evaluateLit(Lorg/logicng/formulas/Literal;)Z"
+    ],
+    "org/logicng/formulas/BinaryOperator.class": [
+      "nochange"
+    ]
+  },
+  "fe5642d2": {
+    "org/logicng/datastructures/Assignment.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "5251f843": {
+    "org/logicng/formulas/PBConstraint.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/logicng/collections/LNGLongPriorityQueueTest.class": [
+      "change_signature"
+    ],
+    "org/logicng/collections/LNGDoubleVectorTest.class": [
+      "change_signature"
+    ],
+    "org/logicng/bdds/BDDOperationsTest.class": [
+      "change_signature"
+    ],
+    "org/logicng/collections/LNGIntVectorTest.class": [
+      "change_signature"
+    ],
+    "org/logicng/collections/LNGVectorTest.class": [
+      "change_signature"
+    ],
+    "org/logicng/formulas/PBConstraintTest.class": [
+      "method testContains()V",
+      "remove_instance_method"
+    ],
+    "org/logicng/collections/LNGDoublePriorityQueueTest.class": [
+      "change_signature"
+    ],
+    "org/logicng/collections/LNGLongVectorTest.class": [
+      "change_signature"
+    ],
+    "org/logicng/collections/LNGByteVectorTest.class": [
+      "change_signature"
+    ],
+    "org/logicng/collections/LNGBooleanVectorTest.class": [
+      "change_signature"
+    ]
+  },
+  "b69d16e3": {
+    "org/logicng/formulas/PBConstraint.class": [
+      "method restrict(Lorg/logicng/datastructures/Assignment;)Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/datastructures/Assignment.class": [
+      "method restrictLit(Lorg/logicng/formulas/Literal;)Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/formulas/Literal.class": [
+      "method restrict(Lorg/logicng/datastructures/Assignment;)Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/datastructures/AssignmentTest.class": [
+      "method testRestrictLit()V",
+      "method testFastEvaluable()V"
+    ]
+  },
+  "1a229d56": {
+    "org/logicng/datastructures/Assignment.class": [
+      "method restrictLit(Lorg/logicng/formulas/Literal;)Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/formulas/Literal.class": [
+      "method negative()Lorg/logicng/formulas/Literal;"
+    ]
+  },
+  "a79589c7": {
+    "org/logicng/datastructures/Assignment.class": [
+      "add_instance_method",
+      "method blockingClause(Lorg/logicng/formulas/FormulaFactory;Ljava/util/Collection;)Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/datastructures/AssignmentTest.class": [
+      "method testBlockingClause()V"
+    ]
+  },
+  "87f078c1": {
+    "org/logicng/formulas/FormulaFactory.class": [
+      "method implication(Lorg/logicng/formulas/Formula;Lorg/logicng/formulas/Formula;)Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/formulas/ExtendedFormulaFactoryTest.class": [
+      "method testCacheClearance(Lorg/logicng/formulas/FormulaTransformation;Lorg/logicng/formulas/cache/PredicateCacheEntry;Lorg/logicng/formulas/cache/TransformationCacheEntry;)V"
+    ],
+    "org/logicng/formulas/ImplicationTest.class": [
+      "method testCreator()V"
+    ],
+    "org/logicng/transformations/FormulaFactoryImporterTest.class": [
+      "method testImplication()V"
+    ],
+    "org/logicng/io/parsers/PropositionalParserTest.class": [
+      "method testParsePrecedences()V"
+    ]
+  },
+  "86ec9a7b": {
+    "org/logicng/functions/VariableProfileFunction.class": [
+      "method cachingVariableProfile(Lorg/logicng/formulas/Formula;)Ljava/util/Map;",
+      "method nonCachingRecursion(Lorg/logicng/formulas/Formula;Ljava/util/Map;)V"
+    ],
+    "org/logicng/functions/LiteralProfileFunction.class": [
+      "method cachingLiteralProfile(Lorg/logicng/formulas/Formula;)Ljava/util/Map;",
+      "method nonCachingRecursion(Lorg/logicng/formulas/Formula;Ljava/util/Map;)V"
+    ]
+  },
+  "95029ff8": {
+    "org/logicng/formulas/Not.class": [
+      "method nnf()Lorg/logicng/formulas/Formula;"
+    ]
+  },
+  "f65887c1": {
+    "org/logicng/formulas/Constant.class": [
+      "nochange"
+    ],
+    "org/logicng/formulas/Formula.class": [
+      "nochange"
+    ]
+  },
+  "d76c40e2": {
+    "org/logicng/formulas/FormulaFactory.class": [
+      "method implication(Lorg/logicng/formulas/Formula;Lorg/logicng/formulas/Formula;)Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/formulas/ExtendedFormulaFactoryTest.class": [
+      "method testCacheClearance(Lorg/logicng/formulas/FormulaTransformation;Lorg/logicng/formulas/cache/PredicateCacheEntry;Lorg/logicng/formulas/cache/TransformationCacheEntry;)V"
+    ],
+    "org/logicng/formulas/ImplicationTest.class": [
+      "method testCreator()V"
+    ],
+    "org/logicng/transformations/FormulaFactoryImporterTest.class": [
+      "method testImplication()V"
+    ],
+    "org/logicng/io/parsers/PropositionalParserTest.class": [
+      "method testParsePrecedences()V"
+    ]
+  },
+  "24d8b1ea": {
+    "org/logicng/solvers/sat/MiniSatStyleSolver.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/solvers/MiniSat.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/solvers/CleaneLing.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/solvers/SATSolver.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/logicng/solvers/sat/CleaneLingStyleSolver.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/solvers/sat/SATTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "2d1434a6": {
+    "org/logicng/solvers/MiniSat.class": [
+      "method upZeroLiterals()Ljava/util/SortedSet;"
+    ],
+    "org/logicng/solvers/CleaneLing.class": [
+      "method upZeroLiterals()Ljava/util/SortedSet;"
+    ]
+  },
+  "8a986b9a": {
+    "org/logicng/solvers/sat/SATTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "97d66e5d": {
+    "org/logicng/backbones/BackboneConfig$Builder.class": [
+      "add_class"
+    ],
+    "org/logicng/backbones/Backbone.class": [
+      "add_class"
+    ],
+    "org/logicng/backbones/BackboneConfig.class": [
+      "add_class"
+    ],
+    "org/logicng/formulas/Not.class": [
+      "method nnf()Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/formulas/Implication.class": [
+      "method nnf()Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/solvers/sat/CleaneLingSolver.class": [
+      "nochange"
+    ],
+    "org/logicng/solvers/sat/CleaneLingMinimalisticSolver.class": [
+      "nochange"
+    ],
+    "org/logicng/formulas/PBConstraint.class": [
+      "method nnf()Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/formulas/NAryOperator.class": [
+      "method nnf()Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/transformations/BackboneSimplifier.class": [
+      "add_class"
+    ],
+    "org/logicng/backbones/MiniSatBackbone$1.class": [
+      "add_class"
+    ],
+    "org/logicng/solvers/sat/CleaneLingConfig.class": [
+      "nochange"
+    ],
+    "org/logicng/formulas/Equivalence.class": [
+      "method nnf()Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/solvers/CleaneLing.class": [
+      "nochange"
+    ],
+    "org/logicng/formulas/Formula.class": [
+      "method setFunctionCacheEntry(Lorg/logicng/formulas/cache/CacheEntry;Ljava/lang/Object;)V",
+      "change_field_declaration",
+      "method setPredicateCacheEntry(Lorg/logicng/formulas/cache/CacheEntry;Z)V",
+      "method functionCacheEntry(Lorg/logicng/formulas/cache/CacheEntry;)Ljava/lang/Object;",
+      "method clearCaches()V",
+      "method transformationCacheEntry(Lorg/logicng/formulas/cache/CacheEntry;)Lorg/logicng/formulas/Formula;",
+      "method setTransformationCacheEntry(Lorg/logicng/formulas/cache/CacheEntry;Lorg/logicng/formulas/Formula;)V",
+      "method predicateCacheEntry(Lorg/logicng/formulas/cache/CacheEntry;)Lorg/logicng/datastructures/Tristate;",
+      "update_constructor_or_update_field_initialization",
+      "method setPredicateCacheEntry(Lorg/logicng/formulas/cache/CacheEntry;Lorg/logicng/datastructures/Tristate;)V"
+    ],
+    "org/logicng/backbones/MiniSatBackbone.class": [
+      "add_class"
+    ],
+    "org/logicng/backbones/BackboneConfig$1.class": [
+      "add_class"
+    ],
+    "org/logicng/backbones/BackboneGeneration.class": [
+      "add_class"
+    ],
+    "org/logicng/backbones/BackboneType.class": [
+      "add_class"
+    ],
+    "org/logicng/solvers/sat/CleaneLingStyleSolver.class": [
+      "nochange"
+    ],
+    "org/logicng/formulas/ExtendedFormulaFactoryTest.class": [
+      "method testCacheClearance(Lorg/logicng/formulas/FormulaTransformation;Lorg/logicng/formulas/cache/PredicateCacheEntry;Lorg/logicng/formulas/cache/TransformationCacheEntry;)V"
+    ],
+    "org/logicng/backbones/BackboneTest.class": [
+      "add_class"
+    ],
+    "org/logicng/transformations/BackboneSimplifierTest.class": [
+      "add_class"
+    ],
+    "org/logicng/backbones/BackboneGenerationTest.class": [
+      "add_class"
+    ]
+  },
+  "0c984096": {
+    "org/logicng/transformations/cnf/CNFSubsumption.class": [
+      "add_class"
+    ],
+    "org/logicng/transformations/Subsumption.class": [
+      "add_class"
+    ],
+    "org/logicng/transformations/dnf/DNFSubsumption.class": [
+      "add_class"
+    ]
+  },
+  "ecbaa47e": {
+    "org/logicng/transformations/dnf/DNFSubsumption.class": [
+      "method apply(Lorg/logicng/formulas/Formula;Z)Lorg/logicng/formulas/Formula;"
+    ]
+  },
+  "5cc85a29": {},
+  "087165d2": {
+    "org/logicng/transformations/cnf/CNFSubsumptionTest.class": [
+      "add_class"
+    ]
+  },
+  "43c5a28a": {
+    "org/logicng/transformations/cnf/CNFSubsumptionTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "94248648": {
+    "org/logicng/transformations/dnf/DNFSubsumption.class": [
+      "method apply(Lorg/logicng/formulas/Formula;Z)Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/transformations/cnf/CNFSubsumptionTest.class": [
+      "method testLargeCNFSubsumption()V",
+      "method testSimpleCNFSubsumption()V"
+    ],
+    "org/logicng/transformations/dnf/DNFSubsumptionTest.class": [
+      "add_class"
+    ]
+  },
+  "da4c7627": {},
+  "59170071": {},
+  "30443cd2": {},
+  "3620a008": {
+    "org/logicng/formulas/printer/DefaultStringRepresentation.class": [
+      "method pbAdd()Ljava/lang/String;",
+      "method implication()Ljava/lang/String;",
+      "method equivalence()Ljava/lang/String;",
+      "method pbComparator(Lorg/logicng/formulas/CType;)Ljava/lang/String;",
+      "method or()Ljava/lang/String;",
+      "method and()Ljava/lang/String;"
+    ],
+    "org/logicng/formulas/printer/UTF8StringRepresentation.class": [
+      "method pbAdd()Ljava/lang/String;",
+      "method implication()Ljava/lang/String;",
+      "method equivalence()Ljava/lang/String;",
+      "method pbComparator(Lorg/logicng/formulas/CType;)Ljava/lang/String;",
+      "method or()Ljava/lang/String;",
+      "method and()Ljava/lang/String;"
+    ],
+    "org/logicng/formulas/printer/SortedStringRepresentation$1.class": [
+      "add_class"
+    ],
+    "org/logicng/formulas/printer/SortedStringRepresentation.class": [
+      "add_class"
+    ],
+    "org/logicng/formulas/printer/SortedStringRepresentation$FormulaComparator.class": [
+      "add_class"
+    ],
+    "org/logicng/formulas/printer/FormulaStringRepresentation.class": [
+      "method toString(Lorg/logicng/formulas/Formula;)Ljava/lang/String;",
+      "method binaryOperator(Lorg/logicng/formulas/BinaryOperator;Ljava/lang/String;)Ljava/lang/String;",
+      "method pbLhs([Lorg/logicng/formulas/Literal;[I)Ljava/lang/String;"
+    ],
+    "org/logicng/formulas/printer/LatexStringRepresentation.class": [
+      "method pbAdd()Ljava/lang/String;",
+      "method implication()Ljava/lang/String;",
+      "method equivalence()Ljava/lang/String;",
+      "method pbComparator(Lorg/logicng/formulas/CType;)Ljava/lang/String;",
+      "method or()Ljava/lang/String;",
+      "method and()Ljava/lang/String;"
+    ],
+    "org/logicng/formulas/printer/DefaultStringRepresentationTest.class": [
+      "method testDefaultPrinter()V"
+    ],
+    "org/logicng/formulas/printer/SortedStringRepresentationTest.class": [
+      "add_class"
+    ]
+  },
+  "9d227577": {
+    "org/logicng/formulas/CTrue.class": [
+      "method equals(Ljava/lang/Object;)Z"
+    ],
+    "org/logicng/formulas/CFalse.class": [
+      "method equals(Ljava/lang/Object;)Z"
+    ],
+    "org/logicng/formulas/PBConstraint.class": [
+      "remove_instance_method",
+      "method substitute(Lorg/logicng/datastructures/Substitution;)Lorg/logicng/formulas/Formula;",
+      "method hashCode()I",
+      "method equals(Ljava/lang/Object;)Z"
+    ],
+    "org/logicng/formulas/FormulaFactory.class": [
+      "nochange"
+    ],
+    "org/logicng/formulas/printer/SortedStringRepresentation.class": [
+      "method toString(Lorg/logicng/formulas/Formula;)Ljava/lang/String;"
+    ],
+    "org/logicng/formulas/printer/FormulaStringRepresentation.class": [
+      "method toString(Lorg/logicng/formulas/Formula;)Ljava/lang/String;"
+    ],
+    "org/logicng/formulas/FormulaFactory$PBOperands.class": [
+      "remove_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/logicng/formulas/PBConstraintTest.class": [
+      "remove_instance_method"
+    ]
+  },
+  "bb9eb88a": {},
+  "287a3a2d": {
+    "org/logicng/backbones/MiniSatBackbone.class": [
+      "method isRotatable(I)Z"
+    ]
+  },
+  "284b3aa8": {},
+  "9bc4a74c": {
+    "org/logicng/util/FormulaHelper.class": [
+      "add_class"
+    ],
+    "org/logicng/formulas/PBConstraint.class": [
+      "method variables()Ljava/util/SortedSet;",
+      "method literals()Ljava/util/SortedSet;"
+    ],
+    "org/logicng/formulas/NAryOperator.class": [
+      "method variables()Ljava/util/SortedSet;",
+      "method literals()Ljava/util/SortedSet;"
+    ],
+    "org/logicng/collections/ImmutableFormulaList.class": [
+      "method variables()Ljava/util/SortedSet;",
+      "method literals()Ljava/util/SortedSet;"
+    ],
+    "org/logicng/backbones/BackboneGeneration.class": [
+      "method compute(Ljava/util/Collection;)Lorg/logicng/backbones/Backbone;",
+      "method computeNegative(Ljava/util/Collection;)Lorg/logicng/backbones/Backbone;",
+      "remove_static_method",
+      "method compute(Ljava/util/Collection;Lorg/logicng/backbones/BackboneType;)Lorg/logicng/backbones/Backbone;",
+      "method computePositive(Ljava/util/Collection;)Lorg/logicng/backbones/Backbone;"
+    ],
+    "org/logicng/formulas/BinaryOperator.class": [
+      "method variables()Ljava/util/SortedSet;",
+      "method literals()Ljava/util/SortedSet;"
+    ]
+  },
+  "67f0dd24": {
+    "org/logicng/util/FormulaHelperTest.class": [
+      "add_class"
+    ]
+  },
+  "60d0a0d9": {
+    "org/logicng/formulas/cache/PredicateCacheEntry.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/logicng/predicates/NNFPredicate$1.class": [
+      "add_class"
+    ],
+    "org/logicng/predicates/NNFPredicate.class": [
+      "add_class"
+    ],
+    "org/logicng/predicates/NNFPredicateTest.class": [
+      "add_class"
+    ],
+    "org/logicng/formulas/CacheTest.class": [
+      "method testValues()V"
+    ]
+  },
+  "4e9d844c": {
+    "org/logicng/predicates/satisfiability/SATPredicate.class": [
+      "change_field_declaration",
+      "method test(Lorg/logicng/formulas/Formula;Z)Z",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "9ed2337c": {
+    "org/logicng/pseudobooleans/PBEncoder.class": [
+      "method encode([Lorg/logicng/formulas/Literal;[II)Ljava/util/List;"
+    ]
+  },
+  "ae79302c": {},
+  "c8f1eddc": {
+    "org/logicng/solvers/sat/GlucoseSyrup.class": [
+      "method solve(Lorg/logicng/handlers/SATHandler;)Lorg/logicng/datastructures/Tristate;"
+    ],
+    "org/logicng/solvers/sat/MiniSat2Solver.class": [
+      "method solve(Lorg/logicng/handlers/SATHandler;)Lorg/logicng/datastructures/Tristate;"
+    ]
+  },
+  "c7f7972e": {
+    "org/logicng/solvers/sat/MiniSatStyleSolver.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/solvers/MiniSat.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/solvers/CleaneLing.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/solvers/SATSolver.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/logicng/solvers/sat/SATTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "62bb5dde": {
+    "org/logicng/backbones/Backbone.class": [
+      "add_field",
+      "method getOptionalVariables()Ljava/util/SortedSet;",
+      "remove_instance_method",
+      "method getCompleteBackbone()Ljava/util/SortedSet;",
+      "add_static_method",
+      "method toMap()Ljava/util/SortedMap;",
+      "add_instance_method",
+      "method getPositiveBackbone()Ljava/util/SortedSet;",
+      "method getNegativeBackbone()Ljava/util/SortedSet;",
+      "method toFormula(Lorg/logicng/formulas/FormulaFactory;)Lorg/logicng/formulas/Formula;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/logicng/solvers/sat/MiniSatStyleSolver.class": [
+      "add_field",
+      "method cancelUntil(I)V",
+      "add_instance_method",
+      "change_signature",
+      "method initialize()V"
+    ],
+    "org/logicng/solvers/sat/MiniSatConfig.class": [
+      "add_field",
+      "add_instance_method",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/logicng/solvers/sat/GlucoseSyrup.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "method search()Lorg/logicng/datastructures/Tristate;"
+    ],
+    "org/logicng/transformations/cnf/PlaistedGreenbaumTransformationSolver$1.class": [
+      "add_class"
+    ],
+    "org/logicng/transformations/cnf/PlaistedGreenbaumTransformationSolver.class": [
+      "add_class"
+    ],
+    "org/logicng/transformations/BackboneSimplifier.class": [
+      "method apply(Lorg/logicng/formulas/Formula;Z)Lorg/logicng/formulas/Formula;"
+    ],
+    "org/logicng/solvers/sat/MiniSatStyleSolver$1.class": [
+      "add_class"
+    ],
+    "org/logicng/solvers/sat/MiniSatConfig$CNFMethod.class": [
+      "add_class"
+    ],
+    "org/logicng/solvers/MiniSat.class": [
+      "method enumerateAllModels(Ljava/util/Collection;Ljava/util/Collection;Lorg/logicng/handlers/ModelEnumerationHandler;)Ljava/util/List;",
+      "method createAssignment(Lorg/logicng/collections/LNGBooleanVector;Lorg/logicng/collections/LNGIntVector;)Lorg/logicng/datastructures/Assignment;",
+      "method sat(Lorg/logicng/handlers/SATHandler;Lorg/logicng/formulas/Literal;)Lorg/logicng/datastructures/Tristate;",
+      "method addClause(Lorg/logicng/formulas/Formula;Lorg/logicng/propositions/Proposition;)V",
+      "add_instance_method",
+      "method toString()Ljava/lang/String;",
+      "method sat(Lorg/logicng/handlers/SATHandler;Ljava/util/Collection;)Lorg/logicng/datastructures/Tristate;",
+      "update_constructor_or_update_field_initialization",
+      "method unsatCore()Lorg/logicng/explanations/unsatcores/UNSATCore;",
+      "change_field_declaration",
+      "method add(Lorg/logicng/formulas/Formula;Lorg/logicng/propositions/Proposition;)V",
+      "method sat(Lorg/logicng/handlers/SATHandler;)Lorg/logicng/datastructures/Tristate;",
+      "method loadState(Lorg/logicng/solvers/SolverState;)V",
+      "method reset()V"
+    ],
+    "org/logicng/solvers/CleaneLing.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/solvers/sat/MiniSat2Solver.class": [
+      "remove_instance_method"
+    ],
+    "org/logicng/solvers/SATSolver.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/logicng/backbones/BackboneGeneration.class": [
+      "remove_static_method",
+      "method compute(Ljava/util/Collection;Ljava/util/Collection;Lorg/logicng/backbones/BackboneType;)Lorg/logicng/backbones/Backbone;",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/logicng/solvers/sat/MiniSatConfig$Builder.class": [
+      "add_field",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/logicng/solvers/sat/MiniCard.class": [
+      "remove_instance_method"
+    ],
+    "org/logicng/solvers/sat/SATTest.class": [
+      "method testIllegalEnumeration()V",
+      "method testTrue()V",
+      "add_instance_method",
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/logicng/solvers/ModelTest.class": [
+      "add_class"
+    ],
+    "org/logicng/solvers/sat/ConfigurationsTest.class": [
+      "method testMiniSatConfigToString()V"
+    ],
+    "org/logicng/backbones/BackboneTest.class": [
+      "method testToFormula()V",
+      "method testToString()V",
+      "method testEqualsAndHashCode()V",
+      "add_instance_method",
+      "method testToMap()V"
+    ],
+    "org/logicng/solvers/sat/MiniSatTest.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/backbones/BackboneGenerationTest.class": [
+      "remove_instance_method",
+      "method testSmallFormulas()V",
+      "method testSimpleBackbones()V",
+      "method testBackboneType()V",
+      "method testLargeFormula()V",
+      "method testDifferentConfigurations()V",
+      "method testBackboneGeneration()V"
+    ],
+    "org/logicng/solvers/BackboneOnSolverTest.class": [
+      "add_class"
+    ]
+  },
+  "7aaa1f1a": {
+    "org/logicng/bdds/BDDFactory.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/logicng/bdds/jbuddy/BDDKernel.class": [
+      "method pathCountRecOne(II)Ljava/math/BigDecimal;",
+      "method varset2vartable(I)V",
+      "method applyRec(IILorg/logicng/bdds/jbuddy/BDDKernel$Operand;)I",
+      "method addRef(I)I",
+      "method satOneRec(I)I",
+      "method restrict(II)I",
+      "method allNodes(I)Ljava/util/List;",
+      "method support(I)I",
+      "method bddVar(I)I",
+      "method allSatRec(ILjava/util/List;[B)V",
+      "method pathCountRecZero(II)Ljava/math/BigDecimal;",
+      "method allUnsatRec(ILjava/util/List;)V",
+      "method fullSatOne(I)I",
+      "method satCountRec(II)Ljava/math/BigDecimal;",
+      "method exists(II)I",
+      "method satOneSet(III)I",
+      "method makeNode(III)I",
+      "method mark(I)V",
+      "method satOne(I)I",
+      "method restrictRec(II)I",
+      "method varset2svartable(I)V",
+      "method notRec(I)I",
+      "method apply(IILorg/logicng/bdds/jbuddy/BDDKernel$Operand;)I",
+      "method bddLow(I)I",
+      "method bddHigh(I)I",
+      "method quantRec(ILorg/logicng/bdds/jbuddy/BDDKernel$Operand;I)I",
+      "method allSat(I)Ljava/util/List;",
+      "method satCount(I)Ljava/math/BigDecimal;",
+      "method fullSatOneRec(I)I",
+      "method forAll(II)I",
+      "method not(I)I",
+      "method satOneSetRec(III)I",
+      "method allUnsat(I)Ljava/util/List;",
+      "method delRef(I)V"
+    ]
+  },
+  "f018ebaf": {
+    "org/logicng/formulas/Formula.class": [
+      "method bdd(Lorg/logicng/bdds/orderings/VariableOrdering;)Lorg/logicng/bdds/datastructures/BDD;"
+    ],
+    "org/logicng/bdds/FormulaBDDTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "17c75b83": {
+    "org/logicng/explanations/unsatcores/algorithms/PlainInsertionBasedMUS.class": [
+      "method computeMUS(Ljava/util/List;Lorg/logicng/formulas/FormulaFactory;Lorg/logicng/explanations/unsatcores/MUSConfig;)Lorg/logicng/explanations/unsatcores/UNSATCore;"
+    ],
+    "org/logicng/transformations/cnf/CNFEncoderTest.class": [
+      "add_field",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/logicng/io/writers/FormulaDimacsFileWriterTest.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/explanations/unsatcores/MUSGenerationTest.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/backbones/BackboneGenerationTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "710960c7": {
+    "org/logicng/formulas/printer/UTF8StringRepresentation.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/logicng/formulas/printer/SortedStringRepresentation.class": [
+      "method sortedEquivalence(Lorg/logicng/formulas/Equivalence;)Ljava/lang/String;",
+      "change_signature",
+      "method naryOperator(Lorg/logicng/formulas/NAryOperator;Ljava/lang/String;)Ljava/lang/String;"
+    ],
+    "org/logicng/formulas/printer/FormulaStringRepresentation.class": [
+      "method toString(Lorg/logicng/formulas/Formula;)Ljava/lang/String;",
+      "method binaryOperator(Lorg/logicng/formulas/BinaryOperator;Ljava/lang/String;)Ljava/lang/String;",
+      "method bracket(Lorg/logicng/formulas/Formula;)Ljava/lang/String;",
+      "add_instance_method",
+      "method naryOperator(Lorg/logicng/formulas/NAryOperator;Ljava/lang/String;)Ljava/lang/String;"
+    ],
+    "org/logicng/formulas/printer/LatexStringRepresentation.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ]
+  },
+  "76bf0437": {
+    "org/logicng/solvers/sat/MiniSatStyleSolver.class": [
+      "add_field",
+      "method pickBranchLit()I",
+      "add_instance_method",
+      "method initialize()V"
+    ],
+    "org/logicng/solvers/sat/GlucoseSyrup.class": [
+      "method search()Lorg/logicng/datastructures/Tristate;"
+    ],
+    "org/logicng/solvers/MiniSat.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/solvers/CleaneLing.class": [
+      "add_instance_method"
+    ],
+    "org/logicng/solvers/sat/MiniSat2Solver.class": [
+      "method search(I)Lorg/logicng/datastructures/Tristate;"
+    ],
+    "org/logicng/solvers/SATSolver.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/logicng/solvers/sat/MiniCard.class": [
+      "method search(I)Lorg/logicng/datastructures/Tristate;"
+    ],
+    "org/logicng/solvers/sat/SATTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "633e9b69": {
+    "org/logicng/solvers/MiniSat.class": [
+      "method enumerateAllModels(Ljava/util/Collection;Ljava/util/Collection;Lorg/logicng/handlers/ModelEnumerationHandler;)Ljava/util/List;"
+    ],
+    "org/logicng/solvers/sat/SATTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "3f6d6a2d": {
+    "org/logicng/solvers/SATSolver.class": [
+      "nochange"
+    ]
+  },
+  "6d7d3441": {
+    "org/logicng/solvers/sat/SATTest.class": [
+      "remove_instance_method",
+      "method testDimacsFilesWithSelectionOrder()V",
+      "add_instance_method",
+      "method testSelectionOrderSimple01()V"
+    ]
+  },
+  "7e3d8353": {
+    "org/logicng/solvers/sat/MiniSat2Solver.class": [
+      "method search(I)Lorg/logicng/datastructures/Tristate;"
+    ]
+  },
+  "e3ecff27": {
+    "org/logicng/solvers/SATSolver.class": [
+      "method satWithSelectionOrder(Ljava/util/List;Lorg/logicng/handlers/SATHandler;Ljava/util/Collection;)Lorg/logicng/datastructures/Tristate;"
+    ]
+  },
+  "189e682d": {
+    "org/logicng/solvers/sat/GlucoseSyrup.class": [
+      "method search()Lorg/logicng/datastructures/Tristate;"
+    ],
+    "org/logicng/solvers/sat/MiniCard.class": [
+      "method search(I)Lorg/logicng/datastructures/Tristate;"
+    ]
+  },
+  "ffd9a0c7": {
+    "org/logicng/formulas/printer/FormulaStringRepresentation.class": [
+      "method bracket(Lorg/logicng/formulas/Formula;)Ljava/lang/String;",
+      "add_instance_method"
+    ],
+    "org/logicng/formulas/printer/UTF8StringRepresentationTest.class": [
+      "method testUTF8Printer()V"
+    ],
+    "org/logicng/formulas/printer/DefaultStringRepresentationTest.class": [
+      "method testDefaultPrinter()V"
+    ],
+    "org/logicng/formulas/printer/LatexStringRepresentationTest.class": [
+      "method testLatexPrinter()V"
+    ],
+    "org/logicng/formulas/printer/SortedStringRepresentationTest.class": [
+      "method testSortedPrinter()V"
+    ]
+  }
+}

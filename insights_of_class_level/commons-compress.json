@@ -1,0 +1,429 @@
+[
+    {
+        "sha": "ad9b4244",
+        "classname": "/org/apache/commons/compress/archivers/ZipTestCase.class",
+        "projectname": "commons-compress",
+        "insight": "change_signature",
+        "comment": ""
+    },
+    {
+        "sha": "82986dd1",
+        "classname": "/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_field, add_methods",
+        "comment": ""
+    },
+    {
+        "sha": "f5d0bb1e",
+        "classname": "/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.class",
+        "projectname": "commons-compress",
+        "insight": "change_field",
+        "comment": ""
+    },
+    {
+        "sha": "f5d0bb1e",
+        "classname": "/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_methods",
+        "comment": ""
+    },
+    {
+        "sha": "d88aa223",
+        "classname": "/org/apache/commons/compress/archivers/zip/ExtraFieldUtils.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "d88aa223",
+        "classname": "/org/apache/commons/compress/archivers/zip/ExtraFieldUtils$1.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "e959762e",
+        "classname": "/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "e959762e",
+        "classname": "/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "26ad28cd",
+        "classname": "/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest$ThrowingSeekableByteChannel.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "26ad28cd",
+        "classname": "/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "26ad28cd",
+        "classname": "/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest$1.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$2.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$3.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$4.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$2.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$CallableConsumerSupplier.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$2$1.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$7.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$3.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$1.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$6.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$CallableConsumer.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "5a190918",
+        "classname": "/org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$1$1.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "6615be08",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "7897da76",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFile.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "7897da76",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "c937e01a",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFileOptions$1.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "c937e01a",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFileOptions.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "c937e01a",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFileOptions$Builder.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "c937e01a",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFile.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "c937e01a",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "16a0c84e",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFileOptions.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "4ad5d80a",
+        "classname": "/org/apache/commons/compress/archivers/zip/NioZipEncodingTest.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "9d2a2f4a",
+        "classname": "/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "277d6a0c",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/Archive.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "277d6a0c",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "205876d6",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/CLI$Mode.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "1cc80807",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFile.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "1cc80807",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "21ee2655",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFile.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "c7a9079d",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFile.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "c7a9079d",
+        "classname": "/org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "/org/apache/commons/compress/compressors/FileNameUtil.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "/org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel$ZipSplitSegmentComparator.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "/org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "/org/apache/commons/compress/archivers/zip/ZipArchiveEntry.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "/org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "/org/apache/commons/compress/archivers/zip/ZipFile.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "/org/apache/commons/compress/archivers/zip/ZipFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_methods",
+        "comment": ""
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "/org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.class",
+        "projectname": "commons-compress",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "/org/apache/commons/compress/utils/ZipSplitReadOnlySeekableByteChannelTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest.class",
+        "projectname": "commons-compress",
+        "insight": "change_signature",
+        "comment": ""
+    },
+    {
+        "sha": "dfa9ed37",
+        "classname": "/org/apache/commons/compress/compressors/FileNameUtil.class",
+        "projectname": "commons-compress",
+        "insight": "remove_methods",
+        "comment": ""
+    },
+    {
+        "sha": "dfa9ed37",
+        "classname": "/org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel.class",
+        "projectname": "commons-compress",
+        "insight": "change_signature",
+        "comment": ""
+    },
+    {
+        "sha": "dfa9ed37",
+        "classname": "/org/apache/commons/compress/utils/FileNameUtils.class",
+        "projectname": "commons-compress",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "dfa9ed37",
+        "classname": "/org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.class",
+        "projectname": "commons-compress",
+        "insight": "change_signature",
+        "comment": ""
+    },
+    {
+        "sha": "dfa9ed37",
+        "classname": "/org/apache/commons/compress/utils/ZipSplitReadOnlySeekableByteChannelTest.class",
+        "projectname": "commons-compress",
+        "insight": "change_signature",
+        "comment": ""
+    },
+    {
+        "sha": "dfa9ed37",
+        "classname": "/org/apache/commons/compress/utils/FileNameUtilsTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_a_new_class",
+        "comment": ""
+    }
+]

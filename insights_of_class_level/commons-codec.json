@@ -1,0 +1,184 @@
+[
+    {
+        "sha": "6cf34821",
+        "classname": "/org/apache/commons/codec/binary/StringUtilsTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_a_new_method",
+        "comment": ""
+    },
+    {
+        "sha": "d7a4a029",
+        "classname": "/org/apache/commons/codec/binary/HexTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_a_new_method",
+        "comment": ""
+    },
+    {
+        "sha": "e772d31a",
+        "classname": "/org/apache/commons/codec/digest/DigestUtils.class",
+        "projectname": "commons-codec",
+        "insight": "add_methods",
+        "comment": ""
+    },
+    {
+        "sha": "e772d31a",
+        "classname": "/org/apache/commons/codec/digest/DigestUtilsTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_methods",
+        "comment": ""
+    },
+    {
+        "sha": "e772d31a",
+        "classname": "/org/apache/commons/codec/digest/MessageDigestAlgorithmsTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_methods",
+        "comment": ""
+    },
+    {
+        "sha": "01b69110",
+        "classname": "/org/apache/commons/codec/digest/MessageDigestAlgorithms.class",
+        "projectname": "commons-codec",
+        "insight": "change_field",
+        "comment": ""
+    },
+    {
+        "sha": "01b69110",
+        "classname": "/org/apache/commons/codec/digest/DigestUtils.class",
+        "projectname": "commons-codec",
+        "insight": "add_methods",
+        "comment": ""
+    },
+    {
+        "sha": "01b69110",
+        "classname": "/org/apache/commons/codec/digest/DigestUtilsTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_methods",
+        "comment": ""
+    },
+    {
+        "sha": "95212bed",
+        "classname": "/org/apache/commons/codec/digest/DigestUtilsTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_methods",
+        "comment": ""
+    },
+    {
+        "sha": "3af20694",
+        "classname": "/org/apache/commons/codec/digest/DigestUtilsTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_a_new_method",
+        "comment": ""
+    },
+    {
+        "sha": "f40005ad",
+        "classname": "/org/apache/commons/codec/digest/MurmurHash2.class",
+        "projectname": "commons-codec",
+        "insight": "change_field",
+        "comment": ""
+    },
+    {
+        "sha": "f40005ad",
+        "classname": "/org/apache/commons/codec/digest/MurmurHash3.class",
+        "projectname": "commons-codec",
+        "insight": "change_field",
+        "comment": ""
+    },
+    {
+        "sha": "a387ac85",
+        "classname": "/org/apache/commons/codec/digest/MurmurHash3Test.class",
+        "projectname": "commons-codec",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "33491ff8",
+        "classname": "/org/apache/commons/codec/digest/XXHash32.class",
+        "projectname": "commons-codec",
+        "insight": "add_a_new_method",
+        "comment": ""
+    },
+    {
+        "sha": "bc82d82d",
+        "classname": "/org/apache/commons/codec/digest/XXHash32.class",
+        "projectname": "commons-codec",
+        "insight": "change_static_method",
+        "comment": ""
+    },
+    {
+        "sha": "88e729ec",
+        "classname": "/org/apache/commons/codec/digest/XXHash32Test.class",
+        "projectname": "commons-codec",
+        "insight": "add_a_new_method",
+        "comment": ""
+    },
+    {
+        "sha": "08bfd445",
+        "classname": "/org/apache/commons/codec/digest/XXHash32OverflowTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "/org/apache/commons/codec/binary/Hex.class",
+        "projectname": "commons-codec",
+        "insight": "change_field",
+        "comment": ""
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "/org/apache/commons/codec/Charsets.class",
+        "projectname": "commons-codec",
+        "insight": "change_field",
+        "comment": ""
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "/org/apache/commons/codec/net/BCodec.class",
+        "projectname": "commons-codec",
+        "insight": "change_construct",
+        "comment": ""
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "/org/apache/commons/codec/net/QuotedPrintableCodec.class",
+        "projectname": "commons-codec",
+        "insight": "change_construct",
+        "comment": ""
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "/org/apache/commons/codec/net/QCodec.class",
+        "projectname": "commons-codec",
+        "insight": "change_construct",
+        "comment": ""
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "/org/apache/commons/codec/digest/MurmurHash2.class",
+        "projectname": "commons-codec",
+        "insight": "remove_field",
+        "comment": ""
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "/org/apache/commons/codec/binary/BinaryCodecTest.class",
+        "projectname": "commons-codec",
+        "insight": "change_field",
+        "comment": ""
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "/org/apache/commons/codec/binary/Base64Test.class",
+        "projectname": "commons-codec",
+        "insight": "change_field",
+        "comment": ""
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "/org/apache/commons/codec/binary/Base32Test.class",
+        "projectname": "commons-codec",
+        "insight": "change_field",
+        "comment": ""
+    }
+]

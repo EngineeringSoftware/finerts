@@ -1,0 +1,54 @@
+{
+    "ekstazi-bss":{
+        "fail-basic":{
+            "apache_commons-lang": 0.12,
+            "apache_commons-net": 0.05,
+            "apache_commons-validator": 0.09,
+            "apache_commons-csv": 0.58,
+            "asterisk-java_asterisk-java": 0.13,
+            "Bukkit_Bukkit": 0.17,
+            "apache_commons-configuration": 0.29,
+            "zeroturnaround_zt-exec": 0.90,
+            "mikera_vectorz": 0.91,
+            "frizbog_gedcom4j": 0.80
+        },
+        "bm25":{
+            "apache_commons-lang": 0.26,
+            "apache_commons-net": 0.09,
+            "apache_commons-validator": 0.23,
+            "apache_commons-csv": 0.73,
+            "asterisk-java_asterisk-java": 0.15,
+            "Bukkit_Bukkit": 0.17,
+            "apache_commons-configuration": 0.52,
+            "zeroturnaround_zt-exec": 0.92,
+            "mikera_vectorz": 0.99,
+            "frizbog_gedcom4j": 1.00
+        }
+    },
+    "starts-bss":{
+        "fail-basic":{
+            "apache_commons-lang": 0.82,
+            "apache_commons-net": 0.05,
+            "apache_commons-validator": 0.09,
+            "apache_commons-csv": 0.60,
+            "asterisk-java_asterisk-java": 0.33,
+            "Bukkit_Bukkit": 0.56,
+            "apache_commons-configuration": 0.35,
+            "zeroturnaround_zt-exec": 0.90,
+            "mikera_vectorz": 0.91,
+            "frizbog_gedcom4j": 0.80
+        },
+        "bm25":{
+            "apache_commons-lang": 0.79,
+            "apache_commons-net": 0.09,
+            "apache_commons-validator": 0.24,
+            "apache_commons-csv": 0.80,
+            "asterisk-java_asterisk-java": 0.20,
+            "Bukkit_Bukkit": 0.61,
+            "apache_commons-configuration": 0.62,
+            "zeroturnaround_zt-exec": 0.92,
+            "mikera_vectorz": 0.99,
+            "frizbog_gedcom4j": 1.00
+        }
+    }
+}

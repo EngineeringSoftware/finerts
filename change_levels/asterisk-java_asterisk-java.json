@@ -1,0 +1,755 @@
+{
+  "95a96c7a": {
+    "org/asteriskjava/pbx/internal/core/AsteriskPBX.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "cdc98492": {
+    "org/asteriskjava/manager/event/RtcpReceivedEvent.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method"
+    ]
+  },
+  "b5cb56be": {
+    "org/asteriskjava/manager/internal/EventBuilderImpl.class": [
+      "add_field",
+      "method buildEvent(Ljava/lang/Object;Ljava/util/Map;)Lorg/asteriskjava/manager/event/ManagerEvent;",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "0bb78783": {
+    "org/asteriskjava/util/internal/ServerSocketFacadeImpl.class": [
+      "add_field",
+      "method accept()Lorg/asteriskjava/util/SocketConnectionFacade;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/fastagi/DefaultAgiServer.class": [
+      "method createServerSocket()Lorg/asteriskjava/util/ServerSocketFacade;",
+      "add_field",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/util/internal/SocketConnectionFacadeImpl.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/util/ServerSocketFacade.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/asteriskjava/fastagi/AgiServer.class": [
+      "add_instance_method"
+    ],
+    "org/asteriskjava/fastagi/DefaultAgiServerTest$MockedServerSocketFacade.class": [
+      "add_instance_method"
+    ]
+  },
+  "68bcdf5c": {
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl.class": [
+      "add_field",
+      "add_instance_method",
+      "method setProtocolIdentifier(Ljava/lang/String;)V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "84daea6a": {
+    "org/asteriskjava/manager/action/FilterAction.class": [
+      "add_class"
+    ]
+  },
+  "b2685fe7": {
+    "org/asteriskjava/manager/event/QueueMemberRemovedEvent.class": [
+      "remove_instance_method",
+      "remove_field"
+    ],
+    "org/asteriskjava/manager/event/AbstractQueueMemberEvent.class": [
+      "method setLocation(Ljava/lang/String;)V",
+      "change_field_declaration",
+      "method getLocation()Ljava/lang/String;",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/manager/event/QueueMemberAddedEvent.class": [
+      "remove_instance_method",
+      "remove_field"
+    ],
+    "org/asteriskjava/manager/event/QueueMemberStatusEvent.class": [
+      "remove_instance_method",
+      "remove_field"
+    ],
+    "org/asteriskjava/manager/event/QueueMemberEvent.class": [
+      "add_field",
+      "method setLocation(Ljava/lang/String;)V",
+      "method getLocation()Ljava/lang/String;",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/manager/event/QueueMemberPauseEvent.class": [
+      "remove_instance_method",
+      "remove_field"
+    ]
+  },
+  "47f22d4c": {
+    "org/asteriskjava/live/internal/ChannelManager.class": [
+      "method addNewChannel(Ljava/lang/String;Ljava/lang/String;Ljava/util/Date;Ljava/lang/String;Ljava/lang/String;Lorg/asteriskjava/live/ChannelState;Ljava/lang/String;)Lorg/asteriskjava/live/internal/AsteriskChannelImpl;"
+    ]
+  },
+  "9c9e9d41": {
+    "org/asteriskjava/pbx/asterisk/wrap/response/ManagerResponse.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/pbx/asterisk/wrap/response/CommandResponse.class": [
+      "add_field",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/pbx/internal/core/CoherentEventFactory.class": [
+      "method build(Lorg/asteriskjava/manager/response/ManagerResponse;)Lorg/asteriskjava/pbx/asterisk/wrap/response/ManagerResponse;"
+    ],
+    "org/asteriskjava/pbx/asterisk/wrap/response/ManagerError.class": [
+      "change_base_class",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/pbx/internal/core/AsteriskPBX.class": [
+      "add_static_method",
+      "method addAsteriskExtension(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;"
+    ]
+  },
+  "486b0529": {
+    "org/asteriskjava/manager/ManagerConnection.class": [
+      "add_instance_method",
+      "change_signature"
+    ]
+  },
+  "caa2ad76": {
+    "org/asteriskjava/manager/event/AttendedTransferEvent.class": [
+      "add_field",
+      "add_instance_method"
+    ]
+  },
+  "3902ce65": {
+    "org/asteriskjava/pbx/internal/core/AsteriskPBX.class": [
+      "method checkDialplanExists(Lorg/asteriskjava/pbx/AsteriskSettings;)Z",
+      "add_static_method",
+      "method addAsteriskExtension(Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;",
+      "add_instance_method",
+      "change_signature"
+    ]
+  },
+  "955db85e": {
+    "org/asteriskjava/pbx/asterisk/wrap/events/ReloadEvent.class": [
+      "add_class"
+    ]
+  },
+  "b0ed40a5": {
+    "org/asteriskjava/manager/internal/backwardsCompatibility/bridge/BridgeState.class": [
+      "method removeMember(Lorg/asteriskjava/manager/event/BridgeLeaveEvent;)Lorg/asteriskjava/manager/event/ManagerEvent;"
+    ]
+  },
+  "f38f7dc2": {
+    "org/asteriskjava/pbx/internal/activity/BlindTransferActivityImpl.class": [
+      "method onManagerEvent(Lorg/asteriskjava/pbx/asterisk/wrap/events/ManagerEvent;)V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "50fc0c3e": {
+    "org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.class": [
+      "method hangupChannels(Lorg/asteriskjava/pbx/internal/asterisk/MeetmeRoom;)V",
+      "method onManagerEvent(Lorg/asteriskjava/pbx/asterisk/wrap/events/ManagerEvent;)V",
+      "method parseMeetme(Ljava/lang/String;)V"
+    ],
+    "org/asteriskjava/pbx/internal/core/ChannelImpl.class": [
+      "method wasMarkedDuringSweep()Z"
+    ],
+    "org/asteriskjava/pbx/internal/activity/DialActivityImpl.class": [
+      "method doActivity()Z"
+    ],
+    "org/asteriskjava/pbx/internal/managerAPI/OriginateBaseClass.class": [
+      "method handleId(Lorg/asteriskjava/pbx/Channel;)V",
+      "method onManagerEvent(Lorg/asteriskjava/pbx/asterisk/wrap/events/ManagerEvent;)V",
+      "method originate(Lorg/asteriskjava/pbx/EndPoint;Lorg/asteriskjava/pbx/EndPoint;Ljava/util/HashMap;Lorg/asteriskjava/pbx/CallerID;Ljava/lang/Integer;ZLjava/lang/String;)Lorg/asteriskjava/pbx/internal/managerAPI/OriginateResult;"
+    ],
+    "org/asteriskjava/manager/event/SkypeChatMessageEvent.class": [
+      "method getDecodedMessage()Ljava/lang/String;"
+    ],
+    "org/asteriskjava/manager/event/ReloadEvent.class": [
+      "method isDisabled()Z",
+      "method isEnabled()Z"
+    ],
+    "org/asteriskjava/live/internal/AsteriskQueueMemberImpl.class": [
+      "method isStatic()Z",
+      "method isDynamic()Z"
+    ],
+    "org/asteriskjava/util/internal/FileTrace.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/pbx/internal/managerAPI/OriginateToExtension.class": [
+      "method originate(Lorg/asteriskjava/pbx/EndPoint;Lorg/asteriskjava/pbx/EndPoint;ZLjava/lang/String;Lorg/asteriskjava/pbx/CallerID;Ljava/lang/Integer;ZLjava/util/Map;)Lorg/asteriskjava/pbx/internal/managerAPI/OriginateResult;",
+      "method originate(Lorg/asteriskjava/pbx/EndPoint;Lorg/asteriskjava/pbx/EndPoint;ZLorg/asteriskjava/pbx/CallerID;Ljava/lang/String;)Lorg/asteriskjava/pbx/internal/managerAPI/OriginateResult;"
+    ],
+    "org/asteriskjava/pbx/internal/activity/DialToAgiActivityImpl.class": [
+      "method doActivity()Z"
+    ],
+    "org/asteriskjava/pbx/internal/managerAPI/DialToAgi.class": [
+      "method dial(Lorg/asteriskjava/pbx/NewChannelListener;Lorg/asteriskjava/pbx/EndPoint;Lorg/asteriskjava/pbx/AgiChannelActivityAction;Lorg/asteriskjava/pbx/CallerID;Ljava/lang/Integer;ZLjava/util/Map;)[Lorg/asteriskjava/pbx/internal/managerAPI/OriginateResult;"
+    ],
+    "org/asteriskjava/manager/event/DtmfEvent.class": [
+      "method isSent()Z",
+      "method isReceived()Z"
+    ],
+    "org/asteriskjava/pbx/internal/managerAPI/Dial.class": [
+      "method dial(Lorg/asteriskjava/pbx/NewChannelListener;Lorg/asteriskjava/pbx/EndPoint;Lorg/asteriskjava/pbx/EndPoint;Ljava/lang/String;Lorg/asteriskjava/pbx/CallerID;ZLjava/util/Map;)[Lorg/asteriskjava/pbx/internal/managerAPI/OriginateResult;"
+    ],
+    "org/asteriskjava/manager/event/BridgeEvent.class": [
+      "method isUnlink()Z",
+      "method isLink()Z"
+    ]
+  },
+  "8fe3e4cb": {
+    "org/asteriskjava/pbx/agi/config/AgiMappingStragegy.class": [
+      "method addServiceAgiScript(Ljava/lang/Class;)V",
+      "method determineScript(Lorg/asteriskjava/fastagi/AgiRequest;Lorg/asteriskjava/fastagi/AgiChannel;)Lorg/asteriskjava/fastagi/AgiScript;"
+    ],
+    "org/asteriskjava/pbx/asterisk/wrap/events/ReloadEvent.class": [
+      "add_field"
+    ],
+    "org/asteriskjava/manager/internal/ResponseBuilderImpl.class": [
+      "method buildResponse(Ljava/lang/Class;Ljava/util/Map;)Lorg/asteriskjava/manager/response/ManagerResponse;"
+    ],
+    "org/asteriskjava/pbx/internal/core/CoherentEventFactory.class": [
+      "method build(Lorg/asteriskjava/manager/response/ManagerResponse;)Lorg/asteriskjava/pbx/asterisk/wrap/response/ManagerResponse;"
+    ],
+    "org/asteriskjava/pbx/agi/config/ConfiguableAGIServer.class": [
+      "nochange"
+    ],
+    "org/asteriskjava/live/internal/QueueManager.class": [
+      "method handleQueueMemberAddedEvent(Lorg/asteriskjava/manager/event/QueueMemberAddedEvent;)V",
+      "method handleQueueMemberPausedEvent(Lorg/asteriskjava/manager/event/QueueMemberPausedEvent;)V",
+      "method handleQueueMemberEvent(Lorg/asteriskjava/manager/event/QueueMemberEvent;)V",
+      "method handleQueueMemberStatusEvent(Lorg/asteriskjava/manager/event/QueueMemberStatusEvent;)V",
+      "method handleQueueMemberRemovedEvent(Lorg/asteriskjava/manager/event/QueueMemberRemovedEvent;)V"
+    ],
+    "org/asteriskjava/util/internal/streamreader/FastScannerSpeedTestOnSocket.class": [
+      "remove_instance_method",
+      "method testScannerSpeed()V",
+      "add_instance_method",
+      "method fastScannerSpeedTest(Ljava/util/regex/Pattern;)V"
+    ]
+  },
+  "520e21b1": {
+    "org/asteriskjava/pbx/internal/asterisk/MeetmeRoomControl.class": [
+      "method findAvailableRoom(Lorg/asteriskjava/pbx/internal/asterisk/RoomOwner;)Lorg/asteriskjava/pbx/internal/asterisk/MeetmeRoom;"
+    ],
+    "org/asteriskjava/pbx/internal/core/ChannelProxy.class": [
+      "add_field",
+      "method notifyHangupListeners(Ljava/lang/Integer;Ljava/lang/String;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.class": [
+      "method setInactive()V"
+    ]
+  },
+  "3ad4869c": {
+    "org/asteriskjava/manager/event/QueueMemberEvent.class": [
+      "add_field",
+      "add_instance_method"
+    ]
+  },
+  "0f0d33c0": {
+    "org/asteriskjava/manager/event/QueueMemberStatusEvent.class": [
+      "remove_instance_method",
+      "remove_field"
+    ]
+  },
+  "cbb99612": {
+    "org/asteriskjava/manager/AbstractManagerEventListener.class": [
+      "change_field_declaration",
+      "method onManagerEvent(Lorg/asteriskjava/manager/event/ManagerEvent;)V",
+      "add_instance_method",
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/manager/AbstractManagerEventListenerTest$EventListener.class": [
+      "nochange"
+    ]
+  },
+  "e9681daf": {
+    "org/asteriskjava/manager/internal/EventBuilderImpl.class": [
+      "method registerEventClass(Ljava/lang/String;Ljava/lang/Class;)V",
+      "method registerBuiltinEventClasses()V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "3fedf004": {
+    "org/asteriskjava/manager/action/PJSipShowContactsAction.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/internal/ResponseEventsImpl.class": [
+      "add_instance_method"
+    ],
+    "org/asteriskjava/manager/event/ContactList.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/event/ContactStatusEnum.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/internal/AbstractBuilder.class": [
+      "method setAttributes(Ljava/lang/Object;Ljava/util/Map;Ljava/util/Set;)V",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/manager/event/ResponseEvent.class": [
+      "nochange"
+    ],
+    "org/asteriskjava/manager/event/ContactListComplete.class": [
+      "add_class"
+    ]
+  },
+  "df4bd3f8": {
+    "org/asteriskjava/manager/event/BlindTransferEvent.class": [
+      "add_field",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/manager/internal/AbstractBuilder.class": [
+      "method setAttributes(Ljava/lang/Object;Ljava/util/Map;Ljava/util/Set;)V"
+    ],
+    "org/asteriskjava/manager/event/QueueMemberStatusEvent.class": [
+      "add_field",
+      "add_instance_method"
+    ]
+  },
+  "1e26949b": {
+    "org/asteriskjava/manager/event/ContactList.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "acb034b3": {
+    "org/asteriskjava/pbx/internal/core/AsteriskPBX.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ]
+  },
+  "5a3b9205": {
+    "org/asteriskjava/pbx/agi/AgiChannelActivityBlindTransfer.class": [
+      "add_field",
+      "method execute(Lorg/asteriskjava/fastagi/AgiChannel;Lorg/asteriskjava/pbx/Channel;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/pbx/internal/activity/BlindTransferActivityImpl.class": [
+      "add_field",
+      "method doActivity()Z",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/pbx/PBX.class": [
+      "change_signature"
+    ],
+    "org/asteriskjava/pbx/internal/core/AsteriskPBX.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/examples/activities/BlindTransfer$1.class": [
+      "method progress(Lorg/asteriskjava/pbx/activities/DialActivity;Lorg/asteriskjava/pbx/ActivityStatusEnum;Ljava/lang/String;)V"
+    ]
+  },
+  "ff862470": {},
+  "c6df951f": {
+    "org/asteriskjava/pbx/internal/activity/DialActivityImpl.class": [
+      "add_field",
+      "method doActivity()Z",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/examples/activities/Dial.class": [
+      "method syncDial()V",
+      "method asyncDial()V"
+    ],
+    "org/asteriskjava/examples/activities/Hold.class": [
+      "method hold()V"
+    ],
+    "org/asteriskjava/examples/activities/BlindTransfer.class": [
+      "method blindTransfer()V"
+    ],
+    "org/asteriskjava/pbx/PBX.class": [
+      "change_signature"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityDial.class": [
+      "add_field",
+      "method execute(Lorg/asteriskjava/fastagi/AgiChannel;Lorg/asteriskjava/pbx/Channel;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/pbx/internal/core/AsteriskPBX.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/internal/managerAPI/Dial.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ]
+  },
+  "a87b0d8e": {
+    "org/asteriskjava/fastagi/internal/AgiChannelImpl.class": [
+      "method streamFile(Ljava/lang/String;)V",
+      "method streamFile(Ljava/lang/String;Ljava/lang/String;)C",
+      "add_instance_method",
+      "method streamFile(Ljava/lang/String;Ljava/lang/String;I)C"
+    ]
+  },
+  "481c7429": {
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl$ResponseEventHandler.class": [
+      "method onManagerEvent(Lorg/asteriskjava/manager/event/ManagerEvent;)V",
+      "method onResponse(Lorg/asteriskjava/manager/response/ManagerResponse;)V"
+    ],
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl$DefaultSendActionCallback.class": [
+      "method onResponse(Lorg/asteriskjava/manager/response/ManagerResponse;)V"
+    ],
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl.class": [
+      "add_instance_method",
+      "method dispatchEvent(Lorg/asteriskjava/manager/event/ManagerEvent;)V"
+    ]
+  },
+  "cc78a44d": {
+    "org/asteriskjava/manager/SendEventGeneratingActionCallback.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl$AsyncEventGeneratingResponseHandler.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/DefaultManagerConnection.class": [
+      "add_instance_method"
+    ],
+    "org/asteriskjava/manager/ManagerConnection.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl.class": [
+      "add_static_method",
+      "add_instance_method"
+    ]
+  },
+  "adc54e27": {
+    "org/asteriskjava/manager/internal/backwardsCompatibility/bridge/BridgeState.class": [
+      "add_field",
+      "method removeMember(Lorg/asteriskjava/manager/event/BridgeLeaveEvent;)Lorg/asteriskjava/manager/event/ManagerEvent;",
+      "method addMember(Lorg/asteriskjava/manager/event/BridgeEnterEvent;)Lorg/asteriskjava/manager/event/ManagerEvent;"
+    ]
+  },
+  "d79381e6": {
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl.class": [
+      "method reconnect()V"
+    ]
+  },
+  "a5834beb": {
+    "org/asteriskjava/manager/internal/AbstractBuilder.class": [
+      "method setAttributes(Ljava/lang/Object;Ljava/util/Map;Ljava/util/Set;)V",
+      "add_instance_method"
+    ]
+  },
+  "a34b7800": {
+    "org/asteriskjava/pbx/asterisk/wrap/actions/ConfbridgeKickAction.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/event/ConfbridgeListEvent.class": [
+      "add_field",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/manager/event/ConfbridgeListRoomsEvent.class": [
+      "add_field",
+      "add_instance_method"
+    ]
+  },
+  "9025fec2": {
+    "org/asteriskjava/pbx/internal/asterisk/MeetmeRoom.class": [
+      "method removeOwner(Lorg/asteriskjava/pbx/internal/asterisk/RoomOwner;)V"
+    ]
+  },
+  "585a2b6a": {
+    "org/asteriskjava/pbx/activities/BlindTransferActivity$CompletionCause.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/pbx/internal/activity/BlindTransferActivityImpl$1.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityBlindTransfer.class": [
+      "add_field",
+      "method execute(Lorg/asteriskjava/fastagi/AgiChannel;Lorg/asteriskjava/pbx/Channel;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/pbx/internal/activity/BlindTransferActivityImpl.class": [
+      "add_static_method",
+      "method doActivity()Z"
+    ],
+    "org/asteriskjava/pbx/agi/BlindTransferResultListener.class": [
+      "add_class"
+    ]
+  },
+  "4548dc91": {
+    "org/asteriskjava/AsteriskVersion.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "fc8bcd2d": {
+    "org/asteriskjava/fastagi/internal/AgiConnectionHandler.class": [
+      "method runScript(Lorg/asteriskjava/fastagi/AgiScript;Lorg/asteriskjava/fastagi/AgiRequest;Lorg/asteriskjava/fastagi/AgiChannel;)V",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/internal/managerAPI/OriginateBaseClass.class": [
+      "method handleId(Lorg/asteriskjava/pbx/Channel;)V",
+      "add_field",
+      "method onManagerEvent(Lorg/asteriskjava/pbx/asterisk/wrap/events/ManagerEvent;)V",
+      "method abort(Ljava/lang/String;)V",
+      "method originate(Lorg/asteriskjava/pbx/EndPoint;Lorg/asteriskjava/pbx/EndPoint;Ljava/util/HashMap;Lorg/asteriskjava/pbx/CallerID;Ljava/lang/Integer;ZLjava/lang/String;)Lorg/asteriskjava/pbx/internal/managerAPI/OriginateResult;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/pbx/internal/core/ChannelProxy.class": [
+      "method setIsInAgi(Z)V",
+      "method waitForChannelToReachAgi(JLjava/util/concurrent/TimeUnit;)Z"
+    ],
+    "org/asteriskjava/pbx/agi/ActivityAgi.class": [
+      "method service()V"
+    ]
+  },
+  "28a7e436": {
+    "org/asteriskjava/manager/action/ExecAction.class": [
+      "add_class"
+    ]
+  },
+  "24f98eab": {
+    "org/asteriskjava/pbx/internal/core/CoherentManagerEventQueue.class": [
+      "method run()V",
+      "change_field_declaration",
+      "method dispatchEvent(Lorg/asteriskjava/pbx/asterisk/wrap/events/ManagerEvent;)V",
+      "method onManagerEvent(Lorg/asteriskjava/manager/event/ManagerEvent;)V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "10279d49": {
+    "org/asteriskjava/fastagi/internal/AgiConnectionHandler.class": [
+      "method runScript(Lorg/asteriskjava/fastagi/AgiScript;Lorg/asteriskjava/fastagi/AgiRequest;Lorg/asteriskjava/fastagi/AgiChannel;)V"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityHangup.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityHoldForBridge.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityBlindTransfer.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityTransientHoldSilence.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/agi/ActivityAgi.class": [
+      "method service()V"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityPlayMessage.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityDial.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityHold.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityVoicemail.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityMeetme.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityBridge.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityQueue.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/AgiChannelActivityAction.class": [
+      "change_signature"
+    ]
+  },
+  "7041c198": {
+    "org/asteriskjava/live/internal/AsteriskQueueImpl.class": [
+      "method createNewEntry(Lorg/asteriskjava/live/internal/AsteriskChannelImpl;ILjava/util/Date;)V"
+    ],
+    "org/asteriskjava/live/internal/QueueManager.class": [
+      "method handleJoinEvent(Lorg/asteriskjava/manager/event/JoinEvent;)V",
+      "method handleQueueEntryEvent(Lorg/asteriskjava/manager/event/QueueEntryEvent;)V"
+    ]
+  },
+  "1154beb7": {
+    "org/asteriskjava/pbx/internal/activity/ParkActivityImpl.class": [
+      "method doActivity()Z"
+    ],
+    "org/asteriskjava/manager/internal/ResponseEventsImpl.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/agi/AgiChannelActivityTransientHoldSilence.class": [
+      "method execute(Lorg/asteriskjava/fastagi/AgiChannel;Lorg/asteriskjava/pbx/Channel;)V"
+    ],
+    "org/asteriskjava/manager/internal/ProtocolIdentifierWrapper.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/pbx/internal/managerAPI/Dial.class": [
+      "method dial(Lorg/asteriskjava/pbx/NewChannelListener;Lorg/asteriskjava/pbx/EndPoint;Lorg/asteriskjava/pbx/EndPoint;Ljava/lang/String;Lorg/asteriskjava/pbx/CallerID;ZLjava/util/Map;Ljava/lang/String;)[Lorg/asteriskjava/pbx/internal/managerAPI/OriginateResult;"
+    ],
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl$ResponseHandlerResult.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "remove_static_method",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl.class": [
+      "method sendEventGeneratingAction(Lorg/asteriskjava/manager/action/EventGeneratingAction;J)Lorg/asteriskjava/manager/ResponseEvents;",
+      "method sendAction(Lorg/asteriskjava/manager/action/ManagerAction;J)Lorg/asteriskjava/manager/response/ManagerResponse;",
+      "method doLogin(JLjava/lang/String;)V"
+    ]
+  },
+  "bdc3fe9d": {
+    "org/asteriskjava/manager/event/CdrEvent.class": [
+      "add_field",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/AsteriskVersion.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/manager/event/RequestBadFormatEvent.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/event/QueueSummaryCompleteEvent.class": [
+      "add_field",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/manager/event/AgiExecStartEvent.class": [
+      "add_field",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/manager/action/QueueChangePriorityCallerAction.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/event/AgiExecEndEvent.class": [
+      "add_field",
+      "add_instance_method"
+    ],
+    "org/asteriskjava/manager/action/QueueMemberRingInUseAction.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/live/internal/AsteriskServerImpl.class": [
+      "method onManagerEvent(Lorg/asteriskjava/manager/event/ManagerEvent;)V"
+    ],
+    "org/asteriskjava/live/internal/QueueManager.class": [
+      "add_instance_method"
+    ],
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "41c7f42f": {
+    "org/asteriskjava/manager/internal/ManagerReaderImpl.class": [
+      "method run()V"
+    ],
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl$AsyncEventGeneratingResponseHandler.class": [
+      "method onManagerEvent(Lorg/asteriskjava/manager/event/ManagerEvent;)V"
+    ],
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl$DefaultSendActionCallback.class": [
+      "method onResponse(Lorg/asteriskjava/manager/response/ManagerResponse;)V"
+    ],
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl$ResponseHandlerResult.class": [
+      "add_field",
+      "method setResponse(Lorg/asteriskjava/manager/response/ManagerResponse;)V",
+      "add_instance_method",
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/asteriskjava/manager/internal/ManagerConnectionImpl.class": [
+      "method logoff()V",
+      "method fireEvent(Lorg/asteriskjava/manager/event/ManagerEvent;)V",
+      "method sendEventGeneratingAction(Lorg/asteriskjava/manager/action/EventGeneratingAction;J)Lorg/asteriskjava/manager/ResponseEvents;",
+      "method reconnect()V",
+      "method setProtocolIdentifier(Ljava/lang/String;)V",
+      "method disconnect()V",
+      "method dispatchEvent(Lorg/asteriskjava/manager/event/ManagerEvent;)V",
+      "method doLogin(JLjava/lang/String;)V",
+      "update_constructor_or_update_field_initialization",
+      "method cleanupActionListeners(Lorg/asteriskjava/manager/event/DisconnectEvent;)V",
+      "add_static_method",
+      "method determineVersionByCoreShowVersion()Lorg/asteriskjava/AsteriskVersion;",
+      "method sendAction(Lorg/asteriskjava/manager/action/ManagerAction;J)Lorg/asteriskjava/manager/response/ManagerResponse;",
+      "method determineVersion()Lorg/asteriskjava/AsteriskVersion;",
+      "method dispatchResponse(Lorg/asteriskjava/manager/response/ManagerResponse;)V",
+      "change_signature",
+      "method connect()V",
+      "method determineVersionByCoreSettings()Lorg/asteriskjava/AsteriskVersion;"
+    ]
+  },
+  "88ff69b7": {
+    "org/asteriskjava/pbx/internal/activity/BlindTransferActivityImpl.class": [
+      "method doActivity()Z"
+    ]
+  },
+  "83a1a503": {
+    "org/asteriskjava/manager/event/AuthDetail.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/event/AorDetail.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/event/TransportDetail.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/internal/AbstractBuilder.class": [
+      "method setAttributes(Ljava/lang/Object;Ljava/util/Map;Ljava/util/Set;)V"
+    ],
+    "org/asteriskjava/manager/event/EndpointDetailComplete.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/action/PJSipShowEndpointAction.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/event/ContactStatusDetail.class": [
+      "add_class"
+    ],
+    "org/asteriskjava/manager/AbstractManagerEventListener.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/asteriskjava/util/AstUtil.class": [
+      "add_static_method"
+    ],
+    "org/asteriskjava/manager/event/EndpointDetail.class": [
+      "add_class"
+    ]
+  },
+  "ba8ed6a5": {
+    "org/asteriskjava/pbx/internal/managerAPI/OriginateBaseClass.class": [
+      "method handleId(Lorg/asteriskjava/pbx/Channel;)V",
+      "method onManagerEvent(Lorg/asteriskjava/pbx/asterisk/wrap/events/ManagerEvent;)V",
+      "method originate(Lorg/asteriskjava/pbx/EndPoint;Lorg/asteriskjava/pbx/EndPoint;Ljava/util/HashMap;Lorg/asteriskjava/pbx/CallerID;Ljava/lang/Integer;ZLjava/lang/String;)Lorg/asteriskjava/pbx/internal/managerAPI/OriginateResult;"
+    ],
+    "org/asteriskjava/pbx/internal/core/ChannelProxy.class": [
+      "method setIsInAgi(Z)V",
+      "method waitForChannelToReachAgi(JLjava/util/concurrent/TimeUnit;)Z"
+    ],
+    "org/asteriskjava/pbx/agi/ActivityAgi.class": [
+      "method service()V"
+    ],
+    "org/asteriskjava/pbx/internal/managerAPI/DialToAgi.class": [
+      "method abort()V"
+    ]
+  }
+}

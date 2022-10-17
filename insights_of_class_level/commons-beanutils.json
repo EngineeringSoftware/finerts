@@ -1,0 +1,415 @@
+[
+    {
+        "sha": "a8c10e56",
+        "classname": "/org/apache/commons/beanutils2/BeanMap$1.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda",
+        "comment": ""
+    },
+    {
+        "sha": "a8c10e56",
+        "classname": "/org/apache/commons/beanutils2/BeanMap.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda",
+        "comment": ""
+    },
+    {
+        "sha": "a8c10e56",
+        "classname": "/org/apache/commons/beanutils2/BeanMap$2.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda",
+        "comment": ""
+    },
+    {
+        "sha": "a8c10e56",
+        "classname": "/org/apache/commons/beanutils2/BeanMap$3.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda",
+        "comment": ""
+    },
+    {
+        "sha": "a8c10e56",
+        "classname": "/org/apache/commons/beanutils2/PropertyUtilsTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda",
+        "comment": ""
+    },
+    {
+        "sha": "a8c10e56",
+        "classname": "/org/apache/commons/beanutils2/bugs/Jira509TestCase$1.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda",
+        "comment": ""
+    },
+    {
+        "sha": "a8c10e56",
+        "classname": "/org/apache/commons/beanutils2/bugs/Jira509TestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda",
+        "comment": ""
+    },
+    {
+        "sha": "2ad4ad3c",
+        "classname": "/org/apache/commons/beanutils2/BeanPredicate.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_field",
+        "comment": ""
+    },
+    {
+        "sha": "2ad4ad3c",
+        "classname": "/org/apache/commons/beanutils2/BeanPredicateTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda",
+        "comment": ""
+    },
+    {
+        "sha": "206c3768",
+        "classname": "/org/apache/commons/beanutils2/BeanPredicate.class",
+        "projectname": "commons-beanutils",
+        "insight": "remove_a_method",
+        "comment": ""
+    },
+    {
+        "sha": "dfff25e2",
+        "classname": "/org/apache/commons/beanutils2/BeanPropertyValueEqualsPredicate.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_field",
+        "comment": ""
+    },
+    {
+        "sha": "a92a9817",
+        "classname": "/org/apache/commons/beanutils2/BeanPropertyValueChangeConsumer.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_interface",
+        "comment": "Convert from Collections4 to java.util.function #8."
+    },
+    {
+        "sha": "a92a9817",
+        "classname": "/org/apache/commons/beanutils2/BeanPropertyValueChangeConsumerTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "rename_class",
+        "comment": ""
+    },
+    {
+        "sha": "9c41fcdb",
+        "classname": "/org/apache/commons/beanutils2/BeanMap.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_signature",
+        "comment": "Convert from Collections4 to java.util.function"
+    },
+    {
+        "sha": "8642405e",
+        "classname": "/org/apache/commons/beanutils2/BeanMap$1.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_by_dependency",
+        "comment": "The special case we discussed. Convert from Collections4 to java.util.function #8"
+    },
+    {
+        "sha": "8642405e",
+        "classname": "/org/apache/commons/beanutils2/BeanMap$Entry.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_by_dependency",
+        "comment": ""
+    },
+    {
+        "sha": "8642405e",
+        "classname": "/org/apache/commons/beanutils2/BeanMap.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_by_dependency",
+        "comment": ""
+    },
+    {
+        "sha": "8642405e",
+        "classname": "/org/apache/commons/beanutils2/BeanMap$3.class",
+        "projectname": "commons-beanutils",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "f4467c84",
+        "classname": "/org/apache/commons/beanutils2/BeanToPropertyValueTransformer.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_signature",
+        "comment": "Convert from Collections4 to java.util.function #8."
+    },
+    {
+        "sha": "30f0fa5f",
+        "classname": "/org/apache/commons/beanutils2/BeanComparator$NaturalOrderingComparator.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": "Remove Commons Collection4 dependency. "
+    },
+    {
+        "sha": "dd30dc26",
+        "classname": "/org/apache/commons/beanutils2/BeanComparator$NaturalOrderComparator.class",
+        "projectname": "commons-beanutils",
+        "insight": "rename_class",
+        "comment": "Convert from Collections4 to java.util.function #8"
+    },
+    {
+        "sha": "7493ae6f",
+        "classname": "/org/apache/commons/beanutils2/converters/UUIDConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "7493ae6f",
+        "classname": "/org/apache/commons/beanutils2/converters/PathConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "7493ae6f",
+        "classname": "/org/apache/commons/beanutils2/converters/URIConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "7493ae6f",
+        "classname": "/org/apache/commons/beanutils2/converters/PathConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "7493ae6f",
+        "classname": "/org/apache/commons/beanutils2/converters/UUIDConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "7493ae6f",
+        "classname": "/org/apache/commons/beanutils2/converters/URIConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "/org/apache/commons/beanutils2/converters/LocalDateConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "/org/apache/commons/beanutils2/converters/OffsetDateTimeConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "/org/apache/commons/beanutils2/converters/LocalDateTimeConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "/org/apache/commons/beanutils2/converters/ZonedDateTimeConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "/org/apache/commons/beanutils2/converters/DateTimeConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_by_dependency",
+        "comment": ""
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "/org/apache/commons/beanutils2/converters/LocalDateTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "/org/apache/commons/beanutils2/converters/OffsetDateTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "/org/apache/commons/beanutils2/converters/LocalDateConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "/org/apache/commons/beanutils2/converters/DateConverterTestBase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_signature",
+        "comment": ""
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "/org/apache/commons/beanutils2/converters/ZonedDateTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "0c6b5f19",
+        "classname": "/org/apache/commons/beanutils2/WeakFastHashMap.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_field",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/MonthDayConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/DurationConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/YearMonthConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/ZoneIdConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/YearConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/OffsetTimeConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/LocalTimeConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/ZoneOffsetConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/PeriodConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/ZoneOffsetConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/OffsetTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/LocalTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/DurationConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/YearMonthConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/PeriodConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/YearConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/MonthDayConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "/org/apache/commons/beanutils2/converters/ZoneIdConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "55dcbaa9",
+        "classname": "/org/apache/commons/beanutils2/converters/EnumConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "55dcbaa9",
+        "classname": "/org/apache/commons/beanutils2/converters/EnumConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    },
+    {
+        "sha": "55dcbaa9",
+        "classname": "/org/apache/commons/beanutils2/converters/EnumConverterTestCase$PizzaStatus.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_a_new_class",
+        "comment": ""
+    }
+]

@@ -1,0 +1,728 @@
+{
+  "5981bc65": {},
+  "ba177af2": {},
+  "cd48ecf6": {
+    "org/lmdbjava/ByteArrayProxy.class": [
+      "method out([BLjnr/ffi/Pointer;J)[B",
+      "method in([BLjnr/ffi/Pointer;J)V"
+    ],
+    "org/lmdbjava/ByteBufferProxy$UnsafeProxy.class": [
+      "method in(Ljava/nio/ByteBuffer;ILjnr/ffi/Pointer;J)V",
+      "method in(Ljava/nio/ByteBuffer;Ljnr/ffi/Pointer;J)V",
+      "method out(Ljava/nio/ByteBuffer;Ljnr/ffi/Pointer;J)Ljava/nio/ByteBuffer;"
+    ],
+    "org/lmdbjava/ByteBufferProxy$ReflectiveProxy.class": [
+      "method in(Ljava/nio/ByteBuffer;ILjnr/ffi/Pointer;J)V",
+      "method in(Ljava/nio/ByteBuffer;Ljnr/ffi/Pointer;J)V",
+      "method out(Ljava/nio/ByteBuffer;Ljnr/ffi/Pointer;J)Ljava/nio/ByteBuffer;"
+    ],
+    "org/lmdbjava/DirectBufferProxy.class": [
+      "method in(Lorg/agrona/DirectBuffer;Ljnr/ffi/Pointer;J)V",
+      "method out(Lorg/agrona/DirectBuffer;Ljnr/ffi/Pointer;J)Lorg/agrona/DirectBuffer;",
+      "method in(Lorg/agrona/DirectBuffer;ILjnr/ffi/Pointer;J)V"
+    ],
+    "org/lmdbjava/ByteBufProxy.class": [
+      "method in(Lio/netty/buffer/ByteBuf;ILjnr/ffi/Pointer;J)V",
+      "method in(Lio/netty/buffer/ByteBuf;Ljnr/ffi/Pointer;J)V",
+      "method out(Lio/netty/buffer/ByteBuf;Ljnr/ffi/Pointer;J)Lio/netty/buffer/ByteBuf;"
+    ]
+  },
+  "3e88ba9a": {
+    "org/lmdbjava/ByteBufferProxy$UnsafeProxy.class": [
+      "method in(Ljava/nio/ByteBuffer;ILjnr/ffi/Pointer;J)V",
+      "method in(Ljava/nio/ByteBuffer;Ljnr/ffi/Pointer;J)V",
+      "method out(Ljava/nio/ByteBuffer;Ljnr/ffi/Pointer;J)Ljava/nio/ByteBuffer;"
+    ],
+    "org/lmdbjava/DirectBufferProxy.class": [
+      "method in(Lorg/agrona/DirectBuffer;Ljnr/ffi/Pointer;J)V",
+      "method out(Lorg/agrona/DirectBuffer;Ljnr/ffi/Pointer;J)Lorg/agrona/DirectBuffer;",
+      "method in(Lorg/agrona/DirectBuffer;ILjnr/ffi/Pointer;J)V"
+    ],
+    "org/lmdbjava/ByteBufProxy.class": [
+      "method in(Lio/netty/buffer/ByteBuf;ILjnr/ffi/Pointer;J)V",
+      "method in(Lio/netty/buffer/ByteBuf;Ljnr/ffi/Pointer;J)V",
+      "method out(Lio/netty/buffer/ByteBuf;Ljnr/ffi/Pointer;J)Lio/netty/buffer/ByteBuf;"
+    ]
+  },
+  "ddf342ee": {
+    "org/lmdbjava/ByteBufProxy.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "6431d6eb": {
+    "org/lmdbjava/Verifier.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/TutorialTest.class": [
+      "method tutorial6()V",
+      "add_instance_method"
+    ],
+    "org/lmdbjava/VerifierTest.class": [
+      "add_class"
+    ]
+  },
+  "5912beb1": {
+    "org/lmdbjava/Dbi.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "47fec9e3": {
+    "org/lmdbjava/Dbi.class": [
+      "method lambda$new$0(Ljnr/ffi/Pointer;Ljnr/ffi/Pointer;)I",
+      "remove_field",
+      "method clean()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/lmdbjava/DbiTest.class": [
+      "method before()V",
+      "add_instance_method",
+      "method testParallelWritesStress()V",
+      "change_signature"
+    ]
+  },
+  "1fe353d8": {
+    "org/lmdbjava/ByteBufProxy.class": [
+      "method allocate()Lio/netty/buffer/ByteBuf;",
+      "add_field",
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "b0085a46": {
+    "org/lmdbjava/TutorialTest.class": [
+      "method tutorial7()V",
+      "method tutorial6()V",
+      "method tutorial5()V",
+      "method tutorial2()V",
+      "method tutorial3()V",
+      "method tutorial4()V",
+      "add_instance_method"
+    ]
+  },
+  "a8ee24fb": {
+    "org/lmdbjava/ResultCodeMapper.class": [
+      "nochange"
+    ],
+    "org/lmdbjava/CursorIterator.class": [
+      "nochange"
+    ],
+    "org/lmdbjava/Txn.class": [
+      "nochange"
+    ],
+    "org/lmdbjava/Cursor.class": [
+      "nochange"
+    ]
+  },
+  "0591402f": {},
+  "aff67cf1": {
+    "org/lmdbjava/ResultCodeMapper.class": [
+      "method checkRc(I)V"
+    ],
+    "org/lmdbjava/LmdbNativeException.class": [
+      "nochange"
+    ],
+    "org/lmdbjava/LmdbNativeException$ConstantDerivedException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ResultCodeMapperTest.class": [
+      "method checkErrConstantDerived()V",
+      "method checkErrConstantDerivedMessage()V"
+    ],
+    "org/lmdbjava/DbiTest.class": [
+      "method close()V"
+    ]
+  },
+  "c016449d": {},
+  "77a21a6f": {
+    "org/lmdbjava/CursorTest.class": [
+      "method putMultipleWithoutMdbMultipleFlag()V",
+      "method count()V",
+      "method delete()V",
+      "method renewTxRo()V",
+      "method renewTxRw()V",
+      "method returnValueForNoOverwrite()V",
+      "method putMultiple()V",
+      "method cursorFirstLastNextPrev()V",
+      "method returnValueForNoDupData()V",
+      "method reserve()V"
+    ],
+    "org/lmdbjava/TxnTest.class": [
+      "method testCheckReadOnly()V",
+      "method testCheckWritesAllowed()V",
+      "method rangeSearch()V",
+      "method txParentROChildRWIncompatible()V",
+      "method txRenewDeniedWithoutPriorReset()V",
+      "method testCheckNotCommitted()V",
+      "method txResetDeniedForReadWriteTransaction()V",
+      "method txParentRWChildROIncompatible()V",
+      "method txParent()V",
+      "method txReadOnly()V",
+      "method txCannotCommitTwice()V",
+      "method txResetDeniedForAlreadyResetTransaction()V"
+    ],
+    "org/lmdbjava/DbiTest.class": [
+      "method dbiWithComparatorThreadSafety()V",
+      "method customComparator()V"
+    ],
+    "org/lmdbjava/CursorParamTest$AbstractBufferRunner.class": [
+      "method execute(Lorg/junit/rules/TemporaryFolder;)V"
+    ]
+  },
+  "f4a3e6ab": {
+    "org/lmdbjava/Dbi.class": [
+      "add_instance_method"
+    ],
+    "org/lmdbjava/Library$Lmdb.class": [
+      "change_signature"
+    ],
+    "org/lmdbjava/DbiTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "a1f73e21": {},
+  "c289c24c": {
+    "org/lmdbjava/EnvFlags.class": [
+      "nochange"
+    ]
+  },
+  "46e17818": {
+    "org/lmdbjava/Dbi.class": [
+      "method listFlags(Lorg/lmdbjava/Txn;)Ljava/util/List;"
+    ],
+    "org/lmdbjava/Library$Lmdb.class": [
+      "change_signature"
+    ]
+  },
+  "4f70b023": {
+    "org/lmdbjava/Cursor.class": [
+      "add_instance_method"
+    ],
+    "org/lmdbjava/CursorTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "1fb91944": {
+    "org/lmdbjava/ByteBufProxy.class": [
+      "add_class"
+    ]
+  },
+  "ac5671a0": {
+    "org/lmdbjava/CursorIterator.class": [
+      "add_field",
+      "method iterable()Ljava/lang/Iterable;"
+    ],
+    "org/lmdbjava/CursorIteratorTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "f03a6f96": {},
+  "981f7ecd": {},
+  "a590f9ad": {
+    "org/lmdbjava/CursorIterable$State.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Dbi.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/lmdbjava/CursorIterable$KeyVal.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorIterable.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorIterable$2.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorIterable$IteratorType.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorIterable$1.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/TxnTest.class": [
+      "method rangeSearch()V"
+    ],
+    "org/lmdbjava/DbiTest.class": [
+      "method dbiWithComparatorThreadSafety()V",
+      "method customComparator()V"
+    ],
+    "org/lmdbjava/TutorialTest.class": [
+      "method tutorial4()V"
+    ],
+    "org/lmdbjava/CursorIteratorTest.class": [
+      "method backwardDeprecated()V",
+      "method nextThrowsNoSuchElementExceptionIfNoMoreElements()V",
+      "method removeOddElements()V",
+      "method verify(Lorg/lmdbjava/KeyRange;Ljava/util/Comparator;[I)V",
+      "add_instance_method",
+      "method forwardSeekDeprecated()V",
+      "method iterableOnlyReturnedOnce()V",
+      "method forwardDeprecated()V",
+      "method iterate()V",
+      "method backwardSeekDeprecated()V"
+    ]
+  },
+  "ccf468ab": {
+    "org/lmdbjava/Dbi.class": [
+      "remove_instance_method"
+    ],
+    "org/lmdbjava/CursorIterable.class": [
+      "nochange"
+    ],
+    "org/lmdbjava/CursorIteratorTest.class": [
+      "remove_instance_method"
+    ]
+  },
+  "b0dadb0f": {},
+  "e27914a3": {
+    "org/lmdbjava/CursorIterable.class": [
+      "change_field_declaration",
+      "method iterator()Ljava/util/Iterator;"
+    ]
+  },
+  "718f162b": {},
+  "9c9e8dcb": {},
+  "958690d3": {
+    "org/lmdbjava/CursorIterableTest.class": [
+      "add_class"
+    ]
+  },
+  "972dfe74": {
+    "org/lmdbjava/EnvTest.class": [
+      "method setMapSize()V"
+    ],
+    "org/lmdbjava/DbiTest.class": [
+      "method customComparator()V"
+    ]
+  },
+  "0d70e335": {
+    "org/lmdbjava/Library.class": [
+      "add_field",
+      "method extract(Ljava/lang/String;)Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "530296e7": {
+    "org/lmdbjava/ByteArrayProxy.class": [
+      "nochange"
+    ]
+  },
+  "57b1b5b4": {
+    "org/lmdbjava/ByteArrayProxy.class": [
+      "nochange"
+    ],
+    "org/lmdbjava/DbiTest.class": [
+      "method putCommitGetByteArray()V"
+    ]
+  },
+  "b60e7d00": {
+    "org/lmdbjava/DirectBufferProxy.class": [
+      "nochange"
+    ]
+  },
+  "c3920de8": {
+    "org/lmdbjava/ByteBufProxy.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/lmdbjava/CursorParamTest$NettyBufferRunner.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/lmdbjava/ComparatorTest$NettyRunner.class": [
+      "method compare([B[B)I"
+    ]
+  },
+  "dd10ae34": {},
+  "627388f6": {},
+  "ab26d239": {},
+  "c1aa63dd": {},
+  "e9d77207": {},
+  "26d76be8": {
+    "org/lmdbjava/LmdbNativeException$PanicException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Txn$ResetException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/KeyRange.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ByteArrayProxy.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Library$ComparatorCallback.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Dbi$BadValueSizeException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Env$VersionMismatchException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/GetOp.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Meta$Version.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CopyFlags.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Dbi$KeyExistsException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorIterable$State.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ResultCodeMapper.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/UnsafeAccess.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Txn$BadReaderLockException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Txn$IncompatibleParent.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/TxnFlags.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/EnvFlags.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Dbi.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Env$AlreadyClosedException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ByteBufferProxy.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ByteBufferProxy$BufferMustBeDirectException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ByteBufferProxy$1.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Txn$BadException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/KeyVal.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Txn$EnvIsReadOnly.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Library$MDB_stat.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Txn$TxFullException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/EnvInfo.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Library$Lmdb.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Txn$NotReadyException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/SeekOp.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Env$AlreadyOpenException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Env$FileInvalidException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorIterable$KeyVal.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Cursor$FullException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Env$MapFullException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Dbi$KeyNotFoundException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/KeyRangeType$CursorOp.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Txn$NotResetException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Txn.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/KeyRangeType.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/LmdbException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ByteBufProxy.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Verifier.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Library.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Env$1.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorIterable.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ByteBufferProxy$UnsafeProxy.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Env$Builder.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/KeyRangeType$1.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Cursor.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Library$MDB_envinfo.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Txn$State.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/LmdbNativeException$PageNotFoundException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Env$ReadersFullException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorIterable$2.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Env.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Dbi$MapResizedException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Env$InvalidCopyDestination.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ByteBufferProxy$AbstractByteBufferProxy.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Meta.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Cursor$ClosedException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/DbiFlags.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/LmdbNativeException$PageFullException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Txn$ReadOnlyRequiredException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/MaskedFlag.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/KeyRangeType$IteratorOp.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/LmdbNativeException$PageCorruptedException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Stat.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/LmdbNativeException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/LmdbNativeException$TlsFullException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/BufferProxy.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorIterable$1.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Dbi$IncompatibleException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ByteBufferProxy$ReflectiveProxy.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/DirectBufferProxy.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/LmdbNativeException$ConstantDerivedException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Dbi$DbFullException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/PutFlags.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Txn$ReadWriteRequiredException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/Dbi$BadDbiException.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ComparatorTest$ByteArrayRunner.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/MetaTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ComparatorTest$1.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ComparatorTest$GuavaSignedBytes.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ComparatorTest$GuavaUnsignedBytes.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ComparatorTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorParamTest$ByteArrayRunner.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ComparatorTest$ByteBufferRunner.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/EnvTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ComparatorTest$ComparatorRunner.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorParamTest$DirectBufferRunner.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorIterableTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/TxnTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ComparatorTest$StringRunner.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorParamTest$NettyBufferRunner.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ByteBufferProxyTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/LibraryTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorParamTest$BufferRunner.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ComparatorTest$DirectBufferRunner.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ResultCodeMapperTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/TestUtils.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/KeyRangeTest$FakeCursor.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/MaskedFlagTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ComparatorTest$ComparatorResult.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/DbiTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/KeyRangeTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorParamTest$ByteBufferRunner.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorParamTest$AbstractBufferRunner.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/TutorialTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/VerifierTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/ComparatorTest$NettyRunner.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/CursorParamTest.class": [
+      "add_class"
+    ],
+    "org/lmdbjava/KeyRangeTest$1.class": [
+      "add_class"
+    ]
+  },
+  "3a0a702a": {
+    "org/lmdbjava/ByteBufProxy.class": [
+      "method allocate()Lio/netty/buffer/ByteBuf;",
+      "change_field_declaration",
+      "method out(Lio/netty/buffer/ByteBuf;Ljnr/ffi/Pointer;J)Lio/netty/buffer/ByteBuf;",
+      "remove_static_method",
+      "method deallocate(Lio/netty/buffer/ByteBuf;)V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "fc0bdb46": {},
+  "18fbd77a": {
+    "org/lmdbjava/ByteBufferProxy$AbstractByteBufferProxy.class": [
+      "method compareBuff(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I"
+    ]
+  },
+  "dfba4dab": {
+    "org/lmdbjava/ByteBufferProxy$AbstractByteBufferProxy.class": [
+      "method compareBuff(Ljava/nio/ByteBuffer;Ljava/nio/ByteBuffer;)I"
+    ],
+    "org/lmdbjava/ComparatorTest$ByteBufferRunner.class": [
+      "method compare([B[B)I",
+      "add_instance_method"
+    ]
+  },
+  "29a15433": {
+    "org/lmdbjava/DbiTest.class": [
+      "method lambda$testParallelWritesStress$2(Lorg/lmdbjava/Dbi;Ljava/lang/Object;)V"
+    ]
+  },
+  "3d95bf1a": {},
+  "1d991f8e": {
+    "org/lmdbjava/ByteBufProxy.class": [
+      "method out(Lio/netty/buffer/ByteBuf;Ljnr/ffi/Pointer;J)Lio/netty/buffer/ByteBuf;"
+    ]
+  }
+}

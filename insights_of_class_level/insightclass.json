@@ -1,0 +1,2326 @@
+[
+    {
+        "sha": "a8c10e56",
+        "classname": "org/apache/commons/beanutils2/BeanMap$1.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "a8c10e56",
+        "classname": "org/apache/commons/beanutils2/BeanMap.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "a8c10e56",
+        "classname": "org/apache/commons/beanutils2/BeanMap$2.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "a8c10e56",
+        "classname": "org/apache/commons/beanutils2/BeanMap$3.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "a8c10e56",
+        "classname": "org/apache/commons/beanutils2/PropertyUtilsTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "a8c10e56",
+        "classname": "org/apache/commons/beanutils2/bugs/Jira509TestCase$1.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "a8c10e56",
+        "classname": "org/apache/commons/beanutils2/bugs/Jira509TestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "2ad4ad3c",
+        "classname": "org/apache/commons/beanutils2/BeanPredicate.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_instance_method",
+        "comment": "F11 Convert Collections4 to java.util.function (#8)"
+    },
+    {
+        "sha": "2ad4ad3c",
+        "classname": "org/apache/commons/beanutils2/BeanPredicateTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "use_lambda_for_api_usage_migration",
+        "comment": "F1 Convert Collections4 to java.util.function (#8)"
+    },
+    {
+        "sha": "206c3768",
+        "classname": "org/apache/commons/beanutils2/BeanPredicate.class",
+        "projectname": "commons-beanutils",
+        "insight": "remove_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "dfff25e2",
+        "classname": "org/apache/commons/beanutils2/BeanPropertyValueEqualsPredicate.class",
+        "projectname": "commons-beanutils",
+        "insight": "rename_instance_method",
+        "comment": "F12 Convert from Collections4 to java.util.function #8"
+    },
+    {
+        "sha": "a92a9817",
+        "classname": "org/apache/commons/beanutils2/BeanPropertyValueChangeConsumer.class",
+        "projectname": "commons-beanutils",
+        "insight": "rename_class",
+        "comment": "F12 Convert from Collections4 to java.util.function #8."
+    },
+    {
+        "sha": "a92a9817",
+        "classname": "org/apache/commons/beanutils2/BeanPropertyValueChangeConsumerTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "rename_class",
+        "comment": "F12"
+    },
+    {
+        "sha": "9c41fcdb",
+        "classname": "org/apache/commons/beanutils2/BeanMap.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_field_for_api_usage_migration",
+        "comment": "F13 It's dependency changes. (Take a look, if it changes constant pool. Convert from Collections4 to java.util.function #8.)"
+    },
+    {
+        "sha": "8642405e",
+        "classname": "org/apache/commons/beanutils2/BeanMap$Entry.class",
+        "projectname": "commons-beanutils",
+        "insight": "parameter_type_specialization",
+        "comment": "F28"
+    },
+    {
+        "sha": "8642405e",
+        "classname": "org/apache/commons/beanutils2/BeanMap.class",
+        "projectname": "commons-beanutils",
+        "insight": "parameter_type_specialization",
+        "comment": "F28"
+    },
+    {
+        "sha": "f4467c84",
+        "classname": "org/apache/commons/beanutils2/BeanToPropertyValueTransformer.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_interface_for_api_usage_migration",
+        "comment": "F15"
+    },
+    {
+        "sha": "30f0fa5f",
+        "classname": "org/apache/commons/beanutils2/BeanComparator$NaturalOrderingComparator.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "dd30dc26",
+        "classname": "org/apache/commons/beanutils2/BeanComparator$NaturalOrderComparator.class",
+        "projectname": "commons-beanutils",
+        "insight": "rename_class",
+        "comment": "F12"
+    },
+    {
+        "sha": "7493ae6f",
+        "classname": "org/apache/commons/beanutils2/converters/UUIDConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7493ae6f",
+        "classname": "org/apache/commons/beanutils2/converters/PathConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7493ae6f",
+        "classname": "org/apache/commons/beanutils2/converters/URIConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7493ae6f",
+        "classname": "org/apache/commons/beanutils2/converters/PathConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7493ae6f",
+        "classname": "org/apache/commons/beanutils2/converters/UUIDConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7493ae6f",
+        "classname": "org/apache/commons/beanutils2/converters/URIConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "org/apache/commons/beanutils2/converters/LocalDateConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "org/apache/commons/beanutils2/converters/OffsetDateTimeConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "org/apache/commons/beanutils2/converters/LocalDateTimeConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "org/apache/commons/beanutils2/converters/ZonedDateTimeConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "org/apache/commons/beanutils2/converters/DateTimeConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "org/apache/commons/beanutils2/converters/LocalDateTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "org/apache/commons/beanutils2/converters/OffsetDateTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "org/apache/commons/beanutils2/converters/LocalDateConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "org/apache/commons/beanutils2/converters/DateConverterTestBase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "e3adbff6",
+        "classname": "org/apache/commons/beanutils2/converters/ZonedDateTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/ArrayConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/BigDecimalConverterTestCase$ExtendingBigDecimal.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/BigDecimalConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/BigDecimalConverterTestCase$1.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/BigIntegerConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/BooleanConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/ByteConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/CalendarConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/CharacterConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/ClassConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/ClassReloaderTestCase$DummyClass.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/ClassReloaderTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/DateConverterTestBase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/DateConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/DoubleConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/FileConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/FloatConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/IntegerConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/LocalDateConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/LocalDateTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/LongConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/MemoryTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/MemoryTestCase$1.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/MemoryTestCase$2.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/NumberConverterTestBase$1.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/NumberConverterTestBase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/OffsetDateTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/PathConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/ShortConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/SqlDateConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/SqlTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/SqlTimestampConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/StringConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/URIConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/URLConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/UUIDConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "893b769d",
+        "classname": "org/apache/commons/beanutils2/converters/ZonedDateTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "0c6b5f19",
+        "classname": "org/apache/commons/beanutils2/WeakFastHashMap.class",
+        "projectname": "commons-beanutils",
+        "insight": "change_modifier_of_fields",
+        "comment": "F7"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/MonthDayConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/DurationConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/YearMonthConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/ZoneIdConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/YearConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/OffsetTimeConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/LocalTimeConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/ZoneOffsetConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/PeriodConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/ZoneOffsetConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/OffsetTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/LocalTimeConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/DurationConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/YearMonthConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/PeriodConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/YearConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/MonthDayConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "11187b2a",
+        "classname": "org/apache/commons/beanutils2/converters/ZoneIdConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "55dcbaa9",
+        "classname": "org/apache/commons/beanutils2/converters/EnumConverter.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "55dcbaa9",
+        "classname": "org/apache/commons/beanutils2/converters/EnumConverterTestCase.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "55dcbaa9",
+        "classname": "org/apache/commons/beanutils2/converters/EnumConverterTestCase$PizzaStatus.class",
+        "projectname": "commons-beanutils",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "6cf34821",
+        "classname": "org/apache/commons/codec/binary/HexTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "d7a4a029",
+        "classname": "org/apache/commons/codec/binary/HexTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "64719420",
+        "classname": "org/apache/commons/codec/digest/MessageDigestAlgorithmsTest.class",
+        "projectname": "commons-codec",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "e772d31a",
+        "classname": "org/apache/commons/codec/digest/DigestUtils.class",
+        "projectname": "commons-codec",
+        "insight": "add_static_method, add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "e772d31a",
+        "classname": "org/apache/commons/codec/digest/DigestUtilsTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "e772d31a",
+        "classname": "org/apache/commons/codec/digest/MessageDigestAlgorithmsTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "01b69110",
+        "classname": "org/apache/commons/codec/digest/MessageDigestAlgorithms.class",
+        "projectname": "commons-codec",
+        "insight": "add_field",
+        "comment": "F27"
+    },
+    {
+        "sha": "01b69110",
+        "classname": "org/apache/commons/codec/digest/DigestUtils.class",
+        "projectname": "commons-codec",
+        "insight": "add_static_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "01b69110",
+        "classname": "org/apache/commons/codec/digest/DigestUtilsTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "95212bed",
+        "classname": "org/apache/commons/codec/digest/DigestUtilsTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "be0c8dad",
+        "classname": "org/apache/commons/codec/digest/DigestUtils.class",
+        "projectname": "commons-codec",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "be0c8dad",
+        "classname": "org/apache/commons/codec/digest/DigestUtilsTest.class",
+        "projectname": "commons-codec",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "3af20694",
+        "classname": "org/apache/commons/codec/digest/DigestUtilsTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "f40005ad",
+        "classname": "org/apache/commons/codec/digest/MurmurHash2.class",
+        "projectname": "commons-codec",
+        "insight": "add_field",
+        "comment": "F27"
+    },
+    {
+        "sha": "f40005ad",
+        "classname": "org/apache/commons/codec/digest/MurmurHash3.class",
+        "projectname": "commons-codec",
+        "insight": "add_field",
+        "comment": "F27"
+    },
+    {
+        "sha": "a387ac85",
+        "classname": "org/apache/commons/codec/digest/MurmurHash3Test.class",
+        "projectname": "commons-codec",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "33491ff8",
+        "classname": "org/apache/commons/codec/digest/XXHash32.class",
+        "projectname": "commons-codec",
+        "insight": "add_field",
+        "comment": "F11"
+    },
+    {
+        "sha": "bc82d82d",
+        "classname": "org/apache/commons/codec/digest/XXHash32.class",
+        "projectname": "commons-codec",
+        "insight": "remove_static_method",
+        "comment": "F10"
+    },
+    {
+        "sha": "88e729ec",
+        "classname": "org/apache/commons/codec/digest/XXHash32Test.class",
+        "projectname": "commons-codec",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "08bfd445",
+        "classname": "org/apache/commons/codec/digest/XXHash32OverflowTest.class",
+        "projectname": "commons-codec",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "org/apache/commons/codec/binary/Hex.class",
+        "projectname": "commons-codec",
+        "insight": "change_field_initialization",
+        "comment": "F13"
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "org/apache/commons/codec/Charsets.class",
+        "projectname": "commons-codec",
+        "insight": "change_field_initialization",
+        "comment": "F13"
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "org/apache/commons/codec/net/BCodec.class",
+        "projectname": "commons-codec",
+        "insight": "change_constructor",
+        "comment": "F29"
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "org/apache/commons/codec/net/QuotedPrintableCodec.class",
+        "projectname": "commons-codec",
+        "insight": "change_constructor",
+        "comment": "F29"
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "org/apache/commons/codec/net/QCodec.class",
+        "projectname": "commons-codec",
+        "insight": "change_constructor",
+        "comment": "F29"
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "org/apache/commons/codec/digest/MurmurHash2.class",
+        "projectname": "commons-codec",
+        "insight": "remove_field",
+        "comment": "F27"
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "org/apache/commons/codec/binary/BinaryCodecTest.class",
+        "projectname": "commons-codec",
+        "insight": "change_field_initialization",
+        "comment": "F13"
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "org/apache/commons/codec/binary/Base64Test.class",
+        "projectname": "commons-codec",
+        "insight": "change_field_initialization",
+        "comment": "F13"
+    },
+    {
+        "sha": "b542cf9d",
+        "classname": "org/apache/commons/codec/binary/Base32Test.class",
+        "projectname": "commons-codec",
+        "insight": "change_field_initialization",
+        "comment": "F13"
+    },
+    {
+        "sha": "ad9b4244",
+        "classname": "org/apache/commons/compress/archivers/ZipTestCase.class",
+        "projectname": "commons-compress",
+        "insight": "rename_instance_method",
+        "comment": "F12"
+    },
+    {
+        "sha": "82986dd1",
+        "classname": "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "f5d0bb1e",
+        "classname": "org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.class",
+        "projectname": "commons-compress",
+        "insight": "add_field",
+        "comment": "F27"
+    },
+    {
+        "sha": "f5d0bb1e",
+        "classname": "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "d88aa223",
+        "classname": "org/apache/commons/compress/archivers/zip/ExtraFieldUtils.class",
+        "projectname": "commons-compress",
+        "insight": "parameter_type_specialization",
+        "comment": "F28 Added (Take a look, UnparseableExtraFieldBehavior is a rename or added)"
+    },
+    {
+        "sha": "d88aa223",
+        "classname": "org/apache/commons/compress/archivers/zip/ExtraFieldUtils$1.class",
+        "projectname": "commons-compress",
+        "insight": "change_by_dependency",
+        "comment": "F13"
+    },
+    {
+        "sha": "e959762e",
+        "classname": "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e959762e",
+        "classname": "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "26ad28cd",
+        "classname": "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest$ThrowingSeekableByteChannel.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "26ad28cd",
+        "classname": "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "26ad28cd",
+        "classname": "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest$1.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$2.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11 bring back the old submit method - backwards compatibility"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$3.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$4.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$2.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$CallableConsumerSupplier.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$2$1.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$7.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$3.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$1.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$6.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$CallableConsumer.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "5a190918",
+        "classname": "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$1$1.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "6615be08",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "7897da76",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFile.class",
+        "projectname": "commons-compress",
+        "insight": "add_field, add_instance_method",
+        "comment": "F27, F11"
+    },
+    {
+        "sha": "7897da76",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "c937e01a",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFileOptions$1.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "c937e01a",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFileOptions.class",
+        "projectname": "commons-compress",
+        "insight": "change_field_definition",
+        "comment": "F28"
+    },
+    {
+        "sha": "c937e01a",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFileOptions$Builder.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "c937e01a",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFile.class",
+        "projectname": "commons-compress",
+        "insight": "change_constructor, change_method_parameter",
+        "comment": "F29"
+    },
+    {
+        "sha": "c937e01a",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "16a0c84e",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFileOptions.class",
+        "projectname": "commons-compress",
+        "insight": "add_final_to_field",
+        "comment": "F7"
+    },
+    {
+        "sha": "4ad5d80a",
+        "classname": "org/apache/commons/compress/archivers/zip/NioZipEncodingTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "9d2a2f4a",
+        "classname": "org/apache/commons/compress/archivers/zip/ZipArchiveEntry.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "277d6a0c",
+        "classname": "org/apache/commons/compress/archivers/sevenz/Archive.class",
+        "projectname": "commons-compress",
+        "insight": "change_field_initialization",
+        "comment": "F13"
+    },
+    {
+        "sha": "277d6a0c",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "205876d6",
+        "classname": "org/apache/commons/compress/archivers/sevenz/CLI$Mode.class",
+        "projectname": "commons-compress",
+        "insight": "remove_field",
+        "comment": "F25"
+    },
+    {
+        "sha": "1cc80807",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFile.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "1cc80807",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "21ee2655",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFile.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "c7a9079d",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFile.class",
+        "projectname": "commons-compress",
+        "insight": "change_method_parameter",
+        "comment": "F26"
+    },
+    {
+        "sha": "c7a9079d",
+        "classname": "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_field, add_instance_method",
+        "comment": "F27 F11"
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "org/apache/commons/compress/compressors/FileNameUtil.class",
+        "projectname": "commons-compress",
+        "insight": "add_static_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel$ZipSplitSegmentComparator.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.class",
+        "projectname": "commons-compress",
+        "insight": "add_field, add_constructor",
+        "comment": "F27 F11"
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "org/apache/commons/compress/archivers/zip/ZipArchiveEntry.class",
+        "projectname": "commons-compress",
+        "insight": "add_field, add_instance_method",
+        "comment": "F27 F11"
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "org/apache/commons/compress/archivers/zip/ZipFile.class",
+        "projectname": "commons-compress",
+        "insight": "add_field",
+        "comment": "F27"
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method, change_signature_by_adding_exception",
+        "comment": "F26"
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "org/apache/commons/compress/archivers/zip/ZipFileTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "org/apache/commons/compress/utils/ZipSplitReadOnlySeekableByteChannelTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "992ecf3c",
+        "classname": "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest.class",
+        "projectname": "commons-compress",
+        "insight": "change_signature_by_adding_exception",
+        "comment": "F26"
+    },
+    {
+        "sha": "dfa9ed37",
+        "classname": "org/apache/commons/compress/compressors/FileNameUtil.class",
+        "projectname": "commons-compress",
+        "insight": "change_constructor",
+        "comment": "F29"
+    },
+    {
+        "sha": "dfa9ed37",
+        "classname": "org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel.class",
+        "projectname": "commons-compress",
+        "insight": "add_final_to_field, change_signature_by_adding_exception",
+        "comment": "F7, F26"
+    },
+    {
+        "sha": "dfa9ed37",
+        "classname": "org/apache/commons/compress/utils/FileNameUtils.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "dfa9ed37",
+        "classname": "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.class",
+        "projectname": "commons-compress",
+        "insight": "change_signature_by_adding_exception",
+        "comment": "F26"
+    },
+    {
+        "sha": "dfa9ed37",
+        "classname": "org/apache/commons/compress/utils/ZipSplitReadOnlySeekableByteChannelTest.class",
+        "projectname": "commons-compress",
+        "insight": "rename_instance_method",
+        "comment": "F12"
+    },
+    {
+        "sha": "dfa9ed37",
+        "classname": "org/apache/commons/compress/utils/FileNameUtilsTest.class",
+        "projectname": "commons-compress",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "41f4e410",
+        "classname": "org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "0cdff0ad",
+        "classname": "org/apache/commons/pool2/impl/TestGenericObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "7d033060",
+        "classname": "org/apache/commons/pool2/impl/GenericKeyedObjectPool$ObjectDeque.class",
+        "projectname": "commons-pool",
+        "insight": "change_by_dependency",
+        "comment": "F13"
+    },
+    {
+        "sha": "7d0b4594",
+        "classname": "org/apache/commons/pool2/impl/GenericKeyedObjectPool$ObjectDeque.class",
+        "projectname": "commons-pool",
+        "insight": "change_by_dependency",
+        "comment": "F13"
+    },
+    {
+        "sha": "7d0b4594",
+        "classname": "org/apache/commons/pool2/impl/TestGenericKeyedObjectPool$SlowEvictionPolicy.class",
+        "projectname": "commons-pool",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7d0b4594",
+        "classname": "org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "org/apache/commons/pool2/impl/SecurityManagerCallStack$PrivateSecurityManager.class",
+        "projectname": "commons-pool",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "org/apache/commons/pool2/impl/EvictionTimer$EvictorThreadFactory.class",
+        "projectname": "commons-pool",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "org/apache/commons/pool2/impl/SecurityManagerCallStack.class",
+        "projectname": "commons-pool",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "org/apache/commons/pool2/impl/SecurityManagerCallStack$1.class",
+        "projectname": "commons-pool",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "org/apache/commons/pool2/impl/SecurityManagerCallStack$Snapshot.class",
+        "projectname": "commons-pool",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "org/apache/commons/pool2/impl/TestGenericObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "org/apache/commons/pool2/impl/TestDefaultPooledObject.class",
+        "projectname": "commons-pool",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "org/apache/commons/pool2/impl/TestGenericObjectPool$5.class",
+        "projectname": "commons-pool",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "org/apache/commons/pool2/TestPoolUtils.class",
+        "projectname": "commons-pool",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "org/apache/commons/pool2/TestPoolUtils$2.class",
+        "projectname": "commons-pool",
+        "insight": "use_lambda_instead_of_anonymous_class",
+        "comment": "F6"
+    },
+    {
+        "sha": "f3984f8f",
+        "classname": "org/apache/commons/pool2/ObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "6610e575",
+        "classname": "org/apache/commons/pool2/ObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "6610e575",
+        "classname": "org/apache/commons/pool2/PoolUtils.class",
+        "projectname": "commons-pool",
+        "insight": "add_runtime_annotation",
+        "comment": "F30"
+    },
+    {
+        "sha": "c9e5253a",
+        "classname": "org/apache/commons/pool2/KeyedObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "sort_members",
+        "comment": "F3"
+    },
+    {
+        "sha": "ca96e5ef",
+        "classname": "org/apache/commons/pool2/ObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "add_exception_to_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "ca96e5ef",
+        "classname": "org/apache/commons/pool2/PoolUtils.class",
+        "projectname": "commons-pool",
+        "insight": "add_runtime_annotation",
+        "comment": "F30"
+    },
+    {
+        "sha": "ca96e5ef",
+        "classname": "org/apache/commons/pool2/KeyedObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "ca96e5ef",
+        "classname": "org/apache/commons/pool2/impl/TestGenericKeyedObjectPool$SimpleFactory.class",
+        "projectname": "commons-pool",
+        "insight": "change_class_modifier",
+        "comment": "F7"
+    },
+    {
+        "sha": "af38a4e3",
+        "classname": "org/apache/commons/pool2/PoolUtils.class",
+        "projectname": "commons-pool",
+        "insight": "add_runtime_annotation",
+        "comment": "F30"
+    },
+    {
+        "sha": "af38a4e3",
+        "classname": "org/apache/commons/pool2/KeyedObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "6b1ed5f7",
+        "classname": "com/alibaba/json/bvt/issue_2100/Issue2214$User.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "6b1ed5f7",
+        "classname": "com/alibaba/json/bvt/issue_2100/Issue2214.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "2e2dc5f0",
+        "classname": "com/alibaba/fastjson/parser/ParserConfig.class",
+        "projectname": "fastjson",
+        "insight": "add_field",
+        "comment": "F27"
+    },
+    {
+        "sha": "2e2dc5f0",
+        "classname": "com/alibaba/fastjson/serializer/GuavaCodec.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "2e2dc5f0",
+        "classname": "com/alibaba/json/bvt/issue_2100/Issue2182.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "04007da9",
+        "classname": "com/alibaba/json/bvt/issue_2100/Issue2216.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "04007da9",
+        "classname": "com/alibaba/json/bvt/issue_2100/Issue2216$Model.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "41beb710",
+        "classname": "com/alibaba/json/bvt/issue_2100/Issue2216.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "296fbdb5",
+        "classname": "com/alibaba/json/bvt/issue_2100/Issue2206.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "296fbdb5",
+        "classname": "com/alibaba/json/bvt/issue_2100/Issue2206$Model.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "540c487d",
+        "classname": "com/alibaba/json/bvt/issue_2100/Issue2150.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "540c487d",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2216.class",
+        "projectname": "fastjson",
+        "insight": "rename_class",
+        "comment": "F12"
+    },
+    {
+        "sha": "540c487d",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2214$User.class",
+        "projectname": "fastjson",
+        "insight": "rename_class",
+        "comment": "F12"
+    },
+    {
+        "sha": "540c487d",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2216$Model.class",
+        "projectname": "fastjson",
+        "insight": "rename_class",
+        "comment": "F12"
+    },
+    {
+        "sha": "540c487d",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2214.class",
+        "projectname": "fastjson",
+        "insight": "rename_class",
+        "comment": "F12"
+    },
+    {
+        "sha": "540c487d",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2206.class",
+        "projectname": "fastjson",
+        "insight": "rename_class",
+        "comment": "F12"
+    },
+    {
+        "sha": "540c487d",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2206$Model.class",
+        "projectname": "fastjson",
+        "insight": "rename_class",
+        "comment": "F12"
+    },
+    {
+        "sha": "a6bb7b8f",
+        "classname": "com/alibaba/fastjson/util/TypeUtils.class",
+        "projectname": "fastjson",
+        "insight": "change_field_initialization",
+        "comment": "F13"
+    },
+    {
+        "sha": "d718a340",
+        "classname": "com/alibaba/fastjson/util/TypeUtils.class",
+        "projectname": "fastjson",
+        "insight": "add_static_method",
+        "comment": "F13"
+    },
+    {
+        "sha": "d718a340",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2224.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "d718a340",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224/CollectionEx.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "d718a340",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224/KeyedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "d718a340",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224/Person.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "d718a340",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224/PersonCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "a117a37c",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2240.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "a117a37c",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2240$ResultMap.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "3286378b",
+        "classname": "com/alibaba/fastjson/parser/deserializer/MapDeserializer.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "3286378b",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2253.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "3286378b",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2253$1.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "d9814dbc",
+        "classname": "com/alibaba/fastjson/parser/JSONLexerBase.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "d9814dbc",
+        "classname": "com/alibaba/fastjson/parser/Feature.class",
+        "projectname": "fastjson",
+        "insight": "add_field",
+        "comment": "F27"
+    },
+    {
+        "sha": "d9814dbc",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2249$Model.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "d9814dbc",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2249$Type.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "d9814dbc",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2249.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7b17321a",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2254.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7b17321a",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2254$TestClass.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "0b9f09be",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2251$Model.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "0b9f09be",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2251.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "0546d845",
+        "classname": "com/alibaba/json/bvt/serializer/enum_/EnumTest$Model.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "0546d845",
+        "classname": "com/alibaba/json/bvt/serializer/enum_/EnumTest.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "0546d845",
+        "classname": "com/alibaba/json/bvt/util/UTF8DecoderTest.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "0546d845",
+        "classname": "com/alibaba/json/test/benchmark/jdk10/StringBenchmark_jackson.class",
+        "projectname": "fastjson",
+        "insight": "add_field, add_static_initialized_block, add_exception_to_method",
+        "comment": "F27, F26"
+    },
+    {
+        "sha": "0546d845",
+        "classname": "com/alibaba/json/test/Base64.class",
+        "projectname": "fastjson",
+        "insight": "rename_instance_method",
+        "comment": "F12"
+    },
+    {
+        "sha": "0546d845",
+        "classname": "com/alibaba/json/test/A1.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "0546d845",
+        "classname": "com/alibaba/json/test/UTF8Test.class",
+        "projectname": "fastjson",
+        "insight": "add_field",
+        "comment": "F27"
+    },
+    {
+        "sha": "8f8d3834",
+        "classname": "com/alibaba/fastjson/JSON.class",
+        "projectname": "fastjson",
+        "insight": "change_field_initialization ",
+        "comment": "F13"
+    },
+    {
+        "sha": "8f8d3834",
+        "classname": "com/alibaba/json/test/codec/FastjsonManualCodec.class",
+        "projectname": "fastjson",
+        "insight": "change_by_dependency",
+        "comment": "F13"
+    },
+    {
+        "sha": "8f8d3834",
+        "classname": "com/alibaba/json/test/codec/FastjsonSCodec.class",
+        "projectname": "fastjson",
+        "insight": "change_by_dependency",
+        "comment": "F13"
+    },
+    {
+        "sha": "8f8d3834",
+        "classname": "com/alibaba/json/test/codec/FastjsonCodec.class",
+        "projectname": "fastjson",
+        "insight": "change_by_dependency",
+        "comment": "F13"
+    },
+    {
+        "sha": "8f8d3834",
+        "classname": "com/alibaba/json/test/codec/FastjsonArrayMappingCodec.class",
+        "projectname": "fastjson",
+        "insight": "change_by_dependency",
+        "comment": "F13"
+    },
+    {
+        "sha": "3a4bb48d",
+        "classname": "com/alibaba/fastjson/parser/ParserConfig.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "3a4bb48d",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2201$Model.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "3a4bb48d",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2201.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "f35b35b4",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2249.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "d2bd95a0",
+        "classname": "com/alibaba/json/bvt/parser/bug/Bug_for_zitao.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "d2bd95a0",
+        "classname": "com/alibaba/json/bvt/parser/bug/Bug_for_zitao$1.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "d2bd95a0",
+        "classname": "com/alibaba/json/bvt/parser/bug/Bug_for_zitao$Model.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "294bb269",
+        "classname": "com/alibaba/fastjson/util/TypeUtils.class",
+        "projectname": "fastjson",
+        "insight": "add_field",
+        "comment": "F27"
+    },
+    {
+        "sha": "61bae17c",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2262.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "61bae17c",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2262$Model.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "39a52e4e",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2260$M1.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "39a52e4e",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2260$M2.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "39a52e4e",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2260$M3.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "39a52e4e",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2260.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "64282b7d",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2264.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7170a895",
+        "classname": "com/alibaba/fastjson/serializer/CalendarCodec.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method, add_base_class",
+        "comment": "F11, F28"
+    },
+    {
+        "sha": "7170a895",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2241.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7170a895",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2241$Order4.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7170a895",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2241$Order.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7170a895",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2241$Order3.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "7170a895",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2241$Order2.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e44c6034",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2229.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e44c6034",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2229$Jon.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e44c6034",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2229$User.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "b627d046",
+        "classname": "com/alibaba/fastjson/JSON.class",
+        "projectname": "fastjson",
+        "insight": "change_field_initialization",
+        "comment": "F13"
+    },
+    {
+        "sha": "b627d046",
+        "classname": "com/alibaba/json/test/codec/FastjsonManualCodec.class",
+        "projectname": "fastjson",
+        "insight": "change_by_dependency",
+        "comment": "F13"
+    },
+    {
+        "sha": "b627d046",
+        "classname": "com/alibaba/json/test/codec/FastjsonSCodec.class",
+        "projectname": "fastjson",
+        "insight": "change_by_dependency",
+        "comment": "F13"
+    },
+    {
+        "sha": "b627d046",
+        "classname": "com/alibaba/json/test/codec/FastjsonCodec.class",
+        "projectname": "fastjson",
+        "insight": "change_by_dependency",
+        "comment": "F13"
+    },
+    {
+        "sha": "b627d046",
+        "classname": "com/alibaba/json/test/codec/FastjsonArrayMappingCodec.class",
+        "projectname": "fastjson",
+        "insight": "change_by_dependency",
+        "comment": "F13"
+    },
+    {
+        "sha": "90805abe",
+        "classname": "com/alibaba/json/bvt/path/JSONPath_11.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "90805abe",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2239$Bean.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "90805abe",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2239.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "90805abe",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2238.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "90805abe",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2239$BaseResponse.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "90805abe",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2234$User.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "90805abe",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2239$PageBean.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "90805abe",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2239$1.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "90805abe",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2244.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "90805abe",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2238$CapitalLimitMonenyDTO.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "90805abe",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2234.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "60652f00",
+        "classname": "com/alibaba/json/bvt/parser/autoType/AutoTypeTest7.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e31ce431",
+        "classname": "com/alibaba/json/bvt/parser/autoType/AutoTypeTest7.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "52b81822",
+        "classname": "com/alibaba/json/bvt/issue_1700/Issue1701.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "52b81822",
+        "classname": "com/alibaba/json/bvt/issue_1700/Issue1701$TestBean.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "52b81822",
+        "classname": "com/alibaba/json/bvt/issue_1700/Issue1701$BeanController.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "52b81822",
+        "classname": "com/alibaba/json/bvt/issue_1700/Issue1701$WebMvcConfig.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "77980bec",
+        "classname": "com/alibaba/fastjson/parser/JSONLexerBase.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "77980bec",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue_for_luohaoyu.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/fastjson/util/TypeUtils.class",
+        "projectname": "fastjson",
+        "insight": "rename_static_method",
+        "comment": "F12 bug fixed for null key"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/fastjson/util/GenericArrayTypeImpl.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/Issue2224.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method, change_method_exception",
+        "comment": "F26"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224_3/ArrayPersonGroupedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224_3/ArrayGroupedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224_3/ArrayStringGroupedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224/CollectionEx.class",
+        "projectname": "fastjson",
+        "insight": "change_class_modifier",
+        "comment": "F7"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224/KeyedCollection.class",
+        "projectname": "fastjson",
+        "insight": "change_class_modifier",
+        "comment": "F7"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224/PersonCollection.class",
+        "projectname": "fastjson",
+        "insight": "change_by_dependency",
+        "comment": "F13"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224_4/MAPersonGroupedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224_4/MAGroupedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224_4/MAStringGroupedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224_5/MA2StringGroupedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224_5/MA2GroupedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224_5/MA2PersonGroupedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224_2/GroupedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224_2/PersonGroupedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "e11715f7",
+        "classname": "com/alibaba/json/bvt/issue_2200/issue2224_2/StringGroupedCollection.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "4ac6fc67",
+        "classname": "com/alibaba/json/bvt/parser/deser/date/DateParseTest9$VO.class",
+        "projectname": "fastjson",
+        "insight": "add_class",
+        "comment": "F25"
+    },
+    {
+        "sha": "4ac6fc67",
+        "classname": "com/alibaba/json/bvt/parser/deser/date/DateParseTest9.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method, add_static_method",
+        "comment": "F11"
+    },
+    {
+        "sha": "8c8d8f84",
+        "classname": "com/alibaba/json/bvt/parser/deser/date/DateParseTest9.class",
+        "projectname": "fastjson",
+        "insight": "add_field, add_instance_method",
+        "comment": "F27, F11"
+    },
+    {
+        "sha": "8c8d8f84",
+        "classname": "com/alibaba/json/bvt/jdk8/LocalDateTimeTest5.class",
+        "projectname": "fastjson",
+        "insight": "add_field",
+        "comment": "F27"
+    },
+    {
+        "sha": "28f77299",
+        "classname": "com/alibaba/fastjson/asm/ByteVector.class",
+        "projectname": "fastjson",
+        "insight": "adjust_modifier_of_field",
+        "comment": "F7"
+    },
+    {
+        "sha": "4c516b12",
+        "classname": "com/alibaba/json/bvt/issue_1700/Issue1769.class",
+        "projectname": "fastjson",
+        "insight": "add_instance_method",
+        "comment": "F11"
+    }
+]

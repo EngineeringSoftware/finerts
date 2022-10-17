@@ -1,0 +1,1378 @@
+{
+  "4156489b": {
+    "org/apache/commons/net/ftp/parser/MVSFTPEntryParser.class": [
+      "method preParse(Ljava/util/List;)Ljava/util/List;"
+    ]
+  },
+  "4d4f05db": {
+    "org/apache/commons/net/ftp/parser/MLSxEntryParser.class": [
+      "method parseFTPEntry(Ljava/lang/String;)Lorg/apache/commons/net/ftp/FTPFile;"
+    ],
+    "org/apache/commons/net/telnet/TelnetOption.class": [
+      "method getOption(I)Ljava/lang/String;"
+    ],
+    "org/apache/commons/net/ntp/TimeStamp.class": [
+      "method decodeNtpHexString(Ljava/lang/String;)J"
+    ],
+    "org/apache/commons/net/io/DotTerminatedMessageReader.class": [
+      "method readLine()Ljava/lang/String;"
+    ],
+    "org/apache/commons/net/ftp/parser/OS400FTPEntryParser.class": [
+      "method isNullOrEmpty(Ljava/lang/String;)Z"
+    ],
+    "org/apache/commons/net/nntp/Threader.class": [
+      "method gatherSubjects(Lorg/apache/commons/net/nntp/ThreadContainer;)V"
+    ],
+    "org/apache/commons/net/io/CRLFLineReader.class": [
+      "method readLine()Ljava/lang/String;"
+    ],
+    "org/apache/commons/net/examples/mail/SMTPMail.class": [
+      "method main([Ljava/lang/String;)V"
+    ],
+    "org/apache/commons/net/examples/nntp/PostMessage.class": [
+      "method main([Ljava/lang/String;)V"
+    ],
+    "org/apache/commons/net/nntp/Article.class": [
+      "method addReference(Ljava/lang/String;)V"
+    ]
+  },
+  "30fe35d0": {
+    "org/apache/commons/net/ftp/parser/MVSFTPEntryParser.class": [
+      "method parseMemberList(Ljava/lang/String;)Lorg/apache/commons/net/ftp/FTPFile;"
+    ],
+    "org/apache/commons/net/telnet/Telnet.class": [
+      "method processDo(I)V"
+    ],
+    "org/apache/commons/net/ftp/FTPHTTPClient.class": [
+      "method tunnelHandshake(Ljava/lang/String;ILjava/io/InputStream;Ljava/io/OutputStream;)Ljava/io/BufferedReader;"
+    ],
+    "org/apache/commons/net/examples/nntp/PostMessage.class": [
+      "method main([Ljava/lang/String;)V"
+    ]
+  },
+  "25789394": {},
+  "d4e35239": {
+    "org/apache/commons/net/io/ToNetASCIIInputStreamTest.class": [
+      "remove_field"
+    ]
+  },
+  "467711fc": {},
+  "9d17fd7f": {},
+  "21280093": {},
+  "2cd1c5b9": {},
+  "1be0b609": {
+    "org/apache/commons/net/ntp/TimeStamp.class": [
+      "method toNtpTime(J)J",
+      "method getDate()Ljava/util/Date;"
+    ],
+    "org/apache/commons/net/ntp/NTPUDPClient.class": [
+      "method getTime(Ljava/net/InetAddress;I)Lorg/apache/commons/net/ntp/TimeInfo;"
+    ],
+    "org/apache/commons/net/ftp/FTPClient.class": [
+      "method getControlKeepAliveReplyTimeout()I",
+      "change_field_declaration",
+      "method _storeFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)Z",
+      "method setControlKeepAliveTimeout(J)V",
+      "method getControlKeepAliveTimeout()J",
+      "method setControlKeepAliveReplyTimeout(I)V",
+      "method _openDataConnection_(Ljava/lang/String;Ljava/lang/String;)Ljava/net/Socket;",
+      "method _retrieveFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/OutputStream;)Z",
+      "method setDataTimeout(I)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ntp/TimeInfo.class": [
+      "method getDelay()Ljava/lang/Long;",
+      "change_field_declaration",
+      "method computeDetails()V",
+      "method hashCode()I",
+      "method equals(Ljava/lang/Object;)Z",
+      "method getReturnTime()J",
+      "method getOffset()Ljava/lang/Long;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ftp/FTPClient$CSL.class": [
+      "change_field_declaration",
+      "method cleanUp()[I",
+      "method bytesTransferred(JIJ)V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "d0f42313": {
+    "org/apache/commons/net/ftp/FTPClient.class": [
+      "nochange"
+    ]
+  },
+  "a2bbe79f": {},
+  "a92201d5": {},
+  "00c931ba": {
+    "org/apache/commons/net/util/SubnetUtils.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/tftp/TFTPClient.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/pop3/POP3SClient.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/pop3/POP3.class": [
+      "method getReplyStrings()[Ljava/lang/String;"
+    ],
+    "org/apache/commons/net/telnet/TelnetOutputStream.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/nntp/NNTPClient.class": [
+      "method listOverviewFmt()[Ljava/lang/String;"
+    ],
+    "org/apache/commons/net/ftp/parser/RegexFTPFileEntryParserImpl.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ftp/parser/FTPTimestampParserImpl.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ftp/FTP.class": [
+      "method getReplyStrings()[Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/telnet/Telnet.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/smtp/SMTP.class": [
+      "method getReplyStrings()[Ljava/lang/String;"
+    ],
+    "org/apache/commons/net/smtp/SMTPSClient.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ftp/FTPListParseEngine.class": [
+      "add_field",
+      "method getFiles(Lorg/apache/commons/net/ftp/FTPFileFilter;)[Lorg/apache/commons/net/ftp/FTPFile;",
+      "method getPrevious(I)[Lorg/apache/commons/net/ftp/FTPFile;",
+      "method getNext(I)[Lorg/apache/commons/net/ftp/FTPFile;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/examples/telnet/TelnetClientExample.class": [
+      "method main([Ljava/lang/String;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ftp/FTPClient.class": [
+      "method featureValues(Ljava/lang/String;)[Ljava/lang/String;",
+      "method listNames(Ljava/lang/String;)[Ljava/lang/String;"
+    ],
+    "org/apache/commons/net/ftp/FTPSClient.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ftp/FTPClientConfig.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/telnet/TelnetInputStream.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/util/NetConstants.class": [
+      "add_class"
+    ],
+    "org/apache/commons/net/examples/mail/IMAPExportMbox$MboxListener.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/examples/ftp/FTPClientExample$1.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/io/FromNetASCIIInputStream.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/imap/IMAPSClient.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/nntp/Article.class": [
+      "method getReferences()[Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/telnet/TelnetOptionHandler.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/imap/IMAP.class": [
+      "method getReplyStrings()[Ljava/lang/String;"
+    ],
+    "org/apache/commons/net/ftp/parser/FTPParseTestFramework.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/telnet/TelnetClientTest.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/tftp/TFTPServer$TFTPTransfer.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/tftp/TFTPServer.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/time/TimeTestSimpleServer.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/pop3/POP3ClientTest.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/telnet/TelnetTestResponder.class": [
+      "method run()V"
+    ],
+    "org/apache/commons/net/telnet/TelnetTestSimpleServer.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "997ec156": {},
+  "a85af85a": {
+    "org/apache/commons/net/util/Base64.class": [
+      "remove_field",
+      "method encodeBase64([BZZI)[B",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ftp/FTPSTrustManager.class": [
+      "method getAcceptedIssuers()[Ljava/security/cert/X509Certificate;",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/nntp/NNTPClient.class": [
+      "method listNewNews(Lorg/apache/commons/net/nntp/NewGroupsOrNewsQuery;)[Ljava/lang/String;",
+      "add_field",
+      "method readNewsgroupListing()[Lorg/apache/commons/net/nntp/NewsgroupInfo;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/discard/DiscardUDPClient.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/util/TrustManagerUtils.class": [
+      "remove_static_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/util/TrustManagerUtils$TrustManager.class": [
+      "method getAcceptedIssuers()[Ljava/security/cert/X509Certificate;"
+    ],
+    "org/apache/commons/net/util/NetConstants.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/chargen/CharGenUDPClient.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/nntp/Article.class": [
+      "method getReferences()[Ljava/lang/String;"
+    ],
+    "org/apache/commons/net/echo/EchoUDPClient.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/nntp/TestThreader.class": [
+      "add_field",
+      "method testEmptyArray()V",
+      "method testEmptyList()V",
+      "method testEmptyIterable()V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "2d10eed5": {},
+  "8339c288": {
+    "org/apache/commons/net/util/Base64.class": [
+      "method newStringUtf8([B)Ljava/lang/String;"
+    ]
+  },
+  "796b6caf": {},
+  "a7fe3d50": {
+    "org/apache/commons/net/examples/mail/IMAPExportMbox$MboxListener.class": [
+      "change_field_declaration",
+      "method chunkReceived(Lorg/apache/commons/net/imap/IMAP;)Z",
+      "method close()V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "47eb5626": {},
+  "83cd6778": {},
+  "87fbc3d3": {},
+  "53fb1468": {},
+  "8d479133": {},
+  "1c49b7d4": {},
+  "64c67272": {},
+  "9cb799c6": {
+    "org/apache/commons/net/ftp/FTPClient.class": [
+      "add_instance_method"
+    ]
+  },
+  "ec77e3db": {
+    "org/apache/commons/net/ftp/FTPSClientTest.class": [
+      "method testOpenClose()V",
+      "add_instance_method"
+    ]
+  },
+  "2393a557": {},
+  "8b520198": {
+    "org/apache/commons/net/ftp/FTPClient.class": [
+      "method mlistDir(Ljava/lang/String;)[Lorg/apache/commons/net/ftp/FTPFile;",
+      "method listHelp(Ljava/lang/String;)Ljava/lang/String;",
+      "method listFiles(Ljava/lang/String;Lorg/apache/commons/net/ftp/FTPFileFilter;)[Lorg/apache/commons/net/ftp/FTPFile;",
+      "method mlistDir(Ljava/lang/String;Lorg/apache/commons/net/ftp/FTPFileFilter;)[Lorg/apache/commons/net/ftp/FTPFile;",
+      "method listHelp()Ljava/lang/String;",
+      "method listFiles(Ljava/lang/String;)[Lorg/apache/commons/net/ftp/FTPFile;"
+    ]
+  },
+  "72d90688": {},
+  "2781140d": {},
+  "01ffe43d": {},
+  "8e5e359d": {
+    "org/apache/commons/net/ftp/FTPSClientTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "cf8c01ab": {
+    "org/apache/commons/net/ftp/FTPClient.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/net/ftp/FTPSClientTest.class": [
+      "method testMdtmFile(Ljava/lang/String;)V",
+      "add_instance_method",
+      "method testMdtmFile()V"
+    ]
+  },
+  "e3691bfd": {
+    "org/apache/commons/net/ftp/FTPSClientTest.class": [
+      "change_field_declaration",
+      "method setUpClass(Z)V"
+    ]
+  },
+  "00d7f83b": {
+    "org/apache/commons/net/ftp/FTPListParseEngine.class": [
+      "method readServerList(Ljava/io/InputStream;Ljava/lang/String;)V",
+      "change_signature"
+    ]
+  },
+  "4de2d9f9": {},
+  "c58f0d76": {
+    "org/apache/commons/net/examples/mail/IMAPExportMbox$MboxListener.class": [
+      "change_field_declaration",
+      "method chunkReceived(Lorg/apache/commons/net/imap/IMAP;)Z",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/examples/mail/IMAPExportMbox.class": [
+      "method main([Ljava/lang/String;)V"
+    ]
+  },
+  "9e991076": {
+    "org/apache/commons/net/examples/MainTest.class": [
+      "method scanForClasses(ILjava/io/File;Ljava/util/Properties;)V"
+    ],
+    "org/apache/commons/net/ftp/parser/MLSDComparison.class": [
+      "method testFile()V"
+    ]
+  },
+  "7d562a5c": {
+    "org/apache/commons/net/imap/IMAP$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/NNTPConnectionClosedException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/ListenerList.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/MLSxEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/SubnetUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/unix/rshell.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/ConfigurableFTPFileEntryParserImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/KeyManagerUtils$ClientKeyStore.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/nntp/NNTPUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/ThreadContainer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/Base64.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPConnectionClosedException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/ToNetASCIIInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/mail/IMAPUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/POP3SClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/POP3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/telnet/WeatherTelnet.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/SSLSocketUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/smtp/SMTPConnectionClosedException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/MacOsPeterFTPEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPFileFilters$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/unix/rlogin.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPSTrustManager.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ProtocolCommandListener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetOption.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPSServerSocketFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ntp/TimeStamp.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/ftp/TFTPExample$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/ReplyIterator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPCommand.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/NNTPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClient$PropertiesSingleton.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/IMAPReply.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/SimpleOptionHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/RegexFTPFileEntryParserImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/AuthenticatingIMAPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/MVSFTPEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/unix/daytime.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/unix/fwhois.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/ArticlePointer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPDataPacket.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/NewsgroupInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/smtp/AuthenticatingSMTPClient$AUTH_METHOD.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/FTPTimestampParserImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/NewGroupsOrNewsQuery.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/FTPFileEntryParserFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/OS2FTPEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/DefaultSocketFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/time/TimeUDPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTP.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ntp/NtpV3Impl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/Main.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/nntp/ArticleReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/unix/chargen.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClient$NatServerResolverImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPReply.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/SuppressGAOptionHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/ArticleIterator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/unix/rdate.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/EchoOptionHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ntp/NTPUDPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/IMAP$IMAPState.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPWriteRequestPacket.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/CopyStreamException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/time/TimeTCPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/DotTerminatedMessageReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/daytime/DaytimeUDPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/SocketOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/SocketInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/Telnet.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/smtp/SMTP.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/POP3Command.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/smtp/SMTPSClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/OS400FTPEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/InvalidTelnetOptionException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPListParseEngine.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/util/IOUtil$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/telnet/TelnetClientExample.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/VMSVersioningFTPEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/AuthenticatingIMAPClient$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/ArticleInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/SimpleNNTPHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/mail/IMAPExportMbox$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/SocketClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/IMAPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/smtp/SimpleSMTPHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPFile.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPFileFilters.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPReadRequestPacket.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPSClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPPacket.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/CopyStreamEvent.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/ntp/NTPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/discard/DiscardUDPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/VMSFTPEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/smtp/AuthenticatingSMTPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/whois/WhoisClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/mail/IMAPImportMbox.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/util/IOUtil$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/TrustManagerUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClientConfig.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/bsd/RExecClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetNotificationHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/ToNetASCIIOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/ExtendedPOP3Client$AUTH_METHOD.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/IMAPCommand.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/mail/Utils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPFileEntryParserImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTP.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/bsd/RLoginClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/Threader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPRequestPacket.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPSCommand.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/POP3MessageInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/DotTerminatedMessageWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/TrustManagerUtils$TrustManager.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/SSLContextUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/IMAPClient$STATUS_DATA_ITEMS.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/ntp/TimeClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TerminalTypeOptionHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/CompositeFileEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/IMAP$IMAPChunkListener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/mail/IMAPMail.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPPacketException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/ExtendedPOP3Client.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/daytime/DaytimeTCPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/MalformedServerReplyException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPAckPacket.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/CRLFLineReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/mail/POP3Mail.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ProtocolCommandSupport.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/PrintCommandListener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ntp/TimeInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/CopyStreamAdapter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/nntp/MessageThreading.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/smtp/SMTPReply.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ntp/NtpV3Packet.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/ftp/ServerToServerFTP.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/mail/SMTPMail.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/DefaultDatagramSocketFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPHTTPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/ParserInitializationException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetInputListener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/smtp/RelayPath.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/KeyManagerUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/NetConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/mail/IMAPExportMbox$MboxListener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/smtp/SMTPCommand.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/bsd/RCommandClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/NNTPCommand.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/NewsgroupIterator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/mail/POP3ExportMbox.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/nntp/PostMessage.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/ftp/FTPClientExample$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/unix/finger.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetCommand.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/Configurable.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPFileFilters$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/DefaultFTPFileEntryParserFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPSSocketFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/DatagramSocketClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/AuthenticatingIMAPClient$AUTH_METHOD.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClient$HostnameResolver.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/FromNetASCIIInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/ExtendedPOP3Client$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ProtocolCommandEvent.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/finger/FingerClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/SubnetUtils$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/ntp/SimpleNTPServer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ntp/NtpUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/SubnetUtils$SubnetInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/IMAPSClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/chargen/CharGenUDPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPErrorPacket.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/Article.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/NNTPReply.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/FromNetASCIIOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClient$CSL.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/IMAPClient$SEARCH_CRITERIA.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/CopyStreamListener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/echo/EchoUDPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/POP3Client.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/ftp/FTPClientExample.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/WindowSizeOptionHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/discard/DiscardTCPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/Util.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/FTPTimestampParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/mail/IMAPExportMbox.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/NetwareFTPEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetOptionHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPFileFilters$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/POP3Reply.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/ftp/TFTPExample.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/unix/echo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/Threadable.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/util/IOUtil.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/IMAPClient$FETCH_ITEM_NAMES.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/nntp/ExtendedNNTPOps.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/unix/rexec.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/IMAP.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/smtp/SMTPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPFileEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/Charsets.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/nntp/ListNewsgroups.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/UnixFTPEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/chargen/CharGenTCPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/KeyManagerUtils$X509KeyManager.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/NTFTPEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/EnterpriseUnixFTPEntryParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/echo/EchoTCPClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/NNTP.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/cidr/SubnetUtilsExample.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPCmd.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/DatagramSocketFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/ToNetASCIIInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/InvalidTelnetOptionExceptionTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPCommandTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/FTPParseTestFramework.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/EchoOptionHandlerTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPSClientTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TerminalTypeOptionHandlerTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/FTPTimestampParserImplTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/EnterpriseUnixFTPEntryParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetClientTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetClientFunctionalTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/MLSDComparison$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ntp/TimeStampTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/CompositeFTPParseTestFramework.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPServer$TFTPTransfer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetOptionTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/MacOsPeterFTPEntryParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPServer$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/SocketClientTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/nntp/TestThreader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/FTPParseTestFramework$CalendarUnit.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ntp/TestTimeInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/SimpleOptionHandlerTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/SubnetUtilsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClientConfigFunctionalTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/DownloadListings.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClientTest$PassiveNatWorkAroundLocalClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/POP3ConstructorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPServer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/POP3ClientCommandsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/io/DotTerminatedMessageReaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/SuppressGAOptionHandlerTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPServerMain.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/time/TimeTestSimpleServer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/POP3ClientTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/VMSFTPEntryParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetTestResponder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClientTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetTestSimpleServer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClientTest$LocalClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/examples/MainTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/MLSDComparison$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClientTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/imap/IMAPTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/OS2FTPEntryParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/MLSDComparison.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/UtilTest$CSLtotal.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/NTFTPEntryParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/OS400FTPEntryParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetClientTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPServerMain$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/OS400FTPEntryParserAdditionalTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPServer$ServerMode.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/MLSxEntryParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/WindowSizeOptionHandlerTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/UtilTest$CSL.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/time/TimeTCPClientTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/DefaultFTPFileEntryParserFactoryTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/UtilTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPServerMain$1$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/TestConnectTimeout.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ntp/TestNtpPacket.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/NetwareFTPEntryParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClientConfigTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/UnixFTPEntryParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/MVSFTPEntryParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetOptionHandlerTestAbstract.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/telnet/TelnetClientTest$TestConnection.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/SocketClientFunctionalTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPServerMain$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/util/Base64Test.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/tftp/TFTPServerPathTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/pop3/POP3Constants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/smtp/SimpleSMTPHeaderTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/ListingFunctionalTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClientConfigFunctionalTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ntp/TestNtpClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/parser/FTPConfigEntryParserTest.class": [
+      "nochange"
+    ]
+  },
+  "09f128a0": {
+    "org/apache/commons/net/ftp/parser/MLSxEntryParser.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/net/ftp/FTPClient.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/net/ftp/FTPSClientTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "84b0683e": {
+    "org/apache/commons/net/ftp/FTPClient.class": [
+      "method getControlKeepAliveReplyTimeout()I",
+      "change_field_declaration",
+      "method _storeFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/InputStream;)Z",
+      "method setControlKeepAliveTimeout(J)V",
+      "method getControlKeepAliveTimeout()J",
+      "method setControlKeepAliveReplyTimeout(I)V",
+      "add_instance_method",
+      "method setPassiveNatWorkaround(Z)V",
+      "method _retrieveFile(Ljava/lang/String;Ljava/lang/String;Ljava/io/OutputStream;)Z",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ftp/DurationUtils.class": [
+      "add_class"
+    ],
+    "org/apache/commons/net/ftp/FTPClient$CSL.class": [
+      "change_field_declaration",
+      "method bytesTransferred(JIJ)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/examples/ftp/FTPClientExample.class": [
+      "method main([Ljava/lang/String;)V"
+    ],
+    "org/apache/commons/net/ftp/FTPSClientTest.class": [
+      "change_field_declaration",
+      "method loginClient()Lorg/apache/commons/net/ftp/FTPSClient;"
+    ]
+  },
+  "fd1bc359": {
+    "org/apache/commons/net/ftp/FTPFileFilters.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/imap/IMAP.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ftp/FTPClientTest$1.class": [
+      "remove_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ftp/FTPClientTest$LocalClient.class": [
+      "nochange"
+    ],
+    "org/apache/commons/net/ftp/FTPClientTest.class": [
+      "method testParsePassiveModeReplyForLocalAddressWithSimpleNatWorkaroundStrategy()V",
+      "add_static_method"
+    ],
+    "org/apache/commons/net/ftp/parser/MLSDComparison.class": [
+      "add_static_method",
+      "method testFile()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ftp/FTPClientConfigFunctionalTest.class": [
+      "method getSortedList([Lorg/apache/commons/net/ftp/FTPFile;)Ljava/util/TreeSet;",
+      "add_static_method"
+    ]
+  },
+  "f5edd3c0": {
+    "org/apache/commons/net/ftp/FTPClient.class": [
+      "change_field_declaration",
+      "add_instance_method",
+      "method _openDataConnection_(Ljava/lang/String;Ljava/lang/String;)Ljava/net/Socket;",
+      "method setDataTimeout(I)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/net/ftp/FTPSClientTest.class": [
+      "method loginClient()Lorg/apache/commons/net/ftp/FTPSClient;"
+    ]
+  },
+  "b9cc9492": {},
+  "e49115e8": {},
+  "d0774e90": {
+    "org/apache/commons/net/ftp/parser/VMSFTPEntryParserTest.class": [
+      "change_field_declaration",
+      "method getBadListing()[Ljava/lang/String;",
+      "method getGoodListing()[Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "48e06629": {
+    "org/apache/commons/net/ftp/FTPFile.class": [
+      "method getTimestamp()Ljava/util/Calendar;",
+      "change_field_declaration",
+      "add_instance_method",
+      "method setTimestamp(Ljava/util/Calendar;)V"
+    ],
+    "org/apache/commons/net/ftp/parser/FTPParseTestFramework.class": [
+      "method testPrecision(Ljava/lang/String;Lorg/apache/commons/net/ftp/parser/FTPParseTestFramework$CalendarUnit;)V"
+    ],
+    "org/apache/commons/net/ftp/parser/EnterpriseUnixFTPEntryParserTest.class": [
+      "method testParseFieldsOnFile()V"
+    ],
+    "org/apache/commons/net/ftp/FTPClientConfigFunctionalTest.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method testTimeZoneFunctionality()V",
+      "method setUp()V",
+      "method tearDown()V",
+      "add_instance_method",
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ]
+  }
+}

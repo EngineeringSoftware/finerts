@@ -1,0 +1,1859 @@
+{
+  "78ebedb0": {
+    "org/apache/commons/math4/distribution/ZipfDistribution$ZipfRejectionInversionSampler.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/WeibullDistribution.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/ZipfDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedIntegerDistribution.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/ParetoDistribution.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/MixtureMultivariateNormalDistribution.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/stat/inference/WilcoxonSignedRankTest.class": [
+      "method calculateAsymptoticPValue(DI)D"
+    ],
+    "org/apache/commons/math4/distribution/PoissonDistribution.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/AbstractRealDistribution$2.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/NormalDistribution.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/UniformIntegerDistribution.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/PoissonDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/TDistribution.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/ParetoDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/LevyDistribution.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedIntegerDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/TriangularDistribution.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/LaplaceDistribution.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/BinomialDistribution.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/stat/inference/OneWayAnova.class": [
+      "method anovaPValue(Ljava/util/Collection;)D",
+      "method anovaPValue(Ljava/util/Collection;Z)D"
+    ],
+    "org/apache/commons/math4/stat/inference/KolmogorovSmirnovTest.class": [
+      "method fixTies([D[D)V",
+      "change_field_declaration",
+      "add_static_method",
+      "method bootstrap([D[DIZ)D",
+      "remove_static_method",
+      "method integralMonteCarloP(JIII)D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/util/MathArrays.class": [
+      "method shuffle([IILorg/apache/commons/math4/util/MathArrays$Position;)V",
+      "add_static_method",
+      "remove_static_method",
+      "method shuffle([I)V"
+    ],
+    "org/apache/commons/math4/distribution/NormalDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/MultivariateNormalDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/AbstractMultivariateRealDistribution.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "remove_field",
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/random/RandomDataGenerator$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/ChiSquaredDistribution.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/random/EmpiricalDistribution.class": [
+      "remove_instance_method",
+      "method getKernel(Lorg/apache/commons/math4/stat/descriptive/SummaryStatistics;)Lorg/apache/commons/math4/distribution/RealDistribution;",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/ZipfDistribution.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/GammaDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/BetaDistribution$ChengBetaSampler.class": [
+      "add_field",
+      "remove_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/LogNormalDistribution.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/LogNormalDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/ExponentialDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/ml/neuralnet/FeatureInitializerFactory.class": [
+      "method uniform(DD)Lorg/apache/commons/math4/ml/neuralnet/FeatureInitializer;",
+      "add_static_method",
+      "remove_static_method"
+    ],
+    "org/apache/commons/math4/distribution/BetaDistribution.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method logDensity(D)D",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/stat/inference/TTest.class": [
+      "method tTest(DDDDDD)D",
+      "method homoscedasticTTest(DDDDDD)D",
+      "method tTest(DDDD)D"
+    ],
+    "org/apache/commons/math4/distribution/MultivariateRealDistribution$Sampler.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/UniformIntegerDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/MultivariateNormalDistribution.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/RealDistribution.class": [
+      "remove_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/math4/distribution/IntegerDistribution$Sampler.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/random/JDKRandomAdaptor.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/stat/inference/BinomialTest.class": [
+      "method binomialTest(IIDLorg/apache/commons/math4/stat/inference/AlternativeHypothesis;)D"
+    ],
+    "org/apache/commons/math4/distribution/AbstractRealDistribution.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/ConstantRealDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/UniformRealDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/FDistribution.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/MultivariateRealDistribution.class": [
+      "remove_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/math4/stat/inference/ChiSquareTest.class": [
+      "method chiSquareTest([D[J)D",
+      "method chiSquareTestDataSetsComparison([J[J)D"
+    ],
+    "org/apache/commons/math4/distribution/IntegerDistribution.class": [
+      "remove_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/math4/distribution/SaddlePointExpansion.class": [
+      "method logBinomialProbability(IIDD)D",
+      "method getDeviancePart(DD)D"
+    ],
+    "org/apache/commons/math4/distribution/ConstantRealDistribution.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedDistribution.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedRealDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/ExponentialDistribution.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/GumbelDistribution.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/random/RandomDataGenerator.class": [
+      "method nextPermutation(II)[I",
+      "method nextHypergeometric(III)I",
+      "method nextSecureInt(II)I",
+      "method nextF(DD)D",
+      "method nextExponential(D)D",
+      "add_instance_method",
+      "method nextCauchy(DD)D",
+      "method nextBinomial(ID)I",
+      "method nextInt(II)I",
+      "update_constructor_or_update_field_initialization",
+      "method reSeed()V",
+      "method nextChiSquare(D)D",
+      "method nextBeta(DD)D",
+      "method nextPoisson(D)J",
+      "method nextWeibull(DD)D",
+      "method nextT(D)D",
+      "method nextGamma(DD)D",
+      "method nextPascal(ID)I",
+      "method nextZipf(ID)I"
+    ],
+    "org/apache/commons/math4/distribution/AbstractIntegerDistribution.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/RealDistribution$Sampler.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/random/ValueServer.class": [
+      "method computeDistribution(I)V",
+      "method getNextDigest()D"
+    ],
+    "org/apache/commons/math4/distribution/UniformRealDistribution.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/stat/inference/GTest.class": [
+      "method gTestIntrinsic([D[J)D",
+      "method gTest([D[J)D",
+      "method gTestDataSetsComparison([J[J)D"
+    ],
+    "org/apache/commons/math4/distribution/GeometricDistribution.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/ml/neuralnet/FeatureInitializerFactory$2.class": [
+      "method value()D",
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/MixtureMultivariateRealDistribution.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedRealDistribution.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/CauchyDistribution.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/GammaDistribution.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/MixtureMultivariateRealDistribution$MixtureSampler.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/AbstractIntegerDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedDistribution$Sampler.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/stat/inference/MannWhitneyUTest.class": [
+      "method calculateAsymptoticPValue(DII)D"
+    ],
+    "org/apache/commons/math4/distribution/PascalDistribution.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/NakagamiDistribution.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/HypergeometricDistribution.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/LogisticDistribution.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/random/JDKRandomAdaptorTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/util/MathUtilsTest.class": [
+      "method testPermutedArrayHash()V"
+    ],
+    "org/apache/commons/math4/distribution/MixtureMultivariateNormalDistributionTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/ZipfDistributionTest.class": [
+      "method testSamplingExtended()V",
+      "method testSamplerHelper2()V",
+      "method testSamplerHelper1()V",
+      "method testSamplerPerformance()V"
+    ],
+    "org/apache/commons/math4/fitting/PolynomialCurveFitterTest.class": [
+      "method testFit()V"
+    ],
+    "org/apache/commons/math4/distribution/RealDistributionAbstractTest.class": [
+      "remove_instance_method",
+      "method testDistributionClone()V",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/ConstantRealDistributionTest.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/analysis/interpolation/BicubicInterpolatorTest.class": [
+      "method testInterpolation(IDLorg/apache/commons/math4/analysis/BivariateFunction;Z)V"
+    ],
+    "org/apache/commons/math4/distribution/AbstractIntegerDistributionTest$DiceDistribution.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/AbstractRealDistributionTest$1.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/random/EmpiricalDistributionTest$UniformKernelEmpiricalDistribution.class": [
+      "method getKernel(Lorg/apache/commons/math4/stat/descriptive/SummaryStatistics;)Lorg/apache/commons/math4/distribution/RealDistribution;"
+    ],
+    "org/apache/commons/math4/stat/inference/KolmogorovSmirnovTestTest.class": [
+      "method testBootstrapSmallSamplesWithTies()V",
+      "method testTwoSampleMonteCarloDifferentSampleSizes()V",
+      "method testBootstrapLargeSamples()V",
+      "method testTwoSampleMonteCarlo()V",
+      "method testFillBooleanArrayRandomlyWithFixedNumberTrueValues()V",
+      "method testBootstrapRounding()V",
+      "method testTwoSampleMonteCarloPerformance()V",
+      "method testDRoundingMonteCarlo()V"
+    ],
+    "org/apache/commons/math4/linear/HessenbergTransformerTest.class": [
+      "method testRandomDataNormalDistribution()V"
+    ],
+    "org/apache/commons/math4/distribution/BetaDistributionTest.class": [
+      "method testGoodnessOfFit()V",
+      "method testMomentsSampling()V"
+    ],
+    "org/apache/commons/math4/util/MathArraysTest.class": [
+      "method testShuffleHead()V",
+      "method testShuffleTail()V"
+    ],
+    "org/apache/commons/math4/random/EmpiricalDistributionTest.class": [
+      "method tstGen(D)V",
+      "method tstDoubleGen(D)V",
+      "remove_instance_method",
+      "method testKernelOverrideConstant()V",
+      "method testNoBinVariance()V",
+      "add_instance_method",
+      "method testKernelOverrideUniform()V",
+      "method testSampleValuesRange()V"
+    ],
+    "org/apache/commons/math4/analysis/interpolation/PiecewiseBicubicSplineInterpolatorTest.class": [
+      "method testInterpolation2()V",
+      "method testInterpolation1()V"
+    ],
+    "org/apache/commons/math4/analysis/interpolation/TricubicInterpolatingFunctionTest.class": [
+      "method testInterpolation(DDDDDDIILorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;DDDZ)V"
+    ],
+    "org/apache/commons/math4/distribution/AbstractRealDistributionTest$2.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedIntegerDistributionTest.class": [
+      "method testSample()V"
+    ],
+    "org/apache/commons/math4/linear/EigenDecompositionTest.class": [
+      "method testNormalDistributionUnsymmetricMatrix()V"
+    ],
+    "org/apache/commons/math4/PerfTestUtils.class": [
+      "change_field_declaration",
+      "method timesAndResults(IIZ[Ljava/util/concurrent/Callable;)[[[D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/linear/SchurTransformerTest.class": [
+      "method testRandomDataNormalDistribution()V"
+    ],
+    "org/apache/commons/math4/stat/descriptive/AggregateSummaryStatisticsTest.class": [
+      "method generateSample()[D",
+      "method generatePartition([D)[[D"
+    ],
+    "org/apache/commons/math4/fitting/leastsquares/RandomCirclePointGenerator.class": [
+      "change_field_declaration",
+      "method create()Lorg/apache/commons/math4/geometry/euclidean/twod/Vector2D;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/random/RandomDataGeneratorTest.class": [
+      "remove_instance_method"
+    ],
+    "org/apache/commons/math4/fitting/leastsquares/LevenbergMarquardtOptimizerTest.class": [
+      "method testCircleFitting2()V"
+    ],
+    "org/apache/commons/math4/fitting/leastsquares/RandomStraightLinePointGenerator.class": [
+      "change_field_declaration",
+      "method create()Ljava/awt/geom/Point2D$Double;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/filter/KalmanFilterTest.class": [
+      "method testCannonball()V"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedRealDistributionTest.class": [
+      "method testSample()V",
+      "method testIssue942()V"
+    ],
+    "org/apache/commons/math4/util/ResizableDoubleArrayTest.class": [
+      "method testWithInitialCapacity()V",
+      "method testWithInitialCapacityAndExpansionFactor()V"
+    ],
+    "org/apache/commons/math4/analysis/interpolation/BicubicInterpolatingFunctionTest.class": [
+      "method testInterpolation(DDDDIILorg/apache/commons/math4/analysis/BivariateFunction;Lorg/apache/commons/math4/analysis/BivariateFunction;Lorg/apache/commons/math4/analysis/BivariateFunction;Lorg/apache/commons/math4/analysis/BivariateFunction;DDZ)V"
+    ],
+    "org/apache/commons/math4/ml/neuralnet/sofm/TravellingSalesmanSolver.class": [
+      "change_field_declaration",
+      "add_static_method",
+      "remove_static_method",
+      "method makeInitializers()[Lorg/apache/commons/math4/ml/neuralnet/FeatureInitializer;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/stat/descriptive/rank/PercentileTest.class": [
+      "method testStoredVsDirect()V"
+    ],
+    "org/apache/commons/math4/distribution/HypergeometricDistributionTest.class": [
+      "add_instance_method",
+      "method testMath1021()V"
+    ],
+    "org/apache/commons/math4/stat/descriptive/rank/PSquarePercentileTest.class": [
+      "method doDistributionTest(Lorg/apache/commons/math4/distribution/RealDistribution;)V",
+      "method testDistribution()V"
+    ],
+    "org/apache/commons/math4/distribution/LevyDistributionTest.class": [
+      "method makeDistribution()Lorg/apache/commons/math4/distribution/LevyDistribution;"
+    ],
+    "org/apache/commons/math4/ml/neuralnet/sofm/TravellingSalesmanSolver$1.class": [
+      "method next()[D"
+    ],
+    "org/apache/commons/math4/stat/descriptive/UnivariateStatisticAbstractTest.class": [
+      "method testWeightedConsistency()V"
+    ],
+    "org/apache/commons/math4/fitting/SimpleCurveFitterTest.class": [
+      "method testPolynomialFit()V"
+    ],
+    "org/apache/commons/math4/distribution/AbstractRealDistributionTest.class": [
+      "method testDiscontinuous()V",
+      "method testContinuous()V"
+    ],
+    "org/apache/commons/math4/analysis/interpolation/AkimaSplineInterpolatorTest.class": [
+      "method testInterpolation(DDIILorg/apache/commons/math4/analysis/UnivariateFunction;DD)V"
+    ],
+    "org/apache/commons/math4/analysis/interpolation/PiecewiseBicubicSplineInterpolatingFunctionTest.class": [
+      "method testParabaloid()V",
+      "method testInterpolation(DDDDIILorg/apache/commons/math4/analysis/BivariateFunction;DD)V"
+    ],
+    "org/apache/commons/math4/distribution/IntegerDistributionAbstractTest.class": [
+      "method testSampling()V"
+    ],
+    "org/apache/commons/math4/distribution/MultivariateNormalDistributionTest.class": [
+      "method testSampling()V"
+    ]
+  },
+  "baae2a6f": {
+    "org/apache/commons/math4/util/MathArrays.class": [
+      "method shuffle([IILorg/apache/commons/math4/util/MathArrays$Position;Lorg/apache/commons/math4/rng/UniformRandomProvider;)V"
+    ],
+    "org/apache/commons/math4/util/MathArraysTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "84143c46": {
+    "org/apache/commons/math4/random/JDKRandomAdaptorTest.class": [
+      "method testSerializeIsNotSupported()V"
+    ]
+  },
+  "0ff84e6a": {
+    "org/apache/commons/math4/linear/MatrixUtils.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/math4/linear/EigenDecomposition.class": [
+      "method getD()Lorg/apache/commons/math4/linear/RealMatrix;"
+    ]
+  },
+  "b8e290a2": {
+    "org/apache/commons/math4/complex/ComplexFormatAbstractTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/twod/NestedLoopsTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/analysis/function/UnivariateFunctionTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/twod/Vector2DTest.class": [
+      "add_field",
+      "add_instance_method",
+      "method testCrossProduct()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/analysis/function/BivariateFunctionTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/analysis/function/UnivariateDifferentiableFunctionTest.class": [
+      "add_class"
+    ]
+  },
+  "bfc0257a": {
+    "org/apache/commons/math4/complex/ComplexFormatAbstractTest.class": [
+      "method testFormatObjectStringBufferFieldPositionWitNumber()V",
+      "method testFormatObjectStringBufferFieldPositionWithComplex()V"
+    ]
+  },
+  "cbae75b9": {},
+  "f695c9ce": {
+    "org/apache/commons/math4/transform/FastFourierTransformer.class": [
+      "remove_instance_method"
+    ],
+    "org/apache/commons/math4/transform/FastFourierTransformerTest.class": [
+      "remove_instance_method"
+    ]
+  },
+  "fb1c1127": {
+    "org/apache/commons/math4/analysis/integration/gauss/GaussIntegratorFactory.class": [
+      "add_field",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/analysis/integration/gauss/LaguerreRuleFactory.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/analysis/integration/gauss/LaguerreTest$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/analysis/integration/gauss/LaguerreTest.class": [
+      "add_class"
+    ]
+  },
+  "4a31885c": {
+    "org/apache/commons/math4/special/Gamma.class": [
+      "method digamma(D)D"
+    ],
+    "org/apache/commons/math4/special/GammaTest.class": [
+      "method testDigammaLargeArgs()V"
+    ]
+  },
+  "2f8ddc39": {},
+  "d731d164": {},
+  "bc93a9f7": {},
+  "085816b7": {},
+  "57e01f40": {
+    "org/apache/commons/math4/random/RandomUtils.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/stat/ranking/NaturalRanking.class": [
+      "change_field_declaration",
+      "method resolveTie([DLjava/util/List;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/random/RandomUtils$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/random/RandomUtils$DataGenerator.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/random/RandomUtilsDataGeneratorJDKSecureRandomTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/random/RandomUtilsDataGeneratorJDKRandomTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/random/RandomUtilsDataGeneratorAbstractTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/stat/ranking/NaturalRankingTest.class": [
+      "method testNaNsFixedTiesRandom()V"
+    ]
+  },
+  "0e89d6c3": {
+    "org/apache/commons/math4/random/UnitSphereRandomVectorGenerator.class": [
+      "change_field_declaration",
+      "method nextVector()[D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/util/RandomPivotingStrategy.class": [
+      "change_field_declaration",
+      "method pivotIndex([DII)I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/optim/univariate/MultiStartUnivariateOptimizer.class": [
+      "change_field_declaration",
+      "method doOptimize()Lorg/apache/commons/math4/optim/univariate/UnivariatePointValuePair;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/ml/clustering/FuzzyKMeansClusterer.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method initializeMembershipMatrix()V",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/random/GaussianRandomGenerator.class": [
+      "method nextNormalizedDouble()D",
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/genetics/NPointCrossover.class": [
+      "method mate(Lorg/apache/commons/math4/genetics/AbstractListChromosome;Lorg/apache/commons/math4/genetics/AbstractListChromosome;)Lorg/apache/commons/math4/genetics/ChromosomePair;"
+    ],
+    "org/apache/commons/math4/random/UniformRandomGenerator.class": [
+      "method nextNormalizedDouble()D",
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/genetics/RandomKey.class": [
+      "method randomPermutation(I)Ljava/util/List;"
+    ],
+    "org/apache/commons/math4/genetics/TournamentSelection.class": [
+      "method tournament(Lorg/apache/commons/math4/genetics/ListPopulation;)Lorg/apache/commons/math4/genetics/Chromosome;"
+    ],
+    "org/apache/commons/math4/genetics/OnePointCrossover.class": [
+      "method crossover(Lorg/apache/commons/math4/genetics/AbstractListChromosome;Lorg/apache/commons/math4/genetics/AbstractListChromosome;)Lorg/apache/commons/math4/genetics/ChromosomePair;"
+    ],
+    "org/apache/commons/math4/optim/nonlinear/scalar/noderiv/CMAESOptimizer.class": [
+      "change_field_declaration",
+      "method randn1(II)Lorg/apache/commons/math4/linear/RealMatrix;",
+      "method randn(I)[D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/genetics/GeneticAlgorithm.class": [
+      "change_field_declaration",
+      "add_static_method",
+      "remove_static_method",
+      "method nextGeneration(Lorg/apache/commons/math4/genetics/Population;)Lorg/apache/commons/math4/genetics/Population;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/genetics/RandomKeyMutation.class": [
+      "method mutate(Lorg/apache/commons/math4/genetics/Chromosome;)Lorg/apache/commons/math4/genetics/Chromosome;"
+    ],
+    "org/apache/commons/math4/genetics/BinaryMutation.class": [
+      "method mutate(Lorg/apache/commons/math4/genetics/Chromosome;)Lorg/apache/commons/math4/genetics/Chromosome;"
+    ],
+    "org/apache/commons/math4/genetics/CycleCrossover.class": [
+      "method mate(Lorg/apache/commons/math4/genetics/AbstractListChromosome;Lorg/apache/commons/math4/genetics/AbstractListChromosome;)Lorg/apache/commons/math4/genetics/ChromosomePair;"
+    ],
+    "org/apache/commons/math4/random/StableRandomGenerator.class": [
+      "method nextNormalizedDouble()D",
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/ml/clustering/KMeansPlusPlusClusterer.class": [
+      "method getPointFromLargestNumberCluster(Ljava/util/Collection;)Lorg/apache/commons/math4/ml/clustering/Clusterable;",
+      "method getPointFromLargestVarianceCluster(Ljava/util/Collection;)Lorg/apache/commons/math4/ml/clustering/Clusterable;",
+      "remove_instance_method",
+      "change_field_declaration",
+      "method chooseInitialCenters(Ljava/util/Collection;)Ljava/util/List;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/genetics/OrderedCrossover.class": [
+      "method mate(Lorg/apache/commons/math4/genetics/AbstractListChromosome;Lorg/apache/commons/math4/genetics/AbstractListChromosome;)Lorg/apache/commons/math4/genetics/ChromosomePair;"
+    ],
+    "org/apache/commons/math4/genetics/BinaryChromosome.class": [
+      "method randomBinaryRepresentation(I)Ljava/util/List;"
+    ],
+    "org/apache/commons/math4/genetics/UniformCrossover.class": [
+      "method mate(Lorg/apache/commons/math4/genetics/AbstractListChromosome;Lorg/apache/commons/math4/genetics/AbstractListChromosome;)Lorg/apache/commons/math4/genetics/ChromosomePair;"
+    ],
+    "org/apache/commons/math4/util/MathUtilsTest.class": [
+      "method testPermutedArrayHash()V"
+    ],
+    "org/apache/commons/math4/ode/events/EventFilterTest.class": [
+      "method testHistory(Lorg/apache/commons/math4/ode/events/FilterType;DDDD)V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/threed/Vector3DTest.class": [
+      "method testDotProduct()V",
+      "method testCrossProduct()V"
+    ],
+    "org/apache/commons/math4/geometry/spherical/twod/CircleTest.class": [
+      "method testInsideArc()V",
+      "method testTransform()V"
+    ],
+    "org/apache/commons/math4/ExtendedFieldElementAbstractTest.class": [
+      "remove_instance_method",
+      "method testLinearCombinationDaFa()V",
+      "method testLinearCombinationDF3()V",
+      "method testLinearCombinationFaFa()V",
+      "method testLinearCombinationDF4()V",
+      "method testLinearCombinationDF2()V",
+      "method testLinearCombinationFF3()V",
+      "method testLinearCombinationFF4()V",
+      "add_instance_method",
+      "method testLinearCombinationFF2()V"
+    ],
+    "org/apache/commons/math4/util/MathArraysTest.class": [
+      "method testLinearCombination2()V"
+    ],
+    "org/apache/commons/math4/ml/clustering/FuzzyKMeansClustererTest.class": [
+      "method testGetters()V"
+    ],
+    "org/apache/commons/math4/analysis/differentiation/SparseGradientTest.class": [
+      "method testLinearCombination2DoubleDS()V",
+      "method testLinearCombination2DSDS()V"
+    ],
+    "org/apache/commons/math4/geometry/spherical/twod/SphericalPolygonsSetTest.class": [
+      "method testFullSphere()V",
+      "method testPositiveOctantByIntersection()V",
+      "method testPositiveOctantByVertices()V",
+      "method testSouthHemisphere()V",
+      "method testSeveralParts()V",
+      "method testNonConvex()V",
+      "method testEmpty()V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/twod/hull/ConvexHullGenerator2DAbstractTest.class": [
+      "change_field_declaration",
+      "method createRandomPoints(I)Ljava/util/List;",
+      "method setUp()V",
+      "method testConvexHull()V"
+    ],
+    "org/apache/commons/math4/random/StableRandomGeneratorTest.class": [
+      "change_field_declaration",
+      "method testGaussianCase()V",
+      "method testNextDouble()V",
+      "method testBetaRangeBelowMinusOne()V",
+      "method testCauchyCase()V",
+      "method testAlphaRangeAboveTwo()V",
+      "method testAlphaRangeBelowZero()V",
+      "method testBetaRangeAboveOne()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/stat/regression/GLSMultipleLinearRegressionTest.class": [
+      "method testGLSEfficiency()V"
+    ],
+    "org/apache/commons/math4/geometry/enclosing/WelzlEncloser2DTest.class": [
+      "method testLargeSamples()V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/threed/FieldVector3DTest.class": [
+      "method testDotProduct()V",
+      "method testCrossProduct()V"
+    ],
+    "org/apache/commons/math4/analysis/function/LogitTest.class": [
+      "method testValueWithInverseFunction()V",
+      "method testDerivativesWithInverseFunction()V"
+    ],
+    "org/apache/commons/math4/optim/nonlinear/scalar/MultiStartMultivariateOptimizerTest.class": [
+      "method testCircleFitting()V",
+      "method testRosenbrock()V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/twod/DiskGeneratorTest.class": [
+      "method testRandom()V"
+    ],
+    "org/apache/commons/math4/random/UncorrelatedRandomVectorGeneratorTest.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/filter/KalmanFilterTest.class": [
+      "method testCannonball()V",
+      "method testConstant()V",
+      "method testConstantAcceleration()V"
+    ],
+    "org/apache/commons/math4/util/ArithmeticUtilsTest.class": [
+      "method testGcdConsistency()V"
+    ],
+    "org/apache/commons/math4/stat/descriptive/rank/PercentileTest.class": [
+      "method testAllEstimationTechniquesOnlyForAllPivotingStrategies()V",
+      "method testAllTechniquesPercentileUsingRandomPivoting()V"
+    ],
+    "org/apache/commons/math4/stat/correlation/StorelessCovarianceTest.class": [
+      "method testEquivalence()V"
+    ],
+    "org/apache/commons/math4/random/UnitSphereRandomVectorGeneratorTest.class": [
+      "method test2DDistribution()V"
+    ],
+    "org/apache/commons/math4/optim/nonlinear/scalar/noderiv/CMAESOptimizerTest.class": [
+      "method doTest(Lorg/apache/commons/math4/analysis/MultivariateFunction;[D[D[[DLorg/apache/commons/math4/optim/nonlinear/scalar/GoalType;IZIDDDILorg/apache/commons/math4/optim/PointValuePair;)V",
+      "method testMath864()V",
+      "method testFitAccuracyDependsOnBoundary()V"
+    ],
+    "org/apache/commons/math4/stat/descriptive/rank/PSquarePercentileTest.class": [
+      "change_field_declaration",
+      "method randomTestData(II)[Ljava/lang/Double;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/ml/clustering/KMeansPlusPlusClustererTest.class": [
+      "method testPerformClusterAnalysisToManyClusters()V",
+      "change_field_declaration",
+      "method setUp()V",
+      "method testCertainSpace()V",
+      "method testSmallDistances()V"
+    ],
+    "org/apache/commons/math4/random/UniformRandomGeneratorTest.class": [
+      "method testMeanAndStandardDeviation()V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/threed/PolyhedronsSetTest.class": [
+      "method testIssue1211()V"
+    ],
+    "org/apache/commons/math4/random/CorrelatedRandomVectorGeneratorTest.class": [
+      "method testMath226()V",
+      "method createSampler([[D)Lorg/apache/commons/math4/random/CorrelatedRandomVectorGenerator;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/threed/FieldRotationDfpTest.class": [
+      "method testDoubleRotations()V",
+      "method testDoubleVectors()V"
+    ],
+    "org/apache/commons/math4/util/FastMathTest.class": [
+      "method testTanhAccuracy()V",
+      "method testCbrtAccuracy()V",
+      "method testToRadians()V",
+      "method testCoshAccuracy()V",
+      "method testFloorDivModInt()V",
+      "method testExpAccuracy()V",
+      "method testSinhAccuracy()V",
+      "method testFloorDivModLong()V",
+      "change_field_declaration",
+      "method testExpm1Accuracy()V",
+      "method testPowAccuracy()V",
+      "method testLog1pAccuracy()V",
+      "method testLog10Accuracy()V",
+      "method testAsinAccuracy()V",
+      "method testTanAccuracy()V",
+      "method setUp()V",
+      "method testAtanAccuracy()V",
+      "method testCosAccuracy()V",
+      "method testAtan2Accuracy()V",
+      "method testSinAccuracy()V",
+      "method testAcosAccuracy()V",
+      "method testLogAccuracy()V",
+      "method testToDegrees()V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/threed/SphereGeneratorTest.class": [
+      "method testRandom()V"
+    ],
+    "org/apache/commons/math4/analysis/differentiation/DerivativeStructureTest.class": [
+      "method testLinearCombination2DoubleDS()V",
+      "method testLinearCombination2DSDS()V"
+    ],
+    "org/apache/commons/math4/random/GaussianRandomGeneratorTest.class": [
+      "method testMeanAndStandardDeviation()V"
+    ],
+    "org/apache/commons/math4/geometry/enclosing/WelzlEncloser3DTest.class": [
+      "method testLargeSamples()V"
+    ],
+    "org/apache/commons/math4/stat/regression/SimpleRegressionTest.class": [
+      "method check(Z)V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/threed/FieldRotationDSTest.class": [
+      "method testDoubleRotations()V",
+      "method testDoubleVectors()V"
+    ],
+    "org/apache/commons/math4/optim/univariate/MultiStartUnivariateOptimizerTest.class": [
+      "method testMissingMaxEval()V",
+      "method testBadFunction()V",
+      "method testSinMin()V",
+      "method testMissingSearchInterval()V",
+      "method testQuinticMin()V"
+    ],
+    "org/apache/commons/math4/stat/correlation/KendallsCorrelationTest.class": [
+      "method testMath1277()V"
+    ]
+  },
+  "a8c6d43b": {
+    "org/apache/commons/math4/util/RandomPivotingStrategy.class": [
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/stat/descriptive/rank/PercentileTest.class": [
+      "method testAllEstimationTechniquesOnlyForAllPivotingStrategies()V",
+      "method testAllTechniquesPercentileUsingRandomPivoting()V"
+    ]
+  },
+  "c4c288a3": {
+    "org/apache/commons/math4/complex/ComplexUtils.class": [
+      "add_static_method",
+      "remove_static_method"
+    ],
+    "org/apache/commons/math4/analysis/solvers/LaguerreSolver.class": [
+      "method solveAllComplex([DD)[Lorg/apache/commons/math4/complex/Complex;",
+      "method solveComplex([DD)Lorg/apache/commons/math4/complex/Complex;",
+      "method laguerre(DD)D"
+    ],
+    "org/apache/commons/math4/TestUtils.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/math4/complex/ComplexUtilsTest.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method"
+    ]
+  },
+  "aca1cd3e": {
+    "org/apache/commons/math4/distribution/EmpiricalDistribution$StreamDataAdapter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/EmpiricalDistribution$ArrayDataAdapter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/EmpiricalDistribution$DataAdapter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/random/RandomGenerator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/math4/distribution/EmpiricalDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/EmpiricalDistribution.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/EmpiricalDistributionTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/EmpiricalDistributionTest$ConstantKernelEmpiricalDistribution.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/EmpiricalDistributionTest$UniformKernelEmpiricalDistribution.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/random/SynchronizedRandomGeneratorTest.class": [
+      "method testAdapter()V",
+      "method doTestMath899(ZIII)[D"
+    ],
+    "org/apache/commons/math4/distribution/EmpiricalDistributionTest$1.class": [
+      "add_class"
+    ]
+  },
+  "e7c42ed0": {
+    "org/apache/commons/math4/random/SynchronizedRandomGenerator.class": [
+      "nochange"
+    ]
+  },
+  "633de29f": {
+    "org/apache/commons/math4/distribution/AbstractIntegerDistribution.class": [
+      "method checkedCumulativeProbability(I)D"
+    ]
+  },
+  "362ab2bc": {
+    "org/apache/commons/math4/stat/descriptive/MultivariateSummaryStatistics.class": [
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "fc9d93db": {
+    "org/apache/commons/math4/stat/interval/ClopperPearsonInterval.class": [
+      "method createInterval(IID)Lorg/apache/commons/math4/stat/interval/ConfidenceInterval;"
+    ]
+  },
+  "821886a9": {
+    "org/apache/commons/math4/optim/nonlinear/scalar/noderiv/SimplexOptimizer.class": [
+      "method doOptimize()Lorg/apache/commons/math4/optim/PointValuePair;"
+    ]
+  },
+  "dccc1255": {},
+  "5c341d9d": {
+    "org/apache/commons/math4/stat/inference/InferenceTestUtils.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/BetaDistributionTest.class": [
+      "method gTest(Lorg/apache/commons/math4/distribution/RealDistribution;[D)D"
+    ],
+    "org/apache/commons/math4/stat/inference/InferenceTestUtilsTest.class": [
+      "add_class"
+    ]
+  },
+  "c64856ff": {
+    "org/apache/commons/math4/analysis/differentiation/DSCompiler.class": [
+      "method pow([DID[DI)V"
+    ],
+    "org/apache/commons/math4/analysis/differentiation/DerivativeStructureTest.class": [
+      "method testPowDoubleDS()V"
+    ]
+  },
+  "540564e1": {
+    "org/apache/commons/math4/analysis/differentiation/DSCompiler.class": [
+      "method pow([DID[DI)V"
+    ],
+    "org/apache/commons/math4/analysis/differentiation/DerivativeStructureTest.class": [
+      "method testPowDoubleDS()V"
+    ]
+  },
+  "83b70a37": {
+    "org/apache/commons/math4/util/FastMath.class": [
+      "method round(F)I",
+      "method round(D)J"
+    ],
+    "org/apache/commons/math4/util/FastMathTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "81931848": {
+    "org/apache/commons/math4/util/KthSelector.class": [
+      "method partition([DIII)I"
+    ],
+    "org/apache/commons/math4/util/KthSelectorTest.class": [
+      "add_class"
+    ]
+  },
+  "827d9644": {
+    "org/apache/commons/math4/util/FastMathTest.class": [
+      "method testRoundDown()V"
+    ]
+  },
+  "b1d38d9b": {
+    "org/apache/commons/math4/random/RngAdaptor.class": [
+      "method nextBoolean()Z",
+      "method nextBytes([B)V",
+      "method readObject(Ljava/io/ObjectInputStream;)V",
+      "method setSeed([I)V",
+      "method nextInt(I)I",
+      "method setSeed(I)V",
+      "method writeObject(Ljava/io/ObjectOutputStream;)V",
+      "method setSeed(J)V",
+      "method nextDouble()D",
+      "update_constructor_or_update_field_initialization",
+      "change_field_declaration",
+      "method nextFloat()F",
+      "method nextLong()J",
+      "method nextInt()I"
+    ],
+    "org/apache/commons/math4/distribution/ZipfDistribution$1.class": [
+      "change_field_declaration",
+      "method sample()I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedIntegerDistribution.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/ParetoDistribution.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/random/UnitSphereRandomVectorGenerator.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/util/RandomPivotingStrategy.class": [
+      "change_field_declaration",
+      "method readObject(Ljava/io/ObjectInputStream;)V",
+      "method writeObject(Ljava/io/ObjectOutputStream;)V",
+      "method pivotIndex([DII)I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/optim/univariate/MultiStartUnivariateOptimizer.class": [
+      "change_field_declaration",
+      "method doOptimize()Lorg/apache/commons/math4/optim/univariate/UnivariatePointValuePair;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/PoissonDistribution.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/AbstractRealDistribution$2.class": [
+      "change_field_declaration",
+      "method sample()D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/random/RandomUtils.class": [
+      "add_static_method",
+      "method createDataGenerator(Ljava/util/Random;)Lorg/apache/commons/math4/random/RandomUtils$DataGenerator;",
+      "remove_static_method",
+      "change_signature"
+    ],
+    "org/apache/commons/math4/ml/clustering/FuzzyKMeansClusterer.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method initializeMembershipMatrix()V",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/NormalDistribution.class": [
+      "remove_instance_method",
+      "method access$100(Lorg/apache/commons/math4/distribution/NormalDistribution;)D",
+      "add_instance_method",
+      "method access$000(Lorg/apache/commons/math4/distribution/NormalDistribution;)D"
+    ],
+    "org/apache/commons/math4/random/GaussianRandomGenerator.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/UniformIntegerDistribution.class": [
+      "method getNumericalVariance()D",
+      "add_field",
+      "method probability(I)D",
+      "method access$000(Lorg/apache/commons/math4/distribution/UniformIntegerDistribution;)I",
+      "remove_instance_method",
+      "method access$100(Lorg/apache/commons/math4/distribution/UniformIntegerDistribution;)I",
+      "method getNumericalMean()D",
+      "add_instance_method",
+      "method cumulativeProbability(I)D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/linear/Array2DRowRealMatrix.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/PoissonDistribution$1.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method sample()I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/genetics/NPointCrossover.class": [
+      "method mate(Lorg/apache/commons/math4/genetics/AbstractListChromosome;Lorg/apache/commons/math4/genetics/AbstractListChromosome;)Lorg/apache/commons/math4/genetics/ChromosomePair;"
+    ],
+    "org/apache/commons/math4/random/UniformRandomGenerator.class": [
+      "method nextNormalizedDouble()D",
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/ParetoDistribution$1.class": [
+      "change_field_declaration",
+      "method sample()D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedIntegerDistribution$1.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/genetics/RandomKey.class": [
+      "method randomPermutation(I)Ljava/util/List;"
+    ],
+    "org/apache/commons/math4/genetics/TournamentSelection.class": [
+      "method tournament(Lorg/apache/commons/math4/genetics/ListPopulation;)Lorg/apache/commons/math4/genetics/Chromosome;"
+    ],
+    "org/apache/commons/math4/genetics/OnePointCrossover.class": [
+      "method crossover(Lorg/apache/commons/math4/genetics/AbstractListChromosome;Lorg/apache/commons/math4/genetics/AbstractListChromosome;)Lorg/apache/commons/math4/genetics/ChromosomePair;"
+    ],
+    "org/apache/commons/math4/optim/nonlinear/scalar/noderiv/CMAESOptimizer.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/stat/inference/KolmogorovSmirnovTest.class": [
+      "method fixTies([D[D)V",
+      "change_field_declaration",
+      "add_static_method",
+      "method bootstrap([D[DIZ)D",
+      "remove_static_method",
+      "method integralMonteCarloP(JIII)D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/util/MathArrays.class": [
+      "method shuffle([IILorg/apache/commons/math4/util/MathArrays$Position;)V",
+      "add_static_method",
+      "remove_static_method",
+      "method shuffle([I)V"
+    ],
+    "org/apache/commons/math4/distribution/NormalDistribution$1.class": [
+      "change_field_declaration",
+      "method sample()D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/MultivariateNormalDistribution$1.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/AbstractMultivariateRealDistribution.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/math4/distribution/ZipfDistribution.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/GammaDistribution$1.class": [
+      "change_field_declaration",
+      "method sample()D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/genetics/GeneticAlgorithm.class": [
+      "change_field_declaration",
+      "add_static_method",
+      "remove_static_method",
+      "method nextGeneration(Lorg/apache/commons/math4/genetics/Population;)Lorg/apache/commons/math4/genetics/Population;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/genetics/RandomKeyMutation.class": [
+      "method mutate(Lorg/apache/commons/math4/genetics/Chromosome;)Lorg/apache/commons/math4/genetics/Chromosome;"
+    ],
+    "org/apache/commons/math4/distribution/LogNormalDistribution.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/LogNormalDistribution$1.class": [
+      "change_field_declaration",
+      "method sample()D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/ExponentialDistribution$1.class": [
+      "change_field_declaration",
+      "method sample()D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/ml/neuralnet/FeatureInitializerFactory.class": [
+      "method uniform(DD)Lorg/apache/commons/math4/ml/neuralnet/FeatureInitializer;",
+      "add_static_method",
+      "remove_static_method"
+    ],
+    "org/apache/commons/math4/distribution/BetaDistribution.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/UniformIntegerDistribution$1.class": [
+      "change_field_declaration",
+      "method sample()I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/MultivariateNormalDistribution.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/RealDistribution.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/math4/random/JDKRandomAdaptor.class": [
+      "change_field_declaration",
+      "method nextBoolean()Z",
+      "method nextBytes([B)V",
+      "method nextFloat()F",
+      "method nextInt(I)I",
+      "method nextLong()J",
+      "method nextDouble()D",
+      "update_constructor_or_update_field_initialization",
+      "method nextInt()I"
+    ],
+    "org/apache/commons/math4/distribution/AbstractRealDistribution.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/ConstantRealDistribution$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/math4/distribution/UniformRealDistribution$1.class": [
+      "change_field_declaration",
+      "method sample()D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/genetics/BinaryMutation.class": [
+      "method mutate(Lorg/apache/commons/math4/genetics/Chromosome;)Lorg/apache/commons/math4/genetics/Chromosome;"
+    ],
+    "org/apache/commons/math4/distribution/MultivariateRealDistribution.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/math4/distribution/AbstractRealDistribution$3.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/distribution/IntegerDistribution.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/math4/distribution/ConstantRealDistribution.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/math4/distribution/EmpiricalDistribution.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedDistribution.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedRealDistribution$1.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/ExponentialDistribution.class": [
+      "remove_instance_method",
+      "remove_static_method",
+      "add_instance_method",
+      "remove_field",
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/stat/ranking/NaturalRanking.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/AbstractIntegerDistribution.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/UniformRealDistribution.class": [
+      "method access$000(Lorg/apache/commons/math4/distribution/UniformRealDistribution;)D",
+      "remove_instance_method",
+      "add_instance_method",
+      "method access$100(Lorg/apache/commons/math4/distribution/UniformRealDistribution;)D"
+    ],
+    "org/apache/commons/math4/genetics/CycleCrossover.class": [
+      "method mate(Lorg/apache/commons/math4/genetics/AbstractListChromosome;Lorg/apache/commons/math4/genetics/AbstractListChromosome;)Lorg/apache/commons/math4/genetics/ChromosomePair;"
+    ],
+    "org/apache/commons/math4/random/StableRandomGenerator.class": [
+      "method nextNormalizedDouble()D",
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/ml/clustering/KMeansPlusPlusClusterer.class": [
+      "method getPointFromLargestNumberCluster(Ljava/util/Collection;)Lorg/apache/commons/math4/ml/clustering/Clusterable;",
+      "method getPointFromLargestVarianceCluster(Ljava/util/Collection;)Lorg/apache/commons/math4/ml/clustering/Clusterable;",
+      "remove_instance_method",
+      "change_field_declaration",
+      "method chooseInitialCenters(Ljava/util/Collection;)Ljava/util/List;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/MixtureMultivariateRealDistribution.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedRealDistribution.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/GammaDistribution.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "method access$100(Lorg/apache/commons/math4/distribution/GammaDistribution;)D",
+      "method access$000(Lorg/apache/commons/math4/distribution/GammaDistribution;)D"
+    ],
+    "org/apache/commons/math4/genetics/OrderedCrossover.class": [
+      "method mate(Lorg/apache/commons/math4/genetics/AbstractListChromosome;Lorg/apache/commons/math4/genetics/AbstractListChromosome;)Lorg/apache/commons/math4/genetics/ChromosomePair;"
+    ],
+    "org/apache/commons/math4/genetics/BinaryChromosome.class": [
+      "method randomBinaryRepresentation(I)Ljava/util/List;"
+    ],
+    "org/apache/commons/math4/distribution/MixtureMultivariateRealDistribution$MixtureSampler.class": [
+      "change_field_declaration",
+      "method sample()[D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/AbstractIntegerDistribution$1.class": [
+      "change_field_declaration",
+      "method sample()I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/BetaDistribution$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/random/RandomUtils$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/math4/genetics/UniformCrossover.class": [
+      "method mate(Lorg/apache/commons/math4/genetics/AbstractListChromosome;Lorg/apache/commons/math4/genetics/AbstractListChromosome;)Lorg/apache/commons/math4/genetics/ChromosomePair;"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedDistribution$Sampler.class": [
+      "change_field_declaration",
+      "method sample()Ljava/lang/Object;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/AbstractIntegerDistribution$2.class": [
+      "add_class"
+    ],
+    "org/apache/commons/math4/random/RandomUtils$DataGenerator.class": [
+      "method nextPermutation(II)[I",
+      "change_field_declaration",
+      "method nextLong(JJ)J",
+      "method nextHexString(IZ)Ljava/lang/String;",
+      "method nextUniform(DDZ)D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/random/JDKRandomAdaptorTest.class": [
+      "remove_instance_method",
+      "method testUniform()V",
+      "method testSeedIsIgnored()V",
+      "add_instance_method",
+      "method testSerializeIsNotSupported()V",
+      "method testGaussian()V"
+    ],
+    "org/apache/commons/math4/util/MathUtilsTest.class": [
+      "method testPermutedArrayHash()V"
+    ],
+    "org/apache/commons/math4/distribution/MixtureMultivariateNormalDistributionTest.class": [
+      "method testSampling()V"
+    ],
+    "org/apache/commons/math4/distribution/ZipfDistributionTest.class": [
+      "method testSamplingExtended()V",
+      "remove_instance_method",
+      "method testSamplerPerformance()V"
+    ],
+    "org/apache/commons/math4/fitting/PolynomialCurveFitterTest.class": [
+      "method testFit()V"
+    ],
+    "org/apache/commons/math4/distribution/UniformIntegerDistributionTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/math4/distribution/RealDistributionAbstractTest.class": [
+      "method testSampler()V",
+      "method testDistributionClone()V"
+    ],
+    "org/apache/commons/math4/ode/events/EventFilterTest.class": [
+      "method testHistory(Lorg/apache/commons/math4/ode/events/FilterType;DDDD)V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/threed/Vector3DTest.class": [
+      "method testDotProduct()V",
+      "method testCrossProduct()V"
+    ],
+    "org/apache/commons/math4/distribution/ConstantRealDistributionTest.class": [
+      "method testSampler()V"
+    ],
+    "org/apache/commons/math4/analysis/interpolation/BicubicInterpolatorTest.class": [
+      "method testInterpolation(IDLorg/apache/commons/math4/analysis/BivariateFunction;Z)V"
+    ],
+    "org/apache/commons/math4/geometry/spherical/twod/CircleTest.class": [
+      "method testInsideArc()V",
+      "method testTransform()V"
+    ],
+    "org/apache/commons/math4/stat/inference/KolmogorovSmirnovTestTest.class": [
+      "method testBootstrapSmallSamplesWithTies()V",
+      "method testTwoSampleMonteCarloDifferentSampleSizes()V",
+      "method testBootstrapLargeSamples()V",
+      "method testTwoSampleMonteCarlo()V",
+      "method testFillBooleanArrayRandomlyWithFixedNumberTrueValues()V",
+      "method testBootstrapRounding()V",
+      "method testTwoSampleMonteCarloPerformance()V",
+      "method testDRoundingMonteCarlo()V"
+    ],
+    "org/apache/commons/math4/linear/HessenbergTransformerTest.class": [
+      "method testRandomDataNormalDistribution()V"
+    ],
+    "org/apache/commons/math4/ExtendedFieldElementAbstractTest.class": [
+      "remove_instance_method",
+      "method testLinearCombinationDaFa()V",
+      "method testLinearCombinationDF3()V",
+      "method testLinearCombinationFaFa()V",
+      "method testLinearCombinationDF4()V",
+      "method testLinearCombinationDF2()V",
+      "method testLinearCombinationFF3()V",
+      "method testLinearCombinationFF4()V",
+      "add_instance_method",
+      "method testLinearCombinationFF2()V"
+    ],
+    "org/apache/commons/math4/distribution/BetaDistributionTest.class": [
+      "method testGoodnessOfFit()V",
+      "method testMomentsSampling()V"
+    ],
+    "org/apache/commons/math4/util/MathArraysTest.class": [
+      "method testLinearCombination2()V",
+      "method testShuffleHead()V",
+      "method testShuffleTail()V"
+    ],
+    "org/apache/commons/math4/ml/clustering/FuzzyKMeansClustererTest.class": [
+      "method testGetters()V"
+    ],
+    "org/apache/commons/math4/random/RandomUtilsDataGeneratorJDKSecureRandomTest.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/analysis/interpolation/PiecewiseBicubicSplineInterpolatorTest.class": [
+      "method testInterpolation2()V",
+      "method testInterpolation1()V"
+    ],
+    "org/apache/commons/math4/analysis/interpolation/TricubicInterpolatingFunctionTest.class": [
+      "method testInterpolation(DDDDDDIILorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;Lorg/apache/commons/math4/analysis/TrivariateFunction;DDDZ)V"
+    ],
+    "org/apache/commons/math4/analysis/differentiation/SparseGradientTest.class": [
+      "method testLinearCombination2DoubleDS()V",
+      "method testLinearCombination2DSDS()V"
+    ],
+    "org/apache/commons/math4/geometry/spherical/twod/SphericalPolygonsSetTest.class": [
+      "method testFullSphere()V",
+      "method testPositiveOctantByIntersection()V",
+      "method testPositiveOctantByVertices()V",
+      "method testSouthHemisphere()V",
+      "method testSeveralParts()V",
+      "method testNonConvex()V",
+      "method testEmpty()V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/twod/hull/ConvexHullGenerator2DAbstractTest.class": [
+      "change_field_declaration",
+      "method createRandomPoints(I)Ljava/util/List;",
+      "method setUp()V",
+      "method testConvexHull()V"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedIntegerDistributionTest.class": [
+      "method testSample()V"
+    ],
+    "org/apache/commons/math4/linear/EigenDecompositionTest.class": [
+      "method testNormalDistributionUnsymmetricMatrix()V"
+    ],
+    "org/apache/commons/math4/PerfTestUtils.class": [
+      "change_field_declaration",
+      "method timesAndResults(IIZ[Ljava/util/concurrent/Callable;)[[[D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/distribution/EmpiricalDistributionTest.class": [
+      "method tstGen(D)V",
+      "method tstDoubleGen(D)V",
+      "method testNextFail2()V",
+      "method testKernelOverrideConstant()V",
+      "method testNextFail1()V",
+      "method testNoBinVariance()V",
+      "method testKernelOverrideUniform()V",
+      "method testSampleValuesRange()V"
+    ],
+    "org/apache/commons/math4/random/StableRandomGeneratorTest.class": [
+      "change_field_declaration",
+      "method testGaussianCase()V",
+      "method testNextDouble()V",
+      "method testBetaRangeBelowMinusOne()V",
+      "method testCauchyCase()V",
+      "method testAlphaRangeAboveTwo()V",
+      "method testAlphaRangeBelowZero()V",
+      "method testBetaRangeAboveOne()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/linear/SchurTransformerTest.class": [
+      "method testRandomDataNormalDistribution()V"
+    ],
+    "org/apache/commons/math4/stat/regression/GLSMultipleLinearRegressionTest.class": [
+      "method testGLSEfficiency()V"
+    ],
+    "org/apache/commons/math4/geometry/enclosing/WelzlEncloser2DTest.class": [
+      "method testLargeSamples()V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/threed/FieldVector3DTest.class": [
+      "method testDotProduct()V",
+      "method testCrossProduct()V"
+    ],
+    "org/apache/commons/math4/analysis/function/LogitTest.class": [
+      "method testValueWithInverseFunction()V",
+      "method testDerivativesWithInverseFunction()V"
+    ],
+    "org/apache/commons/math4/stat/descriptive/AggregateSummaryStatisticsTest.class": [
+      "method generateSample()[D",
+      "method generatePartition([D)[[D"
+    ],
+    "org/apache/commons/math4/optim/nonlinear/scalar/MultiStartMultivariateOptimizerTest.class": [
+      "method testCircleFitting()V",
+      "method testRosenbrock()V"
+    ],
+    "org/apache/commons/math4/fitting/leastsquares/RandomCirclePointGenerator.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/twod/DiskGeneratorTest.class": [
+      "method testRandom()V"
+    ],
+    "org/apache/commons/math4/random/UncorrelatedRandomVectorGeneratorTest.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/fitting/leastsquares/RandomStraightLinePointGenerator.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/filter/KalmanFilterTest.class": [
+      "method testCannonball()V",
+      "method testConstant()V",
+      "method testConstantAcceleration()V"
+    ],
+    "org/apache/commons/math4/distribution/EnumeratedRealDistributionTest.class": [
+      "method testSample()V",
+      "method testIssue942()V"
+    ],
+    "org/apache/commons/math4/random/SynchronizedRandomGeneratorTest.class": [
+      "method testAdapter()V",
+      "method doTestMath899(ZIII)[D"
+    ],
+    "org/apache/commons/math4/util/ResizableDoubleArrayTest.class": [
+      "method testWithInitialCapacity()V",
+      "method testWithInitialCapacityAndExpansionFactor()V"
+    ],
+    "org/apache/commons/math4/analysis/interpolation/BicubicInterpolatingFunctionTest.class": [
+      "method testInterpolation(DDDDIILorg/apache/commons/math4/analysis/BivariateFunction;Lorg/apache/commons/math4/analysis/BivariateFunction;Lorg/apache/commons/math4/analysis/BivariateFunction;Lorg/apache/commons/math4/analysis/BivariateFunction;DDZ)V"
+    ],
+    "org/apache/commons/math4/ml/neuralnet/sofm/TravellingSalesmanSolver.class": [
+      "change_field_declaration",
+      "add_static_method",
+      "remove_static_method",
+      "method makeInitializers()[Lorg/apache/commons/math4/ml/neuralnet/FeatureInitializer;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/stat/descriptive/rank/PercentileTest.class": [
+      "method testStoredVsDirect()V",
+      "method testAllEstimationTechniquesOnlyForAllPivotingStrategies()V",
+      "method testAllTechniquesPercentileUsingRandomPivoting()V"
+    ],
+    "org/apache/commons/math4/stat/correlation/StorelessCovarianceTest.class": [
+      "method testEquivalence()V"
+    ],
+    "org/apache/commons/math4/random/UnitSphereRandomVectorGeneratorTest.class": [
+      "method test2DDistribution()V"
+    ],
+    "org/apache/commons/math4/optim/nonlinear/scalar/noderiv/CMAESOptimizerTest.class": [
+      "method doTest(Lorg/apache/commons/math4/analysis/MultivariateFunction;[D[D[[DLorg/apache/commons/math4/optim/nonlinear/scalar/GoalType;IZIDDDILorg/apache/commons/math4/optim/PointValuePair;)V",
+      "method testMath864()V",
+      "method testFitAccuracyDependsOnBoundary()V"
+    ],
+    "org/apache/commons/math4/distribution/HypergeometricDistributionTest.class": [
+      "method testMath1021()V"
+    ],
+    "org/apache/commons/math4/random/RandomUtilsDataGeneratorJDKRandomTest.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/random/RandomUtilsDataGeneratorAbstractTest.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/stat/descriptive/rank/PSquarePercentileTest.class": [
+      "method doDistributionTest(Lorg/apache/commons/math4/distribution/RealDistribution;)V",
+      "change_field_declaration",
+      "method randomTestData(II)[Ljava/lang/Double;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/ml/neuralnet/sofm/TravellingSalesmanSolver$1.class": [
+      "method next()[D"
+    ],
+    "org/apache/commons/math4/stat/ranking/NaturalRankingTest.class": [
+      "method testNaNsFixedTiesRandom()V"
+    ],
+    "org/apache/commons/math4/ml/clustering/KMeansPlusPlusClustererTest.class": [
+      "method testPerformClusterAnalysisToManyClusters()V",
+      "change_field_declaration",
+      "method setUp()V",
+      "method testCertainSpace()V",
+      "method testSmallDistances()V"
+    ],
+    "org/apache/commons/math4/stat/descriptive/UnivariateStatisticAbstractTest.class": [
+      "method testWeightedConsistency()V"
+    ],
+    "org/apache/commons/math4/random/UniformRandomGeneratorTest.class": [
+      "method testMeanAndStandardDeviation()V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/threed/PolyhedronsSetTest.class": [
+      "method testIssue1211()V"
+    ],
+    "org/apache/commons/math4/fitting/SimpleCurveFitterTest.class": [
+      "method testPolynomialFit()V"
+    ],
+    "org/apache/commons/math4/random/CorrelatedRandomVectorGeneratorTest.class": [
+      "method testMath226()V",
+      "method createSampler([[D)Lorg/apache/commons/math4/random/CorrelatedRandomVectorGenerator;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/threed/FieldRotationDfpTest.class": [
+      "method testDoubleRotations()V",
+      "method testDoubleVectors()V"
+    ],
+    "org/apache/commons/math4/util/FastMathTest.class": [
+      "method testTanhAccuracy()V",
+      "method testCbrtAccuracy()V",
+      "method testToRadians()V",
+      "method testCoshAccuracy()V",
+      "method testFloorDivModInt()V",
+      "method testExpAccuracy()V",
+      "method testSinhAccuracy()V",
+      "method testFloorDivModLong()V",
+      "change_field_declaration",
+      "method testExpm1Accuracy()V",
+      "method testPowAccuracy()V",
+      "method testLog1pAccuracy()V",
+      "method testLog10Accuracy()V",
+      "method testAsinAccuracy()V",
+      "method testTanAccuracy()V",
+      "method setUp()V",
+      "method testAtanAccuracy()V",
+      "method testCosAccuracy()V",
+      "method testAtan2Accuracy()V",
+      "method testSinAccuracy()V",
+      "method testAcosAccuracy()V",
+      "method testLogAccuracy()V",
+      "method testToDegrees()V"
+    ],
+    "org/apache/commons/math4/analysis/interpolation/AkimaSplineInterpolatorTest.class": [
+      "method testInterpolation(DDIILorg/apache/commons/math4/analysis/UnivariateFunction;DD)V"
+    ],
+    "org/apache/commons/math4/analysis/interpolation/PiecewiseBicubicSplineInterpolatingFunctionTest.class": [
+      "method testInterpolation(DDDDIILorg/apache/commons/math4/analysis/BivariateFunction;DD)V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/threed/SphereGeneratorTest.class": [
+      "method testRandom()V"
+    ],
+    "org/apache/commons/math4/analysis/differentiation/DerivativeStructureTest.class": [
+      "method testLinearCombination2DoubleDS()V",
+      "method testLinearCombination2DSDS()V"
+    ],
+    "org/apache/commons/math4/random/GaussianRandomGeneratorTest.class": [
+      "method testMeanAndStandardDeviation()V"
+    ],
+    "org/apache/commons/math4/distribution/IntegerDistributionAbstractTest.class": [
+      "method testSampling()V"
+    ],
+    "org/apache/commons/math4/geometry/enclosing/WelzlEncloser3DTest.class": [
+      "method testLargeSamples()V"
+    ],
+    "org/apache/commons/math4/stat/regression/SimpleRegressionTest.class": [
+      "method check(Z)V"
+    ],
+    "org/apache/commons/math4/geometry/euclidean/threed/FieldRotationDSTest.class": [
+      "method testDoubleRotations()V",
+      "method testDoubleVectors()V"
+    ],
+    "org/apache/commons/math4/optim/univariate/MultiStartUnivariateOptimizerTest.class": [
+      "method testMissingMaxEval()V",
+      "method testBadFunction()V",
+      "method testSinMin()V",
+      "method testMissingSearchInterval()V",
+      "method testQuinticMin()V"
+    ],
+    "org/apache/commons/math4/distribution/MultivariateNormalDistributionTest.class": [
+      "method testSampling()V"
+    ],
+    "org/apache/commons/math4/stat/correlation/KendallsCorrelationTest.class": [
+      "method testMath1277()V"
+    ]
+  },
+  "5c753a87": {
+    "org/apache/commons/math4/stat/ranking/NaturalRankingTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "d198cc8c": {
+    "org/apache/commons/math4/random/RandomUtils$DataGenerator.class": [
+      "remove_instance_method"
+    ],
+    "org/apache/commons/math4/random/RandomUtilsDataGeneratorAbstractTest.class": [
+      "remove_instance_method"
+    ]
+  },
+  "0956e2d2": {
+    "org/apache/commons/math4/random/RandomUtilsDataGeneratorAbstractTest.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "change_signature"
+    ]
+  },
+  "c9709dd4": {},
+  "b0904d39": {},
+  "d2e40b61": {},
+  "657b1b49": {
+    "org/apache/commons/math4/util/MathArrays.class": [
+      "remove_static_method"
+    ],
+    "org/apache/commons/math4/util/MathArrays$3.class": [
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/math4/util/MathUtilsTest.class": [
+      "method testPermutedArrayHash()V"
+    ],
+    "org/apache/commons/math4/util/MathArraysTest.class": [
+      "remove_instance_method"
+    ],
+    "org/apache/commons/math4/PerfTestUtils.class": [
+      "method timesAndResults(IIZ[Ljava/util/concurrent/Callable;)[[[D"
+    ],
+    "org/apache/commons/math4/util/ArithmeticUtilsTest.class": [
+      "method testGcdConsistency()V"
+    ]
+  },
+  "65632757": {},
+  "e9e76131": {
+    "org/apache/commons/math4/linear/RRQRDecompositionTest.class": [
+      "method testRank()V"
+    ]
+  },
+  "843267df": {
+    "org/apache/commons/math4/linear/RRQRDecompositionTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "98055455": {
+    "org/apache/commons/math4/stat/inference/KolmogorovSmirnovTest.class": [
+      "method fixTies([D[D)V",
+      "add_static_method",
+      "remove_static_method"
+    ],
+    "org/apache/commons/math4/stat/inference/KolmogorovSmirnovTestTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "bddcfd5a": {
+    "org/apache/commons/math4/stat/inference/KolmogorovSmirnovTest.class": [
+      "method fixTies([D[D)V",
+      "add_static_method",
+      "method hasTies([D[D)Z",
+      "remove_static_method"
+    ],
+    "org/apache/commons/math4/stat/inference/KolmogorovSmirnovTestTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "08cbacf7": {},
+  "37c3d36c": {},
+  "43a00740": {},
+  "19e0e299": {},
+  "b645f5d0": {},
+  "dff1a095": {
+    "org/apache/commons/math4/distribution/MultivariateNormalDistribution.class": [
+      "method getExponentTerm([D)D"
+    ]
+  }
+}

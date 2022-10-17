@@ -1,0 +1,853 @@
+{
+  "5d3cebef": {
+    "technology/tabula/Table.class": [
+      "method add(Ltechnology/tabula/RectangularTextContainer;II)V"
+    ],
+    "technology/tabula/Table$CellPosition.class": [
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/Table$CellContainer.class": [
+      "method get(II)Ltechnology/tabula/RectangularTextContainer;",
+      "method containsKey(II)Z",
+      "method getRow(I)Ljava/util/List;"
+    ]
+  },
+  "db985d24": {
+    "technology/tabula/QuickSort.class": [
+      "change_field_declaration",
+      "method sort(Ljava/util/List;)V",
+      "add_static_method",
+      "method sort(Ljava/util/List;Ljava/util/Comparator;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/CellPosition.class": [
+      "add_class"
+    ],
+    "technology/tabula/QuickSort$1.class": [
+      "method compare(Ljava/lang/Object;Ljava/lang/Object;)I",
+      "remove_instance_method"
+    ],
+    "technology/tabula/Utils.class": [
+      "method pageConvertToImage(Lorg/apache/pdfbox/pdmodel/PDPage;ILorg/apache/pdfbox/rendering/ImageType;)Ljava/awt/image/BufferedImage;"
+    ],
+    "technology/tabula/Table.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getRows()Ljava/util/List;",
+      "method add(Ltechnology/tabula/RectangularTextContainer;II)V",
+      "method getCell(II)Ltechnology/tabula/RectangularTextContainer;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/TableWithRulingLines.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/extractors/SpreadsheetExtractionAlgorithm.class": [
+      "method isTabular(Ltechnology/tabula/Page;)Z",
+      "method extract(Ltechnology/tabula/Page;Ljava/util/List;)Ljava/util/List;"
+    ],
+    "technology/tabula/extractors/BasicExtractionAlgorithm.class": [
+      "method extract(Ltechnology/tabula/Page;)Ljava/util/List;"
+    ],
+    "technology/tabula/json/TableSerializer.class": [
+      "method serialize(Ltechnology/tabula/Table;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;"
+    ],
+    "technology/tabula/TestTableDetection$TestStatus.class": [
+      "method save()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/TestBasicExtractor.class": [
+      "method testNaturalOrderOfRectangles()V"
+    ]
+  },
+  "af0ce5e5": {
+    "technology/tabula/Cell.class": [
+      "method getText(Z)Ljava/lang/String;"
+    ],
+    "technology/tabula/QuickSort.class": [
+      "nochange"
+    ],
+    "technology/tabula/Utils.class": [
+      "add_static_method"
+    ],
+    "technology/tabula/Rectangle$1.class": [
+      "add_class"
+    ],
+    "technology/tabula/RectangleSpatialIndex.class": [
+      "method contains(Ltechnology/tabula/Rectangle;)Ljava/util/List;",
+      "method intersects(Ltechnology/tabula/Rectangle;)Ljava/util/List;"
+    ],
+    "technology/tabula/ObjectExtractor.class": [
+      "method extractPage(Ljava/lang/Integer;)Ltechnology/tabula/Page;"
+    ],
+    "technology/tabula/extractors/SpreadsheetExtractionAlgorithm.class": [
+      "method extract(Ltechnology/tabula/Page;Ljava/util/List;)Ljava/util/List;",
+      "method findSpreadsheetsFromCells(Ljava/util/List;)Ljava/util/List;"
+    ],
+    "technology/tabula/Rectangle.class": [
+      "add_field",
+      "method compareTo(Ltechnology/tabula/Rectangle;)I",
+      "remove_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/detectors/SpreadsheetDetectionAlgorithm.class": [
+      "method detect(Ltechnology/tabula/Page;)Ljava/util/List;"
+    ],
+    "technology/tabula/TestRectangle.class": [
+      "method testQuickSortRectangleList()V",
+      "method testWellDefinedComparison1()V"
+    ],
+    "technology/tabula/TestSpreadsheetExtractor.class": [
+      "method testLinesToCells()V",
+      "method testFindSpreadsheetsFromCells()V"
+    ],
+    "technology/tabula/TestBasicExtractor.class": [
+      "method testNaturalOrderOfRectanglesOneMoreTime()V"
+    ]
+  },
+  "dd25f7b1": {
+    "technology/tabula/Table.class": [
+      "method computeRows()Ljava/util/List;",
+      "add_static_method",
+      "method add(Ltechnology/tabula/RectangularTextContainer;II)V",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/extractors/BasicExtractionAlgorithm.class": [
+      "method extract(Ltechnology/tabula/Page;)Ljava/util/List;"
+    ],
+    "technology/tabula/UtilsForTesting.class": [
+      "method loadJson(Ljava/lang/String;)Ljava/lang/String;",
+      "method tableToArrayOfRows(Ltechnology/tabula/Table;)[[Ljava/lang/String;"
+    ],
+    "technology/tabula/TableTest.class": [
+      "add_class"
+    ],
+    "technology/tabula/TestBasicExtractor.class": [
+      "method testExtractColumnsCorrectly3()V",
+      "method testExtractColumnsCorrectly2()V",
+      "change_field_declaration",
+      "method testExtractColumnsCorrectly()V",
+      "method testColumnRecognition()V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "6e5f5c22": {
+    "technology/tabula/CellPosition.class": [
+      "method hashCode()I"
+    ]
+  },
+  "3d98ddf1": {
+    "technology/tabula/Page.class": [
+      "method getRotation()Ljava/lang/Integer;"
+    ]
+  },
+  "1c121b66": {
+    "technology/tabula/ObjectExtractorStreamEngine.class": [
+      "method strokeOrFillPath(Z)V"
+    ],
+    "technology/tabula/TestObjectExtractor.class": [
+      "add_instance_method"
+    ]
+  },
+  "d4adc813": {
+    "technology/tabula/Page.class": [
+      "add_field",
+      "add_instance_method"
+    ],
+    "technology/tabula/CommandLineApp.class": [
+      "change_field_declaration",
+      "add_static_method",
+      "method buildOptions()Lorg/apache/commons/cli/Options;",
+      "remove_static_method",
+      "method extractFile(Ljava/io/File;Ljava/lang/Appendable;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/Pair.class": [
+      "add_class"
+    ],
+    "technology/tabula/TestCommandLineApp.class": [
+      "add_instance_method"
+    ]
+  },
+  "30bca6da": {
+    "technology/tabula/Page.class": [
+      "remove_instance_method",
+      "remove_field"
+    ],
+    "technology/tabula/CommandLineApp.class": [
+      "add_field",
+      "method extractFile(Ljava/io/File;Ljava/lang/Appendable;)V"
+    ]
+  },
+  "7ea070e5": {
+    "technology/tabula/CommandLineApp$TableExtractor.class": [
+      "remove_instance_method",
+      "method extractTablesBasic(Ltechnology/tabula/Page;)Ljava/util/List;"
+    ],
+    "technology/tabula/CommandLineApp.class": [
+      "add_field",
+      "method createExtractor(Lorg/apache/commons/cli/CommandLine;)Ltechnology/tabula/CommandLineApp$TableExtractor;",
+      "method extractFile(Ljava/io/File;Ljava/lang/Appendable;)V",
+      "method extractFileTables(Lorg/apache/commons/cli/CommandLine;Ljava/io/File;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/TestCommandLineApp.class": [
+      "add_instance_method"
+    ]
+  },
+  "5cdb22fc": {
+    "technology/tabula/CommandLineApp$TableExtractor.class": [
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "2639edd6": {
+    "technology/tabula/writers/TSVWriter.class": [
+      "nochange"
+    ],
+    "technology/tabula/Cell.class": [
+      "nochange"
+    ],
+    "technology/tabula/QuickSort.class": [
+      "nochange"
+    ],
+    "technology/tabula/CommandLineApp$TableExtractor.class": [
+      "add_field",
+      "method extractTablesBasic(Ltechnology/tabula/Page;)Ljava/util/List;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/Page.class": [
+      "nochange"
+    ],
+    "technology/tabula/Line.class": [
+      "method toString()Ljava/lang/String;"
+    ],
+    "technology/tabula/writers/JSONWriter.class": [
+      "nochange"
+    ],
+    "technology/tabula/Utils$2.class": [
+      "nochange"
+    ],
+    "technology/tabula/CommandLineApp.class": [
+      "method buildOptions()Lorg/apache/commons/cli/Options;",
+      "method createExtractor(Lorg/apache/commons/cli/CommandLine;)Ltechnology/tabula/CommandLineApp$TableExtractor;",
+      "method whichExtractionMethod(Lorg/apache/commons/cli/CommandLine;)Ltechnology/tabula/CommandLineApp$ExtractionMethod;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/TextStripper.class": [
+      "method writeString(Ljava/lang/String;Ljava/util/List;)V"
+    ],
+    "technology/tabula/CommandLineApp$1.class": [
+      "nochange"
+    ],
+    "technology/tabula/Pair.class": [
+      "nochange"
+    ],
+    "technology/tabula/CellPosition.class": [
+      "nochange"
+    ],
+    "technology/tabula/json/RulingSerializer.class": [
+      "nochange"
+    ],
+    "technology/tabula/TextElement.class": [
+      "nochange"
+    ],
+    "technology/tabula/PageIterator.class": [
+      "nochange"
+    ],
+    "technology/tabula/QuickSort$1.class": [
+      "nochange"
+    ],
+    "technology/tabula/Page$1.class": [
+      "nochange"
+    ],
+    "technology/tabula/CommandLineApp$OutputFormat.class": [
+      "nochange"
+    ],
+    "technology/tabula/extractors/BasicExtractionAlgorithm$1.class": [
+      "nochange"
+    ],
+    "technology/tabula/CommandLineApp$DebugOutput.class": [
+      "nochange"
+    ],
+    "technology/tabula/json/RectangularTextContainerSerializer.class": [
+      "nochange"
+    ],
+    "technology/tabula/TextChunk.class": [
+      "nochange"
+    ],
+    "technology/tabula/Utils.class": [
+      "nochange"
+    ],
+    "technology/tabula/detectors/DetectionAlgorithm.class": [
+      "nochange"
+    ],
+    "technology/tabula/Ruling$1.class": [
+      "nochange"
+    ],
+    "technology/tabula/ObjectExtractorStreamEngine.class": [
+      "remove_instance_method",
+      "remove_field"
+    ],
+    "technology/tabula/Ruling$1SortObject.class": [
+      "nochange"
+    ],
+    "technology/tabula/Ruling$4.class": [
+      "nochange"
+    ],
+    "technology/tabula/detectors/NurminenDetectionAlgorithm.class": [
+      "method getTableAreasFromCells(Ljava/util/List;)Ljava/util/List;",
+      "method removeText(Lorg/apache/pdfbox/pdmodel/PDPage;)Lorg/apache/pdfbox/pdmodel/PDDocument;",
+      "method getTextEdges(Ljava/util/List;)Ltechnology/tabula/detectors/NurminenDetectionAlgorithm$TextEdges;",
+      "method detect(Ltechnology/tabula/Page;)Ljava/util/List;"
+    ],
+    "technology/tabula/Page$2.class": [
+      "nochange"
+    ],
+    "technology/tabula/Rectangle$1.class": [
+      "nochange"
+    ],
+    "technology/tabula/ObjectExtractorStreamEngine$PointComparator.class": [
+      "nochange"
+    ],
+    "technology/tabula/Ruling$SOType.class": [
+      "nochange"
+    ],
+    "technology/tabula/CommandLineApp$2.class": [
+      "nochange"
+    ],
+    "technology/tabula/Table.class": [
+      "nochange"
+    ],
+    "technology/tabula/detectors/NurminenDetectionAlgorithm$RelevantEdges.class": [
+      "nochange"
+    ],
+    "technology/tabula/HasText.class": [
+      "nochange"
+    ],
+    "technology/tabula/extractors/BasicExtractionAlgorithm$2.class": [
+      "nochange"
+    ],
+    "technology/tabula/extractors/SpreadsheetExtractionAlgorithm$2.class": [
+      "nochange"
+    ],
+    "technology/tabula/writers/CSVWriter.class": [
+      "nochange"
+    ],
+    "technology/tabula/extractors/ExtractionAlgorithm.class": [
+      "nochange"
+    ],
+    "technology/tabula/TableWithRulingLines.class": [
+      "nochange"
+    ],
+    "technology/tabula/RectangularTextContainer.class": [
+      "method toString()Ljava/lang/String;"
+    ],
+    "technology/tabula/detectors/NurminenDetectionAlgorithm$TextEdge.class": [
+      "nochange"
+    ],
+    "technology/tabula/Ruling.class": [
+      "method toString()Ljava/lang/String;"
+    ],
+    "technology/tabula/Ruling$5.class": [
+      "nochange"
+    ],
+    "technology/tabula/detectors/NurminenDetectionAlgorithm$1.class": [
+      "nochange"
+    ],
+    "technology/tabula/RectangleSpatialIndex.class": [
+      "method getBounds()Ltechnology/tabula/Rectangle;",
+      "method contains(Ltechnology/tabula/Rectangle;)Ljava/util/List;",
+      "remove_instance_method",
+      "change_field_declaration",
+      "method add(Ltechnology/tabula/Rectangle;)V",
+      "method intersects(Ltechnology/tabula/Rectangle;)Ljava/util/List;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/extractors/SpreadsheetExtractionAlgorithm$PolygonVertex.class": [
+      "nochange"
+    ],
+    "technology/tabula/ObjectExtractor.class": [
+      "nochange"
+    ],
+    "technology/tabula/extractors/SpreadsheetExtractionAlgorithm$Direction.class": [
+      "nochange"
+    ],
+    "technology/tabula/extractors/SpreadsheetExtractionAlgorithm.class": [
+      "nochange"
+    ],
+    "technology/tabula/writers/JSONWriter$1.class": [
+      "nochange"
+    ],
+    "technology/tabula/Utils$3.class": [
+      "nochange"
+    ],
+    "technology/tabula/detectors/NurminenDetectionAlgorithm$TextEdges.class": [
+      "nochange"
+    ],
+    "technology/tabula/Rectangle.class": [
+      "method toString()Ljava/lang/String;"
+    ],
+    "technology/tabula/writers/Writer.class": [
+      "nochange"
+    ],
+    "technology/tabula/Ruling$2.class": [
+      "nochange"
+    ],
+    "technology/tabula/CommandLineApp$ExtractionMethod.class": [
+      "nochange"
+    ],
+    "technology/tabula/TableWithRulingLines$1.class": [
+      "nochange"
+    ],
+    "technology/tabula/extractors/SpreadsheetExtractionAlgorithm$1.class": [
+      "nochange"
+    ],
+    "technology/tabula/debug/Debug.class": [
+      "nochange"
+    ],
+    "technology/tabula/Utils$1.class": [
+      "nochange"
+    ],
+    "technology/tabula/extractors/BasicExtractionAlgorithm.class": [
+      "method extract(Ltechnology/tabula/Page;)Ljava/util/List;"
+    ],
+    "technology/tabula/CohenSutherlandClipping.class": [
+      "nochange"
+    ],
+    "technology/tabula/TextChunk$DirectionalityOptions.class": [
+      "nochange"
+    ],
+    "technology/tabula/detectors/SpreadsheetDetectionAlgorithm.class": [
+      "nochange"
+    ],
+    "technology/tabula/ProjectionProfile.class": [
+      "nochange"
+    ],
+    "technology/tabula/Ruling$3.class": [
+      "nochange"
+    ],
+    "technology/tabula/json/TableSerializer.class": [
+      "method serialize(Ltechnology/tabula/Table;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;"
+    ],
+    "technology/tabula/TestCell.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestRectangleSpatialIndex.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestTableDetection$TestStatus.class": [
+      "nochange"
+    ],
+    "technology/tabula/UtilsForTesting.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestProjectionProfile.class": [
+      "nochange"
+    ],
+    "technology/tabula/TableTest.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestTableDetection.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestCommandLineApp.class": [
+      "add_field",
+      "method testExtractSpreadsheetWithAreaAndNewFile()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/TestDebug.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestRectangle.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestSpreadsheetExtractor.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestLine.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestTableDetection$1.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestBasicExtractor.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestTextElement.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestUtils.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestObjectExtractor.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestRuling.class": [
+      "nochange"
+    ],
+    "technology/tabula/TestWriters.class": [
+      "nochange"
+    ]
+  },
+  "34a829ff": {
+    "technology/tabula/TestCommandLineApp.class": [
+      "method testLatticeModeWithColumnAndMultipleAreasOption()V",
+      "method testLatticeModeWithColumnOption()V"
+    ]
+  },
+  "82ad2ed7": {
+    "technology/tabula/TestCommandLineApp.class": [
+      "method testLatticeModeWithColumnOption()V"
+    ]
+  },
+  "dbeff6e3": {
+    "technology/tabula/CommandLineApp.class": [
+      "method buildOptions()Lorg/apache/commons/cli/Options;"
+    ]
+  },
+  "5bfe84d4": {
+    "technology/tabula/TextStripper.class": [
+      "add_field",
+      "method writeString(Ljava/lang/String;Ljava/util/List;)V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "98c7143f": {
+    "technology/tabula/Page.class": [
+      "add_field",
+      "method getArea(Ltechnology/tabula/Rectangle;)Ltechnology/tabula/Page;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/TextStripper.class": [
+      "add_instance_method"
+    ],
+    "technology/tabula/Utils.class": [
+      "add_static_method"
+    ],
+    "technology/tabula/detectors/NurminenDetectionAlgorithm.class": [
+      "method getTableAreasFromCells(Ljava/util/List;)Ljava/util/List;",
+      "method getTextEdges(Ljava/util/List;)Ltechnology/tabula/detectors/NurminenDetectionAlgorithm$TextEdges;",
+      "method detect(Ltechnology/tabula/Page;)Ljava/util/List;"
+    ],
+    "technology/tabula/ObjectExtractor.class": [
+      "method extractPage(Ljava/lang/Integer;)Ltechnology/tabula/Page;"
+    ],
+    "technology/tabula/debug/Debug.class": [
+      "method renderPage(Ljava/lang/String;Ljava/lang/String;ILtechnology/tabula/Rectangle;ZZZZZZZZZZZZ)V"
+    ],
+    "technology/tabula/TestProjectionProfile.class": [
+      "method setUpProjectionProfile()V"
+    ],
+    "technology/tabula/TestUtils.class": [
+      "method testJPEG2000DoesNotRaise()V"
+    ]
+  },
+  "a4e0d6c4": {
+    "technology/tabula/CommandLineApp.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "ebc83ac2": {
+    "technology/tabula/CommandLineApp.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "21a4932b": {
+    "technology/tabula/TextStripper.class": [
+      "add_field",
+      "method writeString(Ljava/lang/String;Ljava/util/List;)V"
+    ]
+  },
+  "00bee456": {
+    "technology/tabula/CommandLineApp.class": [
+      "method parseFloatList(Ljava/lang/String;)Ljava/util/List;",
+      "remove_field",
+      "method extractFile(Ljava/io/File;Ljava/lang/Appendable;)V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "2ab8579e": {
+    "technology/tabula/CommandLineApp$TableExtractor.class": [
+      "add_static_method"
+    ],
+    "technology/tabula/CommandLineApp.class": [
+      "method extractFile(Ljava/io/File;Ljava/lang/Appendable;)V"
+    ]
+  },
+  "6ea9d3ad": {
+    "technology/tabula/CommandLineApp.class": [
+      "method parseFloatList(Ljava/lang/String;)Ljava/util/List;"
+    ]
+  },
+  "6fdf5545": {
+    "technology/tabula/json/TableSerializer.class": [
+      "method serialize(Ltechnology/tabula/Table;Ljava/lang/reflect/Type;Lcom/google/gson/JsonSerializationContext;)Lcom/google/gson/JsonElement;"
+    ]
+  },
+  "a9932a82": {
+    "technology/tabula/writers/JSONWriter.class": [
+      "method gson()Lcom/google/gson/Gson;",
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "008c395b": {
+    "technology/tabula/Page.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/PageIterator.class": [
+      "change_field_declaration",
+      "method next()Ltechnology/tabula/Page;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/ObjectExtractor.class": [
+      "method extractPage(Ljava/lang/Integer;)Ltechnology/tabula/Page;"
+    ]
+  },
+  "c0592627": {
+    "technology/tabula/Page.class": [
+      "method getText(Ltechnology/tabula/Rectangle;)Ljava/util/List;",
+      "method hasText()Z",
+      "change_field_declaration",
+      "method getText()Ljava/util/List;",
+      "method getTexts()Ljava/util/List;",
+      "method getArea(Ltechnology/tabula/Rectangle;)Ltechnology/tabula/Page;",
+      "method getPageNumber()I",
+      "method getSpatialIndex()Ltechnology/tabula/RectangleSpatialIndex;",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "62e6b5fc": {
+    "technology/tabula/Page.class": [
+      "method addRuling(Ltechnology/tabula/Ruling;)V",
+      "method getRulings()Ljava/util/List;",
+      "add_instance_method"
+    ]
+  },
+  "c3c3b9d5": {
+    "technology/tabula/Page.class": [
+      "add_field",
+      "add_static_method",
+      "method getArea(Ltechnology/tabula/Rectangle;)Ltechnology/tabula/Page;",
+      "add_instance_method"
+    ]
+  },
+  "8a78148d": {
+    "technology/tabula/ObjectExtractorStreamEngine.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "f7e19764": {
+    "technology/tabula/ObjectExtractorStreamEngine.class": [
+      "method strokeOrFillPath(Z)V",
+      "add_instance_method"
+    ]
+  },
+  "6e81297b": {
+    "technology/tabula/ObjectExtractorStreamEngine.class": [
+      "method strokeOrFillPath(Z)V",
+      "add_field",
+      "add_instance_method"
+    ]
+  },
+  "4519596d": {
+    "technology/tabula/TestCohenSutherland.class": [
+      "add_class"
+    ]
+  },
+  "b8d44f6d": {},
+  "d498a5ec": {
+    "technology/tabula/CohenSutherlandClipping.class": [
+      "add_field",
+      "add_static_method",
+      "method clip(Ljava/awt/geom/Line2D$Float;)Z"
+    ]
+  },
+  "1deb2c92": {
+    "technology/tabula/CohenSutherlandClipping.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "method clip(Ljava/awt/geom/Line2D$Float;)Z"
+    ],
+    "technology/tabula/CohenSutherlandClipping$Point.class": [
+      "add_class"
+    ]
+  },
+  "7f3f039d": {},
+  "8c4a0027": {
+    "technology/tabula/Page.class": [
+      "method getArea(Ltechnology/tabula/Rectangle;)Ltechnology/tabula/Page;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/Page$1.class": [
+      "add_class"
+    ],
+    "technology/tabula/Page$Builder.class": [
+      "add_class"
+    ],
+    "technology/tabula/PageDims.class": [
+      "add_class"
+    ],
+    "technology/tabula/ObjectExtractor.class": [
+      "method extractPage(Ljava/lang/Integer;)Ltechnology/tabula/Page;"
+    ],
+    "technology/tabula/TestProjectionProfile.class": [
+      "method setUpProjectionProfile()V"
+    ]
+  },
+  "4fd6cafe": {
+    "technology/tabula/Page.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "6286f85f": {
+    "technology/tabula/detectors/NurminenDetectionAlgorithm.class": [
+      "add_static_method",
+      "method getTableAreasFromCells(Ljava/util/List;)Ljava/util/List;",
+      "add_instance_method",
+      "method getTextEdges(Ljava/util/List;)Ltechnology/tabula/detectors/NurminenDetectionAlgorithm$TextEdges;"
+    ]
+  },
+  "11928877": {
+    "technology/tabula/Cell.class": [
+      "remove_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/TextElement.class": [
+      "add_instance_method"
+    ],
+    "technology/tabula/TextChunk.class": [
+      "remove_instance_method",
+      "method getText(Z)Ljava/lang/String;",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/HasText.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "technology/tabula/RectangularTextContainer.class": [
+      "add_field",
+      "method getText(Z)Ljava/lang/String;",
+      "method getText()Ljava/lang/String;",
+      "add_instance_method",
+      "method getTextElements()Ljava/util/List;",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "6923895e": {
+    "technology/tabula/Page.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "technology/tabula/TextStripper.class": [
+      "add_instance_method"
+    ],
+    "technology/tabula/ObjectExtractor.class": [
+      "method extractPage(Ljava/lang/Integer;)Ltechnology/tabula/Page;"
+    ]
+  },
+  "df3653b1": {
+    "technology/tabula/extractors/SpreadsheetExtractionAlgorithm.class": [
+      "change_field_declaration",
+      "add_static_method",
+      "method findCells(Ljava/util/List;Ljava/util/List;)Ljava/util/List;",
+      "method findSpreadsheetsFromCells(Ljava/util/List;)Ljava/util/List;",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "cbb6d73a": {
+    "technology/tabula/extractors/SpreadsheetExtractionAlgorithm.class": [
+      "method isTabular(Ltechnology/tabula/Page;)Z",
+      "method findCells(Ljava/util/List;Ljava/util/List;)Ljava/util/List;",
+      "method findSpreadsheetsFromCells(Ljava/util/List;)Ljava/util/List;"
+    ]
+  },
+  "a6c322e6": {
+    "technology/tabula/ObjectExtractor.class": [
+      "nochange"
+    ]
+  },
+  "6ba8ad89": {
+    "technology/tabula/TestBasicExtractor.class": [
+      "method testExtractColumnsCorrectly3()V",
+      "method testEmptyRegion()V",
+      "method testExtractColumnsCorrectly2()V",
+      "method testCheckSqueezeDoesntBreak()V",
+      "method testRemoveSequentialSpaces()V",
+      "method testVerticalRulingsPreventMergingOfColumns()V",
+      "method testExtractColumnsCorrectly()V",
+      "method testNaturalOrderOfRectangles()V",
+      "method testColumnRecognition()V",
+      "method testRealLifeRTL2()V"
+    ],
+    "technology/tabula/TestObjectExtractor.class": [
+      "method testExtractWrongPageNumber()V",
+      "method testCanReadPDFWithOwnerEncryption()V",
+      "method testExtractOnePage()V",
+      "method testTextElementsContainedInPage()V",
+      "method testDoNotNPEInPointComparator()V",
+      "method testDontThrowNPEInShfill()V",
+      "method testShouldDetectRulings()V",
+      "method testTextExtractionDoesNotRaise()V",
+      "method testGoodPassword()V",
+      "method testEmptyOnEncryptedFileRaisesException()V"
+    ]
+  },
+  "e49d8605": {
+    "technology/tabula/TestSpreadsheetExtractor.class": [
+      "method testAnotherExtractTableWithExternallyDefinedRulings()V",
+      "method testExtractSpreadsheetWithinAnArea()V",
+      "method testExtractTableWithExternallyDefinedRulings()V",
+      "method testSpreadsheetWithNoBoundingFrameShouldBeSpreadsheet()V",
+      "method testMergeLinesCloseToEachOther()V",
+      "method testSpreadsheetExtractionIssue656()V",
+      "method testShouldDetectASingleSpreadsheet()V",
+      "method testNaturalOrderOfRectanglesDoesNotBreakContract()V",
+      "method testIncompleteGrid()V",
+      "method testExtractColumnsCorrectly3()V",
+      "method testRealLifeRTL()V",
+      "method testSpanningCells()V",
+      "method testDontRaiseSortException()V",
+      "method testSpreadsheetExtraction()V",
+      "method testSpreadsheetsSortedByTopAndRight()V",
+      "method testSpanningCellsToCsv()V",
+      "method testRTL()V",
+      "method testDontStackOverflowQuicksort()V"
+    ]
+  },
+  "20e3c2e2": {
+    "technology/tabula/Cell.class": [
+      "method getText(Z)Ljava/lang/String;"
+    ],
+    "technology/tabula/TextChunk.class": [
+      "method splitAt(I)[Ltechnology/tabula/TextChunk;",
+      "method equals(Ljava/lang/Object;)Z"
+    ],
+    "technology/tabula/extractors/BasicExtractionAlgorithm$2.class": [
+      "method compare(Ltechnology/tabula/TextChunk;Ltechnology/tabula/TextChunk;)I"
+    ],
+    "technology/tabula/Ruling.class": [
+      "remove_instance_method"
+    ],
+    "technology/tabula/RectangleSpatialIndex.class": [
+      "method intersects(Ltechnology/tabula/Rectangle;)Ljava/util/List;"
+    ]
+  },
+  "d1758795": {
+    "technology/tabula/CommandLineApp.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "d2da27f7": {
+    "technology/tabula/CommandLineApp.class": [
+      "method extractDirectoryTables(Lorg/apache/commons/cli/CommandLine;Ljava/io/File;)V"
+    ]
+  }
+}

@@ -1,0 +1,429 @@
+{
+  "126f9042": {},
+  "bf561f51": {},
+  "dce9e547": {},
+  "a6b2f132": {
+    "org/apache/commons/codec/binary/BaseNCodecOutputStream.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/codec/binary/BaseNCodecInputStream.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/codec/binary/Base32OutputStreamTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/codec/binary/Base64InputStreamTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/codec/binary/Base64OutputStreamTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/codec/binary/Base32InputStreamTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/codec/binary/Base64Test.class": [
+      "nochange"
+    ],
+    "org/apache/commons/codec/binary/Base32Test.class": [
+      "nochange"
+    ]
+  },
+  "9f1b740a": {
+    "org/apache/commons/codec/binary/Base64OutputStream.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/codec/binary/BaseNCodec.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_static_method",
+      "add_instance_method",
+      "method isStrictDecoding()Z",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/codec/binary/Base32.class": [
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/codec/binary/BaseNCodecOutputStream.class": [
+      "remove_instance_method"
+    ],
+    "org/apache/commons/codec/binary/Base32InputStream.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/codec/binary/Base64.class": [
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/codec/CodecPolicy.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/Base64InputStream.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/codec/net/BCodec.class": [
+      "method doDecoding([B)[B",
+      "remove_instance_method",
+      "change_field_declaration",
+      "method isStrictDecoding()Z",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/codec/binary/Base32OutputStream.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/codec/binary/BaseNCodecInputStream.class": [
+      "remove_instance_method"
+    ],
+    "org/apache/commons/codec/binary/Base32OutputStreamTest.class": [
+      "change_field_declaration",
+      "method testStrictDecoding()V",
+      "method testBase32OutputStreamByteByByte()V",
+      "method testBase32OutputStreamByChunk()V",
+      "method testBase32EmptyOutputStream(I)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/codec/net/BCodecTest.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/codec/binary/Base64InputStreamTest.class": [
+      "method testStrictDecoding()V"
+    ],
+    "org/apache/commons/codec/binary/Base64OutputStreamTest.class": [
+      "change_field_declaration",
+      "method testBase64OutputStreamByChunk()V",
+      "method testStrictDecoding()V",
+      "method testBase64OutputStreamByteByByte()V",
+      "method testBase64EmptyOutputStream(I)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/codec/binary/Base32InputStreamTest.class": [
+      "method testStrictDecoding()V"
+    ],
+    "org/apache/commons/codec/binary/Base64Test.class": [
+      "method testBase64ImpossibleSamples()V",
+      "method assertBase64DecodingOfTrailingBits(I)V"
+    ],
+    "org/apache/commons/codec/binary/Base32Test.class": [
+      "method testImpossibleCases(Lorg/apache/commons/codec/binary/Base32;[Ljava/lang/String;)V",
+      "method assertBase32DecodingOfTrailingBits(I)V",
+      "method testBase32ImpossibleSamples()V",
+      "method testBase32ImpossibleChunked()V",
+      "method testBase32HexImpossibleSamples()V"
+    ]
+  },
+  "e09b236f": {
+    "org/apache/commons/codec/binary/StringUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/codec/binary/BaseNCodec.class": [
+      "nochange"
+    ],
+    "org/apache/commons/codec/binary/Base32.class": [
+      "nochange"
+    ],
+    "org/apache/commons/codec/binary/BaseNCodecOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/codec/binary/Base64.class": [
+      "nochange"
+    ],
+    "org/apache/commons/codec/binary/BinaryCodec.class": [
+      "nochange"
+    ],
+    "org/apache/commons/codec/binary/BaseNCodecInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/codec/binary/Hex.class": [
+      "nochange"
+    ]
+  },
+  "b0acbb1e": {},
+  "961fecfb": {},
+  "913efdf1": {},
+  "6333e504": {},
+  "5b2b313b": {},
+  "38f7f12d": {
+    "org/apache/commons/codec/net/BCodec.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "a887bc14": {
+    "org/apache/commons/codec/net/RFC1522Codec.class": [
+      "method encodeText(Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;"
+    ]
+  },
+  "41c6f486": {
+    "org/apache/commons/codec/digest/DigestUtilsTest.class": [
+      "method testSha224_FileAsHex()V",
+      "method testDigestAs()V",
+      "method testSha224_PathAsHex()V"
+    ],
+    "org/apache/commons/codec/digest/XXHash32Test.class": [
+      "method factory()Ljava/util/Collection;"
+    ]
+  },
+  "71185447": {},
+  "e80304cc": {
+    "org/apache/commons/codec/binary/Base16InputStream.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/Base16.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/BaseNCodec.class": [
+      "method ensureBufferSize(ILorg/apache/commons/codec/binary/BaseNCodec$Context;)[B"
+    ],
+    "org/apache/commons/codec/binary/Base32.class": [
+      "method validateTrailingCharacters()V"
+    ],
+    "org/apache/commons/codec/binary/Base16OutputStream.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/Base64.class": [
+      "method validateTrailingCharacter()V"
+    ],
+    "org/apache/commons/codec/binary/Base32OutputStreamTest.class": [
+      "method testByteByByte([B[BI[B)V",
+      "method testByChunk([B[BI[B)V",
+      "method testBase32OutputStreamByteByByte()V",
+      "method testBase32OutputStreamByChunk()V"
+    ],
+    "org/apache/commons/codec/binary/Base16OutputStreamTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/Base64TestData.class": [
+      "remove_static_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/codec/binary/Base16TestData.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/Base32TestData.class": [
+      "remove_static_method",
+      "remove_field"
+    ],
+    "org/apache/commons/codec/binary/Base16InputStreamTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/Base64InputStreamTest.class": [
+      "method testByteByByte([B[BI[B)V",
+      "method testByChunk([B[BI[B)V",
+      "method testStrictDecoding()V",
+      "method testBase64InputStreamByteByByte()V",
+      "method testCodec130()V",
+      "method testCodec98NPE()V",
+      "method testBase64InputStreamByChunk()V"
+    ],
+    "org/apache/commons/codec/binary/Base64OutputStreamTest.class": [
+      "method testByteByByte([B[BI[B)V",
+      "method testBase64OutputStreamByChunk()V",
+      "method testByChunk([B[BI[B)V",
+      "method testBase64OutputStreamByteByByte()V"
+    ],
+    "org/apache/commons/codec/binary/Base32InputStreamTest.class": [
+      "method testByteByByte([B[BI[B)V",
+      "method testByChunk([B[BI[B)V",
+      "method testStrictDecoding()V",
+      "method testCodec130()V",
+      "method testBase32InputStreamByteByByte()V",
+      "method testBase32InputStreamByChunk()V"
+    ],
+    "org/apache/commons/codec/binary/BaseNTestData.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/Base64Test.class": [
+      "method testChunkedEncodeMultipleOf76()V",
+      "method testConstructor_Int_ByteArray_Boolean()V",
+      "method testEncodeOverMaxSize(I)V",
+      "method testUrlSafe()V",
+      "method testConstructor_Int_ByteArray_Boolean_UrlSafe()V"
+    ],
+    "org/apache/commons/codec/binary/Base32Test.class": [
+      "method testRandomBytes()V",
+      "method testRandomBytesHex()V",
+      "method testRandomBytesChunked()V"
+    ],
+    "org/apache/commons/codec/binary/Base16Test.class": [
+      "add_class"
+    ]
+  },
+  "2c969a83": {
+    "org/apache/commons/codec/binary/Hex.class": [
+      "method encodeHex([B[C)[C",
+      "method decodeHex([C)[B",
+      "add_static_method"
+    ],
+    "org/apache/commons/codec/binary/HexTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "e249d8da": {
+    "org/apache/commons/codec/binary/Hex.class": [
+      "method decodeHex([C[BI)I"
+    ]
+  },
+  "40e1bfe4": {
+    "org/apache/commons/codec/binary/Hex.class": [
+      "nochange"
+    ]
+  },
+  "45340767": {},
+  "34c9feb3": {
+    "org/apache/commons/codec/binary/HexTest.class": [
+      "method testEncodeDecodeHexCharArrayRandom()V",
+      "method testEncodeDecodeHexCharArrayRandomToOutput()V"
+    ]
+  },
+  "28500355": {},
+  "53c93d0f": {},
+  "fab180b2": {},
+  "4c542d7c": {
+    "org/apache/commons/codec/binary/CharSequenceUtilsTest$TestData.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/CharSequenceUtilsTest$2.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/CharSequenceUtilsTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/CharSequenceUtilsTest$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/CharSequenceUtilsTest$RunTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/codec/binary/CharSequenceUtilsTest$3.class": [
+      "add_class"
+    ]
+  },
+  "53658793": {
+    "org/apache/commons/codec/binary/Base64Test.class": [
+      "method assertBase64DecodingOfTrailingBits(I)V"
+    ],
+    "org/apache/commons/codec/binary/Base32Test.class": [
+      "method assertBase32DecodingOfTrailingBits(I)V"
+    ],
+    "org/apache/commons/codec/binary/Base16Test.class": [
+      "method testStrictDecoding()V",
+      "method testLenientDecoding()V"
+    ]
+  },
+  "e42dfe1f": {
+    "org/apache/commons/codec/binary/Base32Test.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "change_signature"
+    ]
+  },
+  "3535c17e": {
+    "org/apache/commons/codec/binary/Base64Test.class": [
+      "method testEmptyBase64()V"
+    ],
+    "org/apache/commons/codec/binary/Base32Test.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/codec/binary/Base16Test.class": [
+      "method testEmptyBase16()V"
+    ]
+  },
+  "9ac33a12": {
+    "org/apache/commons/codec/binary/Base32Test.class": [
+      "add_instance_method"
+    ]
+  },
+  "f39003c9": {
+    "org/apache/commons/codec/binary/Base32Test.class": [
+      "method testConstructors()V",
+      "add_instance_method"
+    ]
+  },
+  "20c46727": {
+    "org/apache/commons/codec/binary/BaseNCodecTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "ea6058c3": {},
+  "738b50de": {
+    "org/apache/commons/codec/binary/Base64TestData.class": [
+      "change_field_declaration"
+    ]
+  },
+  "e2eb50c6": {},
+  "eafdff7c": {},
+  "fe8b24cb": {},
+  "c4e813f8": {
+    "org/apache/commons/codec/language/bm/Languages$SomeLanguages.class": [
+      "method merge(Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;"
+    ]
+  },
+  "0a4b0c69": {
+    "org/apache/commons/codec/language/Nysiis.class": [
+      "method transcodeRemaining(CCCC)[C"
+    ],
+    "org/apache/commons/codec/language/ColognePhonetic.class": [
+      "method colognePhonetic(Ljava/lang/String;)Ljava/lang/String;"
+    ]
+  },
+  "7ca5b56e": {
+    "org/apache/commons/codec/digest/UnixCrypt.class": [
+      "method crypt([BLjava/lang/String;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/codec/digest/PureJavaCrc32CTest.class": [
+      "method testOnes()V",
+      "method testZeros()V"
+    ]
+  },
+  "2bacd0ba": {},
+  "f234c768": {
+    "org/apache/commons/codec/language/MatchRatingApproachEncoder.class": [
+      "method isEncodeEquals(Ljava/lang/String;Ljava/lang/String;)Z"
+    ]
+  },
+  "9d0d9919": {},
+  "a7824cdf": {},
+  "8ecd358f": {},
+  "889d94fa": {
+    "org/apache/commons/codec/binary/Base64.class": [
+      "method isBase64([B)Z"
+    ]
+  },
+  "457c7928": {},
+  "c43c22ba": {},
+  "d720e879": {},
+  "340f3b49": {
+    "org/apache/commons/codec/cli/Digest.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/codec/net/QuotedPrintableCodec.class": [
+      "method encodeQuotedPrintable(Ljava/util/BitSet;[BZ)[B"
+    ],
+    "org/apache/commons/codec/language/bm/Rule.class": [
+      "add_field",
+      "method parseRules(Ljava/util/Scanner;Ljava/lang/String;)Ljava/util/Map;",
+      "method pattern(Ljava/lang/String;)Lorg/apache/commons/codec/language/bm/Rule$RPattern;",
+      "update_constructor_or_update_field_initialization",
+      "method endsWith(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z"
+    ],
+    "org/apache/commons/codec/binary/BinaryCodec.class": [
+      "method toAsciiBytes([B)[B",
+      "method toAsciiChars([B)[C",
+      "method fromAscii([B)[B",
+      "method fromAscii([C)[B"
+    ],
+    "org/apache/commons/codec/language/bm/Rule$Phoneme$1.class": [
+      "method compare(Lorg/apache/commons/codec/language/bm/Rule$Phoneme;Lorg/apache/commons/codec/language/bm/Rule$Phoneme;)I"
+    ],
+    "org/apache/commons/codec/digest/UnixCrypt.class": [
+      "method crypt([BLjava/lang/String;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/codec/binary/Hex.class": [
+      "method encodeHex([B[C)[C"
+    ],
+    "org/apache/commons/codec/cli/DigestTest.class": [
+      "add_class"
+    ]
+  },
+  "35e9cf25": {}
+}

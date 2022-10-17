@@ -1,0 +1,3092 @@
+{
+  "4701b962": {
+    "org/apache/commons/imaging/formats/jpeg/JpegUtils.class": [
+      "method traverseJFIF(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Lorg/apache/commons/imaging/formats/jpeg/JpegUtils$Visitor;)V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/NegSizeSegmentTest.class": [
+      "add_class"
+    ]
+  },
+  "7862d602": {
+    "org/apache/commons/imaging/formats/psd/PsdImageParser.class": [
+      "method getXmpXml(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Ljava/lang/String;",
+      "method dumpImageFile(Ljava/io/PrintWriter;Lorg/apache/commons/imaging/common/bytesource/ByteSource;)Z"
+    ],
+    "org/apache/commons/imaging/formats/png/ChunkType.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoXpString.class": [
+      "method encodeValue(Lorg/apache/commons/imaging/formats/tiff/fieldtypes/FieldType;Ljava/lang/Object;Ljava/nio/ByteOrder;)[B",
+      "method getValue(Lorg/apache/commons/imaging/formats/tiff/TiffField;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoAscii.class": [
+      "method getValue(Ljava/nio/ByteOrder;[B)[Ljava/lang/String;"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageParser.class": [
+      "method getXmpXml(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegImageParser.class": [
+      "method getImageInfo(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/ImageInfo;"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkIccp.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkZtxt.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes$4.class": [
+      "method dump(Ljava/lang/String;[B)V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoGpsText.class": [
+      "method getValue(Lorg/apache/commons/imaging/formats/tiff/TiffField;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V",
+      "method getComments(Ljava/util/List;)Ljava/util/List;",
+      "method getXmpXml(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Ljava/lang/String;",
+      "method readBlocks(Lorg/apache/commons/imaging/formats/gif/GifHeaderInfo;Ljava/io/InputStream;ZLorg/apache/commons/imaging/FormatCompliance;)Ljava/util/List;"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes$5.class": [
+      "method dump(Ljava/lang/String;[B)V"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PgmWriter.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffImageWriterBase.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes$1.class": [
+      "method dump(Ljava/lang/String;[B)V"
+    ],
+    "org/apache/commons/imaging/formats/xpm/XpmImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V",
+      "method loadColorNames()V"
+    ],
+    "org/apache/commons/imaging/formats/psd/ImageResourceBlock.class": [
+      "method getName()Ljava/lang/String;"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkText.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeAscii.class": [
+      "method writeData(Ljava/lang/Object;Ljava/nio/ByteOrder;)[B",
+      "method getValue(Lorg/apache/commons/imaging/formats/tiff/TiffField;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/imaging/formats/xbm/XbmImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkItxt.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkScal.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PpmWriter.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PamWriter.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpRewriter.class": [
+      "method updateXmpXml(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/io/OutputStream;Ljava/lang/String;)V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcParser.class": [
+      "method writeIPTCBlock(Ljava/util/List;)[B",
+      "method parseIPTCBlock([BZ)Ljava/util/List;"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/App14Segment.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsType.class": [
+      "method typeAsInt(Ljava/lang/String;)I",
+      "method describeType(I)Ljava/lang/String;"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpParser.class": [
+      "method parseXmpJpegSegment([B)Ljava/lang/String;"
+    ],
+    "org/apache/commons/imaging/icc/IccTag.class": [
+      "method dump(Ljava/io/PrintWriter;Ljava/lang/String;)V"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PbmWriter.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/formats/png/PngWriter.class": [
+      "method writeChunkSCAL(Ljava/io/OutputStream;DDB)V",
+      "method writeChunktEXt(Ljava/io/OutputStream;Lorg/apache/commons/imaging/formats/png/PngText$Text;)V",
+      "method isValidISO_8859_1(Ljava/lang/String;)Z",
+      "method writeChunkiTXt(Ljava/io/OutputStream;Lorg/apache/commons/imaging/formats/png/PngText$Itxt;)V",
+      "method writeChunkzTXt(Ljava/io/OutputStream;Lorg/apache/commons/imaging/formats/png/PngText$Ztxt;)V",
+      "method writeChunkXmpiTXt(Ljava/io/OutputStream;Ljava/lang/String;)V"
+    ]
+  },
+  "51880b78": {
+    "org/apache/commons/imaging/formats/tiff/TiffImageParser.class": [
+      "method getImageInfo(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/ImageInfo;"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegImageParser.class": [
+      "method getImageInfo(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/ImageInfo;"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffDirectory.class": [
+      "method getRawImageDataElements(Lorg/apache/commons/imaging/formats/tiff/TiffField;Lorg/apache/commons/imaging/formats/tiff/TiffField;)Ljava/util/List;"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser.class": [
+      "method getAllBufferedImages(Lorg/apache/commons/imaging/common/bytesource/ByteSource;)Ljava/util/List;"
+    ],
+    "org/apache/commons/imaging/formats/png/PngImageParser.class": [
+      "method getChunkTypes(Ljava/io/InputStream;)Ljava/util/List;",
+      "method getImageInfo(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/ImageInfo;"
+    ]
+  },
+  "7e7f9685": {
+    "org/apache/commons/imaging/formats/tiff/TiffImageParser.class": [
+      "method getImageInfo(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/ImageInfo;"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PnmImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpImageParser.class": [
+      "method readImageContents(Ljava/io/InputStream;Lorg/apache/commons/imaging/FormatCompliance;Z)Lorg/apache/commons/imaging/formats/bmp/BmpImageContents;"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/formats/png/PngImageParser.class": [
+      "method getImageInfo(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/ImageInfo;"
+    ]
+  },
+  "6228007a": {
+    "org/apache/commons/imaging/formats/jpeg/segments/DhtSegment$HuffmanTable.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegWithInvalidDhtSegmentTest.class": [
+      "add_class"
+    ]
+  },
+  "8cf2b128": {
+    "org/apache/commons/imaging/formats/pcx/PcxWriter.class": [
+      "method writePixels(Ljava/awt/image/BufferedImage;IIILorg/apache/commons/imaging/palette/SimplePalette;Lorg/apache/commons/imaging/common/BinaryOutputStream;)V",
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;)V"
+    ]
+  },
+  "2e8edba0": {
+    "org/apache/commons/imaging/formats/xbm/XbmImageParser.class": [
+      "method parseXbmHeader(Lorg/apache/commons/imaging/common/bytesource/ByteSource;)Lorg/apache/commons/imaging/formats/xbm/XbmImageParser$XbmParseResult;",
+      "method readXbmImage(Lorg/apache/commons/imaging/formats/xbm/XbmImageParser$XbmHeader;Lorg/apache/commons/imaging/common/BasicCParser;)Ljava/awt/image/BufferedImage;",
+      "remove_instance_method",
+      "add_static_method",
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ]
+  },
+  "c8731920": {},
+  "071e63ed": {
+    "org/apache/commons/imaging/formats/ico/IcoImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V",
+      "method readBitmapIconData([BLorg/apache/commons/imaging/formats/ico/IcoImageParser$IconInfo;)Lorg/apache/commons/imaging/formats/ico/IcoImageParser$IconData;"
+    ]
+  },
+  "778d3308": {
+    "org/apache/commons/imaging/common/itu_t4/T4_T6_TablesTest.class": [
+      "method testCreatesT4_T6_TablesTakingNoArgumentsAndCallsWriteBits()V"
+    ]
+  },
+  "d2ec76bd": {
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserIndexedTest.class": [
+      "method testFailsToCreateDataParserIndexedThrowsArrayIndexOutOfBoundsException()V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/JfifSegmentTest.class": [
+      "method testCreatesJfifSegment()V"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkTextTest.class": [
+      "method testCreatesPngChunkText()V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUnknownTest.class": [
+      "method testCreatesTagInfoUnknown()V"
+    ]
+  },
+  "772ea391": {
+    "org/apache/commons/imaging/ImageInfo.class": [
+      "add_field",
+      "method dump()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/psd/datareaders/UncompressedDataReader.class": [
+      "method readData(Ljava/io/InputStream;Ljava/awt/image/BufferedImage;Lorg/apache/commons/imaging/formats/psd/PsdImageContents;Lorg/apache/commons/imaging/common/BinaryFileParser;)V"
+    ],
+    "org/apache/commons/imaging/icc/IccProfileParser.class": [
+      "add_field",
+      "method readICCProfileInfo(Ljava/io/InputStream;)Lorg/apache/commons/imaging/icc/IccProfileInfo;",
+      "method getICCProfileInfo(Lorg/apache/commons/imaging/common/bytesource/ByteSource;)Lorg/apache/commons/imaging/icc/IccProfileInfo;",
+      "method issRGB(Lorg/apache/commons/imaging/common/bytesource/ByteSource;)Z",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffContents.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageData$ByteSourceData.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegPhotoshopMetadata.class": [
+      "method dump()V"
+    ],
+    "org/apache/commons/imaging/icc/IccProfileInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization",
+      "method dump(Ljava/lang/String;)V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageData$Data.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegImageParser.class": [
+      "add_field",
+      "method getICCProfileBytes(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)[B",
+      "method dumpSegments(Ljava/util/List;)V",
+      "method getExifRawData(Lorg/apache/commons/imaging/common/bytesource/ByteSource;)[B",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffElement.class": [
+      "remove_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/imaging/common/BinaryFileParser.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method debugNumber(Ljava/lang/String;II)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkIccp.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes$4.class": [
+      "method dump(Ljava/lang/String;[B)V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegUtils$1.class": [
+      "method visitSegment(I[BI[B[B)Z",
+      "method visitSOS(I[B[B)V"
+    ],
+    "org/apache/commons/imaging/ImagingConstants.class": [
+      "remove_field"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoGpsText.class": [
+      "method getValue(Lorg/apache/commons/imaging/formats/tiff/TiffField;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifImageParser.class": [
+      "add_field",
+      "method readImageDescriptor(Lorg/apache/commons/imaging/formats/gif/GifHeaderInfo;ILjava/io/InputStream;ZLorg/apache/commons/imaging/FormatCompliance;)Lorg/apache/commons/imaging/formats/gif/ImageDescriptor;",
+      "method readHeader(Ljava/io/InputStream;Lorg/apache/commons/imaging/FormatCompliance;)Lorg/apache/commons/imaging/formats/gif/GifHeaderInfo;",
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes$5.class": [
+      "method dump(Ljava/lang/String;[B)V"
+    ],
+    "org/apache/commons/imaging/ImageDump.class": [
+      "add_field",
+      "method dumpColorSpace(Ljava/lang/String;Ljava/awt/color/ColorSpace;)V",
+      "method dumpBIProps(Ljava/lang/String;Ljava/awt/image/BufferedImage;)V",
+      "method dump(Ljava/lang/String;Ljava/awt/image/BufferedImage;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/common/BinaryFunctions.class": [
+      "add_field",
+      "method printByteBits(Ljava/lang/String;B)V",
+      "method printCharQuad(Ljava/lang/String;I)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/psd/PsdHeaderInfo.class": [
+      "add_field",
+      "method dump()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/SofnSegment.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffHeader.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/imaging/FormatCompliance.class": [
+      "add_field",
+      "method dump()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes$1.class": [
+      "method dump(Ljava/lang/String;[B)V"
+    ],
+    "org/apache/commons/imaging/palette/PaletteFactory.class": [
+      "change_field_declaration",
+      "method finishDivision(Lorg/apache/commons/imaging/palette/ColorSpaceSubset;IIII)Lorg/apache/commons/imaging/palette/PaletteFactory$DivisionCandidate;",
+      "method divide(Ljava/util/List;I[II)Ljava/util/List;",
+      "method makeQuantizedRgbPalette(Ljava/awt/image/BufferedImage;I)Lorg/apache/commons/imaging/palette/Palette;",
+      "method makeExactRgbPaletteFancy(Ljava/awt/image/BufferedImage;)Lorg/apache/commons/imaging/palette/Palette;",
+      "method divideSubset2([ILorg/apache/commons/imaging/palette/ColorSpaceSubset;II)Ljava/util/List;",
+      "method makeQuantizedRgbaPalette(Ljava/awt/image/BufferedImage;ZI)Lorg/apache/commons/imaging/palette/Palette;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsImageParser.class": [
+      "method getImageInfo(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/ImageInfo;",
+      "method getImageSize(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Ljava/awt/Dimension;"
+    ],
+    "org/apache/commons/imaging/formats/psd/datareaders/CompressedDataReader.class": [
+      "method readData(Ljava/io/InputStream;Ljava/awt/image/BufferedImage;Lorg/apache/commons/imaging/formats/psd/PsdImageContents;Lorg/apache/commons/imaging/common/BinaryFileParser;)V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffReader.class": [
+      "method readTiffHeader(Ljava/io/InputStream;)Lorg/apache/commons/imaging/formats/tiff/TiffHeader;"
+    ],
+    "org/apache/commons/imaging/formats/psd/ImageResourceBlock.class": [
+      "method getName()Ljava/lang/String;"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkText.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/SosSegment.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpImageParser.class": [
+      "add_field",
+      "remove_instance_method",
+      "method getBufferedImage(Ljava/io/InputStream;Ljava/util/Map;)Ljava/awt/image/BufferedImage;",
+      "method getFormatCompliance(Lorg/apache/commons/imaging/common/bytesource/ByteSource;)Lorg/apache/commons/imaging/FormatCompliance;",
+      "method getImageInfo(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/ImageInfo;",
+      "add_instance_method",
+      "method getImageSize(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Ljava/awt/Dimension;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegImageMetadata.class": [
+      "method dump()V"
+    ],
+    "org/apache/commons/imaging/palette/ColorSpaceSubset.class": [
+      "add_field",
+      "method dumpJustRGB(Ljava/lang/String;)V",
+      "update_constructor_or_update_field_initialization",
+      "method dump(Ljava/lang/String;)V"
+    ],
+    "org/apache/commons/imaging/palette/MedianCutQuantizer.class": [
+      "remove_instance_method",
+      "method groupColors(Ljava/awt/image/BufferedImage;I)Ljava/util/Map;",
+      "add_instance_method"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffDirectory.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes.class": [
+      "add_field",
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/psd/PsdImageContents.class": [
+      "add_field",
+      "method dump()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegUtils.class": [
+      "method traverseJFIF(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Lorg/apache/commons/imaging/formats/jpeg/JpegUtils$Visitor;)V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/JfifSegment.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcParser.class": [
+      "add_field",
+      "remove_instance_method",
+      "method parsePhotoshopSegment([BLjava/util/Map;)Lorg/apache/commons/imaging/formats/jpeg/iptc/PhotoshopApp13Data;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/bmp/PixelParserRle.class": [
+      "add_field",
+      "method processByteOfData([IIIIIILorg/apache/commons/imaging/common/ImageBuilder;)I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffDirectory$ImageDataElement.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/imaging/ImageParser.class": [
+      "method getICCProfileBytes(Ljava/io/File;Ljava/util/Map;)[B",
+      "add_field",
+      "method dumpImageFile(Ljava/io/File;)Ljava/lang/String;",
+      "method getMetadata(Ljava/io/File;Ljava/util/Map;)Lorg/apache/commons/imaging/common/ImageMetadata;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/png/PngImageParser.class": [
+      "method getBufferedImage(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Ljava/awt/image/BufferedImage;",
+      "add_field",
+      "method readChunks(Ljava/io/InputStream;[Lorg/apache/commons/imaging/formats/png/ChunkType;Z)Ljava/util/List;",
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V",
+      "method dumpImageFile(Ljava/io/PrintWriter;Lorg/apache/commons/imaging/common/bytesource/ByteSource;)Z",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/JpegImageData.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/imaging/internal/Debug.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/icc/IccTag.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization",
+      "method dump(Ljava/lang/String;)V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffField.class": [
+      "add_field",
+      "method dump()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffField$OversizeValueElement.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/imaging/formats/png/GammaCorrection.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/png/PngWriter.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputSet.class": [
+      "method dump()V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffElement$Stub.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/imaging/ImagingTest.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/TextFieldTest.class": [
+      "method checkField(Ljava/io/File;Lorg/apache/commons/imaging/formats/tiff/TiffField;)V"
+    ],
+    "org/apache/commons/imaging/palette/PaletteQuantizationTest.class": [
+      "method checkPaletteDetails(Ljava/awt/image/BufferedImage;II)V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/GpsTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/xmp/XmpUpdateTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/wbmp/WbmpReadTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/xbm/XbmReadTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/pcx/PcxReadTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/xpm/XpmReadTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsRoundTripTest.class": [
+      "method verify(Ljava/awt/image/BufferedImage;II)V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegReadTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/roundtrip/RoundtripBase.class": [
+      "method roundtrip(Lorg/apache/commons/imaging/roundtrip/FormatInfo;Ljava/awt/image/BufferedImage;Ljava/lang/String;Z)V"
+    ],
+    "org/apache/commons/imaging/formats/rgbe/RgbeReadTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffLzwTest.class": [
+      "method decompressRoundtripAndValidate([B)V",
+      "method testTiffImageData()V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffCcittTest.class": [
+      "method testAll5x2Images()V",
+      "method compareImages(Ljava/awt/image/BufferedImage;Ljava/awt/image/BufferedImage;)V",
+      "method testAll5x2Compressions()V"
+    ],
+    "org/apache/commons/imaging/formats/png/PngReadTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoRoundtripTest.class": [
+      "method verify(Ljava/awt/image/BufferedImage;II)V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffLzwTest$4.class": [
+      "method code(I)V"
+    ],
+    "org/apache/commons/imaging/test/util/FileSystemTraversal.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffLzwTest$3.class": [
+      "method code(I)V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcDumpTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/png/ConvertPngToGifTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffReadTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/WriteExifMetadataExampleTest.class": [
+      "method testOddOffsets()V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/MakerNoteFieldTest.class": [
+      "method checkField(Ljava/io/File;Lorg/apache/commons/imaging/formats/tiff/TiffField;)V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/JpegImageDataTest.class": [
+      "method testCreatesJpegImageDataAndCallsGetElementDescription()V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriteTest.class": [
+      "method testInsert()V",
+      "method testRemove()V",
+      "method rewrite(Lorg/apache/commons/imaging/formats/jpeg/exif/ExifRewriteTest$Rewriter;Ljava/lang/String;)V"
+    ],
+    "org/apache/commons/imaging/formats/png/PngMultipleRoundtripTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/png/PngWriteForceTrueColorText.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/common/RationalNumberTest.class": [
+      "method testRationalNumber()V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffRoundtripTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffLzwTest$2.class": [
+      "method code(I)V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifDumpTest.class": [
+      "method testDumpJFIF()V"
+    ],
+    "org/apache/commons/imaging/color/ColorConversionsTest.class": [
+      "method testXYZ()V",
+      "method testRGBtoHSV()V",
+      "method testRGBtoCMYK()V",
+      "method testRGBtoHSL()V"
+    ],
+    "org/apache/commons/imaging/formats/xmp/XmpDumpTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/pam/PamReadTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpRoundtripTest.class": [
+      "method compare([[I[[I)V"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceImageTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/formats/psd/PsdReadTest.class": [
+      "method test()V"
+    ],
+    "org/apache/commons/imaging/roundtrip/ImageAsserts.class": [
+      "method assertEquals(Ljava/awt/image/BufferedImage;Ljava/awt/image/BufferedImage;I)V",
+      "method assertEquals(Ljava/io/File;Ljava/io/File;)V"
+    ]
+  },
+  "eb98398b": {
+    "org/apache/commons/imaging/formats/tiff/datareaders/BitInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PgmFileInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossless$BufferOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/gif/GenericGifBlock.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$FileHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffReader$Collector.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffReader$FirstDirectoryCollector.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/gif/GraphicControlExtension.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/ScanExpediter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$IconInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputItem$Value.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/ImageResourceType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/MostPopulatedBoxesMedianCut$ColorComparer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/T4_T6_Tables$Entry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/MedianCutPalette.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/PaletteFactory$DivisionCandidate.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoGpsText$TextEncoding.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputSummary.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/CachingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/ColorCount.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/BitInputStreamFlexible.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$PNGIconData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PpmFileInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsImageParser$IcnsContents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$ImageContents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsImageParser$IcnsElement.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PgmWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/BitParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/PixelParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPieceImageData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceInputStream$CacheBlock.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pcx/PcxImageParser$PcxHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pcx/PcxWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/mylzw/MyLzwCompressor$ByteArray.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$BitmapHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/ColorGroup.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPieceSegmentExif.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpWriterPalette.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPieceSegment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/dcx/DcxImageParser$DcxHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngWriter$ImageHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/HuffmanTreeException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsImageParser$IcnsHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xpm/XpmImageParser$XpmHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PpmWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/WhiteSpaceReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xbm/XbmImageParser$XbmHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/PixelParserRgb.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/PixelParserBitFields.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpHeaderInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/FastByteArrayOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/wbmp/WbmpImageParser$WbmpHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/ColorGroupCut.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/rgbe/InfoHeaderReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPieces.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/PixelParserRle.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/PixelParserSimple.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifHeaderInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PamFileInfo$GrayscaleTupleReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpImageContents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$BitmapIconData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$IconData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/BitArrayOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputSummary$OffsetItem.class": [
+      "nochange"
+    ]
+  },
+  "9519e44e": {
+    "org/apache/commons/imaging/formats/rgbe/RgbeInfo.class": [
+      "method decompress(Ljava/io/InputStream;[B)V"
+    ],
+    "org/apache/commons/imaging/formats/rgbe/RgbeReadTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "23c4e5f2": {
+    "org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoder.class": [
+      "method extend(II)I"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoderTest.class": [
+      "add_class"
+    ]
+  },
+  "120ef1c1": {},
+  "fa7c16f4": {
+    "org/apache/commons/imaging/formats/png/PngImageParser.class": [
+      "method getMetadata(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/common/ImageMetadata;"
+    ],
+    "org/apache/commons/imaging/formats/png/PngWriteReadTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "258277b4": {
+    "org/apache/commons/imaging/formats/tiff/constants/TiffTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffElement$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/PsdImageParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterPaeth.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoLong.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageMetadata$GPSInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/datareaders/BitInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/ChunkType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcRecord.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/LongestAxisMedianCut.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/decoder/Block.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpWriterRgb.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PgmFileInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngText.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterTrueColor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossless$BufferOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoXpString.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageData$Tiles.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$JFIFPieceSegment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputField.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserGrayscale.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcRecord$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/wbmp/WbmpImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/formats/psd/datareaders/DataReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xbm/XbmImageParser$XbmParseResult.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorCieLuv.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSRationals.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xpm/XpmImageParser$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputDirectory$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterGrayscale.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/gif/GenericGifBlock.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByte.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/rgbe/RgbeImageParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/QuantizedPalette.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoAscii.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoShort.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xbm/XbmImageParser$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngColorType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterYCbCr.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$FileHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImageFormat.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffReader$Collector.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/SimpleBufferedImageFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImageInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/TiffDirectoryConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngImageInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserRgb.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterCieLab.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/ScanExpediterInterlaced.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/datareaders/UncompressedDataReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeFloat.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffReader$FirstDirectoryCollector.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkIhdr.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSource.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/ExifTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoShortOrLong.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/App2Segment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImageWriteException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifBlock.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/gif/GraphicControlExtension.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/UnknownSegment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/T4AndT6Compression.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/mylzw/MyLzwDecompressor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageMetadata.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeRational.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterIndexedColor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/Rle24Compression.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegUtils$Visitor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/ScanExpediter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/GeoTiffTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccProfileParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccTagType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImageInfo$ColorType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterRgb.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUndefined.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$IconInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/SofnSegment$Component.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpHeaderInfo$ColorSpace.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageMetadata$Directory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegImageParser$5.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegImageParser$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputItem$Value.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/ImageResourceType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffContents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/MostPopulatedBoxesMedianCut$ColorComparer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/T4_T6_Tables$Entry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageData$ByteSourceData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegPhotoshopMetadata.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/MedianCutPalette.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceFile.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PhysicalScale.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccProfileInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/AdobePhotoshopTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/InterlaceMethod.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/Dithering.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/MostPopulatedBoxesMedianCut.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShort.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageData$Data.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegImageParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pcx/RleWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffElement.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkGama.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifImageContents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/BinaryFileParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/ByteConversions.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorConversions.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkIccp.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/rgbe/RgbeInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/PaletteFactory$DivisionCandidate.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkZtxt.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeByte.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorHsl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngText$Itxt.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/mylzw/MyLzwCompressor$Listener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterSub.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/GenericSegment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes$4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/PixelDensity.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/ColorSpaceSubset$RgbComparator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterAverage.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/LongestAxisMedianCut$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputDirectory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoGpsText$TextEncoding.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossless$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputSummary.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngText$Ztxt.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/CachingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/ColorCount.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccTagTypes.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/BitInputStreamFlexible.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pcx/PcxConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/AppnSegment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/Tiff4TagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegUtils$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$PNGIconData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorCieLch.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PpmFileInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/DcfTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImagingConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PnmImageParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoGpsText.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/dcx/DcxImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifImageParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/GenericImageMetadata.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/HuffmanTree$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsImageParser$IcnsContents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/TiffConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoRationals.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/mylzw/BitsToByteInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/HuffmanTree$Node.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$ImageContents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoDirectory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpHeaderInfo$ColorSpaceCoordinate.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/RationalNumber.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes$5.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoAsciiOrByte.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/LongestAxisMedianCut$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/HuffmanTree.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossless$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSLongs.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsImageParser$IcnsElement.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/BufferedImageFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/gif/ImageDescriptor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PgmWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/decoder/YCbCrConverter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/BinaryConstant.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterCmyk.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImageDump.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/ImageDataOffsets.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/datareaders/ImageDataReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceInputStream$CacheReadingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/PhotoshopApp13Data.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/mylzw/MyLzwDecompressor$Listener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoRational.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/BinaryFunctions.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSByte.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/HylaFaxTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffElement$DataElement.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/FilterType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/BitParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoShortOrRational.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcBlock.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/PsdHeaderInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/PixelParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceArray.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/decoder/ZigZag.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/SofnSegment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImageFormats.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterBiLevel.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$JFIFPieceImageData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/ScanExpediterSimple.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorCmyk.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoAny.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPieceImageData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/AliasSketchbookProTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PnmWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/LongestAxisMedianCut$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorCmy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/DhtSegment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImageReadException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngTextChunk.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterPalette.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegImageParser$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputDirectory$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUnknowns.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/FormatCompliance.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffImageWriterBase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/Segment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/JpegIptcRewriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PamFileInfo$ColorTupleReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/GenericImageMetadata$GenericImageMetadataItem.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImageInfo$CompressionAlgorithm.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterUp.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStrips.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/MedianCut.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/PaletteFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImagingException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V",
+      "method getImageInfo(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/ImageInfo;",
+      "method getImageSize(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Ljava/awt/Dimension;"
+    ],
+    "org/apache/commons/imaging/formats/psd/datareaders/CompressedDataReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/FileInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PamFileInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/GdalLibraryTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xpm/XpmImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/common/mylzw/MyBitOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserLab.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorXyz.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceInputStream$CacheBlock.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/Palette.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcTypeLookup.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/decoder/Dct.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pcx/PcxImageParser$PcxHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/Imaging.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUndefineds.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/SosSegment$Component.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSBytes.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pcx/PcxWriter.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/common/mylzw/MyLzwCompressor$ByteArray.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/Rfc2301TagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/DqtSegment$QuantizationTable.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$BitmapHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pcx/RleReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$JFIFPieces.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkPlte.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/ColorGroup.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/ImageResourceBlock.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/DhtSegment$HuffmanTable.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkText.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPieceSegmentExif.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/SosSegment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/DqtSegment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PnmConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/MicrosoftHdPhotoTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V",
+      "method getBufferedImage(Ljava/io/InputStream;Ljava/util/Map;)Ljava/awt/image/BufferedImage;",
+      "method getImageInfo(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/ImageInfo;",
+      "method getImageSize(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Ljava/awt/Dimension;"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PbmFileInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegImageMetadata.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeAscii.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpWriterPalette.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PamFileInfo$TupleReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPieceSegment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/ColorSpaceSubset.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoShorts.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcTypes$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pcx/PcxImageParser.class": [
+      "method getBufferedImage(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Ljava/awt/image/BufferedImage;"
+    ],
+    "org/apache/commons/imaging/palette/SimplePalette.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/TiffEpTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/MedianCutQuantizer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngWriter$TransparentPalette.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterNone.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/ImageMetadata.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserIndexed.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserStub.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoDoubles.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/mylzw/MyLzwCompressor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/ColorComponent.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoFloat.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/GpsTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorHunterLab.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffDirectory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeLong.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoLongOrIFD.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ColorTools.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/dcx/DcxImageParser$DcxHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngWriter$ImageHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccTagDataTypes.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/PsdImageContents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/HuffmanTreeException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSLong.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xbm/XbmImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/ComSegment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegImageParser$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/datareaders/DataReaderTiled.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsImageParser$IcnsHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeDouble.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xpm/XpmImageParser$XpmHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/BasicCParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkItxt.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$JFIFPiece.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$ExifOverflowException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkScal.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PpmWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeShort.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserBitmap.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageData$Strips.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/WhiteSpaceReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/JfifSegment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PamFileInfo$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegImageParser$4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/WangTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PamWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xbm/XbmImageParser$XbmHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/PixelParserRgb.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/OceScanjobTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpRewriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorCieLab.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/PixelParserBitFields.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpHeaderInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/FastByteArrayOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsDecoder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/TiffDirectoryType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/AdobePageMaker6TagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngText$Text.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/wbmp/WbmpImageParser$WbmpHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkPhys.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/ImageBuilder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffImageMetadata$TiffMetadataItem.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/ColorGroupCut.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoBytes.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/rgbe/InfoHeaderReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPiece.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$SegmentFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputItem.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffReader$Listener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriter$JFIFPieces.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/T4_T6_Tables.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/PixelParserRle.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffTags.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/mylzw/MyBitInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/ImageMetadata$ImageMetadataItem.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkIdat.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/App14Segment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffDirectory$ImageDataElement.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImageParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/PixelParserSimple.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoAsciiOrRational.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSRational.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngImageParser.class": [
+      "method getBufferedImage(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Ljava/awt/image/BufferedImage;"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/MicrosoftTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$JpegSegmentOverflowException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunk.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoFloats.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifHeaderInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceInputStream$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xpm/XpmImageParser$XpmParseResult.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcParser$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/RgbBufferedImageFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/JpegImageData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoDouble.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PamFileInfo$GrayscaleTupleReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpImageContents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xpm/XpmImageParser$PaletteEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossless.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserCmyk.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$BitmapIconData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/MolecularDynamicsGelTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByteOrShort.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/internal/Debug.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/icc/IccTag.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/PackBits.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/MostPopulatedBoxesMedianCut$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffField.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PbmWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/App13Segment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoImageParser$IconData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoShortOrLongOrRational.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngCrc.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffField$OversizeValueElement.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/ScanExpediter$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngImageParser$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/DngTagConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/RationalNumber$Option.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/GammaCorrection.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcTypes.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoLongs.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputSet.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffElement$Stub.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUnknown.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShorts.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/BitArrayOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputSummary$OffsetItem.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorHsv.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/BinaryOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImagingTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImagingTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterPaethTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/dcx/DcxBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceDataTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/ImageResourceBlockTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/SosSegmentTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/TextFieldTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByteTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/PaletteQuantizationTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorHunterLabTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImageDumpTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpRewriteTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/GpsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/examples/ImageWriteExample.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pam/PamBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/roundtrip/FullColorRoundtrip.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputSetTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/palette/SimplePaletteTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImagingGuessFormatTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorXyzTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffSubImageTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xmp/XmpUpdateTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorHslTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xbm/XbmBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/wbmp/WbmpReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xbm/XbmReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImagingTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/examples/WriteExifMetadataExample.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/wbmp/WbmpBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputDirectoryTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkScalTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pcx/PcxBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserIndexedTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pcx/PcxReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/ImageResourceTypeTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcBaseTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorCieLchTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xpm/XpmReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsRoundTripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorCieLabTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/examples/ImageReadExample$ManagedImageBufferedImageFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/JfifSegmentTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceDataTest$ByteSourceInputStreamFileFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xpm/XpmBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegWithInvalidDhtSegmentTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceDataTest$ByteSourceInputStreamRawFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcUpdateTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/examples/ImageReadExample.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcTypeLookupTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffTagIntegrityTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/roundtrip/FormatInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/examples/MetadataExample.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/roundtrip/NullParametersRoundtripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoRoundtripTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/roundtrip/RoundtripBase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/rgbe/RgbeReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffLzwTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffCcittTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoRoundtripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorCieLuvTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/SpecificExifTagTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserCmykTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/wbmp/WbmpBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoRoundtripTest$BitmapGenerator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/HuffmanTreeExceptionTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoRoundtripTest$GeneratorFor16BitBitmaps.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffTagsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xpm/XpmBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/PsdBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffLzwTest$4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/rgbe/RgbeBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/dcx/DcxBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngTextTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pcx/PcxBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/test/util/FileSystemTraversal.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegWithJpegThumbnailTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/WhiteSpaceReaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PnmImageParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifBaseTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcAddTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffLzwTest$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffReadWriteTagsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcDumpTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/examples/ApacheImagingSpeedAndMemoryTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngWriteReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeByteTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/ConvertPngToGifTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/WriteExifMetadataExampleTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/MakerNoteFieldTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/JpegImageDataTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriteTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterAverageTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngMultipleRoundtripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngWriteForceTrueColorText.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeLongTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoRoundtripTest$GeneratorFor8BitBitmaps.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/RationalNumberTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/PsdBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriteTest$Rewriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorHsvTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/datareaders/DataReaderStripsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilterIndexedColorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pcx/RleReaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserGrayscaleTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpDumpTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoderTest.class": [
+      "method testDecodeBadFile()V"
+    ],
+    "org/apache/commons/imaging/ImagingTest$ImageFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShortTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/dcx/DcxReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkTextTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffRoundtripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcFullDiscardTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffLzwTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/roundtrip/BitmapRoundtripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/roundtrip/GrayscaleRountripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/decoder/DctTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSShortsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pam/PamBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoUnknownTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSByteTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffLzwTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/roundtrip/PixelDensityRoundtrip.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/roundtrip/LimitedColorRoundtripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifDumpTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/RgbBufferedImageFactoryTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorCmykTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/AsciiFieldTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xbm/XbmBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoRoundtripTest$GeneratorFor24BitBitmaps.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorConversionsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpWriterRgbTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/T4_T6_TablesTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/scanlinefilters/ScanlineFilterUpTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/color/ColorCmyTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriteTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserLabTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/BinaryFileFunctionsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoRoundtripTest$GeneratorFor32BitBitmaps.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeShortTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/xmp/XmpDumpTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/rgbe/RgbeBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/examples/SampleUsage.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSBytesTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/MicrosoftTagTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/test/util/FileSystemTraversal$Visitor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pam/PamReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpRoundtripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngCrcTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PngBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriteTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoRoundtripTest$GeneratorFor4BitBitmaps.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceDataTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/ImagingTestConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoRoundtripTest$GeneratorFor1BitBitmaps.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceDataTest$ByteSourceFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PbmFileInfoTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/NegSizeSegmentTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceImageTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/AppnSegmentTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegBaseTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/psd/PsdReadTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoSLongTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/roundtrip/ImageAsserts.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffBaseTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/png/PhysicalScaleTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/roundtrip/TestImages.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceDataTest$ByteSourceFileFactory.class": [
+      "nochange"
+    ]
+  },
+  "466722af": {},
+  "3debe7d6": {
+    "org/apache/commons/imaging/formats/tiff/TiffLzwTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriteTest.class": [
+      "nochange"
+    ]
+  },
+  "92e281c2": {},
+  "8934b16f": {},
+  "dee0061e": {
+    "org/apache/commons/imaging/ImagingTest.class": [
+      "update_constructor_or_update_field_initialization",
+      "method isPhilHarveyTestImage(Ljava/io/File;)Z"
+    ],
+    "org/apache/commons/imaging/ImagingGuessFormatTest.class": [
+      "method testGuessFormat()V"
+    ],
+    "org/apache/commons/imaging/ImagingTestConstants.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "84a2239f": {},
+  "a0ed3041": {},
+  "55fcc260": {
+    "org/apache/commons/imaging/ImagingTestConstants.class": [
+      "nochange"
+    ]
+  },
+  "24a0ad46": {
+    "org/apache/commons/imaging/formats/bmp/PixelParserBitFields.class": [
+      "method getMaskShift(I)I"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpReadTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "9232551e": {},
+  "90b0f33e": {
+    "org/apache/commons/imaging/formats/pnm/PnmImageParser.class": [
+      "method readHeader(Ljava/io/InputStream;)Lorg/apache/commons/imaging/formats/pnm/FileInfo;"
+    ],
+    "org/apache/commons/imaging/formats/psd/dataparsers/DataParserIndexedTest.class": [
+      "method testFailsToCreateDataParserIndexedThrowsArrayIndexOutOfBoundsException()V"
+    ]
+  },
+  "7d67410e": {},
+  "f63a13d5": {
+    "org/apache/commons/imaging/formats/xpm/XpmImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ]
+  },
+  "55f73688": {},
+  "d8780ffd": {
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkIhdr.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/png/PngWithInvalidPngChunkSizeTest.class": [
+      "add_class"
+    ]
+  },
+  "9e9cb538": {},
+  "517ecbf6": {
+    "org/apache/commons/imaging/common/bytesource/ByteSource.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/common/bytesource/ByteSourceInputStream.class": [
+      "method getDescription()Ljava/lang/String;"
+    ],
+    "org/apache/commons/imaging/Imaging.class": [
+      "method getImageParser(Lorg/apache/commons/imaging/common/bytesource/ByteSource;)Lorg/apache/commons/imaging/ImageParser;"
+    ]
+  },
+  "1b308529": {
+    "org/apache/commons/imaging/ImagingTest$1.class": [
+      "change_field_declaration",
+      "method accept(Ljava/io/File;)Z",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "3b962361": {
+    "org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoder.class": [
+      "add_static_method",
+      "method visitSOS(I[B[B)V"
+    ],
+    "org/apache/commons/imaging/common/itu_t4/T4AndT6Compression.class": [
+      "method compressT6([BII)[B",
+      "method decompressT4_2D([BIIZ)[B"
+    ],
+    "org/apache/commons/imaging/common/mylzw/MyLzwDecompressor.class": [
+      "method addStringToTable([B)V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv$RgbValues.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv$TristimulusValues.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStream.class": [
+      "change_field_declaration",
+      "method nextBit()I",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuv.class": [
+      "remove_instance_method",
+      "method interpretPixel(Lorg/apache/commons/imaging/common/ImageBuilder;[III)V",
+      "add_instance_method"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegUtils.class": [
+      "method getMarkerName(I)Ljava/lang/String;"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegConstants.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/photometricinterpreters/PhotometricInterpreterLogLuvTest.class": [
+      "add_class"
+    ]
+  },
+  "0c773d2a": {},
+  "8ee267db": {
+    "org/apache/commons/imaging/formats/png/PngImageParser.class": [
+      "method readChunks(Ljava/io/InputStream;[Lorg/apache/commons/imaging/formats/png/ChunkType;Z)Ljava/util/List;"
+    ],
+    "org/apache/commons/imaging/formats/png/PngWithInvalidPngChunkSizeTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "b684eea6": {},
+  "0b25fa54": {},
+  "b9683f8d": {
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcRecord.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/palette/LongestAxisMedianCut.class": [
+      "add_static_method",
+      "method doCut(Lorg/apache/commons/imaging/palette/ColorGroup;Lorg/apache/commons/imaging/palette/ColorComponent;Ljava/util/List;Z)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffElement.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffOutputDirectory.class": [
+      "add_static_method",
+      "method sortFields()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter.class": [
+      "add_static_method",
+      "method analyzeJFIF(Lorg/apache/commons/imaging/common/bytesource/ByteSource;)Lorg/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$JFIFPieces;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/palette/LongestAxisMedianCut$1.class": [
+      "add_field",
+      "remove_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$1.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcParser.class": [
+      "add_static_method",
+      "method writeIPTCBlock(Ljava/util/List;)[B"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffImageWriterLossless.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/ImagingTest.class": [
+      "add_static_method",
+      "remove_static_method",
+      "method getTestImageByName(Ljava/lang/String;)Ljava/io/File;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifRewriteTest.class": [
+      "method testRewriteLossy()V",
+      "add_static_method",
+      "method testRewriteLossless()V"
+    ],
+    "org/apache/commons/imaging/formats/psd/PsdBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/exif/ExifBaseTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegXmpBaseTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/ico/IcoBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/xbm/XbmBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/icns/IcnsBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/pam/PamBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/wbmp/WbmpBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/pcx/PcxBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/xpm/XpmBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/JpegBaseTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/rgbe/RgbeBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/png/PngBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/dcx/DcxBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/bmp/BmpBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/iptc/IptcBaseTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffBaseTest.class": [
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "b8b7a804": {
+    "org/apache/commons/imaging/formats/tiff/TiffReader$Collector.class": [
+      "method getContents()Lorg/apache/commons/imaging/formats/tiff/TiffContents;"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffContents.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "deefaf6b": {
+    "org/apache/commons/imaging/formats/ico/IcoImageParser.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ]
+  },
+  "51a40b39": {
+    "org/apache/commons/imaging/formats/gif/GifImageData.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifImageParser.class": [
+      "method getBufferedImage(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Ljava/awt/image/BufferedImage;",
+      "method getMetadata(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/common/ImageMetadata;",
+      "method getImageInfo(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Lorg/apache/commons/imaging/ImageInfo;",
+      "add_instance_method",
+      "method getImageSize(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)Ljava/awt/Dimension;"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifImageMetadataItem.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifImageMetadata.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/formats/gif/GifReadTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "f2aed4ca": {
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeRationalTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/color/ColorHslTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/App2SegmentTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/formats/tiff/taginfos/TagInfoByteOrShortTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PpmFileInfoTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/color/ColorCmyTest.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/imaging/palette/DitheringTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/decoder/JpegInputStreamTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/formats/tiff/fieldtypes/FieldTypeAsciiTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/formats/pnm/PgmFileInfoTest.class": [
+      "add_class"
+    ]
+  },
+  "1602ac13": {
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkIccp.class": [
+      "method getUncompressedProfile()[B"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkPlte.class": [
+      "method getRgb()[I"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunk.class": [
+      "method getBytes()[B",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/png/chunks/PngChunkIccpTest.class": [
+      "add_class"
+    ]
+  },
+  "5e5483f1": {
+    "org/apache/commons/imaging/common/ZlibDeflate.class": [
+      "add_class"
+    ],
+    "org/apache/commons/imaging/formats/tiff/constants/TiffConstants.class": [
+      "add_field"
+    ],
+    "org/apache/commons/imaging/formats/tiff/datareaders/ImageDataReader.class": [
+      "method decompress([BIIII)[B"
+    ],
+    "org/apache/commons/imaging/formats/tiff/write/TiffImageWriterBase.class": [
+      "method writeImage(Ljava/awt/image/BufferedImage;Ljava/io/OutputStream;Ljava/util/Map;)V"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffReader.class": [
+      "method readDirectories(Lorg/apache/commons/imaging/common/bytesource/ByteSource;ZLorg/apache/commons/imaging/FormatCompliance;)Lorg/apache/commons/imaging/formats/tiff/TiffContents;"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffRoundtripTest.class": [
+      "method test()V"
+    ]
+  },
+  "0aa5c81a": {
+    "org/apache/commons/imaging/formats/jpeg/decoder/JpegDecoder.class": [
+      "method visitSOS(I[B[B)V"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/specific/JpegImageParserTest.class": [
+      "add_class"
+    ]
+  },
+  "31a07333": {
+    "org/apache/commons/imaging/formats/psd/PsdImageParser.class": [
+      "method getICCProfileBytes(Lorg/apache/commons/imaging/common/bytesource/ByteSource;Ljava/util/Map;)[B"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/xmp/JpegRewriter$JFIFPieceSegment.class": [
+      "method getSegmentData()[B",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/jpeg/segments/App2Segment.class": [
+      "method getIccBytes()[B"
+    ],
+    "org/apache/commons/imaging/icc/IccProfileInfo.class": [
+      "method getData()[B",
+      "method getProfileId()[B"
+    ],
+    "org/apache/commons/imaging/formats/tiff/TiffElement$DataElement.class": [
+      "method getData()[B"
+    ],
+    "org/apache/commons/imaging/formats/png/BitParser.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/imaging/formats/png/transparencyfilters/TransparencyFilter.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  }
+}

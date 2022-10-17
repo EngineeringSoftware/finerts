@@ -1,0 +1,684 @@
+{
+  "342b03d1": {
+    "org/apache/commons/collections4/bidimap/DualTreeBidiMap2Test.class": [
+      "method ignoredTests()[Ljava/lang/String;"
+    ],
+    "org/apache/commons/collections4/trie/UnmodifiableTrieTest.class": [
+      "method ignoredTests()[Ljava/lang/String;"
+    ],
+    "org/apache/commons/collections4/BulkTest.class": [
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/map/TransformedSortedMapTest.class": [
+      "method ignoredTests()[Ljava/lang/String;"
+    ],
+    "org/apache/commons/collections4/bidimap/DualTreeBidiMapTest.class": [
+      "method ignoredTests()[Ljava/lang/String;"
+    ]
+  },
+  "5c331537": {
+    "org/apache/commons/collections4/iterators/PushbackIterator.class": [
+      "method hasNext()Z"
+    ],
+    "org/apache/commons/collections4/multimap/AbstractMultiValuedMap$WrappedCollection.class": [
+      "method containsAll(Ljava/util/Collection;)Z",
+      "method contains(Ljava/lang/Object;)Z",
+      "method isEmpty()Z"
+    ],
+    "org/apache/commons/collections4/iterators/PeekingIterator.class": [
+      "method hasNext()Z"
+    ],
+    "org/apache/commons/collections4/iterators/NodeListIterator.class": [
+      "method hasNext()Z"
+    ],
+    "org/apache/commons/collections4/list/AbstractLinkedList.class": [
+      "method isEqualValue(Ljava/lang/Object;Ljava/lang/Object;)Z"
+    ]
+  },
+  "ca6851e3": {},
+  "8688bf73": {
+    "org/apache/commons/collections4/map/LinkedMap$LinkedMapList.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/set/UnmodifiableNavigableSet.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/list/SetUniqueList.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/collection/AbstractCollectionDecorator.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/collection/IndexedCollection.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/collection/SynchronizedCollection.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/set/UnmodifiableSet.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/multiset/UnmodifiableMultiSet.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/queue/UnmodifiableQueue.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/set/CompositeSet.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/bag/UnmodifiableSortedBag.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/collection/UnmodifiableCollection.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/list/UnmodifiableList.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/collection/CompositeCollection.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/list/FixedSizeList.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/bag/UnmodifiableBag.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/bidimap/AbstractDualBidiMap$View.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/map/UnmodifiableEntrySet.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/collection/UnmodifiableBoundedCollection.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/set/MapBackedSet.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/set/ListOrderedSet.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/set/UnmodifiableSortedSet.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/collections4/collection/AbstractCollectionTest.class": [
+      "add_static_method",
+      "add_instance_method",
+      "method testCollectionIteratorFailFast()V",
+      "method testUnsupportedRemove()V"
+    ],
+    "org/apache/commons/collections4/collection/CompositeCollectionTest.class": [
+      "add_static_method",
+      "add_instance_method"
+    ]
+  },
+  "0d489086": {},
+  "f4cc9984": {},
+  "252170f2": {
+    "org/apache/commons/collections4/map/LRUMap.class": [
+      "method addMapping(IILjava/lang/Object;Ljava/lang/Object;)V"
+    ]
+  },
+  "4a298809": {},
+  "ea9b4b51": {
+    "org/apache/commons/collections4/properties/PropertiesFactory.class": [
+      "add_class"
+    ],
+    "org/apache/commons/collections4/properties/AbstractPropertiesFactory.class": [
+      "add_class"
+    ],
+    "org/apache/commons/collections4/properties/SortedPropertiesFactory.class": [
+      "add_class"
+    ],
+    "org/apache/commons/collections4/properties/SortedPropertiesFactoryTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/collections4/properties/AbstractPropertiesFactoryTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/collections4/properties/PropertiesFactoryTest.class": [
+      "add_class"
+    ]
+  },
+  "7db45d39": {
+    "org/apache/commons/collections4/map/LRUMap.class": [
+      "method reuseMapping(Lorg/apache/commons/collections4/map/AbstractLinkedMap$LinkEntry;IILjava/lang/Object;Ljava/lang/Object;)V",
+      "method moveToMRU(Lorg/apache/commons/collections4/map/AbstractLinkedMap$LinkEntry;)V",
+      "method addMapping(IILjava/lang/Object;Ljava/lang/Object;)V"
+    ]
+  },
+  "f8641c71": {},
+  "7b101411": {},
+  "2b967b82": {
+    "org/apache/commons/collections4/list/LazyList.class": [
+      "change_field_declaration",
+      "method get(I)Ljava/lang/Object;",
+      "method subList(II)Ljava/util/List;",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/ListUtils.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/collections4/ListUtilsTest$3.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/ListUtilsTest.class": [
+      "add_instance_method",
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/ListUtilsTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/collections4/ListUtilsTest$4.class": [
+      "add_class"
+    ],
+    "org/apache/commons/collections4/list/LazyListTest.class": [
+      "add_class"
+    ]
+  },
+  "0117ba7a": {
+    "org/apache/commons/collections4/sequence/ReplacementsHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/collections4/map/PassiveExpiringMap$ExpirationPolicy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/collections4/Factory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/collections4/Closure.class": [
+      "nochange"
+    ],
+    "org/apache/commons/collections4/Predicate.class": [
+      "nochange"
+    ],
+    "org/apache/commons/collections4/Transformer.class": [
+      "nochange"
+    ]
+  },
+  "f12470cd": {},
+  "291414cd": {},
+  "a434957f": {},
+  "4ddee8a0": {},
+  "670dc76c": {},
+  "dd41aa80": {},
+  "ab9e84c4": {},
+  "842075f0": {},
+  "77c4cee3": {
+    "org/apache/commons/collections4/list/CursorableLinkedList.class": [
+      "add_static_method",
+      "method registerCursor(Lorg/apache/commons/collections4/list/CursorableLinkedList$Cursor;)V"
+    ],
+    "org/apache/commons/collections4/set/ListOrderedSet.class": [
+      "method retainAll(Ljava/util/Collection;)Z",
+      "add_instance_method"
+    ]
+  },
+  "b1511c79": {
+    "org/apache/commons/collections4/MapUtils.class": [
+      "method getIntValue(Ljava/util/Map;Ljava/lang/Object;)I",
+      "method getLongValue(Ljava/util/Map;Ljava/lang/Object;)J",
+      "method getDouble(Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Double;)Ljava/lang/Double;",
+      "method getByteValue(Ljava/util/Map;Ljava/lang/Object;)B",
+      "method getDoubleValue(Ljava/util/Map;Ljava/lang/Object;D)D",
+      "method getShort(Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Short;)Ljava/lang/Short;",
+      "method getFloat(Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Float;)Ljava/lang/Float;",
+      "method getBooleanValue(Ljava/util/Map;Ljava/lang/Object;Z)Z",
+      "method getShortValue(Ljava/util/Map;Ljava/lang/Object;S)S",
+      "method getString(Ljava/util/Map;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/String;",
+      "method getFloatValue(Ljava/util/Map;Ljava/lang/Object;F)F",
+      "method getFloatValue(Ljava/util/Map;Ljava/lang/Object;)F",
+      "method getInteger(Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Integer;)Ljava/lang/Integer;",
+      "method getBoolean(Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Boolean;)Ljava/lang/Boolean;",
+      "method getIntValue(Ljava/util/Map;Ljava/lang/Object;I)I",
+      "method getByte(Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Byte;)Ljava/lang/Byte;",
+      "method getDoubleValue(Ljava/util/Map;Ljava/lang/Object;)D",
+      "method getMap(Ljava/util/Map;Ljava/lang/Object;Ljava/util/Map;)Ljava/util/Map;",
+      "add_static_method",
+      "method getNumber(Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Number;)Ljava/lang/Number;",
+      "method getLong(Ljava/util/Map;Ljava/lang/Object;Ljava/lang/Long;)Ljava/lang/Long;",
+      "method getLongValue(Ljava/util/Map;Ljava/lang/Object;J)J",
+      "method getByteValue(Ljava/util/Map;Ljava/lang/Object;B)B",
+      "method getShortValue(Ljava/util/Map;Ljava/lang/Object;)S"
+    ],
+    "org/apache/commons/collections4/MapUtilsTest.class": [
+      "method testgetByteValue()V",
+      "method testgetNumber()V",
+      "add_static_method",
+      "method testgetLongValue()V",
+      "method testgetString()V",
+      "method testgetIntValue()V",
+      "method testgetMap()V",
+      "method testgetBooleanValue()V",
+      "method testgetShortValue()V",
+      "method testgetDoubleValue()V",
+      "method testgetFloatValue()V"
+    ]
+  },
+  "e0b5e624": {
+    "org/apache/commons/collections4/MapUtilsTest.class": [
+      "method testgetBooleanValue()V"
+    ]
+  },
+  "616dfe53": {
+    "org/apache/commons/collections4/MapUtilsTest.class": [
+      "method testgetBooleanValue()V"
+    ]
+  },
+  "1118a1cc": {
+    "org/apache/commons/collections4/MapUtilsTest.class": [
+      "add_static_method",
+      "method testgetBooleanValue()V"
+    ]
+  },
+  "eb0e5411": {},
+  "b29bae05": {},
+  "a2317f62": {
+    "org/apache/commons/collections4/map/MultiValueMap$1$1.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/SetUtils$1.class": [
+      "change_base_class",
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/SetUtils$2.class": [
+      "method createIterator()Ljava/util/Iterator;",
+      "change_field_declaration",
+      "method contains(Ljava/lang/Object;)Z",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/SetUtils$3.class": [
+      "method createIterator()Ljava/util/Iterator;",
+      "remove_instance_method",
+      "change_field_declaration",
+      "method contains(Ljava/lang/Object;)Z",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/SetUtils$4.class": [
+      "change_base_class",
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/SetUtils.class": [
+      "method union(Ljava/util/Set;Ljava/util/Set;)Lorg/apache/commons/collections4/SetUtils$SetView;",
+      "method disjunction(Ljava/util/Set;Ljava/util/Set;)Lorg/apache/commons/collections4/SetUtils$SetView;",
+      "add_static_method",
+      "method intersection(Ljava/util/Set;Ljava/util/Set;)Lorg/apache/commons/collections4/SetUtils$SetView;",
+      "method difference(Ljava/util/Set;Ljava/util/Set;)Lorg/apache/commons/collections4/SetUtils$SetView;"
+    ],
+    "org/apache/commons/collections4/multiset/AbstractMultiSet.class": [
+      "add_static_method",
+      "method createUniqueSetIterator()Ljava/util/Iterator;"
+    ],
+    "org/apache/commons/collections4/CollectionUtils.class": [
+      "method removeAll(Ljava/lang/Iterable;Ljava/lang/Iterable;Lorg/apache/commons/collections4/Equator;)Ljava/util/Collection;",
+      "add_static_method",
+      "method retainAll(Ljava/lang/Iterable;Ljava/lang/Iterable;Lorg/apache/commons/collections4/Equator;)Ljava/util/Collection;",
+      "method isEqualCollection(Ljava/util/Collection;Ljava/util/Collection;Lorg/apache/commons/collections4/Equator;)Z"
+    ],
+    "org/apache/commons/collections4/map/MultiValueMap$1.class": [
+      "method nextIterator(I)Ljava/util/Iterator;",
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/multimap/AbstractMultiValuedMap$EntryValues$1.class": [
+      "method nextIterator(I)Ljava/util/Iterator;",
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/collection/PredicatedCollectionTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/TransformerUtilsTest.class": [
+      "method testIfTransformer()V",
+      "add_static_method"
+    ],
+    "org/apache/commons/collections4/ListUtilsTest$2.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/map/LazyMapTest.class": [
+      "add_static_method",
+      "method mapGetWithTransformer()V"
+    ],
+    "org/apache/commons/collections4/IterableUtilsTest.class": [
+      "method testToStringDelimiter()V",
+      "method containsWithEquator()V",
+      "method matchesAll()V",
+      "add_static_method",
+      "method testToString()V",
+      "method testToStringWithNullArguments()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/set/PredicatedSetTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/iterators/FilterIteratorTest.class": [
+      "add_static_method",
+      "method makeBlockAllFilter(Ljava/util/Iterator;)Lorg/apache/commons/collections4/iterators/FilterIterator;",
+      "method makePassThroughFilter(Ljava/util/Iterator;)Lorg/apache/commons/collections4/iterators/FilterIterator;",
+      "method verifyElementsInPredicate([Ljava/lang/String;)V"
+    ],
+    "org/apache/commons/collections4/splitmap/TransformedSplitMapTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/FluentIterableTest.class": [
+      "add_static_method",
+      "method forEach()V",
+      "method filter()V",
+      "method transform()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/map/PredicatedMapTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/MultiSetUtilsTest.class": [
+      "add_static_method",
+      "method testPredicatedMultiSet()V"
+    ],
+    "org/apache/commons/collections4/map/PredicatedSortedMapTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/iterators/IteratorChainTest.class": [
+      "add_static_method",
+      "method testRemoveFromFilteredIterator()V"
+    ],
+    "org/apache/commons/collections4/iterators/FilterListIteratorTest.class": [
+      "add_static_method",
+      "method setUp()V"
+    ],
+    "org/apache/commons/collections4/SplitMapUtilsTest.class": [
+      "add_static_method",
+      "method testReadableMap()V",
+      "method testWritableMap()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/CollectionUtilsTest$1.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/queue/PredicatedQueueTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/iterators/LazyIteratorChainTest.class": [
+      "add_static_method",
+      "method testFirstIteratorIsEmptyBug()V",
+      "method testRemoveFromFilteredIterator()V"
+    ],
+    "org/apache/commons/collections4/multiset/PredicatedMultiSetTest.class": [
+      "method stringPredicate()Lorg/apache/commons/collections4/Predicate;",
+      "add_static_method"
+    ],
+    "org/apache/commons/collections4/bag/TreeBagTest.class": [
+      "add_static_method",
+      "method testCollections555()V"
+    ],
+    "org/apache/commons/collections4/ListUtilsTest.class": [
+      "method testPredicatedList()V",
+      "add_static_method",
+      "method testLazyTransformerList()V",
+      "method testLazyFactoryList()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/iterators/LazyIteratorChainTest$3.class": [
+      "change_base_class",
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/MapUtilsTest.class": [
+      "method testgetByteValue()V",
+      "method testgetLongValue()V",
+      "method getPredicate()Lorg/apache/commons/collections4/Predicate;",
+      "method testgetString()V",
+      "method testgetIntValue()V",
+      "method testgetBooleanValue()V",
+      "method testgetDoubleValue()V",
+      "method testgetNumber()V",
+      "method testConvertResourceBundle()V",
+      "add_static_method",
+      "method testLazyMapTransformer()V",
+      "method testPopulateMultiMap()V",
+      "change_signature",
+      "method testgetShortValue()V",
+      "method testgetFloatValue()V"
+    ],
+    "org/apache/commons/collections4/comparators/ComparatorChainTest.class": [
+      "add_static_method",
+      "method testComparatorChainOnMinvaluedCompatator()V"
+    ],
+    "org/apache/commons/collections4/MapUtilsTest$1.class": [
+      "change_base_class",
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/ListUtilsTest$1.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/set/PredicatedSortedSetTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/bag/PredicatedBagTest.class": [
+      "method stringPredicate()Lorg/apache/commons/collections4/Predicate;",
+      "add_static_method"
+    ],
+    "org/apache/commons/collections4/set/PredicatedNavigableSetTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/CollectionUtilsTest$2.class": [
+      "method equate(Ljava/lang/Object;Ljava/lang/Object;)Z",
+      "remove_instance_method",
+      "method hash(Ljava/lang/Object;)I",
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/list/PredicatedListTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/IterableUtilsTest$1.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/bag/PredicatedSortedBagTest.class": [
+      "method stringPredicate()Lorg/apache/commons/collections4/Predicate;",
+      "add_static_method"
+    ],
+    "org/apache/commons/collections4/CollectionUtilsTest.class": [
+      "method testSubtractWithPredicate()V",
+      "method testRemoveAllWithEquator()V",
+      "method testMatchesAll()V",
+      "method testIsEqualCollectionEquator()V",
+      "add_static_method",
+      "method transform2()V",
+      "method testRetainAllWithEquator()V",
+      "method forAllButLastDoCollection()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/CollectionUtilsTest$3.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/map/DefaultedMapTest.class": [
+      "method testMapGet4()V",
+      "add_static_method"
+    ],
+    "org/apache/commons/collections4/SetUtilsTest.class": [
+      "add_static_method",
+      "method testpredicatedSet()V"
+    ]
+  },
+  "6834b179": {
+    "org/apache/commons/collections4/map/LRUMap.class": [
+      "method addMapping(IILjava/lang/Object;Ljava/lang/Object;)V"
+    ]
+  },
+  "8f39771c": {},
+  "3fa9e323": {},
+  "c86c01a2": {
+    "org/apache/commons/collections4/IteratorUtilsTest.class": [
+      "method testToList()V",
+      "method testGetIterator()V",
+      "method testNodeListIterator()V",
+      "method testNodeIterator()V",
+      "add_instance_method"
+    ]
+  },
+  "ea548e01": {},
+  "bbedeea7": {
+    "org/apache/commons/collections4/map/TransformedMapTest.class": [
+      "method testFactory_decorateTransform()V"
+    ],
+    "org/apache/commons/collections4/map/PredicatedSortedMapTest$ReverseStringComparator.class": [
+      "add_class"
+    ],
+    "org/apache/commons/collections4/collection/TransformedCollectionTest.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/map/LazySortedMapTest.class": [
+      "add_field",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/map/PredicatedSortedMapTest.class": [
+      "add_field",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/collections4/map/LazySortedMapTest$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/collections4/collection/TransformedCollectionTest$ToLowerCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/collections4/map/PredicatedSortedMapTest$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/collections4/map/LazySortedMapTest$ReverseStringComparator.class": [
+      "add_class"
+    ]
+  },
+  "24539d8c": {},
+  "6e1443e3": {},
+  "3bb76c2d": {
+    "org/apache/commons/collections4/list/GrowthListTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "66cc90ff": {
+    "org/apache/commons/collections4/map/UnmodifiableSortedMapTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "d29377db": {},
+  "a6b35a49": {
+    "org/apache/commons/collections4/map/UnmodifiableSortedMapTest.class": [
+      "method testHeadMap()V",
+      "add_instance_method"
+    ]
+  },
+  "8f3cde34": {
+    "org/apache/commons/collections4/multiset/UnmodifiableMultiSetTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "3d7f5ba6": {
+    "org/apache/commons/collections4/queue/UnmodifiableQueueTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "97b02e64": {
+    "org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.class": [
+      "method testPutAll_Map1()V",
+      "method testPutAll_Map2()V"
+    ]
+  },
+  "ccb5e1a6": {
+    "org/apache/commons/collections4/bag/TransformedSortedBagTest.class": [
+      "method testTransformedBag_decorateTransform()V"
+    ]
+  },
+  "c6f4b84c": {
+    "org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "5a797cd6": {
+    "org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.class": [
+      "method testKeysMultiSet()V"
+    ],
+    "org/apache/commons/collections4/multimap/TransformedMultiValuedMapTest.class": [
+      "method testFactory_decorateTransform()V"
+    ],
+    "org/apache/commons/collections4/multimap/HashSetValuedHashMapTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "37c770f2": {
+    "org/apache/commons/collections4/CollectionUtils.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/collections4/queue/CircularFifoQueueTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/CollectionUtilsTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "954c29f9": {
+    "org/apache/commons/collections4/multimap/AbstractMultiValuedMapTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/collections4/multimap/HashSetValuedHashMapTest.class": [
+      "add_instance_method"
+    ]
+  }
+}

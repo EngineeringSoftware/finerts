@@ -1,0 +1,1138 @@
+{
+  "2ecf081f": {},
+  "b290926f": {},
+  "d9a76c5b": {
+    "net/finmath/montecarlo/automaticdifferentiation/RandomVariableDifferentiableFactory.class": [
+      "add_instance_method"
+    ]
+  },
+  "e33282e0": {},
+  "b312b2ca": {
+    "net/finmath/montecarlo/assetderivativevaluation/products/EuropeanOption.class": [
+      "add_instance_method"
+    ]
+  },
+  "3a473fb3": {},
+  "71438152": {
+    "net/finmath/optimizer/GoldenSectionSearch.class": [
+      "nochange"
+    ]
+  },
+  "a5185353": {},
+  "5ea5e7f5": {},
+  "71827759": {},
+  "bd1d5ad2": {},
+  "f7f4123f": {},
+  "9fbc327d": {},
+  "35075294": {
+    "net/finmath/montecarlo/process/MonteCarloProcessFromProcessModel.class": [
+      "method setModel(Lnet/finmath/montecarlo/model/ProcessModel;)V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "b1da060d": {
+    "net/finmath/marketdata/model/volatility/caplet/tenorconversion/TenorConverter.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/interestrate/products/indices/DateIndex.class": [
+      "method getValue(DLnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/products/BermudanOption.class": [
+      "method getValues(DLnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;D)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/products/BermudanDigitalOption.class": [
+      "method getValues(DLnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;D)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/singleswaprate/data/DataTableBasic$DoubleKey.class": [
+      "method dateFromOffset(Ljava/time/LocalDate;I)Ljava/time/LocalDate;"
+    ],
+    "net/finmath/marketdata/model/volatility/caplet/CapletVolBootstrapping.class": [
+      "method calculateCapVolsFromCapletVols([[D)[[D",
+      "method getCapletVolMatrix()[[D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/modelling/descriptor/xmlparser/FPMLParser.class": [
+      "method getSwapLegProductDescriptor(Lorg/w3c/dom/Element;)Lnet/finmath/modelling/descriptor/InterestRateSwapLegProductDescriptor;"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModelCalibrationTest.class": [
+      "method testATMSwaptionCalibration()V",
+      "method testSwaptionSmileCalibration()V"
+    ]
+  },
+  "ddc961b4": {
+    "net/finmath/time/Period.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "af8f80c6": {
+    "net/finmath/montecarlo/assetderivativevaluation/models/BachelierModel.class": [
+      "add_field",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "efabf5f4": {
+    "net/finmath/montecarlo/process/EulerSchemeFromProcessModel.class": [
+      "method doPrecalculateProcess()V"
+    ]
+  },
+  "f8dfe1d0": {},
+  "72e725b2": {
+    "net/finmath/modelling/modelfactory/AssetModelMonteCarloFactory.class": [
+      "change_field_declaration",
+      "method getModelFromDescriptor(Lnet/finmath/modelling/descriptor/AssetModelDescriptor;)Lnet/finmath/modelling/DescribedModel;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/modelling/descriptor/VarianceGammaModelDescriptor.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/MertonJumpProcess$1$1.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/MertonJumpProcess$1$1$1.class": [
+      "add_class"
+    ],
+    "net/finmath/functions/BarrierOptions.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/MertonJumpProcess$1$1$2.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloMertonModel.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/models/VarianceGammaModel.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/modelling/modelfactory/AssetModelFourierMethodFactory.class": [
+      "method getModelFromDescriptor(Lnet/finmath/modelling/descriptor/AssetModelDescriptor;)Lnet/finmath/modelling/DescribedModel;"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/models/MertonModel.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/functions/BarrierOptions$1.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/MertonJumpProcess$1$1$3.class": [
+      "add_class"
+    ],
+    "net/finmath/modelling/modelfactory/AssetModelMonteCarloFactory$VarianceGammaModelMonteCarlo.class": [
+      "add_class"
+    ],
+    "net/finmath/modelling/modelfactory/AssetModelFourierMethodFactory$VarianceGammaModelFourier.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/MertonJumpProcess.class": [
+      "add_class"
+    ],
+    "net/finmath/fouriermethod/calibration/models/CalibratableVarianceGammaModel.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/MertonJumpProcess$2.class": [
+      "add_class"
+    ],
+    "net/finmath/functions/BarrierOptions$BarrierType.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/MertonJumpProcess$1.class": [
+      "add_class"
+    ],
+    "net/finmath/modelling/descriptor/VarianceGammaModelDescriptorTest.class": [
+      "add_class"
+    ],
+    "net/finmath/fouriermethod/calibration/VarianceGammaDaxCalibrationTest.class": [
+      "add_class"
+    ],
+    "net/finmath/modelling/descriptor/MertonModelDescriptorTest.class": [
+      "add_class"
+    ],
+    "net/finmath/functions/BarrierOptionsTest.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/VarianceGammaModelTest.class": [
+      "add_class"
+    ]
+  },
+  "5fea7c4d": {
+    "net/finmath/montecarlo/interestrate/models/covariance/AbstractLIBORCovarianceModelParametric$2.class": [
+      "method setValues([D[D)V"
+    ],
+    "net/finmath/randomnumbers/RandomNumberGenerator1D.class": [
+      "add_class"
+    ],
+    "net/finmath/stochastic/RandomOperator.class": [
+      "add_class"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$29.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/RandomVariableFactory.class": [
+      "add_static_method"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$24.class": [
+      "nochange"
+    ],
+    "net/finmath/parser/CSVCurveParser.class": [
+      "method parseZIP(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)[Lnet/finmath/marketdata/model/curves/DiscountCurve;"
+    ],
+    "net/finmath/montecarlo/process/Process.class": [
+      "add_instance_method"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$1.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/interestrate/models/covariance/LIBORCovarianceModelStochasticHestonVolatility.class": [
+      "add_static_method",
+      "method getFactorLoading(II[Lnet/finmath/stochastic/RandomVariable;)[Lnet/finmath/stochastic/RandomVariable;",
+      "remove_static_method",
+      "method access$300(Lnet/finmath/montecarlo/interestrate/models/covariance/LIBORCovarianceModelStochasticHestonVolatility;)Lnet/finmath/stochastic/RandomVariable;",
+      "method access$200(Lnet/finmath/montecarlo/interestrate/models/covariance/LIBORCovarianceModelStochasticHestonVolatility;)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/modelling/modelfactory/AssetModelMonteCarloFactory$MertonModelMonteCarlo.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$16.class": [
+      "nochange"
+    ],
+    "net/finmath/functions/AnalyticFormulas.class": [
+      "method bachelierOptionValue(Lnet/finmath/stochastic/RandomVariable;Lnet/finmath/stochastic/RandomVariable;DDLnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "add_static_method",
+      "method bachelierOptionValue(DDDDD)D",
+      "method bachelierOptionDelta(DDDDD)D",
+      "method bachelierOptionImpliedVolatility(DDDDD)D"
+    ],
+    "net/finmath/stochastic/RandomVariableArray.class": [
+      "change_signature",
+      "method getConditionalExpectation(Lnet/finmath/stochastic/ConditionalExpectationEstimator;)Lnet/finmath/stochastic/RandomVariableArray;"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$33.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/BrownianMotionLazyInit.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/models/InhomogenousBachelierModel.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/assetderivativevaluation/models/InhomogenousBachelierModel;",
+      "add_instance_method",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/HybridAssetMonteCarloSimulation.class": [
+      "add_class"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$5.class": [
+      "nochange"
+    ],
+    "net/finmath/modelling/modelfactory/HestonModelMonteCarloFactory.class": [
+      "method getModelFromDescriptor(Lnet/finmath/modelling/descriptor/HestonModelDescriptor;)Lnet/finmath/modelling/DescribedModel;"
+    ],
+    "net/finmath/montecarlo/interestrate/products/SwaptionFromSwapSchedules.class": [
+      "method getValueOfLegAnalytic(DLnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;Lnet/finmath/time/Schedule;ZDD)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$25.class": [
+      "nochange"
+    ],
+    "net/finmath/functions/BarrierOptions.class": [
+      "nochange"
+    ],
+    "net/finmath/finitedifference/models/FDMBlackScholesModel.class": [
+      "method getValue(DDLjava/util/function/DoubleUnaryOperator;Lnet/finmath/finitedifference/models/FiniteDifference1DBoundary;)[[D",
+      "add_instance_method"
+    ],
+    "net/finmath/montecarlo/model/AbstractProcessModel.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/products/BondWithForeignNumeraire.class": [
+      "add_class"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation.class": [
+      "method div(Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method addRatio(Lnet/finmath/stochastic/RandomVariable;Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method floor(Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method log()Lnet/finmath/stochastic/RandomVariable;",
+      "method choose(Lnet/finmath/stochastic/RandomVariable;Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method cap(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method mult(D)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "method sub(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method sqrt()Lnet/finmath/stochastic/RandomVariable;",
+      "method abs()Lnet/finmath/stochastic/RandomVariable;",
+      "method mult(Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method cos()Lnet/finmath/stochastic/RandomVariable;",
+      "method pow(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method bus(Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method add(Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method average()Lnet/finmath/stochastic/RandomVariable;",
+      "method apply(Ljava/util/function/DoubleUnaryOperator;)Lnet/finmath/stochastic/RandomVariable;",
+      "method discount(Lnet/finmath/stochastic/RandomVariable;D)Lnet/finmath/stochastic/RandomVariable;",
+      "method apply(Lnet/finmath/functions/DoubleTernaryOperator;Lnet/finmath/stochastic/RandomVariable;Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method exp()Lnet/finmath/stochastic/RandomVariable;",
+      "remove_instance_method",
+      "method cap(Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method squared()Lnet/finmath/stochastic/RandomVariable;",
+      "method floor(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method sub(Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method addProduct(Lnet/finmath/stochastic/RandomVariable;Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method addProduct(Lnet/finmath/stochastic/RandomVariable;D)Lnet/finmath/stochastic/RandomVariable;",
+      "method vid(Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method apply(Ljava/util/function/DoubleBinaryOperator;Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method add(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method isNaN()Lnet/finmath/stochastic/RandomVariable;",
+      "method accrue(Lnet/finmath/stochastic/RandomVariable;D)Lnet/finmath/stochastic/RandomVariable;",
+      "method sin()Lnet/finmath/stochastic/RandomVariable;",
+      "method subRatio(Lnet/finmath/stochastic/RandomVariable;Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;",
+      "method div(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method invert()Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/stochastic/RandomVariable.class": [
+      "add_instance_method"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/HybridAssetLIBORModelMonteCarloSimulation.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/process/EulerSchemeFromProcessModel$1.class": [
+      "method call()Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/singleswaprate/data/DataTableExtrapolated.class": [
+      "method getValue(II)D"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMonteCarloSimulationFromLIBORModel.class": [
+      "method getNumberOfFactors()I",
+      "add_field",
+      "method getTimeDiscretization()Lnet/finmath/time/TimeDiscretization;",
+      "method getProcess()Lnet/finmath/montecarlo/process/MonteCarloProcess;",
+      "method getNumeraire(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getMonteCarloWeights(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;",
+      "update_constructor_or_update_field_initialization",
+      "method getTimeIndex(D)I",
+      "method getLIBOR(II)Lnet/finmath/stochastic/RandomVariable;",
+      "method getNumberOfPaths()I",
+      "method getLIBOR(DDD)Lnet/finmath/stochastic/RandomVariable;",
+      "method getBrownianMotion()Lnet/finmath/montecarlo/BrownianMotion;",
+      "method getMonteCarloWeights(I)Lnet/finmath/stochastic/RandomVariable;",
+      "method getTime(I)D"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$32.class": [
+      "nochange"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$28.class": [
+      "nochange"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$6.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/process/MonteCarloProcess.class": [
+      "remove_instance_method",
+      "change_signature"
+    ],
+    "net/finmath/functions/BachelierModel.class": [
+      "add_class"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$10.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/interestrate/products/SwaptionAnalyticApproximation.class": [
+      "remove_instance_method",
+      "remove_static_method",
+      "add_instance_method",
+      "method getValue(DLnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/modelling/modelfactory/AssetModelMonteCarloFactory$BlackScholesModelMonteCarlo.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/integration/MonteCarloIntegrator.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$2.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/interestrate/TermStructureModel.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "change_signature"
+    ],
+    "net/finmath/randomnumbers/MersenneTwister.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/process/EulerSchemeFromProcessModel.class": [
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/process/MonteCarloProcess;",
+      "remove_instance_method",
+      "method getCloneWithModifiedSeed(I)Ljava/lang/Object;",
+      "method clone()Lnet/finmath/montecarlo/process/EulerSchemeFromProcessModel;",
+      "add_instance_method",
+      "method doPrecalculateProcess()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/interestrate/models/HullWhiteModelWithDirectSimulation.class": [
+      "method getAnalyticModel()Lnet/finmath/marketdata/model/AnalyticModel;",
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$17.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/interestrate/models/covariance/LIBORCovarianceModelStochasticVolatility.class": [
+      "method getFactorLoading(II[Lnet/finmath/stochastic/RandomVariable;)[Lnet/finmath/stochastic/RandomVariable;",
+      "remove_static_method",
+      "change_signature"
+    ],
+    "net/finmath/montecarlo/interestrate/models/HullWhiteModel.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getCloneWithModifiedVolatilityModel(Lnet/finmath/montecarlo/interestrate/models/covariance/ShortRateVolatilityModel;)Lnet/finmath/montecarlo/interestrate/models/HullWhiteModel;",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/interestrate/LIBORModel;",
+      "add_instance_method",
+      "method getModelParameters()Ljava/util/Map;",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/parser/CSVSwaptionParser.class": [
+      "method parseStreamsToConvention(Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/util/zip/ZipFile;Ljava/util/zip/ZipEntry;Ljava/time/LocalDate;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lnet/finmath/marketdata/model/volatilities/SwaptionDataLattice$QuotingConvention;DLnet/finmath/marketdata/model/AnalyticModel;)Lnet/finmath/marketdata/model/volatilities/SwaptionDataLattice;"
+    ],
+    "net/finmath/singleswaprate/data/DataTableLinear.class": [
+      "method getValue(II)D"
+    ],
+    "net/finmath/montecarlo/interestrate/models/LIBORMarketModelWithTenorRefinement.class": [
+      "add_field",
+      "remove_instance_method",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "method getStateVariableForPeriod(Lnet/finmath/time/TimeDiscretization;[Lnet/finmath/stochastic/RandomVariable;DD)Lnet/finmath/stochastic/RandomVariable;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$15.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/interestrate/models/covariance/AbstractLIBORCovarianceModelParametric$1.class": [
+      "method setValues([Lnet/finmath/stochastic/RandomVariable;[Lnet/finmath/stochastic/RandomVariable;)V"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/models/BlackScholesModel.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/assetderivativevaluation/models/BlackScholesModel;",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloMertonModel.class": [
+      "add_field",
+      "method getNumeraire(I)Lnet/finmath/stochastic/RandomVariable;",
+      "method getTimeIndex(D)I",
+      "method getNumberOfPaths()I",
+      "method getTimeDiscretization()Lnet/finmath/time/TimeDiscretization;",
+      "method getNumeraire(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getAssetValue(II)Lnet/finmath/stochastic/RandomVariable;",
+      "method getMonteCarloWeights(I)Lnet/finmath/stochastic/RandomVariable;",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;",
+      "method getTime(I)D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/models/BachelierModel.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/assetderivativevaluation/models/BachelierModel;",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$13.class": [
+      "nochange"
+    ],
+    "net/finmath/finitedifference/solvers/FDMThetaMethod.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "method getValue(DDLjava/util/function/DoubleUnaryOperator;)[[D",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/interestrate/models/covariance/LIBORCovarianceModelStochasticHestonVolatility$1.class": [
+      "remove_instance_method",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method"
+    ],
+    "net/finmath/randomnumbers/AcceptanceRejectionRandomNumberGenerator.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$12.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/models/VarianceGammaModel.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/model/ProcessModel;",
+      "add_instance_method",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/integration/TrapezoidalRealIntegrator.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/time/businessdaycalendar/BusinessdayCalendar$DateOffsetUnit.class": [
+      "method getEnum(Ljava/lang/String;)Lnet/finmath/time/businessdaycalendar/BusinessdayCalendar$DateOffsetUnit;"
+    ],
+    "net/finmath/montecarlo/interestrate/models/HullWhiteModelWithConstantCoeff.class": [
+      "method getAnalyticModel()Lnet/finmath/marketdata/model/AnalyticModel;",
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$11.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/interestrate/models/covariance/TermStructureCovarianceModelParametric.class": [
+      "method getCloneCalibrated(Lnet/finmath/montecarlo/interestrate/TermStructureModel;[Lnet/finmath/montecarlo/interestrate/CalibrationProduct;Ljava/util/Map;)Lnet/finmath/montecarlo/interestrate/models/covariance/TermStructureCovarianceModelParametric;"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMonteCarloSimulationFromTermStructureModel.class": [
+      "method getNumberOfFactors()I",
+      "add_field",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getTimeDiscretization()Lnet/finmath/time/TimeDiscretization;",
+      "method getProcess()Lnet/finmath/montecarlo/process/MonteCarloProcess;",
+      "method getNumeraire(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getMonteCarloWeights(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;",
+      "update_constructor_or_update_field_initialization",
+      "method getTimeIndex(D)I",
+      "method getNumberOfPaths()I",
+      "method getCloneWithModifiedSeed(I)Ljava/lang/Object;",
+      "method getLIBOR(DDD)Lnet/finmath/stochastic/RandomVariable;",
+      "method getBrownianMotion()Lnet/finmath/montecarlo/BrownianMotion;",
+      "method getMonteCarloWeights(I)Lnet/finmath/stochastic/RandomVariable;",
+      "method getTime(I)D"
+    ],
+    "net/finmath/montecarlo/interestrate/models/LIBORMarketModelStandard.class": [
+      "add_field",
+      "remove_instance_method",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/models/MertonModel.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/model/ProcessModel;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/interestrate/models/LIBORMarketModelFromCovarianceModel.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method clone()Ljava/lang/Object;",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/interestrate/models/LIBORMarketModelFromCovarianceModel;",
+      "add_instance_method",
+      "method getModelParameters()Ljava/util/Map;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/products/HybridAssetMonteCarloProduct.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/products/EuropeanOptionWithBoundary.class": [
+      "method getBoundaryAdjustment(DDLnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$8.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/models/DisplacedLognomalModel.class": [
+      "add_class"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$30.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/models/BlackScholesModelWithCurves.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/assetderivativevaluation/models/BlackScholesModelWithCurves;",
+      "add_instance_method",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$3.class": [
+      "nochange"
+    ],
+    "net/finmath/stochastic/RandomVariableArray$1.class": [
+      "nochange"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$35.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/interestrate/models/covariance/TermStructureCovarianceModelParametric$1.class": [
+      "method setValues([D[D)V"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/RiskFactorForwardRate.class": [
+      "add_class"
+    ],
+    "net/finmath/modelling/modelfactory/BlackScholesModelMonteCarloFiniteDifference1D$1BlackScholesFDModel$1FDCallOptionProduct.class": [
+      "method getValues(DLnet/finmath/modelling/Model;)Ljava/util/Map;"
+    ],
+    "net/finmath/montecarlo/model/ProcessModel.class": [
+      "remove_instance_method",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "change_signature"
+    ],
+    "net/finmath/information/Library.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$14.class": [
+      "nochange"
+    ],
+    "net/finmath/finitedifference/models/FDMConstantElasticityOfVarianceModel.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORModel.class": [
+      "change_signature"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$22.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/models/InhomogeneousDisplacedLognomalModel.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/assetderivativevaluation/models/InhomogeneousDisplacedLognomalModel;",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/CrossCurrencyLIBORMarketModelFromModels.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloAssetModel.class": [
+      "add_field",
+      "method getNumeraire(I)Lnet/finmath/stochastic/RandomVariable;",
+      "method getTimeIndex(D)I",
+      "method getNumberOfPaths()I",
+      "method getTimeDiscretization()Lnet/finmath/time/TimeDiscretization;",
+      "method getNumeraire(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getAssetValue(II)Lnet/finmath/stochastic/RandomVariable;",
+      "method getMonteCarloWeights(I)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;",
+      "method getTime(I)D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloVarianceGammaModel.class": [
+      "add_field",
+      "method getNumeraire(I)Lnet/finmath/stochastic/RandomVariable;",
+      "method getTimeIndex(D)I",
+      "method getNumberOfPaths()I",
+      "method getTimeDiscretization()Lnet/finmath/time/TimeDiscretization;",
+      "method getNumeraire(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getAssetValue(II)Lnet/finmath/stochastic/RandomVariable;",
+      "method getMonteCarloWeights(I)Lnet/finmath/stochastic/RandomVariable;",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;",
+      "method getTime(I)D",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/interestrate/models/covariance/AbstractShortRateVolatilityModelParametric$1.class": [
+      "method setValues([D[D)V"
+    ],
+    "net/finmath/integration/SimpsonRealIntegrator.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$26.class": [
+      "nochange"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$18.class": [
+      "nochange"
+    ],
+    "net/finmath/modelling/modelfactory/AssetModelMonteCarloFactory$VarianceGammaModelMonteCarlo.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/finitedifference/products/FDMEuropeanPutOption.class": [
+      "add_class"
+    ],
+    "net/finmath/functions/NonCentralChiSquaredDistribution.class": [
+      "add_class"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$4.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/RiskFactorID.class": [
+      "add_class"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$19.class": [
+      "nochange"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$27.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/RiskFactorFX.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/interestrate/models/covariance/LIBORCovarianceModelStochasticVolatility$1.class": [
+      "remove_instance_method",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$9.class": [
+      "nochange"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$31.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/interestrate/products/SwaptionGeneralizedAnalyticApproximation.class": [
+      "remove_instance_method",
+      "remove_static_method",
+      "add_instance_method",
+      "method getValue(DLnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$34.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/HybridAssetLIBORModelMonteCarloSimulationFromModels.class": [
+      "method getAssetValue(II)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/modelling/modelfactory/AssetModelMonteCarloFactory$HestonModelMonteCarlo.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloMultiAssetBlackScholesModel.class": [
+      "add_field",
+      "method getNumeraire(I)Lnet/finmath/stochastic/RandomVariable;",
+      "remove_instance_method",
+      "method getCloneWithModifiedSeed(I)Lnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getNumberOfPaths()I",
+      "method getNumeraire(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getAssetValue(II)Lnet/finmath/stochastic/RandomVariable;",
+      "method getMonteCarloWeights(D)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$7.class": [
+      "nochange"
+    ],
+    "net/finmath/finitedifference/models/FiniteDifference1DModel.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "net/finmath/interpolation/RationalFunctionInterpolation$RationalFunction.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$23.class": [
+      "nochange"
+    ],
+    "net/finmath/time/businessdaycalendar/BusinessdayCalendar$DateRollConvention.class": [
+      "method getEnum(Ljava/lang/String;)Lnet/finmath/time/businessdaycalendar/BusinessdayCalendar$DateRollConvention;"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/products/Bond.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/products/ForwardRateAgreementGeneralized.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/models/HestonModel.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/assetderivativevaluation/models/HestonModel;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/process/MonteCarloProcessFromProcessModel.class": [
+      "remove_instance_method",
+      "method getFactorLoading(II[Lnet/finmath/stochastic/RandomVariable;)[Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "method getInitialState()[Lnet/finmath/stochastic/RandomVariable;",
+      "update_constructor_or_update_field_initialization",
+      "method getDrift(I[Lnet/finmath/stochastic/RandomVariable;[Lnet/finmath/stochastic/RandomVariable;)[Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/modelling/modelfactory/BlackScholesModelMonteCarloFactory.class": [
+      "method getModelFromDescriptor(Lnet/finmath/modelling/descriptor/BlackScholesModelDescriptor;)Lnet/finmath/modelling/DescribedModel;"
+    ],
+    "net/finmath/time/Period.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/interestrate/products/SwaptionSingleCurveAnalyticApproximation.class": [
+      "remove_instance_method",
+      "remove_static_method",
+      "add_instance_method",
+      "method getValue(DLnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$21.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/BrownianMotionFromMersenneRandomNumbers.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/interestrate/products/SwaptionAnalyticApproximationRebonato.class": [
+      "remove_instance_method",
+      "remove_static_method",
+      "add_instance_method",
+      "method getValue(DLnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/montecarlo/interestrate/models/HullWhiteModelWithShiftExtension.class": [
+      "method getAnalyticModel()Lnet/finmath/marketdata/model/AnalyticModel;",
+      "remove_instance_method",
+      "change_field_declaration",
+      "method getRandomVariableForConstant(D)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/ConvexityAdjustedModel.class": [
+      "add_class"
+    ],
+    "net/finmath/fouriermethod/calibration/models/CalibratableVarianceGammaModel.class": [
+      "method extractLowerBounds()[D",
+      "method extractUpperBounds()[D"
+    ],
+    "net/finmath/stochastic/RandomVariableArrayImplementation$20.class": [
+      "nochange"
+    ],
+    "net/finmath/montecarlo/interestrate/products/SwaprateCovarianceAnalyticApproximation.class": [
+      "method getValue(DLnet/finmath/montecarlo/MonteCarloSimulationModel;)Lnet/finmath/stochastic/RandomVariable;",
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "net/finmath/singleswaprate/data/DataTableInterpolated.class": [
+      "method getValue(II)D"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloBlackScholesModel.class": [
+      "method getNumeraire(I)Lnet/finmath/stochastic/RandomVariable;",
+      "method getTimeDiscretization()Lnet/finmath/time/TimeDiscretization;",
+      "method getNumeraire(D)Lnet/finmath/stochastic/RandomVariable;",
+      "method getAssetValue(II)Lnet/finmath/stochastic/RandomVariable;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization",
+      "method getTimeIndex(D)I",
+      "change_field_declaration",
+      "method getCloneWithModifiedSeed(I)Lnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;",
+      "method getNumberOfPaths()I",
+      "method getMonteCarloWeights(I)Lnet/finmath/stochastic/RandomVariable;",
+      "method getCloneWithModifiedData(Ljava/util/Map;)Lnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;",
+      "method getTime(I)D"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModel.class": [
+      "change_signature"
+    ],
+    "net/finmath/montecarlo/interestrate/products/indices/LIBORIndexMultiCurveTest.class": [
+      "method createLIBORMarketModel(Ljava/lang/String;Lnet/finmath/montecarlo/interestrate/models/LIBORMarketModelFromCovarianceModel$Measure;IID)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/modelling/descriptor/InterestRateSwapLegDescriptorTest.class": [
+      "method createLIBORMarketModel(IIDLnet/finmath/marketdata/model/curves/DiscountCurve;Lnet/finmath/marketdata/model/curves/ForwardCurve;)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModelValuationTest.class": [
+      "method createLIBORMarketModel(Lnet/finmath/montecarlo/RandomVariableFactory;IID)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;",
+      "method testDigitalCaplet()V",
+      "method testSwaptionCalibration()V"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/CrossCurrencyLIBORMarketModelFromModelsTest$1.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModelCalibrationTest$LIBORMarketModelType.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/HybridAssetLIBORModelMonteCarloSimulationFromModelsTest.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/HestonModelTest.class": [
+      "method test()V"
+    ],
+    "net/finmath/montecarlo/interestrate/products/SwaptionAnalyticApproximationTest.class": [
+      "method createLIBORMarketModel(IIDLnet/finmath/marketdata/model/curves/DiscountCurve;Lnet/finmath/marketdata/model/curves/ForwardCurve;)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/modelling/LIBORMarketModelHierarchyTest.class": [
+      "method createLIBORMarketModel(IIDLnet/finmath/marketdata/model/curves/DiscountCurve;Lnet/finmath/marketdata/model/curves/ForwardCurve;)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MertonModelTest.class": [
+      "method test()V"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloBlackScholesModelEuropeanOptionSensitivitiesTest.class": [
+      "method testProductAADSensitivities()V"
+    ],
+    "net/finmath/analytic/model/curves/test/TestCurvesFromLIBORModel.class": [
+      "method createLIBORMarketModel(Lnet/finmath/montecarlo/RandomVariableFactory;IID)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/DisplacedLognomalModelTest.class": [
+      "change_field_declaration",
+      "method testProductImplementation()V",
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/interestrate/CapValuationTest.class": [
+      "method init(I)V"
+    ],
+    "net/finmath/finitedifference/ConstantElasticityOfVarianceThetaTest.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/automaticdifferentiation/MonteCarloBlackScholesModelDigitalOptionAADRegressionSensitivitiesTest.class": [
+      "method getSensitivityApproximations(DIZ)Ljava/util/Map;",
+      "method getModel(Lnet/finmath/montecarlo/RandomVariableFactory;Lnet/finmath/montecarlo/BrownianMotion;)Lnet/finmath/montecarlo/assetderivativevaluation/MonteCarloAssetModel;"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/InhomogenousBachelierModelMonteCarloValuationTest.class": [
+      "method testModelRandomVariable()V",
+      "method testEuropeanCallVega()V",
+      "method testEuropeanAsianBermudanOption()V",
+      "change_field_declaration",
+      "method testEuropeanCall()V",
+      "method testEuropeanCallDelta()V",
+      "method testModelProperties()V",
+      "method getModel()Lnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/interestrate/products/SimpleCappedFlooredFloatingRateBondTest.class": [
+      "method createLIBORMarketModel(ILnet/finmath/montecarlo/interestrate/models/LIBORMarketModelFromCovarianceModel$Measure;)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/interestrate/products/SwaptionNormalTest.class": [
+      "method createLIBORMarketModel(IID)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/interestrate/HullWhiteModelCalibrationTest.class": [
+      "method testATMSwaptionCalibration()V"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModelInterpolationTest.class": [
+      "method createLIBORMarketModel(Lnet/finmath/montecarlo/interestrate/models/LIBORMarketModelFromCovarianceModel$InterpolationMethod;Lnet/finmath/montecarlo/RandomVariableFactory;IID)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/hybridassetinterestrate/CrossCurrencyLIBORMarketModelFromModelsTest.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloBlackScholesModelBermudanDigitalOptionSensitivitiesGraphs.class": [
+      "method testProductAADSensitivities()V"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/products/EuropeanOptionVegaPathwiseTest.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/automaticdifferentiation/backward/RandomVariableDifferentiableAADPerformanceTest$TestFunctionMonteCarloAsianOption.class": [
+      "method value(Lnet/finmath/montecarlo/RandomVariableFactory;[Lnet/finmath/stochastic/RandomVariable;[Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/modelling/descriptor/VarianceGammaModelDescriptorTest.class": [
+      "method test()V"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModelMultiCurveValuationTest.class": [
+      "method testCaplet()V",
+      "method testDigitalCaplet()V",
+      "method testSwaptionCalibration()V",
+      "method createLIBORMarketModel(Lnet/finmath/montecarlo/interestrate/models/LIBORMarketModelFromCovarianceModel$Measure;IID)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloBlackScholesModelAsianOptionSensitivitiesTest.class": [
+      "method testProductAADSensitivities()V"
+    ],
+    "net/finmath/convexityadjustment/CMSOptionTest.class": [
+      "method getLIBORModelMonteCarloSimulation(Lnet/finmath/marketdata/model/curves/ForwardCurve;)Lnet/finmath/montecarlo/interestrate/LIBORMonteCarloSimulationFromLIBORModel;"
+    ],
+    "net/finmath/finitedifference/BlackScholesThetaTest.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "net/finmath/fouriermethod/calibration/VarianceGammaDaxCalibrationTest.class": [
+      "method test()V"
+    ],
+    "net/finmath/montecarlo/automaticdifferentiation/backward/RandomVariableDifferentiableAADPerformanceTest$TestFunctionMonteCarloEuropeanOption.class": [
+      "method value(Lnet/finmath/montecarlo/RandomVariableFactory;[Lnet/finmath/stochastic/RandomVariable;[Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloBlackScholesModelDigitalOptionSensitivitiesTest.class": [
+      "method testSensitivities()V",
+      "method testProductAADSensitivities()V"
+    ],
+    "net/finmath/montecarlo/interestrate/products/components/ExposureTest.class": [
+      "method createLIBORMarketModel(Lnet/finmath/montecarlo/interestrate/models/LIBORMarketModelFromCovarianceModel$Measure;IID)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModelCalibrationTest$CalibrationProductType.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModelCalibrationTest$1.class": [
+      "add_class"
+    ],
+    "net/finmath/modelling/descriptor/MertonModelDescriptorTest.class": [
+      "method test()V"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModelCalibrationSmileTest.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloBlackScholesModelSensitivitiesTest.class": [
+      "method getSensitivitiesViaAAD()Ljava/util/Map;",
+      "method getSensitivitiesViaFiniteDifferences()Ljava/util/Map;"
+    ],
+    "net/finmath/montecarlo/interestrate/products/InterestRateProductTest.class": [
+      "method createLIBORMarketModel(Ljava/time/LocalDateTime;IID)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModelCalibrationTest.class": [
+      "method getCalibratedCurve(Lnet/finmath/marketdata/model/AnalyticModel;Ljava/util/Map;)Lnet/finmath/marketdata/model/AnalyticModel;",
+      "add_field",
+      "remove_instance_method",
+      "method testATMSwaptionCalibration()V",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloBlackScholesModelTest.class": [
+      "method testProductImplementation()V",
+      "method testDirectValuation()V"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/BachelierModelMonteCarloValuationTest.class": [
+      "method testModelRandomVariable()V",
+      "method testEuropeanCallVega()V",
+      "method testEuropeanAsianBermudanOption()V",
+      "change_field_declaration",
+      "method testEuropeanCall()V",
+      "method testEuropeanCallDelta()V",
+      "method testModelProperties()V",
+      "method getModel()Lnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/functions/BarrierOptionsTest.class": [
+      "method testUpAndInPut()V",
+      "method testDownAndInCall()V",
+      "method testDownAndInPut()V",
+      "method testUpAndOutPut()V",
+      "method testUpAndOutCall()V",
+      "method testUpAndInCall()V",
+      "method testDownAndOutPut()V",
+      "method testDownAndOutCall()V"
+    ],
+    "net/finmath/montecarlo/interestrate/products/indices/LIBORIndexTest.class": [
+      "method createLIBORMarketModel(Lnet/finmath/montecarlo/interestrate/products/indices/LIBORIndexTest$CurveSetup;Lnet/finmath/montecarlo/interestrate/models/LIBORMarketModelFromCovarianceModel$Measure;IID)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModelCalibrationAADTest.class": [
+      "method evaluateCalibration(Lnet/finmath/montecarlo/interestrate/LIBORModel;Lnet/finmath/montecarlo/BrownianMotion;Ljava/util/List;Ljava/util/List;Ljava/util/List;DDLjava/lang/String;)V"
+    ],
+    "net/finmath/montecarlo/interestrate/products/SwapLegTest.class": [
+      "method createLIBORMarketModel(IIDLnet/finmath/marketdata/model/curves/DiscountCurve;Lnet/finmath/marketdata/model/curves/ForwardCurve;)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/interestrate/HullWhiteModelTest.class": [
+      "method initModels()V"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/products/DeltaHedgedPortfolioWithAADTest.class": [
+      "method getHestonModel()Lnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;",
+      "method getBlackScholesModel()Lnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModelWithTenorRefinementCalibrationTest.class": [
+      "method testATMSwaptionCalibration()V",
+      "method testSwaptionSmileCalibration()V"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/MonteCarloBlackScholesModelBermudanOptionSensitivitiesTest.class": [
+      "method testProductAADSensitivities()V"
+    ],
+    "net/finmath/functions/BachelierModelTest.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/automaticdifferentiation/backward/RandomVariableDifferentiableAADPerformanceTest$TestFunctionMonteCarloBermudanOption.class": [
+      "method value(Lnet/finmath/montecarlo/RandomVariableFactory;[Lnet/finmath/stochastic/RandomVariable;[Lnet/finmath/stochastic/RandomVariable;)Lnet/finmath/stochastic/RandomVariable;"
+    ],
+    "net/finmath/montecarlo/assetderivativevaluation/BlackScholesMonteCarloValuationTest.class": [
+      "method getModel()Lnet/finmath/montecarlo/assetderivativevaluation/AssetModelMonteCarloSimulationModel;"
+    ],
+    "net/finmath/montecarlo/interestrate/LIBORMarketModelNormalAADSensitivitiesTest.class": [
+      "method createLIBORMarketModel(Lnet/finmath/montecarlo/RandomVariableFactory;Lnet/finmath/montecarlo/RandomVariableFactory;IIDLjava/util/Optional;DIID)Lnet/finmath/montecarlo/interestrate/LIBORModelMonteCarloSimulationModel;",
+      "method testGenericDelta()V"
+    ]
+  },
+  "8b62523e": {},
+  "20e24848": {},
+  "23abb85a": {},
+  "9b5c1b61": {},
+  "95a5b761": {},
+  "ab5fbbb3": {},
+  "78fec63b": {},
+  "6cd2fe18": {},
+  "ddadab09": {},
+  "0dd23431": {},
+  "e1557825": {},
+  "12280089": {},
+  "349d56a3": {},
+  "d06b7945": {},
+  "f9c6c1e5": {
+    "net/finmath/randomnumbers/RandomNumberGenerator1D.class": [
+      "add_instance_method"
+    ],
+    "net/finmath/montecarlo/interestrate/products/components/Choice$2.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/interestrate/products/components/ExpectedTailLoss.class": [
+      "add_class"
+    ],
+    "net/finmath/integration/MonteCarloIntegrator.class": [
+      "method integrate(Ljava/util/function/DoubleUnaryOperator;)D",
+      "change_field_declaration",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/randomnumbers/MersenneTwister.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/marketdata/model/cds/CDS$DirtyCleanPrice.class": [
+      "add_class"
+    ],
+    "net/finmath/integration/SimpsonRealIntegrator.class": [
+      "method integrate(Ljava/util/function/DoubleUnaryOperator;)D",
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "net/finmath/montecarlo/interestrate/products/components/Choice$1.class": [
+      "add_class"
+    ],
+    "net/finmath/montecarlo/interestrate/products/components/Choice.class": [
+      "add_class"
+    ],
+    "net/finmath/marketdata/model/cds/CDS$ValuationModel.class": [
+      "add_class"
+    ],
+    "net/finmath/marketdata/model/cds/CDS.class": [
+      "add_class"
+    ],
+    "net/finmath/marketdata/model/cds/CDS$1.class": [
+      "add_class"
+    ],
+    "net/finmath/marketdata/model/curves/CurveInterpolation.class": [
+      "add_instance_method"
+    ],
+    "net/finmath/integration/PiecewiseContantDoubleUnaryOperator.class": [
+      "add_class"
+    ],
+    "net/finmath/integration/PiecewiseContantDoubleUnaryOperatorTest.class": [
+      "add_class"
+    ],
+    "net/finmath/integration/MonteCarloIntegratorTest.class": [
+      "add_class"
+    ],
+    "net/finmath/integration/MonteCarloIntegratorTest$4.class": [
+      "add_class"
+    ],
+    "net/finmath/integration/MonteCarloIntegratorTest$1.class": [
+      "add_class"
+    ],
+    "net/finmath/integration/MonteCarloIntegratorTest$2.class": [
+      "add_class"
+    ],
+    "net/finmath/marketdata/model/cds/CDSTest.class": [
+      "add_class"
+    ],
+    "net/finmath/integration/MonteCarloIntegratorTest$3.class": [
+      "add_class"
+    ]
+  },
+  "18fd35f9": {},
+  "01af5c8c": {},
+  "ac34e40f": {},
+  "c4ffbf17": {},
+  "5ef65035": {},
+  "e69da42c": {},
+  "84dbb39f": {},
+  "14b73eab": {},
+  "5bd75e99": {},
+  "c11f192f": {},
+  "407810d3": {},
+  "563a124d": {},
+  "43bfd382": {},
+  "03befd8d": {}
+}

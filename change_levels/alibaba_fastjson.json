@@ -1,0 +1,548 @@
+{
+  "50532a45": {
+    "com/alibaba/json/bvt/validate/JSONValidatorTest.class": [
+      "add_class"
+    ]
+  },
+  "12d92f61": {
+    "com/alibaba/fastjson/validate/JSONValidateTest_0.class": [
+      "remove_instance_method"
+    ],
+    "com/alibaba/json/bvt/validate/JSONValidatorTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "36e03222": {
+    "com/alibaba/fastjson/JSONValidator.class": [
+      "nochange"
+    ],
+    "com/alibaba/json/bvt/validate/JSONValidatorTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "4f074ed4": {
+    "com/alibaba/fastjson/serializer/JavaBeanSerializer.class": [
+      "method write(Lcom/alibaba/fastjson/serializer/JSONSerializer;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/reflect/Type;IZ)V"
+    ],
+    "com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.class": [
+      "method deserialze(Lcom/alibaba/fastjson/parser/DefaultJSONParser;Ljava/lang/reflect/Type;Ljava/lang/Object;Ljava/lang/Object;I[I)Ljava/lang/Object;"
+    ],
+    "com/alibaba/fastjson/serializer/SerializeConfig.class": [
+      "method createJavaBeanSerializer(Lcom/alibaba/fastjson/serializer/SerializeBeanInfo;)Lcom/alibaba/fastjson/serializer/ObjectSerializer;"
+    ],
+    "com/alibaba/fastjson/JSON.class": [
+      "change_field_declaration"
+    ],
+    "com/alibaba/json/bvt/kotlin/Issue_for_kotlin_20181203.class": [
+      "method test_user()V"
+    ],
+    "com/alibaba/json/test/codec/FastjsonSCodec.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/alibaba/json/test/codec/FastjsonManualCodec.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/alibaba/json/bvt/serializer/JSONObjectOrderTest.class": [
+      "method test_for_order()V"
+    ],
+    "com/alibaba/json/bvt/issue_1600/issue_1699/TestJson.class": [
+      "method test_for_issue()V"
+    ],
+    "com/alibaba/json/test/codec/FastjsonArrayMappingCodec.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/alibaba/json/bvt/bug/Bug_for_zhuel.class": [
+      "method test_for_zhuel()V"
+    ],
+    "com/alibaba/json/bvt/bug/Bug_for_xujin_int.class": [
+      "method test_for_xujin()V"
+    ],
+    "com/alibaba/json/test/codec/FastjsonCodec.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/alibaba/json/bvt/parser/creator/JSONCreatorTest11.class": [
+      "method test_for_yk()V"
+    ],
+    "com/alibaba/json/bvt/bug/Bug_for_xujin.class": [
+      "method test_for_xujin()V"
+    ]
+  },
+  "100964a3": {
+    "com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.class": [
+      "method createInstance(Ljava/util/Map;Lcom/alibaba/fastjson/parser/ParserConfig;)Ljava/lang/Object;"
+    ]
+  },
+  "7ffa2a01": {
+    "com/alibaba/fastjson/JSONArray.class": [
+      "method readObject(Ljava/io/ObjectInputStream;)V"
+    ]
+  },
+  "13ae28e8": {
+    "com/alibaba/fastjson/util/TypeUtils.class": [
+      "method castToDate(Ljava/lang/Object;Ljava/lang/String;)Ljava/util/Date;"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3309$DateFormatTest.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3309.class": [
+      "add_class"
+    ]
+  },
+  "28678ada": {
+    "com/alibaba/fastjson/support/spring/FastJsonHttpMessageConverter.class": [
+      "nochange"
+    ],
+    "com/alibaba/fastjson/JSONObject.class": [
+      "nochange"
+    ],
+    "com/alibaba/fastjson/JSONArray.class": [
+      "nochange"
+    ]
+  },
+  "84975c55": {
+    "com/alibaba/fastjson/support/moneta/MonetaCodec.class": [
+      "method deserialze(Lcom/alibaba/fastjson/parser/DefaultJSONParser;Ljava/lang/reflect/Type;Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "com/alibaba/json/bvt/support/moneta/MoneyNumberTest.class": [
+      "add_class"
+    ]
+  },
+  "9124d8f2": {
+    "com/alibaba/fastjson/parser/deserializer/NumberDeserializer.class": [
+      "method deserialze(Lcom/alibaba/fastjson/parser/DefaultJSONParser;Ljava/lang/reflect/Type;Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3326.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3326$1.class": [
+      "add_class"
+    ]
+  },
+  "e4f82563": {
+    "com/alibaba/json/bvt/JSONObjectTest_readObject.class": [
+      "add_instance_method"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3314.class": [
+      "add_class"
+    ]
+  },
+  "db880f56": {
+    "com/alibaba/json/bvt/date/DateFormatPriorityTest.class": [
+      "method setUp()V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "e4c86bb6": {
+    "com/alibaba/fastjson/util/FieldInfo.class": [
+      "method nameHashCode64(Ljava/lang/String;Lcom/alibaba/fastjson/annotation/JSONField;)J"
+    ],
+    "com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.class": [
+      "method smartMatch(Ljava/lang/String;[I)Lcom/alibaba/fastjson/parser/deserializer/FieldDeserializer;"
+    ],
+    "com/alibaba/fastjson/util/TypeUtils.class": [
+      "method fnv1a_64_extract(Ljava/lang/String;)J",
+      "method fnv1a_64_lower(Ljava/lang/String;)J"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3313$Model.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3313.class": [
+      "add_class"
+    ]
+  },
+  "ee5e03bf": {
+    "com/alibaba/fastjson/util/JavaBeanInfo.class": [
+      "method build(Ljava/lang/Class;Ljava/lang/reflect/Type;Lcom/alibaba/fastjson/PropertyNamingStrategy;ZZZ)Lcom/alibaba/fastjson/util/JavaBeanInfo;"
+    ],
+    "com/alibaba/json/bvt/parser/ClassConstructorTest1$Model.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/parser/ClassConstructorTest1.class": [
+      "add_class"
+    ]
+  },
+  "a26f3838": {
+    "com/alibaba/fastjson/util/JavaBeanInfo.class": [
+      "method build(Ljava/lang/Class;Ljava/lang/reflect/Type;Lcom/alibaba/fastjson/PropertyNamingStrategy;ZZZ)Lcom/alibaba/fastjson/util/JavaBeanInfo;"
+    ],
+    "com/alibaba/json/bvt/parser/ClassConstructorTest1.class": [
+      "method test_error()V"
+    ]
+  },
+  "b8b947a8": {
+    "com/alibaba/fastjson/parser/DefaultJSONParser.class": [
+      "method parseObject(Ljava/util/Map;Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "com/alibaba/fastjson/JSONPath.class": [
+      "method isRef()Z"
+    ]
+  },
+  "20f5dbcc": {
+    "com/alibaba/json/bvt/issue_3300/Issue3336.class": [
+      "add_class"
+    ]
+  },
+  "024bd1e6": {
+    "com/alibaba/json/bvt/issue_3300/IssueForJSONFieldMatch.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/IssueForJSONFieldMatch$VO.class": [
+      "add_class"
+    ]
+  },
+  "97b01a76": {
+    "com/alibaba/fastjson/util/FieldInfo.class": [
+      "method compareTo(Lcom/alibaba/fastjson/util/FieldInfo;)I"
+    ],
+    "com/alibaba/json/bvt/issue_3200/Issue3227.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3200/Issue3227$Parent.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3200/Issue3227$Child.class": [
+      "add_class"
+    ]
+  },
+  "23979428": {
+    "com/alibaba/json/bvt/issue_3300/Issue3338$Model.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3338.class": [
+      "add_class"
+    ]
+  },
+  "d3f332d0": {
+    "com/alibaba/fastjson/util/TypeUtils.class": [
+      "method castToShort(Ljava/lang/Object;)Ljava/lang/Short;",
+      "method castToLong(Ljava/lang/Object;)Ljava/lang/Long;",
+      "method castToDouble(Ljava/lang/Object;)Ljava/lang/Double;",
+      "method castToByte(Ljava/lang/Object;)Ljava/lang/Byte;",
+      "method castToFloat(Ljava/lang/Object;)Ljava/lang/Float;"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3334$VO.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3334.class": [
+      "add_class"
+    ]
+  },
+  "66c3d70c": {
+    "com/alibaba/fastjson/JSONValidator.class": [
+      "method any()Z"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3343.class": [
+      "add_class"
+    ]
+  },
+  "010691b3": {
+    "com/alibaba/fastjson/serializer/AfterFilter.class": [
+      "method writeKeyValue(Ljava/lang/String;Ljava/lang/Object;)V"
+    ],
+    "com/alibaba/json/bvt/issue_3100/Issue3150$Category.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3100/Issue3150$MyRefAfterFilter.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3100/Issue3150$Item.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3100/Issue3150.class": [
+      "add_class"
+    ]
+  },
+  "6a541613": {
+    "com/alibaba/json/bvt/issue_3300/Issue3351.class": [
+      "add_class"
+    ]
+  },
+  "e76998a6": {
+    "com/alibaba/json/bvt/issue_3300/Issue3347.class": [
+      "add_class"
+    ]
+  },
+  "545a06be": {
+    "com/alibaba/fastjson/JSONObject.class": [
+      "method containsKey(Ljava/lang/Object;)Z"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3352.class": [
+      "add_class"
+    ]
+  },
+  "38070ca5": {
+    "com/alibaba/fastjson/TypeReference.class": [
+      "add_static_method"
+    ],
+    "com/alibaba/fastjson/util/IdentityHashMap.class": [
+      "add_instance_method"
+    ],
+    "com/alibaba/fastjson/parser/ParserConfig.class": [
+      "method getDeserializer(Ljava/lang/Class;Ljava/lang/reflect/Type;)Lcom/alibaba/fastjson/parser/deserializer/ObjectDeserializer;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3329$VO.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3329$User.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3329.class": [
+      "add_class"
+    ]
+  },
+  "fc52ad04": {
+    "com/alibaba/fastjson/JSONObject.class": [
+      "method get(Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3356.class": [
+      "add_class"
+    ]
+  },
+  "8efd9951": {
+    "com/alibaba/json/bvt/issue_3300/Issue3358.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3358$Model.class": [
+      "add_class"
+    ]
+  },
+  "bd535c34": {
+    "com/alibaba/json/bvt/issue_3300/Issue3344.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3344$Model.class": [
+      "add_class"
+    ]
+  },
+  "f02ecfc6": {
+    "com/alibaba/fastjson/serializer/DateCodec.class": [
+      "method cast(Lcom/alibaba/fastjson/parser/DefaultJSONParser;Ljava/lang/reflect/Type;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3361.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3361$1.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3361$Model.class": [
+      "add_class"
+    ]
+  },
+  "e970545f": {
+    "com/alibaba/fastjson/JSONValidator.class": [
+      "method any()Z",
+      "add_instance_method"
+    ],
+    "com/alibaba/fastjson/JSONValidator$UTF16Validator.class": [
+      "add_instance_method"
+    ]
+  },
+  "b86ca3cf": {
+    "com/alibaba/fastjson/serializer/AfterFilter.class": [
+      "method writeAfter(Lcom/alibaba/fastjson/serializer/JSONSerializer;Ljava/lang/Object;C)C"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3217$Category.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3217$RefAfterFilterTest.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3217.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3217$Item.class": [
+      "add_class"
+    ]
+  },
+  "e697d4aa": {
+    "com/alibaba/json/bvt/issue_3000/Issue3075$TestBO.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3000/Issue3075.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3000/Issue3075$TestBasicBO.class": [
+      "add_class"
+    ]
+  },
+  "3aedb7b8": {
+    "com/alibaba/fastjson/serializer/JavaBeanSerializer.class": [
+      "method write(Lcom/alibaba/fastjson/serializer/JSONSerializer;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/reflect/Type;IZ)V"
+    ],
+    "com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.class": [
+      "method deserialze(Lcom/alibaba/fastjson/parser/DefaultJSONParser;Ljava/lang/reflect/Type;Ljava/lang/Object;Ljava/lang/Object;I[I)Ljava/lang/Object;"
+    ],
+    "com/alibaba/fastjson/serializer/SerializeConfig.class": [
+      "method createJavaBeanSerializer(Lcom/alibaba/fastjson/serializer/SerializeBeanInfo;)Lcom/alibaba/fastjson/serializer/ObjectSerializer;"
+    ],
+    "com/alibaba/fastjson/JSON.class": [
+      "change_field_declaration"
+    ],
+    "com/alibaba/json/bvt/kotlin/Issue_for_kotlin_20181203.class": [
+      "method test_user()V"
+    ],
+    "com/alibaba/json/test/codec/FastjsonSCodec.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/alibaba/json/test/codec/FastjsonManualCodec.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/alibaba/json/bvt/serializer/JSONObjectOrderTest.class": [
+      "method test_for_order()V"
+    ],
+    "com/alibaba/json/bvt/issue_1600/issue_1699/TestJson.class": [
+      "method test_for_issue()V"
+    ],
+    "com/alibaba/json/test/codec/FastjsonArrayMappingCodec.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/alibaba/json/bvt/bug/Bug_for_zhuel.class": [
+      "method test_for_zhuel()V"
+    ],
+    "com/alibaba/json/bvt/bug/Bug_for_xujin_int.class": [
+      "method test_for_xujin()V"
+    ],
+    "com/alibaba/json/test/codec/FastjsonCodec.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/alibaba/json/bvt/parser/creator/JSONCreatorTest11.class": [
+      "method test_for_yk()V"
+    ],
+    "com/alibaba/json/bvt/bug/Bug_for_xujin.class": [
+      "method test_for_xujin()V"
+    ]
+  },
+  "0c416be6": {
+    "com/alibaba/fastjson/serializer/BeforeFilter.class": [
+      "method writeBefore(Lcom/alibaba/fastjson/serializer/JSONSerializer;Ljava/lang/Object;C)C",
+      "method writeKeyValue(Ljava/lang/String;Ljava/lang/Object;)V"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3373$Category.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3373.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3373$Item.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3373$RefBeforeFilterTest.class": [
+      "add_class"
+    ]
+  },
+  "0d6c0126": {
+    "com/alibaba/json/bvt/issue_3300/Issue3397.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3397$VO.class": [
+      "add_class"
+    ]
+  },
+  "b679307a": {
+    "com/alibaba/fastjson/JSON.class": [
+      "method toJSON(Ljava/lang/Object;Lcom/alibaba/fastjson/serializer/SerializeConfig;)Ljava/lang/Object;"
+    ]
+  },
+  "b24a2bfe": {
+    "com/alibaba/json/bvt/issue_3300/Issue3397.class": [
+      "method test_for_issue()V",
+      "add_instance_method"
+    ]
+  },
+  "68c66d24": {
+    "com/alibaba/json/bvt/issue_3300/Issue3397.class": [
+      "method test_for_issue()V"
+    ]
+  },
+  "367691c7": {
+    "com/alibaba/json/bvt/issue_3300/Issue3376.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3376$Model.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3376$Model3.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3376$Model2.class": [
+      "add_class"
+    ]
+  },
+  "42d5df66": {
+    "com/alibaba/json/bvt/issue_3300/Issue3375$Model.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3375.class": [
+      "add_class"
+    ]
+  },
+  "37208405": {
+    "com/alibaba/fastjson/util/TypeUtils.class": [
+      "method castToBigDecimal(Ljava/lang/Object;)Ljava/math/BigDecimal;",
+      "add_static_method",
+      "method castToBigInteger(Ljava/lang/Object;)Ljava/math/BigInteger;"
+    ],
+    "com/alibaba/json/bvt/parser/TypeUtilsTest_castToBigDecimal.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/parser/TypeUtilsTest_castToBigInteger.class": [
+      "add_class"
+    ]
+  },
+  "c6612329": {
+    "com/alibaba/fastjson/util/TypeUtils.class": [
+      "method castToBigDecimal(Ljava/lang/Object;)Ljava/math/BigDecimal;",
+      "remove_static_method",
+      "method castToBigInteger(Ljava/lang/Object;)Ljava/math/BigInteger;"
+    ],
+    "com/alibaba/json/bvt/parser/TypeUtilsTest_castToBigDecimal.class": [
+      "add_instance_method",
+      "method test_FloatNanInfinite()V",
+      "method test_DoubleNanInfinite()V"
+    ]
+  },
+  "873e0771": {
+    "com/alibaba/fastjson/support/jaxrs/FastJsonAutoDiscoverable.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "1f2f1d22": {
+    "com/alibaba/fastjson/support/jaxrs/FastJsonAutoDiscoverable.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "124fb5e3": {
+    "com/alibaba/fastjson/util/TypeUtils.class": [
+      "method castToBigInteger(Ljava/lang/Object;)Ljava/math/BigInteger;"
+    ]
+  },
+  "2d0d8054": {
+    "com/alibaba/fastjson/parser/deserializer/Jdk8DateCodec.class": [
+      "method write(Lcom/alibaba/fastjson/serializer/JSONSerializer;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/reflect/Type;I)V"
+    ]
+  },
+  "be0d32b6": {
+    "com/alibaba/fastjson/TypeReference.class": [
+      "method handlerParameterizedType(Ljava/lang/reflect/ParameterizedType;[Ljava/lang/reflect/Type;I)Ljava/lang/reflect/Type;"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3448.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3448$SelfTypeReference.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3448$2.class": [
+      "add_class"
+    ],
+    "com/alibaba/json/bvt/issue_3300/Issue3448$1.class": [
+      "add_class"
+    ]
+  },
+  "3ea25de3": {
+    "com/alibaba/json/bvt/issue_1400/Issue1493.class": [
+      "method test_for_issue()V"
+    ]
+  }
+}

@@ -1,0 +1,1392 @@
+{
+  "41857bd1": {},
+  "02628ba9": {},
+  "7c88a633": {},
+  "50215227": {
+    "org/apache/commons/io/FileUtils.class": [
+      "method sizeOfDirectoryBig0(Ljava/io/File;)Ljava/math/BigInteger;",
+      "method sizeOfDirectory0(Ljava/io/File;)J"
+    ]
+  },
+  "a315d695": {
+    "org/apache/commons/io/filefilter/NameFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/TeeInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/monitor/FileAlterationListenerAdaptor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ClassLoaderObjectInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CharacterSetFilterReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CharSequenceReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/WindowsLineEndingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/MessageDigestCalculatingInputStream$MessageDigestMaintainingObserver.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/NameFileComparator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtils.class": [
+      "method contentEqualsIgnoreEOL(Ljava/io/File;Ljava/io/File;Ljava/lang/String;)Z"
+    ],
+    "org/apache/commons/io/input/buffer/CircularBufferInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/EndianUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/BoundedInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/monitor/FileAlterationMonitor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/NullOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/AgeFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/RegexFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/TailerListenerAdapter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ReversedLinesFileReader$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CharacterFilterReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileSystem.class": [
+      "method toLegalFileName(Ljava/lang/String;C)Ljava/lang/String;"
+    ],
+    "org/apache/commons/io/input/ObservableInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/LockableFileWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/NullReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileExistsException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/ReverseComparator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/DefaultFileComparator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/SizeFileComparator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/FileWriterWithEncoding.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/CanWriteFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/AbstractCharacterFilterReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/LastModifiedFileComparator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/TailerListener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/TaggedInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/Tailer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/CanReadFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/monitor/FileEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/ByteOrderMark.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/DirectoryFileComparator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/FileFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/IOFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/BrokenInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ClosedOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/BoundedReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/TeeOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/Charsets.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/NotFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileDeleteStrategy$ForceFileDeleteStrategy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/PathFileComparator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/MessageDigestCalculatingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CharSequenceInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileCleaningTracker$Tracker.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOExceptionWithCause.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/WildcardClassNameMatcher.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/TrueFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/WildcardFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalker.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ByteArrayOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/DirectoryFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/RegexpClassNameMatcher.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ReversedLinesFileReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/ByteOrderParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CountingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/CloseShieldOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/BOMInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/XmlStreamWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/StringBuilderWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/DemuxOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileDeleteStrategy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/MagicNumberFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/BOMInputStream$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/monitor/FileAlterationListener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileSystemUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/LineIterator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/NullInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/ClassNameMatcher.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/OrFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileCleaningTracker$Reaper.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/TaggedIOException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FilenameUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/EmptyFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/buffer/CircularByteBuffer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/SuffixFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/BrokenOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/TaggedOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ReversedLinesFileReader$FilePart.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/XmlStreamReaderException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/DemuxInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/AbstractFileComparator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ProxyInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/buffer/PeekableInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/WildcardFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/ValidatingObjectInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/AndFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/HexDump.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ChunkedOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CloseShieldInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/InfiniteCircularInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/SizeFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/HiddenFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalker$CancelException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ReaderInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/NullWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ChunkedWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/UnixLineEndingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/monitor/FileAlterationObserver.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ProxyReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/ConditionalFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/CanExecuteFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileCleaner.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/CountingOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ThresholdingOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/DelegateFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileCleaningTracker.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/FileFilterUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/FullClassNameMatcher.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/CompositeFileComparator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/AppendableOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ObservableInputStream$Observer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/CopyUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/XmlStreamReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/PrefixFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/ExtensionFileComparator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ClosedInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/DeferredFileOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/FalseFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/NullPrintStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/SwappedDataInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/WriterOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/AbstractFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/AutoCloseInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/ThreadMonitor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyOutputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/NullReaderTest$TestNullReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CharSequenceReaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/ByteOrderMarkTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/CharsetsTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CountingInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestMultiThreadCancelWalker.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ClassLoaderObjectInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsTestCase$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/FileWriterWithEncodingTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyWriterTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/TaggedIOExceptionTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileDeleteStrategyTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DemuxTestCase$WriterThread.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CloseShieldInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ObservableInputStreamTest$LastBytesKeepingObserver.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/SizeFileComparatorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/XmlStreamWriterTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalkerTestCase$TestMultiThreadCancelWalker.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$8.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/WindowsLineEndingInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/NullPrintStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DemuxTestCase$ReaderThread.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileSystemUtilsTestCase$MockFileSystemUtils$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/NullReaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestFileFinder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/compatibility/XmlStreamReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/TaggedOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/BoundedInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/NullOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ChunkedWriterTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileCleaningTrackerTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/AutoCloseInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyWriterTest$6.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/monitor/FileAlterationMonitorTestCase$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ClassLoaderObjectInputStreamTest$Test.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyWriterTest$7.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/IOFileFilterAbstractTestCase$TesterFalseFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$10.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsWaitForTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalkerTestCase$TestFileFinderString.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileSystemTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/ValidatingObjectInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/TailerTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ClassLoaderObjectInputStreamTest$E.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOExceptionWithCauseTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/LineIteratorTestCase$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FilenameUtilsTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/DirectoryFileComparatorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ReversedLinesFileReaderTestParamFile.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/XmlStreamReaderUtilitiesTest$MockXmlStreamReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/monitor/FileAlterationMonitorTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/ByteOrderParserTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/BOMInputStreamTest$ExpectCloseInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/RegexFileFilterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/HexDumpTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsCleanDirectoryTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsWaitForTestCase$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileSystemUtilsTestCase$MockFileSystemUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$7.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ClosedInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyWriterTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/WildcardClassNameMatcherTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyWriterTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOCaseTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/SelectorAdapter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsListFilesTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/monitor/CollectionFileListener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalkerTestCase$TestFalseFileFinder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/BrokenInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyWriterTest$5.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$11.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyWriterTest$10.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ChunkedOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/SwappedDataInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/ExtensionFileComparatorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyWriterTest$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/FileFilterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/ComparatorAbstractTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalkerTestCaseJava4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileSystemUtilsTestCase$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$9.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/ValidatingObjectInputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/NullWriterTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/AndFileFilterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/compatibility/XmlStreamReaderUtilitiesCompatibilityTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestCancelWalker.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$13.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ProxyReaderTest$CustomNullReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/BOMInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/XmlStreamReaderUtilitiesTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsFileNewerTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyWriterTest$4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ThresholdingOutputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FilenameUtilsWildcardTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/LastModifiedFileComparatorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/MockSerializedClass.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileCleanerTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ReaderInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalkerTestCase$TestCancelWalker.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/TeeOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/testtools/YellOnCloseInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/TaggedInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/IOFileFilterAbstractTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/CopyUtilsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ReversedLinesFileReaderTestSimple.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$12.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/testtools/SystemDefaults.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/CloseShieldOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/NameFileComparatorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalkerTestCaseJava4$TestFalseFileFinder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/CountingOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyWriterTest$9.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/testtools/SystemDefaultsSwitch$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/TeeInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileSystemUtilsTestCase$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$5.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalkerTestCase$TestFileFinder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/ValidatingObjectInputStreamTest$1CustomVOIS.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/FullClassNameMatcherTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/NullInputStreamTest$TestNullInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CharacterSetFilterReaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/UnixLineEndingInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsTestCase$ListDirectoryWalker.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ThresholdingOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/LineIteratorTestCase$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/LockableFileWriterTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/BrokenOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/compatibility/XmlStreamReaderException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/LineIteratorTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DemuxTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/MoreComplexObjectTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CloseShieldInputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ReversedLinesFileReaderTestParamBlockSize.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/BoundedReaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/testtools/YellOnFlushAndCloseOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/ConditionalFileFilterAbstractTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ProxyReaderTest$ProxyReaderImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ObservableInputStreamTest$LastByteKeepingObserver.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/TeeOutputStreamTest$RecordCloseByteArrayOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$6.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/AppendableOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/TailerTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/NullInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/monitor/AbstractMonitorTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/ThreadMonitorTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/TailerTest$TestTailerListener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ObservableInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ProxyWriterTest$8.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/CompositeFileComparatorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileSystemUtilsTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/MoreComplexObject.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsCopyToFileTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CharacterFilterReaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/testtools/TestUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/InfiniteCircularInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsDirectoryContainsTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/testtools/SystemDefaultsSwitch.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/IOFileFilterAbstractTestCase$TesterTrueFileFilter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/DeferredFileOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/CloseShieldOutputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/EndianUtilsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/filefilter/OrFileFilterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/AutoCloseInputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/PathFileComparatorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/TeeOutputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/monitor/FileAlterationObserverTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsTestCase$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/StringBuilderWriterTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ClosedOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/CharSequenceInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ObservableInputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsCleanSymlinksTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/DirectoryWalkerTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsWriteTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/BoundedReaderTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ChunkedWriterTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/XmlStreamReaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ByteArrayOutputStreamTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/BOMInputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/compatibility/XmlStreamReaderUtilitiesCompatibilityTest$MockXmlStreamReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsCopyToFileTestCase$CheckingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/comparator/DefaultFileComparatorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/buffer/CircularBufferInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/ClosingBase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/MessageDigestCalculatingInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsCopyTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsTestCase$ShorterFile.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/serialization/RegexpClassNameMatcherTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/ChunkedOutputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/WriterOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/output/TeeOutputStreamTest$ExceptionOnCloseByteArrayOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/FileUtilsTestCase$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/io/input/ProxyReaderTest.class": [
+      "nochange"
+    ]
+  },
+  "27fbd9e3": {},
+  "70c6f0c6": {},
+  "8d1b994a": {
+    "org/apache/commons/io/input/TailerTest.class": [
+      "method testMultiByteBreak()V",
+      "method testLongFile()V"
+    ]
+  },
+  "3e479309": {},
+  "f4da6751": {
+    "org/apache/commons/io/testtools/YellOnFlushAndCloseOutputStream.class": [
+      "method flush()V",
+      "change_field_declaration",
+      "method off()V",
+      "method close()V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "32afc86d": {},
+  "1e374820": {
+    "org/apache/commons/io/input/NullReader.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/input/TeeReader.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/input/NullInputStream.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/testtools/YellOnCloseOutputStream.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/testtools/YellOnCloseWriter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/testtools/YellOnCloseInputStream.class": [
+      "method close()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/input/TeeInputStreamTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/io/testtools/YellOnCloseReader.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/input/TeeReaderTest.class": [
+      "add_class"
+    ]
+  },
+  "5796c0ca": {},
+  "3816c572": {
+    "org/apache/commons/io/input/ClosedReader.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/input/CloseShieldReader.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/input/CloseShieldInputStream.class": [
+      "method close()V"
+    ],
+    "org/apache/commons/io/input/CloseShieldReaderTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/input/ClosedReaderTest.class": [
+      "add_class"
+    ]
+  },
+  "785fa1aa": {},
+  "84484f26": {},
+  "0b1979a4": {},
+  "f8077a6e": {
+    "org/apache/commons/io/testtools/YellOnCloseOutputStream.class": [
+      "method close()V"
+    ],
+    "org/apache/commons/io/testtools/YellOnCloseWriter.class": [
+      "method close()V"
+    ],
+    "org/apache/commons/io/testtools/YellOnCloseInputStream.class": [
+      "method close()V"
+    ],
+    "org/apache/commons/io/testtools/YellOnCloseReader.class": [
+      "method close()V"
+    ],
+    "org/apache/commons/io/testtools/YellOnFlushAndCloseOutputStream.class": [
+      "method flush()V",
+      "method close()V"
+    ]
+  },
+  "df262ab8": {
+    "org/apache/commons/io/output/ProxyWriterTest.class": [
+      "method nullString()V",
+      "method nullCharSequencec()V",
+      "method nullCharArray()V"
+    ]
+  },
+  "16f05968": {
+    "org/apache/commons/io/output/NullWriterTest.class": [
+      "method testNull()V"
+    ]
+  },
+  "700624d1": {},
+  "48f6d3f4": {},
+  "b3ce1474": {
+    "org/apache/commons/io/IOUtils.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/io/input/BOMInputStream.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/input/ProxyInputStream.class": [
+      "method read([B)I"
+    ],
+    "org/apache/commons/io/input/ProxyReader.class": [
+      "method read([C)I",
+      "method read(Ljava/nio/CharBuffer;)I"
+    ],
+    "org/apache/commons/io/output/ProxyWriter.class": [
+      "method write(Ljava/lang/String;)V",
+      "method append(Ljava/lang/CharSequence;)Ljava/io/Writer;",
+      "method write([C)V"
+    ],
+    "org/apache/commons/io/output/ProxyOutputStream.class": [
+      "method write([B)V"
+    ]
+  },
+  "3bb84c24": {},
+  "fd54aa69": {
+    "org/apache/commons/io/output/ClosedWriter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/BrokenWriter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/TaggedWriter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/TaggedWriterTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/BrokenWriterTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/ClosedWriterTest.class": [
+      "add_class"
+    ]
+  },
+  "9deb9c1f": {
+    "org/apache/commons/io/output/TeeOutputStreamTest.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ]
+  },
+  "913ab113": {},
+  "b8f638fa": {},
+  "30bbf381": {},
+  "1ee660d9": {
+    "org/apache/commons/io/IOExceptionList.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/IOIndexedException.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/FilterCollectionWriter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/TeeWriter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/ProxyCollectionWriter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/IOExceptionListTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/TeeWriterTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/IOIndexedExceptionTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/ProxyCollectionWriterTest.class": [
+      "add_class"
+    ]
+  },
+  "bae3ef5c": {
+    "org/apache/commons/io/IOUtils.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/io/output/AppendableWriter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/AppendableWriterTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase.class": [
+      "add_instance_method"
+    ]
+  },
+  "7c729a05": {
+    "org/apache/commons/io/output/AppendableWriter.class": [
+      "nochange"
+    ]
+  },
+  "556a4559": {},
+  "d15f480d": {
+    "org/apache/commons/io/output/CloseShieldWriter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/CloseShieldOutputStream.class": [
+      "method close()V"
+    ],
+    "org/apache/commons/io/output/CloseShieldWriterTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/output/ClosedOutputStreamTest.class": [
+      "change_signature"
+    ]
+  },
+  "b79b6eab": {},
+  "fab5ff60": {
+    "org/apache/commons/io/input/TaggedReader.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/input/BrokenReader.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/input/TaggedReaderTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/io/input/BrokenReaderTest.class": [
+      "add_class"
+    ]
+  },
+  "88f75b88": {},
+  "4bbdbfed": {},
+  "b7ec4f7e": {},
+  "fa8525f7": {},
+  "6bcf8971": {},
+  "5ba8b480": {},
+  "c7f243b9": {},
+  "c0521477": {},
+  "c126bdd5": {
+    "org/apache/commons/io/input/CharSequenceReader.class": [
+      "method read([CII)I"
+    ],
+    "org/apache/commons/io/input/CharSequenceReaderTest.class": [
+      "method testRead()V",
+      "add_instance_method",
+      "method testReadCharArray()V",
+      "method testReadCharArrayPortion()V"
+    ]
+  },
+  "58324c1c": {
+    "org/apache/commons/io/filefilter/AgeFileFilter.class": [
+      "method accept(Ljava/io/File;)Z"
+    ],
+    "org/apache/commons/io/IOUtils.class": [
+      "method contentEqualsIgnoreEOL(Ljava/io/Reader;Ljava/io/Reader;)Z"
+    ],
+    "org/apache/commons/io/FilenameUtils.class": [
+      "method isIPv6Address(Ljava/lang/String;)Z"
+    ],
+    "org/apache/commons/io/filefilter/SizeFileFilter.class": [
+      "method accept(Ljava/io/File;)Z"
+    ]
+  },
+  "d463fa01": {
+    "org/apache/commons/io/FileUtils.class": [
+      "method copyDirectoryToDirectory(Ljava/io/File;Ljava/io/File;)V"
+    ],
+    "org/apache/commons/io/FileUtilsCopyDirectoryToDirectoryTestCase.class": [
+      "add_class"
+    ]
+  },
+  "11020bc3": {},
+  "93a62774": {},
+  "fc418a7f": {
+    "org/apache/commons/io/input/BOMInputStream.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$8.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$10.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "add_instance_method",
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/FileUtilsWaitForTestCase.class": [
+      "add_static_method",
+      "method testWaitForInterrupted()V"
+    ],
+    "org/apache/commons/io/serialization/ValidatingObjectInputStreamTest.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$7.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$11.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "add_instance_method",
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$9.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase.class": [
+      "method testAsBufferedInputStreamWithBufferSize()V",
+      "method testAsBufferedWriterWithBufferSize()V",
+      "method testCloseQuietly_AllCloseableIOException()V",
+      "method testCloseQuietly_ServerSocketIOException()V",
+      "method testCloseQuietly_SelectorIOException()V",
+      "method testCloseQuietly_CloseableIOException()V",
+      "method testAsBufferedWriter()V",
+      "add_static_method",
+      "method testAsBufferedReaderWithBufferSize()V",
+      "method testCloseQuietly_SocketIOException()V",
+      "method testAsBufferedInputStream()V",
+      "method testAsBufferedOutputStream()V",
+      "method testAsBufferedOutputStreamWithBufferSize()V",
+      "method testAsBufferedReader()V"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$5.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$6.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$4.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$1.class": [
+      "change_base_class",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$2.class": [
+      "change_base_class",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/io/IOUtilsTestCase$3.class": [
+      "change_base_class",
+      "update_constructor_or_update_field_initialization"
+    ]
+  }
+}

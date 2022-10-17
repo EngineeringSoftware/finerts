@@ -1,0 +1,623 @@
+{
+  "a8c10e56": {
+    "org/apache/commons/beanutils2/BeanMap$1.class": [
+      "change_base_class",
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/beanutils2/BeanMap.class": [
+      "method entrySet()Ljava/util/Set;",
+      "method valueIterator()Ljava/util/Iterator;",
+      "add_static_method",
+      "method createTypeTransformers()Ljava/util/Map;",
+      "method entryIterator()Ljava/util/Iterator;"
+    ],
+    "org/apache/commons/beanutils2/BeanMap$2.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/beanutils2/BeanMap$3.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/beanutils2/bugs/Jira509TestCase.class": [
+      "add_static_method",
+      "method test_concurrent()V"
+    ],
+    "org/apache/commons/beanutils2/PropertyUtilsTestCase.class": [
+      "method testCustomIntrospectionEx()V",
+      "add_static_method",
+      "method testCustomIntrospection()V"
+    ],
+    "org/apache/commons/beanutils2/bugs/Jira509TestCase$1.class": [
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "2ad4ad3c": {
+    "org/apache/commons/beanutils2/BeanPredicate.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method evaluate(Ljava/lang/Object;)Z",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/beanutils2/BeanPredicateTestCase.class": [
+      "method testNull()V",
+      "add_static_method",
+      "method testEqual()V",
+      "method testInstanceOf()V",
+      "method testNotEqual()V"
+    ]
+  },
+  "4d521211": {
+    "org/apache/commons/beanutils2/BeanPredicateTestCase.class": [
+      "method testNull()V",
+      "method testEqual()V",
+      "method testInstanceOf()V",
+      "method testNotEqual()V"
+    ]
+  },
+  "206c3768": {
+    "org/apache/commons/beanutils2/BeanPredicate.class": [
+      "remove_instance_method"
+    ]
+  },
+  "2f2406d3": {
+    "org/apache/commons/beanutils2/BeanPredicate.class": [
+      "nochange"
+    ]
+  },
+  "cd2d298c": {},
+  "dfff25e2": {
+    "org/apache/commons/beanutils2/BeanPropertyValueEqualsPredicate.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/beanutils2/BeanPropertyValueEqualsPredicateTestCase.class": [
+      "method testEvaluateWithReadOnlyProperty()V",
+      "method testEvaluateWithNullInPathAndIgnoreTrue()V",
+      "method testEvaluateWithWriteOnlyProperty()V",
+      "method testEvaluateWithPrimitiveAndNull()V",
+      "method testEvaluateWithSimpleStringProperty()V",
+      "method testEvaluateWithByteProperty()V",
+      "method testEvaluateWithNestedProperty()V",
+      "method testEvaluateWithNullInPath()V",
+      "method testEvaluateWithMappedProperty()V",
+      "method testEvaluateWithBooleanProperty()V",
+      "method testEvaluateWithSimpleStringPropertyWithNullValues()V",
+      "method testEvaluateWithFloatProperty()V",
+      "method testEvaluateWithNestedMappedProperty()V",
+      "method testEvaluateWithDoubleProperty()V",
+      "method testEvaluateWithIntProperty()V",
+      "method testEvaluateWithIndexedProperty()V",
+      "method testEvaluateWithInvalidPropertyName()V"
+    ]
+  },
+  "a92a9817": {
+    "org/apache/commons/beanutils2/BeanPropertyValueChangeConsumer.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/BeanPropertyValueChangeConsumerTestCase.class": [
+      "add_class"
+    ]
+  },
+  "28562289": {},
+  "9c41fcdb": {
+    "org/apache/commons/beanutils2/BeanMap.class": [
+      "remove_instance_method",
+      "method createTypeTransformers()Ljava/util/Map;",
+      "method convertType(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;",
+      "add_instance_method"
+    ],
+    "org/apache/commons/beanutils2/BeanMap$3.class": [
+      "method next()Ljava/util/Map$Entry;"
+    ],
+    "org/apache/commons/beanutils2/BeanMapTestCase.class": [
+      "method testGetTypeTransformerMethod()V"
+    ]
+  },
+  "ad0c46f6": {},
+  "8642405e": {
+    "org/apache/commons/beanutils2/BeanMap$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/BeanMap.class": [
+      "method putAllWriteable(Lorg/apache/commons/beanutils2/BeanMap;)V",
+      "method clone()Ljava/lang/Object;",
+      "method put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;",
+      "add_instance_method"
+    ],
+    "org/apache/commons/beanutils2/BeanMap$Entry.class": [
+      "change_base_class",
+      "add_field",
+      "method setValue(Ljava/lang/Object;)Ljava/lang/Object;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/beanutils2/BeanMap$3.class": [
+      "method next()Ljava/util/Map$Entry;"
+    ],
+    "org/apache/commons/beanutils2/BeanMapTestCase.class": [
+      "method testBeanMapPutAllWriteable()V"
+    ]
+  },
+  "f4467c84": {
+    "org/apache/commons/beanutils2/BeanToPropertyValueTransformer.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/beanutils2/BeanToPropertyValueTransformerTestCase.class": [
+      "method testTransformWithWriteOnlyProperty()V",
+      "method testTransformWithNestedProperty()V",
+      "method testTransformWithNullInPath()V",
+      "method testTransformWithNestedIndexedProperty()V",
+      "method testTransformWithSimpleDoubleProperty()V",
+      "method testTransformWithSimpleFloatProperty()V",
+      "method testTransformWithInvalidProperty()V",
+      "method testTransformWithSimpleIntProperty()V",
+      "method testTransformWithNullInPathAndIgnoreTrue()V",
+      "method testTransformWithSimpleBooleanProperty()V",
+      "method testTransformWithSimpleStringPropertyAndNullValue()V",
+      "method testTransformWithSimpleByteProperty()V",
+      "method testTransformWithReadOnlyProperty()V",
+      "method testTransformWithSimpleStringProperty()V",
+      "method testTransformWithMappedProperty()V",
+      "method testTransformWithSimpleLongProperty()V",
+      "method testTransformWithIndexedProperty()V"
+    ]
+  },
+  "41a3e213": {},
+  "30f0fa5f": {
+    "org/apache/commons/beanutils2/BeanComparator.class": [
+      "method hashCode()I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/beanutils2/BeanComparator$NaturalOrderingComparator.class": [
+      "add_class"
+    ]
+  },
+  "dd30dc26": {
+    "org/apache/commons/beanutils2/BeanComparator$NaturalOrderComparator.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/BeanComparator.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "b5e784d4": {
+    "org/apache/commons/beanutils2/BeanComparator$NaturalOrderComparator.class": [
+      "method hashCode()I"
+    ],
+    "org/apache/commons/beanutils2/BeanComparator.class": [
+      "method compare(Ljava/lang/Object;Ljava/lang/Object;)I",
+      "method internalCompare(Ljava/lang/Object;Ljava/lang/Object;)I",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "cc79a710": {},
+  "7c585047": {},
+  "69333b5d": {},
+  "c603d875": {},
+  "40170f29": {},
+  "483cb3ce": {},
+  "a01b46dc": {},
+  "2a0f0f0c": {},
+  "fb7ca984": {
+    "org/apache/commons/beanutils2/ConvertUtilsBean.class": [
+      "method registerArrays(ZI)V",
+      "method registerOther(Z)V"
+    ],
+    "org/apache/commons/beanutils2/converters/URIConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/PathConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/UUIDConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/UUIDConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/URIConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/PathConverterTestCase.class": [
+      "add_class"
+    ]
+  },
+  "e3adbff6": {
+    "org/apache/commons/beanutils2/converters/OffsetDateTimeConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/LocalDateConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/ZonedDateTimeConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/DateTimeConverter.class": [
+      "method convertToType(Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;",
+      "add_instance_method",
+      "method convertToString(Ljava/lang/Object;)Ljava/lang/String;",
+      "method toDate(Ljava/lang/Class;J)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/beanutils2/converters/LocalDateTimeConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/ZonedDateTimeConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/LocalDateConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/DateConverterTestBase.class": [
+      "method getTimeInMillis(Ljava/lang/Object;)J",
+      "add_instance_method",
+      "method testStringConversion()V",
+      "method testConvertDate()V"
+    ],
+    "org/apache/commons/beanutils2/converters/OffsetDateTimeConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/LocalDateTimeConverterTestCase.class": [
+      "add_class"
+    ]
+  },
+  "e165d68b": {
+    "org/apache/commons/beanutils2/FluentPropertyBeanIntrospector.class": [
+      "method introspect(Lorg/apache/commons/beanutils2/IntrospectionContext;)V"
+    ]
+  },
+  "ac0fe97f": {},
+  "0d02186d": {},
+  "78c4b259": {},
+  "893b769d": {
+    "org/apache/commons/beanutils2/converters/ClassReloaderTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/FileConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/ShortConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/BooleanConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/SqlDateConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/StringConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/LongConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/ZonedDateTimeConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/CharacterConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/LocalDateConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/URLConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/FloatConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/DateConverterTestBase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/ByteConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/UUIDConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/ArrayConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/SqlTimeConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/ClassConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/DoubleConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/SqlTimestampConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/DateConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/OffsetDateTimeConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/URIConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/BigDecimalConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/IntegerConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/BigIntegerConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/MemoryTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/LocalDateTimeConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/CalendarConverterTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/NumberConverterTestBase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/converters/PathConverterTestCase.class": [
+      "nochange"
+    ]
+  },
+  "153f340d": {},
+  "0c6b5f19": {
+    "org/apache/commons/beanutils2/WeakFastHashMap.class": [
+      "nochange"
+    ]
+  },
+  "6c0432a4": {
+    "org/apache/commons/beanutils2/converters/YearConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/OffsetTimeConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/ZoneOffsetConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/PeriodConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/DurationConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/ConvertUtilsBean.class": [
+      "method registerArrays(ZI)V",
+      "method registerOther(Z)V"
+    ],
+    "org/apache/commons/beanutils2/converters/ZoneIdConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/YearMonthConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/MonthDayConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/LocalTimeConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/ZoneIdConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/LocalTimeConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/PeriodConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/YearConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/OffsetTimeConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/YearMonthConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/ZoneOffsetConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/MonthDayConverterTestCase.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/DurationConverterTestCase.class": [
+      "add_class"
+    ]
+  },
+  "55dcbaa9": {
+    "org/apache/commons/beanutils2/ConvertUtilsBean.class": [
+      "method registerArrays(ZI)V",
+      "method registerOther(Z)V"
+    ],
+    "org/apache/commons/beanutils2/converters/EnumConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/EnumConverterTestCase$PizzaStatus.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/converters/EnumConverterTestCase.class": [
+      "add_class"
+    ]
+  },
+  "fa9f323a": {},
+  "fd6737ea": {},
+  "664971fa": {},
+  "37e9ee0a": {},
+  "0675607b": {
+    "org/apache/commons/beanutils2/ResultSetDynaClass.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/beanutils2/RowSetDynaClass.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "20bfbb6f": {},
+  "450e66cd": {},
+  "7a9d7938": {
+    "org/apache/commons/beanutils2/BasicDynaBean.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "ec5fd5f4": {
+    "org/apache/commons/beanutils2/BasicDynaBean.class": [
+      "add_field",
+      "method get(Ljava/lang/String;)Ljava/lang/Object;",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "13fda9e4": {
+    "org/apache/commons/beanutils2/LazyDynaMap.class": [
+      "method remove(Ljava/lang/String;)V"
+    ],
+    "org/apache/commons/beanutils2/LazyDynaBean.class": [
+      "method isDynaProperty(Ljava/lang/String;)Z"
+    ],
+    "org/apache/commons/beanutils2/locale/converters/BigIntegerLocaleConverter.class": [
+      "method parse(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/beanutils2/locale/converters/IntegerLocaleConverter.class": [
+      "method parse(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/beanutils2/converters/AbstractConverter.class": [
+      "method toString(Ljava/lang/Class;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/beanutils2/MethodUtils.class": [
+      "method getAccessibleMethodFromInterfaceNest(Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;"
+    ],
+    "org/apache/commons/beanutils2/DynaProperty.class": [
+      "method equals(Ljava/lang/Object;)Z"
+    ],
+    "org/apache/commons/beanutils2/LazyDynaClass.class": [
+      "method remove(Ljava/lang/String;)V",
+      "method isDynaProperty(Ljava/lang/String;)Z"
+    ],
+    "org/apache/commons/beanutils2/BeanMap.class": [
+      "method get(Ljava/lang/Object;)Ljava/lang/Object;",
+      "method put(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;",
+      "method toString()Ljava/lang/String;"
+    ],
+    "org/apache/commons/beanutils2/BaseDynaBeanMapDecorator.class": [
+      "method containsKey(Ljava/lang/Object;)Z"
+    ],
+    "org/apache/commons/beanutils2/BeanPropertyValueEqualsPredicate.class": [
+      "method evaluateValue(Ljava/lang/Object;Ljava/lang/Object;)Z"
+    ],
+    "org/apache/commons/beanutils2/locale/BaseLocaleConverter.class": [
+      "method convert(Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/beanutils2/MappedPropertyDescriptor.class": [
+      "method findMappedPropertyType()V"
+    ],
+    "org/apache/commons/beanutils2/LazyDynaList.class": [
+      "method addAll(ILjava/util/Collection;)Z",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/beanutils2/locale/converters/BigDecimalLocaleConverter.class": [
+      "method parse(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/beanutils2/PropertyUtilsBean.class": [
+      "method isReadable(Ljava/lang/Object;Ljava/lang/String;)Z",
+      "method isWriteable(Ljava/lang/Object;Ljava/lang/String;)Z",
+      "method invokeMethod(Ljava/lang/reflect/Method;Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/beanutils2/DynaBeanUtilsTestCase.class": [
+      "method testSetPropertyNullValues()V"
+    ],
+    "org/apache/commons/beanutils2/PropertyUtilsTestCase.class": [
+      "method testIsWriteable()V",
+      "method testIsReadable()V",
+      "method testGetSimpleNested()V"
+    ],
+    "org/apache/commons/beanutils2/locale/converters/DateLocaleConverterTestCase.class": [
+      "method setUp()V"
+    ],
+    "org/apache/commons/beanutils2/BeanUtilsTestCase.class": [
+      "method testSetPropertyNullValues()V",
+      "method testSeparateInstances()V"
+    ],
+    "org/apache/commons/beanutils2/bugs/Jira273TestCase.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/beanutils2/bugs/other/Jira273BeanFactory$1.class": [
+      "method getBeanValue()Ljava/lang/String;"
+    ],
+    "org/apache/commons/beanutils2/IndexedPropertyTestCase.class": [
+      "method testArrayIndexedPropertyDescriptor()V",
+      "method testListIndexedPropertyDescriptor()V",
+      "method testArrayListIndexedPropertyDescriptor()V"
+    ],
+    "org/apache/commons/beanutils2/locale/LocaleConvertUtilsTestCase.class": [
+      "method testConvertStringLocaleNull()V",
+      "method testConvertStringArrayLocaleNull()V"
+    ],
+    "org/apache/commons/beanutils2/bugs/other/Jira273BeanFactory$PrivatePublicOverridden.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/bugs/other/Jira273BeanFactory.class": [
+      "add_static_method",
+      "remove_static_method",
+      "change_signature"
+    ],
+    "org/apache/commons/beanutils2/bugs/other/Jira273BeanFactory$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/beanutils2/DynaResultSetTestCase.class": [
+      "method testGetDynaProperty()V"
+    ],
+    "org/apache/commons/beanutils2/BeanComparatorTestCase.class": [
+      "method testCompareOnMissingProperty()V"
+    ],
+    "org/apache/commons/beanutils2/converters/MemoryTestCase.class": [
+      "method testComponentRegistersCustomConverter()V"
+    ],
+    "org/apache/commons/beanutils2/DynaPropertyUtilsTestCase.class": [
+      "method testGetSimpleBoolean()V",
+      "method testGetSimpleNested()V"
+    ],
+    "org/apache/commons/beanutils2/bugs/other/Jira273BeanFactory$PrivatePrivatePublicNotOverridden.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/BasicDynaBeanTestCase.class": [
+      "method testGetSimpleBoolean()V"
+    ],
+    "org/apache/commons/beanutils2/DynaRowSetTestCase.class": [
+      "method testGetDynaProperty()V"
+    ],
+    "org/apache/commons/beanutils2/bugs/other/Jira273BeanFactory$PrivatePrivatePublicOverridden.class": [
+      "add_class"
+    ],
+    "org/apache/commons/beanutils2/bugs/other/Jira273BeanFactory$PrivatePublicNotOverridden.class": [
+      "add_class"
+    ]
+  },
+  "cf9c014d": {},
+  "9dbb9c91": {
+    "org/apache/commons/beanutils2/LazyDynaBean.class": [
+      "method createMappedProperty(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/beanutils2/DynaProperty.class": [
+      "method isIndexed()Z"
+    ],
+    "org/apache/commons/beanutils2/expression/DefaultResolver.class": [
+      "method getProperty(Ljava/lang/String;)Ljava/lang/String;"
+    ]
+  },
+  "f02c0b69": {},
+  "0ceeb7ac": {}
+}

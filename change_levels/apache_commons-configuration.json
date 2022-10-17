@@ -1,0 +1,1154 @@
+{
+  "03108732": {},
+  "1fe8029e": {
+    "org/apache/commons/configuration2/io/FileHandler.class": [
+      "method load(Lorg/apache/commons/configuration2/io/FileLocator;)V"
+    ]
+  },
+  "4c8a5f5c": {
+    "org/apache/commons/configuration2/io/FileSystem.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/configuration2/io/DefaultFileSystem.class": [
+      "method getInputStream(Ljava/net/URL;)Ljava/io/InputStream;",
+      "add_instance_method"
+    ],
+    "org/apache/commons/configuration2/io/FileLocator$FileLocatorBuilder.class": [
+      "add_field",
+      "add_static_method",
+      "method initBuilder(Lorg/apache/commons/configuration2/io/FileLocator;)V",
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/configuration2/builder/FileBasedBuilderParametersImpl.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/configuration2/io/FileLocator.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/builder/FileBasedBuilderProperties.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/configuration2/io/FileHandler.class": [
+      "method setURL(Ljava/net/URL;)V",
+      "method load(Ljava/net/URL;Lorg/apache/commons/configuration2/io/FileLocator;)V",
+      "add_instance_method"
+    ],
+    "org/apache/commons/configuration2/io/URLConnectionOptions.class": [
+      "add_class"
+    ],
+    "org/apache/commons/configuration2/io/FileHandler$9.class": [
+      "add_field",
+      "method updateBuilder(Lorg/apache/commons/configuration2/io/FileLocator$FileLocatorBuilder;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/builder/TestFileBasedConfigurationBuilder.class": [
+      "method testGetConfigurationLoadFromJarFile()V"
+    ]
+  },
+  "9c7e9397": {
+    "org/apache/commons/configuration2/PropertiesConfigurationLayout.class": [
+      "method load(Lorg/apache/commons/configuration2/PropertiesConfiguration;Ljava/io/Reader;)V",
+      "method save(Lorg/apache/commons/configuration2/PropertiesConfiguration;Ljava/io/Writer;)V",
+      "add_instance_method",
+      "method getBlancLinesBefore(Ljava/lang/String;)I",
+      "method setBlancLinesBefore(Ljava/lang/String;I)V"
+    ],
+    "org/apache/commons/configuration2/PropertiesConfigurationLayout$PropertyLayoutData.class": [
+      "method getBlancLines()I",
+      "change_field_declaration",
+      "method setBlancLines(I)V",
+      "add_instance_method"
+    ],
+    "org/apache/commons/configuration2/TestPropertiesConfigurationLayout.class": [
+      "method testSave()V",
+      "method testInitCopyModify()V",
+      "method testReadSimple()V",
+      "method testBlancLines()V",
+      "method testEventAdd()V",
+      "method testSetLineSeparator()V",
+      "method testCombineComments()V",
+      "method testGetNonExistingLayouData()V"
+    ],
+    "org/apache/commons/configuration2/TestXMLConfiguration.class": [
+      "method testPreserveSpace()V"
+    ]
+  },
+  "14f8b047": {
+    "org/apache/commons/configuration2/PropertiesConfigurationLayout.class": [
+      "method load(Lorg/apache/commons/configuration2/PropertiesConfiguration;Ljava/io/Reader;)V",
+      "method checkHeaderComment(Ljava/util/List;)I",
+      "method save(Lorg/apache/commons/configuration2/PropertiesConfiguration;Ljava/io/Writer;)V"
+    ],
+    "org/apache/commons/configuration2/TestPropertiesConfigurationLayout.class": [
+      "add_instance_method",
+      "method testReadAndWrite()V",
+      "method testSetLineSeparator()V",
+      "change_signature"
+    ]
+  },
+  "d005ee4a": {
+    "org/apache/commons/configuration2/tree/NodeTreeWalker.class": [
+      "method bfs(Ljava/lang/Object;Lorg/apache/commons/configuration2/tree/ConfigurationNodeVisitor;Lorg/apache/commons/configuration2/tree/NodeHandler;)V"
+    ]
+  },
+  "4731a53b": {
+    "org/apache/commons/configuration2/PropertiesConfiguration.class": [
+      "method unescapeJava(Ljava/lang/String;Z)Ljava/lang/String;"
+    ]
+  },
+  "4b411bc9": {},
+  "a723678e": {
+    "org/apache/commons/configuration2/tree/MergeCombiner.class": [
+      "method addAttributes(Lorg/apache/commons/configuration2/tree/ImmutableNode$Builder;Lorg/apache/commons/configuration2/tree/ImmutableNode;Lorg/apache/commons/configuration2/tree/ImmutableNode;)V"
+    ]
+  },
+  "9599b57b": {
+    "org/apache/commons/configuration2/TestNullCompositeConfiguration.class": [
+      "method testGettingSubset()V"
+    ]
+  },
+  "aeaac818": {},
+  "9633f81f": {
+    "org/apache/commons/configuration2/io/DefaultFileSystem.class": [
+      "method locateFromURL(Ljava/lang/String;Ljava/lang/String;)Ljava/net/URL;"
+    ],
+    "org/apache/commons/configuration2/io/TestFileHandler.class": [
+      "method testLoadFromStream()V",
+      "method testLoadFromReader()V"
+    ],
+    "org/apache/commons/configuration2/plist/TestXMLPropertyListConfiguration.class": [
+      "method testWriteCalledDirectly()V"
+    ],
+    "org/apache/commons/configuration2/TestINIConfiguration.class": [
+      "method writeTestFile(Ljava/lang/String;)Ljava/io/File;"
+    ],
+    "org/apache/commons/configuration2/TestXMLConfiguration.class": [
+      "method testSaveToStreamWithEncoding()V"
+    ],
+    "org/apache/commons/configuration2/TestPropertiesConfiguration.class": [
+      "method testKeepSeparators()V",
+      "method testReadCalledDirectly()V"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestReloadingCombinedConfigurationBuilderFileBased.class": [
+      "method writeFile(Ljava/io/File;Ljava/lang/String;)V"
+    ]
+  },
+  "e11f0b5f": {},
+  "0b72df8d": {},
+  "0de93ef2": {
+    "org/apache/commons/configuration2/PropertiesConfiguration$PropertiesWriter.class": [
+      "method writeProperty(Ljava/lang/String;Ljava/util/List;)V"
+    ]
+  },
+  "86bf7e01": {},
+  "ffb85ec9": {
+    "org/apache/commons/configuration2/resolver/CatalogResolver.class": [
+      "method resolveEntity(Ljava/lang/String;Ljava/lang/String;)Lorg/xml/sax/InputSource;"
+    ]
+  },
+  "7c0de120": {
+    "org/apache/commons/configuration2/TestBaseNullConfiguration.class": [
+      "method testGetString()V"
+    ]
+  },
+  "d2ff68c9": {
+    "org/apache/commons/configuration2/PatternSubtreeConfigurationWrapper.class": [
+      "method makePath(Ljava/lang/String;)Ljava/lang/String;"
+    ]
+  },
+  "81115e49": {
+    "org/apache/commons/configuration2/beanutils/TestConfigurationDynaBean.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "f5dd55da": {
+    "org/apache/commons/configuration2/beanutils/BeanHelper.class": [
+      "method initProperty(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)V"
+    ],
+    "org/apache/commons/configuration2/ConfigurationUtils.class": [
+      "method clone(Ljava/lang/Object;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/configuration2/JNDIConfiguration.class": [
+      "method getPropertyInternal(Ljava/lang/String;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/configuration2/XMLConfiguration.class": [
+      "method validate()V"
+    ]
+  },
+  "dfceceea": {},
+  "ee9bbcd3": {
+    "org/apache/commons/configuration2/AbstractConfiguration.class": [
+      "method getStringArray(Ljava/lang/String;)[Ljava/lang/String;"
+    ],
+    "org/apache/commons/configuration2/plist/TestPropertyListConfiguration.class": [
+      "method testData()V"
+    ],
+    "org/apache/commons/configuration2/TestAbstractConfigurationBasicFeatures.class": [
+      "method testGetArrayPrimitive()V"
+    ]
+  },
+  "96d89f81": {
+    "org/apache/commons/configuration2/interpol/ExprLookup$Variables.class": [
+      "method getVariable()Lorg/apache/commons/configuration2/interpol/ExprLookup$Variable;"
+    ],
+    "org/apache/commons/configuration2/TestPropertiesSequence.class": [
+      "method testConfigurationValuesInSameOrderFromFile()V",
+      "method testConfigurationValuesInSameOrderWithManualAdd()V"
+    ],
+    "org/apache/commons/configuration2/TestAbstractConfigurationSynchronization.class": [
+      "method testSizeSynchronized()V"
+    ]
+  },
+  "c6845cdd": {
+    "org/apache/commons/configuration2/convert/PropertyConverter.class": [
+      "method toLocale(Ljava/lang/Object;)Ljava/util/Locale;"
+    ]
+  },
+  "a7fea9cc": {
+    "org/apache/commons/configuration2/tree/DefaultConfigurationKey.class": [
+      "method append(Ljava/lang/String;Z)Lorg/apache/commons/configuration2/tree/DefaultConfigurationKey;"
+    ],
+    "org/apache/commons/configuration2/tree/xpath/XPathExpressionEngine.class": [
+      "method nodeKey(Ljava/lang/Object;Ljava/lang/String;Lorg/apache/commons/configuration2/tree/NodeHandler;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/configuration2/XMLConfiguration.class": [
+      "method constructHierarchy(Lorg/apache/commons/configuration2/tree/ImmutableNode$Builder;Lorg/apache/commons/lang3/mutable/MutableObject;Lorg/w3c/dom/Element;Ljava/util/Map;ZI)Ljava/util/Map;"
+    ],
+    "org/apache/commons/configuration2/io/TestFileHandler.class": [
+      "method testLoadFromClassPath()V"
+    ],
+    "org/apache/commons/configuration2/MockInitialContextFactory.class": [
+      "method createCtxMock(Ljava/lang/String;)Lcom/mockobjects/dynamic/Mock;"
+    ]
+  },
+  "bb73ab25": {},
+  "11ce2129": {
+    "org/apache/commons/configuration2/SystemConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/interpol/ConstantLookup.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestDynamicCombinedConfiguration$ThreadLookup.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestPatternSubtreeConfiguration.class": [
+      "change_field_declaration",
+      "method testSaveNotFileBased()V",
+      "method testReadNotFileBased()V",
+      "method testMultiConfiguration()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/tree/TestDefaultExpressionEngine.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/interpol/TestExprLookup.class": [
+      "change_field_declaration",
+      "method testLookup()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/TestINIConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestPropertiesConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestDynamicCombinedConfiguration.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization",
+      "method testConfiguration()V"
+    ],
+    "org/apache/commons/configuration2/test/HsqlDB.class": [
+      "nochange"
+    ]
+  },
+  "150d7aac": {},
+  "7ec17b94": {
+    "org/apache/commons/configuration2/reloading/FileHandlerReloadingDetector.class": [
+      "change_field_declaration",
+      "method isReloadingRequired()Z",
+      "method getRefreshDelay()J",
+      "method updateLastModified(J)V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "e2b0ff82": {},
+  "12df410e": {},
+  "9857c5ac": {},
+  "b0839bd1": {},
+  "8d4c2741": {
+    "org/apache/commons/configuration2/PropertiesConfiguration$PropertiesReader.class": [
+      "method readProperty()Ljava/lang/String;"
+    ],
+    "org/apache/commons/configuration2/convert/PropertyConverter.class": [
+      "method toEnum(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Enum;",
+      "method toDate(Ljava/lang/Object;Ljava/lang/String;)Ljava/util/Date;",
+      "method toURI(Ljava/lang/Object;)Ljava/net/URI;",
+      "method toLocale(Ljava/lang/Object;)Ljava/util/Locale;",
+      "method toPattern(Ljava/lang/Object;)Ljava/util/regex/Pattern;",
+      "method toInternetAddress(Ljava/lang/Object;)Ljava/lang/Object;",
+      "method toBoolean(Ljava/lang/Object;)Ljava/lang/Boolean;",
+      "method toColor(Ljava/lang/Object;)Ljava/awt/Color;",
+      "method toInetAddress(Ljava/lang/Object;)Ljava/net/InetAddress;",
+      "method toCalendar(Ljava/lang/Object;Ljava/lang/String;)Ljava/util/Calendar;",
+      "method toURL(Ljava/lang/Object;)Ljava/net/URL;"
+    ],
+    "org/apache/commons/configuration2/BaseHierarchicalConfiguration$BuilderVisitor.class": [
+      "method insertNewChildNodes(Lorg/apache/commons/configuration2/tree/ImmutableNode;Lorg/apache/commons/configuration2/tree/ReferenceNodeHandler;)V"
+    ],
+    "org/apache/commons/configuration2/PropertiesConfiguration$JupPropertiesReader.class": [
+      "method readProperty()Ljava/lang/String;"
+    ]
+  },
+  "f6abe30b": {
+    "org/apache/commons/configuration2/io/TestFileHandler.class": [
+      "method testSaveToStream()V",
+      "method readFile(Ljava/io/File;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/configuration2/TestXMLConfiguration.class": [
+      "method testSaveToStream()V"
+    ]
+  },
+  "754b3b55": {
+    "org/apache/commons/configuration2/reloading/VFSFileHandlerReloadingDetector.class": [
+      "method resolveFileURI()Ljava/lang/String;"
+    ],
+    "org/apache/commons/configuration2/reloading/FileHandlerReloadingDetector.class": [
+      "method isReloadingRequired()Z"
+    ],
+    "org/apache/commons/configuration2/builder/combined/BaseConfigurationBuilderProvider.class": [
+      "method createParameterObject(Ljava/lang/String;)Lorg/apache/commons/configuration2/builder/BuilderParameters;"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestBaseConfigurationBuilderProvider.class": [
+      "method createDeclaration(Lorg/apache/commons/configuration2/HierarchicalConfiguration;)Lorg/apache/commons/configuration2/builder/combined/ConfigurationDeclaration;"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestFileExtensionConfigurationBuilderProvider.class": [
+      "method setUpProvider()Lorg/apache/commons/configuration2/builder/combined/FileExtensionConfigurationBuilderProvider;"
+    ]
+  },
+  "d4fe3119": {
+    "org/apache/commons/configuration2/tree/ModelTransaction.class": [
+      "method fetchOperations(Lorg/apache/commons/configuration2/tree/ImmutableNode;I)Lorg/apache/commons/configuration2/tree/ModelTransaction$Operations;",
+      "add_static_method"
+    ],
+    "org/apache/commons/configuration2/builder/combined/MultiFileConfigurationBuilder.class": [
+      "remove_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/builder/BasicConfigurationBuilder.class": [
+      "add_static_method",
+      "method getFilteredParameters()Ljava/util/Map;"
+    ],
+    "org/apache/commons/configuration2/TestSystemConfiguration.class": [
+      "add_static_method",
+      "method testAppendWhileConcurrentAccess()V"
+    ],
+    "org/apache/commons/configuration2/io/TestFileHandler.class": [
+      "method testInitPropertiesMultiThreaded()V",
+      "add_static_method"
+    ],
+    "org/apache/commons/configuration2/io/TestFileHandler$FileBasedTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestInMemoryNodeModel.class": [
+      "add_static_method",
+      "method testConcurrentUpdate()V"
+    ],
+    "org/apache/commons/configuration2/io/TestFileHandler$FileBasedFileLocatorAwareTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestFileHandler$FileBasedInputStreamSupportTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestFileHandler$1.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "8bc64b9a": {},
+  "6c60fef7": {
+    "org/apache/commons/configuration2/TestJNDIEnvironmentValues.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/TestNullJNDIEnvironmentValues.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/TestDynamicCombinedConfiguration$ReaderThread.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/test/HsqlDB.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/TestBaseConfiguration.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "3fe43fde": {},
+  "670fd2de": {},
+  "674624c0": {
+    "org/apache/commons/configuration2/XMLConfiguration.class": [
+      "method constructHierarchy(Lorg/apache/commons/configuration2/tree/ImmutableNode$Builder;Lorg/apache/commons/lang3/mutable/MutableObject;Lorg/w3c/dom/Element;Ljava/util/Map;ZI)Ljava/util/Map;"
+    ],
+    "org/apache/commons/configuration2/io/FileUtils.class": [
+      "method decodeUrl(Ljava/lang/String;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/configuration2/test/HsqlDB.class": [
+      "method getFileContents(Ljava/lang/String;)Ljava/lang/String;"
+    ]
+  },
+  "799ca303": {
+    "org/apache/commons/configuration2/convert/DefaultListDelimiterHandler.class": [
+      "method escapeList(Ljava/util/List;Lorg/apache/commons/configuration2/convert/ValueTransformer;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/configuration2/convert/TestDefaultListDelimiterHandler.class": [
+      "add_instance_method"
+    ]
+  },
+  "c0bb46e2": {
+    "org/apache/commons/configuration2/reloading/FileHandlerReloadingDetector.class": [
+      "method isReloadingRequired()Z"
+    ],
+    "org/apache/commons/configuration2/INIConfiguration.class": [
+      "method escapeComments(Ljava/lang/String;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/configuration2/plist/PropertyListConfiguration.class": [
+      "method quoteString(Ljava/lang/String;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/configuration2/JNDIConfiguration.class": [
+      "method containsKeyInternal(Ljava/lang/String;)Z",
+      "method getPropertyInternal(Ljava/lang/String;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/configuration2/convert/PropertyConverter.class": [
+      "method toFloat(Ljava/lang/Object;)Ljava/lang/Float;",
+      "method toDouble(Ljava/lang/Object;)Ljava/lang/Double;"
+    ],
+    "org/apache/commons/configuration2/TestBaseConfigurationXMLReader.class": [
+      "method setUp()V"
+    ],
+    "org/apache/commons/configuration2/TestConfigurationConverter.class": [
+      "method testConfigurationToPropertiesScalarValue()V"
+    ],
+    "org/apache/commons/configuration2/NonStringTestHolder.class": [
+      "method testBooleanDefaultValue()V"
+    ],
+    "org/apache/commons/configuration2/TestAbstractHierarchicalConfiguration.class": [
+      "method testSetProperty()V"
+    ],
+    "org/apache/commons/configuration2/beanutils/TestConfigurationDynaBean.class": [
+      "method testSetSimpleBoolean()V",
+      "method testSetIndexedArguments()V",
+      "method testSetSimpleFloat()V",
+      "method testSetSimpleInt()V",
+      "method testSetIndexedValues()V",
+      "method testSetSimpleShort()V",
+      "method testSetSimpleLong()V",
+      "method setUp()V",
+      "method testSetSimpleDouble()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/TestDataConfiguration.class": [
+      "method testGetLongList()V",
+      "method testGetDoubleList()V",
+      "method testGetByteList()V",
+      "method testGetShortList()V",
+      "method testGetFloatList()V",
+      "method setUp()V",
+      "method testGetIntegerList()V"
+    ],
+    "org/apache/commons/configuration2/TestBaseNullConfiguration.class": [
+      "method testGetShort()V",
+      "method testGetBoolean()V",
+      "method testGetDouble()V",
+      "method testGetByte()V",
+      "method testGetFloat()V",
+      "method testGetLong()V"
+    ],
+    "org/apache/commons/configuration2/web/TestServletRequestConfiguration.class": [
+      "method testListWithEscapedElements()V"
+    ],
+    "org/apache/commons/configuration2/TestConfigurationSet.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/convert/TestPropertyConverter.class": [
+      "method testToNumberFromString()V",
+      "method testToNumberDirect()V"
+    ],
+    "org/apache/commons/configuration2/InterpolationTestHelper.class": [
+      "method testInterpolationSubset(Lorg/apache/commons/configuration2/Configuration;)V"
+    ],
+    "org/apache/commons/configuration2/TestHierarchicalXMLConfiguration.class": [
+      "method testSaveModified()V"
+    ],
+    "org/apache/commons/configuration2/beanutils/TestDefaultBeanFactory.class": [
+      "method setUpBeanDeclaration()Lorg/apache/commons/configuration2/beanutils/BeanDeclarationTestImpl;"
+    ],
+    "org/apache/commons/configuration2/TestSubnodeConfiguration.class": [
+      "method testGetKeys()V"
+    ],
+    "org/apache/commons/configuration2/TestConfigurationMap.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/beanutils/TestBeanHelper.class": [
+      "method createChildBean(Ljava/lang/String;)Lorg/apache/commons/configuration2/beanutils/BeanDeclarationTestImpl;",
+      "method testCreateBeanWithParameter()V",
+      "method setUpBeanDeclaration()Lorg/apache/commons/configuration2/beanutils/BeanDeclarationTestImpl;"
+    ],
+    "org/apache/commons/configuration2/TestBaseConfiguration.class": [
+      "method testGetBoolean()V",
+      "method testGetShort()V",
+      "method testGetInterpolatedPrimitives()V",
+      "method testClone()V",
+      "method testGetDouble()V",
+      "method testGetByte()V",
+      "method testGetFloat()V",
+      "method testGetLong()V",
+      "method testNumberConversions()V"
+    ]
+  },
+  "04abfcc7": {
+    "org/apache/commons/configuration2/io/DefaultFileSystem.class": [
+      "method locateFromURL(Ljava/lang/String;Ljava/lang/String;)Ljava/net/URL;"
+    ],
+    "org/apache/commons/configuration2/PropertiesConfiguration$PropertiesReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/PropertiesConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/FileBasedBuilderParametersImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/SystemConfiguration.class": [
+      "change_field_declaration",
+      "method setSystemProperties(Lorg/apache/commons/configuration2/Configuration;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/interpol/ConstantLookup.class": [
+      "method lookup(Ljava/lang/String;)Ljava/lang/Object;",
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization",
+      "method clear()V"
+    ],
+    "org/apache/commons/configuration2/io/FileHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/FileLocatorUtils.class": [
+      "nochange"
+    ]
+  },
+  "33c47a00": {},
+  "66b4f4eb": {
+    "org/apache/commons/configuration2/TestCombinedConfiguration$ReadThread.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/AbstractMultiFileConfigurationBuilderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestSystemConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestImmutableNode.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestPropertiesBuilderParametersImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestEqualBehavior.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestBaseConfigurationXMLReader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestPropertiesConfigurationLayout$PropertiesBuilder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/ParametersBeanTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestDynamicCombinedConfiguration$ThreadLookup.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestOverrideCombiner.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/SynchronizerTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestCatalogResolver.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/sync/TestReadWriteSynchronizer.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/configuration2/io/TestCombinedLocationStrategy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestConfigurationConverter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestFileHandler.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/configuration2/TestJNDIConfiguration$PotentialErrorJNDIConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestReloadingCombinedConfigurationBuilder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/fluent/TestParameters.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/event/TestDatabaseConfigurationEvents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestBasicConfigurationBuilder.class": [
+      "method testGetResultDeclarationInvalidBeanClass()V",
+      "method testBeanHelperInConfiguration()V"
+    ],
+    "org/apache/commons/configuration2/reloading/TestPeriodicReloadingTrigger.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestAbstractHierarchicalConfiguration$AbstractHierarchicalConfigurationTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestXMLListHandling.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestProvidedURLLocationStrategy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/convert/TestDisabledListDelimiterHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestJNDIEnvironmentValues.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/event/TestHierarchicalConfigurationEvents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestConfigurationUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/plist/TestPropertyListConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestFileHandler$FileHandlerListenerTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestMultiFileConfigurationBuilder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/NonStringTestHolder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/BuilderEventListenerImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestMultiWrapDynaBean$WrappedBeanTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/reloading/TestReloadingController.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestJndiBuilderParametersImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestCombinedConfigurationBuilder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestReloadingFileBasedConfigurationBuilder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestFileLocator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestAbstractHierarchicalConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestCombinedConfiguration$CombinedListener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/beanutils/TestConfigurationDynaBean.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/beanutils/TestBeanHelper$TestBeanFactory.class": [
+      "method createBean(Lorg/apache/commons/configuration2/beanutils/BeanCreationContext;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/configuration2/builder/TestAutoSaveListener.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestReloadingMultiFileConfigurationBuilder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestDataConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/reloading/TestCombinedReloadingController.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestXMLConfiguration_605.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/fluent/TestConfigurations.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestYAMLConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/sync/TestReadWriteSynchronizer$ReaderThread.class": [
+      "method run()V"
+    ],
+    "org/apache/commons/configuration2/TestEnvironmentConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestCombinedConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestTrackedNodeModel.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestFileBasedConfigurationBuilder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestNullCompositeConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/beanutils/BeanCreationTestBean.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestXMLDocumentHelper.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestAbstractConfigurationBasicFeatures$TestConfigurationImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/beanutils/TestDefaultBeanFactory$1.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/TestAbstractConfigurationSynchronization.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/AbstractCombinerTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestBaseNullConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestNodeAddData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/sync/TestReadWriteSynchronizer$Account.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestMultiFileBuilderParametersImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestNodeTreeWalker$TestVisitor.class": [
+      "method visitAfterChildren(Lorg/apache/commons/configuration2/tree/ImmutableNode;Lorg/apache/commons/configuration2/tree/NodeHandler;)V"
+    ],
+    "org/apache/commons/configuration2/builder/TestFileBasedBuilderParameters.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestFileHandler$FileBasedTestImpl.class": [
+      "method read(Ljava/io/Reader;)V"
+    ],
+    "org/apache/commons/configuration2/web/TestServletRequestConfiguration.class": [
+      "method createConfiguration(Lorg/apache/commons/configuration2/Configuration;)Lorg/apache/commons/configuration2/web/ServletRequestConfiguration;",
+      "method getEmptyConfiguration()Lorg/apache/commons/configuration2/AbstractConfiguration;"
+    ],
+    "org/apache/commons/configuration2/TestConfigurationSet.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestUnionCombiner.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestQueryResult.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/event/TestEventSource$CountingEventSource.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestJNDIConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/convert/TestPropertyConverter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestCombinedConfigurationBuilder$BuilderProviderTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestImmutableConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestInMemoryNodeModel.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/spring/TestConfigurationPropertySource.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/xpath/TestConfigurationNodePointer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestMapConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/BaseNonStringProperties.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/beanutils/BeanCreationTestBeanWithListChild.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestDefaultExpressionEngineSymbols.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/event/AbstractTestConfigurationEvents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/NonCloneableConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestConfigurationDeclaration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestNullJNDIEnvironmentValues.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/event/AbstractEventListenerTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/reloading/TestManagedReloadingDetector.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestClasspathLocationStrategy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestConfigurationLookup.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestHierarchicalConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestBaseConfigurationBuilderProvider.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestAbstractConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestNodeUpdateData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/web/TestAppletConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestNodeTreeWalker.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/configuration2/beanutils/TestConstructorArg.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/plist/TestXMLPropertyListConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestBasicConfigurationBuilderEvents.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestHierarchicalBuilderParametersImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestConfigurationUtils$CloneableSynchronizer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestDatabaseBuilderParametersImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestConfigurationLogger.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestCombinedBuilderParametersImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/web/TestServletFilterConfiguration$MockFilterConfig.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/reloading/TestFileHandlerReloadingDetector.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestPropertiesConfigurationLayout.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestHierarchicalXMLConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/xpath/TestConfigurationNodeIteratorChildren.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestMergeCombiner.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/NodeStructureHelper.class": [
+      "method expectResolveKeyForQueries(Lorg/apache/commons/configuration2/tree/NodeKeyResolver;)V",
+      "method expectResolveAddKeys(Lorg/apache/commons/configuration2/tree/NodeKeyResolver;)V",
+      "change_signature"
+    ],
+    "org/apache/commons/configuration2/tree/xpath/TestConfigurationAttributePointer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/plist/TestPropertyListParser.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/convert/TestDefaultListDelimiterHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestDefaultParametersManager.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/configuration2/builder/TestEventListenerParameters.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestDynamicCombinedConfiguration$ReaderThread.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/event/TestEventSource.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestDefaultExpressionEngine.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/reloading/TestVFSFileHandlerReloadingDetector.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/xpath/TestConfigurationIteratorAttributes.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestBasePathLocationStrategy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/event/TestConfigurationEventTypes.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestTrackedNodeHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/xpath/TestXPathExpressionEngineInConfig.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/xpath/TestXPathExpressionEngine.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/spring/TestConfigurationPropertiesFactoryBean.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestDefaultParametersManager$FileBasedDefaultsHandler.class": [
+      "method initializeDefaults(Lorg/apache/commons/configuration2/builder/fluent/FileBasedBuilderParameters;)V"
+    ],
+    "org/apache/commons/configuration2/TestINIConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/beanutils/TestCombinedBeanDeclaration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestDatabaseConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestPropertiesConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestMultiWrapDynaBean.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestCompositeConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/beanutils/TestDefaultBeanFactory.class": [
+      "method createBcc(Ljava/lang/Class;Lorg/apache/commons/configuration2/beanutils/BeanDeclaration;)Lorg/apache/commons/configuration2/beanutils/BeanCreationContext;"
+    ],
+    "org/apache/commons/configuration2/tree/xpath/AbstractXPathTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestBasicConfigurationBuilder$InitializableConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestBasicBuilderParameters.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/ConfigurationAssert.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestDefaultFileSystem.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestSubnodeConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/convert/TestDefaultConversionHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestHomeDirectoryLocationStrategy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/Logging.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/beanutils/TestXMLBeanDeclaration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestSubsetConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestXMLBuilderParametersImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestReloadingCombinedConfigurationBuilderFileBased.class": [
+      "method testConcurrentGetAndReload()V",
+      "change_signature",
+      "method testReloadFromFile()V"
+    ],
+    "org/apache/commons/configuration2/TestXMLPropertiesConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestFileExtensionConfigurationBuilderProvider.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestCombinedConfigurationBuilder$EntityResolverWithPropertiesTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestBaseHierarchicalConfigurationSynchronization.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestAbstractConfigurationBasicFeatures.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/xpath/TestConfigurationNodePointerFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/TestDynamicCombinedConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestFileLocatorUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/AbstractImmutableNodeHandlerTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/web/TestServletRequestConfiguration$1.class": [
+      "add_field",
+      "remove_instance_method",
+      "method getParameterMap()Ljava/util/Map;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/MockInitialContextFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/test/HsqlDB.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestInMemoryNodeModelReferences.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/event/TestEventListenerList$ListenerTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestDefaultConfigurationKey.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestBasicConfigurationBuilder$2.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/tree/TestNodeSelector.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/beanutils/TestBeanHelper.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/configuration2/builder/combined/TestReloadingMultiFileConfigurationBuilder$ReloadingMultiFileConfigurationBuilderTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestCopyObjectDefaultHandler.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/web/TestServletRequestConfiguration$2.class": [
+      "remove_instance_method",
+      "method getParameterMap()Ljava/util/Map;",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/builder/TestBasicConfigurationBuilder$1.class": [
+      "change_base_class",
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/configuration2/event/TestEventListenerList.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/beanutils/BeanDeclarationTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestReloadingFileBasedConfigurationBuilder$ReloadingFileBasedConfigurationBuilderTestImpl.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestNodeNameMatchers.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/io/TestAbsoluteNameLocationStrategy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/builder/TestBuilderConfigurationWrapperFactory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/DatabaseConfigurationTestHelper.class": [
+      "nochange"
+    ],
+    "org/apache/commons/configuration2/tree/TestInMemoryNodeModelTrackedNodes.class": [
+      "nochange"
+    ]
+  },
+  "db81b5ee": {
+    "org/apache/commons/configuration2/ImmutableConfiguration.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/configuration2/convert/PropertyConverter.class": [
+      "add_static_method",
+      "method to(Ljava/lang/Class;Ljava/lang/Object;Lorg/apache/commons/configuration2/convert/DefaultConversionHandler;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/configuration2/AbstractConfiguration.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/configuration2/TestDefaultImmutableConfiguration$MapImmutableConfiguration.class": [
+      "add_class"
+    ],
+    "org/apache/commons/configuration2/TestDefaultImmutableConfiguration$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/configuration2/TestDefaultImmutableConfiguration.class": [
+      "add_class"
+    ],
+    "org/apache/commons/configuration2/TestBaseConfiguration.class": [
+      "add_instance_method"
+    ]
+  },
+  "7e4b3faa": {
+    "org/apache/commons/configuration2/io/TestConfigurationLogger.class": [
+      "method testInitWithLoggerSpec()V"
+    ],
+    "org/apache/commons/configuration2/interpol/TestExprLookup.class": [
+      "add_instance_method",
+      "method testLookup()V"
+    ]
+  }
+}

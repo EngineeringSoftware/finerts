@@ -1,0 +1,1743 @@
+{
+  "ec904ab2": {
+    "com/bullhornsdk/data/model/entity/core/standard/JobBoardPost.class": [
+      "nochange"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/JobData.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/JobOrder.class": [
+      "nochange"
+    ],
+    "com/bullhornsdk/data/api/helper/RestOneToManySerializer.class": [
+      "nochange"
+    ]
+  },
+  "d8252610": {
+    "com/bullhornsdk/data/model/response/list/CertificationFileAttachmentListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/file/CertificationFileAttachment.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/CertificationFileAttachmentWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/TestEntities.class": [
+      "add_field",
+      "add_instance_method",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestUpdate.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestQuery.class": [
+      "add_instance_method"
+    ]
+  },
+  "325f3c82": {
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementMessageTemplate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementTemplate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementMessageTemplateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/association/paybill/LocationAssociations.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/GeneralLedgerAccount.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/LocationWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/LocationVersionListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/BillingProfile.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceTerm.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillingProfileVersionWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/GeneralLedgerAccountWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillingProfileWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/association/AssociationFactory.class": [
+      "add_field",
+      "method getEntityAssociation(Ljava/lang/Class;)Lcom/bullhornsdk/data/model/entity/association/EntityAssociations;",
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceTermVersionListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/CurrencyUnityWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillingProfileListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillingProfileVersionListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/LocationVersion.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/type/EffectiveDateEntity.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/association/paybill/InvoiceTermAssociations.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceTermVersionWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceTermListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/association/paybill/BillingProfileAssociations.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/LocationVersionWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementTemplateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/unit/CurrencyUnit.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/BillingProfileVersion.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceTermVersion.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/GeneralLedgerAccountListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementTemplateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/CurrencyUnitListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/Location.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/LocationListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceTermWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementMessageTemplateWrapper.class": [
+      "add_class"
+    ]
+  },
+  "671721a4": {
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "fb77f04b": {
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementMessageTemplate.class": [
+      "method setMessageText(Ljava/lang/String;)V",
+      "method setName(Ljava/lang/String;)V",
+      "method setSubject(Ljava/lang/String;)V"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementTemplate.class": [
+      "add_field",
+      "method setDescription(Ljava/lang/String;)V",
+      "method hashCode()I",
+      "method setType(Ljava/lang/String;)V",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/GeneralLedgerAccount.class": [
+      "change_signature"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/BillingProfile.class": [
+      "method setIsDeleted(Ljava/lang/Boolean;)V",
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;",
+      "method getIsDeleted()Ljava/lang/Boolean;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceTerm.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/LocationVersion.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method instantiateForInsert()Lcom/bullhornsdk/data/model/entity/core/paybill/LocationVersion;",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/type/EffectiveDateEntity.class": [
+      "change_signature"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/unit/CurrencyUnit.class": [
+      "method setAlphabeticCode(Ljava/lang/String;)V",
+      "method setName(Ljava/lang/String;)V"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/BillingProfileVersion.class": [
+      "method getIsFirst()Ljava/lang/Boolean;",
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;",
+      "method setIsFirst(Ljava/lang/Boolean;)V"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceTermVersion.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/Location.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "method instantiateForInsert()Lcom/bullhornsdk/data/model/entity/core/paybill/Location;",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "4ed3970e": {
+    "com/bullhornsdk/data/model/entity/core/paybill/generalledger/GeneralLedgerSegment3.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/master/BatchGroup.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/GeneralLedgerSegment1Wrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementLineItemWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/master/PayMaster.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillingSyncBatchWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/GeneralLedgerSegment2Wrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceTerm.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/response/single/GeneralLedgerSegment4Wrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/CanvasReportListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/TransactionStatus.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/CanvasReport.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/generalledger/GeneralLedgerSegmentType.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillableChargeWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/generalledger/GeneralLedgerServiceCode.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/PayMasterWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/generalledger/GeneralLedgerSegment.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/AbstractTransaction.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillMasterListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/generalledger/GeneralLedgerSegment4.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementExportBatchWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/BillableChargeInvoicedTransaction.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/TransactionOrigin.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/surcharge/Surcharge.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/GeneralLedgerSegment3Wrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/CandidateCertificationRequirementWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/optionslookup/SimplifiedOptionsLookup.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillMasterWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementExportListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/CertificationRequirementWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/BillableChargeSummaryTransaction.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/CandidateCertificationRequirementListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/GeneralLedgerServiceCodeWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementSurcharge.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/TaxWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/SurchargeWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/file/BillableChargeFileAttachment.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/charge/BillableCharge.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/SurchargeListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/GeneralLedgerSegmentTypeListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatement.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillableChargeListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/generalledger/GeneralLedgerSegment2.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/master/BillingSyncBatch.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/GeneralLedgerSegment5Wrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementBatchListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/charge/PayableCharge.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/BillableChargeUnbillableTransaction.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/file/InvoiceStatementExport.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/EarnCodeWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementBatch.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/PayMasterTransaction.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementDiscountListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceTermVersion.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/optionslookup/SpecializedOptionsLookup.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementExportBatchListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/AbstractMasterTransaction.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillableChargeFileAttachmentWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementSplitBy.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/discount/Discount.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/PayableChargeListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BatchGroupWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/JobSubmissionCertificationRequirementWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementTaxListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/GeneralLedgerServiceCodeListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/GeneralLedgerSegmentListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/TaxListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/BillMasterTransaction.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillableChargeFileAttachmentListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementDiscount.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/EarnCodeListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/PlacementCertification.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/TransactionType.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/DiscountWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/GeneralLedgerSegmentWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/GeneralLedgerSegmentTypeWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/GeneralLedgerSegment5ListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/CertificationRequirementListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/customfields/CustomFieldsG.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/CanvasReportWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/generalledger/GeneralLedgerSegment1.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementTax.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/GeneralLedgerSegment1ListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillMasterTransactionWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/PayableChargeWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/generalledger/GeneralLedgerAccount.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/charge/PayExportBatch.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/master/BillMaster.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BatchGroupListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/generalledger/GeneralLedgerSegment5.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/certificationrequirement/CandidateCertificationRequirement.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/PayMasterListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/certificationrequirement/AbstractRequirement.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementLineItem.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/earncode/EarnCode.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillingSyncBatchListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementSurchargeWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementTaxWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/certificationrequirement/CertificationRequirement.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/GeneralLedgerSegment4ListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/JobSubmissionCertificationRequirementListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementLineItemGroupBy.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/GeneralLedgerSegment2ListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/DiscountListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/tax/Tax.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementSurchargeListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementExportBatch.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/certificationrequirement/JobSubmissionCertificationRequirement.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/unit/UnitOfMeasure.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementBatchWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementLineItemListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/optionslookup/WorkflowOptionsLookup.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementDiscountWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillMasterTransactionListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/PayableTransaction.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/AbstractType.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementExportWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/GeneralLedgerSegment3ListWrapper.class": [
+      "add_class"
+    ]
+  },
+  "e7b1e998": {
+    "com/bullhornsdk/data/model/entity/core/standard/Placement.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "85929706": {
+    "com/bullhornsdk/data/model/entity/core/standard/CandidateCertification.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "f6525340": {
+    "com/bullhornsdk/data/model/entity/core/standard/JobSubmission.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "74fd7513": {
+    "com/bullhornsdk/data/exception/NoAllFieldsException.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/api/helper/RestUriVariablesFactory.class": [
+      "method getUriVariablesForMeta(Ljava/lang/String;Lcom/bullhornsdk/data/model/enums/MetaParameter;Ljava/util/Set;Ljava/lang/Integer;)Ljava/util/Map;",
+      "method convertFieldSetToString(Ljava/util/Set;)Ljava/lang/String;",
+      "method getUriVariablesForSettings(Ljava/util/Set;)Ljava/util/Map;"
+    ],
+    "com/bullhornsdk/data/TestNestedEntities.class": [
+      "method testFindCandidate_fileAttachments()V"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestSearch.class": [
+      "method getSearchMetaData()V"
+    ]
+  },
+  "da077be5": {
+    "com/bullhornsdk/data/api/BullhornData.class": [
+      "remove_instance_method",
+      "change_signature"
+    ],
+    "com/bullhornsdk/data/api/StandardBullhornData.class": [
+      "remove_instance_method"
+    ],
+    "com/bullhornsdk/data/model/entity/file/InvoiceStatementExport.class": [
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestDateHandling.class": [
+      "method testDateHandlingJobOrder()V"
+    ],
+    "com/bullhornsdk/data/TestNestedEntities.class": [
+      "method testFindCandidate()V"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRest.class": [
+      "method testFindJobSubmission()V",
+      "method testFindNote()V",
+      "method testFindJobBoardPost()V",
+      "method testFindCandidateEducation()V",
+      "method testFindSpecialty()V",
+      "method testFindBusinessSector()V",
+      "method testFindCategory()V",
+      "method testFindSkill()V",
+      "method testFindNoteEntity()V",
+      "method testFindPlacementChangeRequest()V",
+      "method testFindPlacement()V",
+      "method testFindBranch()V",
+      "method testFindCandidateWorkHistory()V",
+      "method testFindCountry()V",
+      "method testFindJobOrder()V",
+      "method testFindSendout()V",
+      "method testFindWorkersCompensationRate()V",
+      "method testFindJobSubmissionHistory()V",
+      "method testFindCandidate()V",
+      "method testFindLead()V",
+      "method testFindClientContact()V",
+      "method testFindOpportunity()V",
+      "method testFindWorkersCompensation()V",
+      "method testFindCorporateUser()V",
+      "method testFindAppointment()V",
+      "method testFindClientCorporation()V",
+      "method testFindAppointmentAttendee()V",
+      "method testFindState()V",
+      "method testFindTearsheet()V",
+      "method testFindPlacementCommission()V",
+      "method testFindHousingComplex()V",
+      "method testFindCorporationDepartment()V",
+      "method testFindFile()V",
+      "method testFindTask()V",
+      "method testFindTimeUnit()V",
+      "method testFindCandidateReference()V",
+      "method testFindCertification()V"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestNoteAdd.class": [
+      "method runAssertions(Lcom/bullhornsdk/data/model/response/crud/CrudResponse;)V"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestUpdate.class": [
+      "method testUpdateCandidateEducation()V",
+      "method testUpdateTask()V",
+      "method testUpdateHousingComplex()V",
+      "method testUpdatePlacementCommission()V",
+      "method testUpdatePlacement()V",
+      "method testUpdatePlacementFileAttachment()V",
+      "method testUpdateCertification()V",
+      "method testUpdateDepartment()V",
+      "method testUpdateOpportunityFileAttachment()V",
+      "method testGenericUpdate()V",
+      "method testUpdateBranch()V",
+      "method testUpdateJobSubmission()V",
+      "method testUpdateSendout()V",
+      "method testUpdateJobOrderFileAttachment()V",
+      "method testUpdateClientContact()V",
+      "method testUpdateCandidateReference()V",
+      "method testUpdateOpportunity()V",
+      "method testUpdateClientCorporation()V",
+      "method testUpdateCandidateCertification()V",
+      "method testUpdateCertificationFileAttachment()V",
+      "method testUpdateCandidateWorkHistory()V",
+      "method testUpdateLead()V",
+      "method testUpdateJobOrder()V",
+      "method testUpdateNoteEntity()V",
+      "method testUpdateNote()V",
+      "method testUpdateAppointment()V",
+      "method testUpdateClientContactFileAttachment()V",
+      "method testUpdateCandidate()V",
+      "method testUpdateClientCorporationFileAttachment()V",
+      "method testUpdateCandidateFileAttachment()V",
+      "method testUpdatePlacementCertification()V"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestCreate.class": [
+      "method testCreateClientContact()V",
+      "method testCreateAppointment()V",
+      "method testCreateLead()V",
+      "method testCreateJobSubmission()V",
+      "method testCreateNote()V",
+      "method testCreateCandidateEducation()V",
+      "method testCreateDepartment()V",
+      "method testCreateJobOrder()V",
+      "method testCreateClientContactWithExecuteFormTriggers()V",
+      "method testCreateTask()V",
+      "method testCreateOpportunity()V",
+      "method testCreatePlacement()V",
+      "method testCreateClientCorporation()V",
+      "method testCreateNoteEntity()V",
+      "method testCreatePlacementCertification()V",
+      "method testCreateCertification()V",
+      "method testCreatePlacementCommission()V",
+      "method testCreateSendout()V",
+      "method testCreateCandidateWorkHistory()V",
+      "method testCreateBranch()V",
+      "method testCreateCandidateCertification()V",
+      "method testCreateCandidateReference()V",
+      "method testCreateCandidate()V"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/TestCoreEntities.class": [
+      "method load()V"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestSettings.class": [
+      "method testSettings()V",
+      "method testSettingsObject()V"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestAssociations.class": [
+      "method testAssociateOpportunity()V",
+      "method testAssociatePlacement()V",
+      "method testAssociateCandidate()V",
+      "add_static_method",
+      "method testAssociateClientContact()V",
+      "method testAssociateJobOrder()V",
+      "method testAssociateClientCorporation()V",
+      "method testAssociateNote()V",
+      "add_instance_method",
+      "method testAssociateDistributionList()V",
+      "method testAssociateBranch()V",
+      "method testAssociateLead()V"
+    ]
+  },
+  "fc7a26a9": {
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "37fcf0cd": {
+    "com/bullhornsdk/data/model/entity/core/standard/Certification.class": [
+      "change_base_class",
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "180d57a6": {
+    "com/bullhornsdk/data/api/BullhornData.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "com/bullhornsdk/data/api/StandardBullhornData.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/model/response/list/CertificationRequirementStatusLookupListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/api/helper/RestUrlFactory.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/model/response/single/CertificationRequirementStatusLookupWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/file/CommonFileAttachment.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/certificationrequirement/optionslookup/CertificationRequirementStatusLookup.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/parameter/standard/ParamFactory.class": [
+      "add_static_method"
+    ],
+    "com/bullhornsdk/data/model/parameter/standard/StandardOptionsParams.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/customfields/CustomFieldsG.class": [
+      "change_base_class",
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/response/list/PropertyOptionsListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/PropertyOptionsResult.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/certificationrequirement/CandidateCertificationRequirement.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/certificationrequirement/AbstractRequirement.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/parameter/OptionsParams.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/file/CertificationFileAttachment.class": [
+      "change_base_class",
+      "method hashCode()I",
+      "method equals(Ljava/lang/Object;)Z",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/certificationrequirement/JobSubmissionCertificationRequirement.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/api/helper/RestUriVariablesFactory.class": [
+      "add_field",
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestUpdate.class": [
+      "method testUpdateCertificationFileAttachment()V"
+    ]
+  },
+  "da54f324": {
+    "com/bullhornsdk/data/model/response/single/GoalTargetWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/GoalTargetListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/GoalTarget.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/TestEntities.class": [
+      "add_field",
+      "add_instance_method",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestUpdate.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestCreate.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestQuery.class": [
+      "add_instance_method"
+    ]
+  },
+  "d35c28ed": {
+    "com/bullhornsdk/data/model/entity/embedded/Address.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "20a3931b": {
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/PayMasterTransaction.class": [
+      "nochange"
+    ],
+    "com/bullhornsdk/data/model/response/single/PayMasterTransactionWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/PayMasterTransactionListWrapper.class": [
+      "add_class"
+    ]
+  },
+  "c56b6cb7": {
+    "com/bullhornsdk/data/model/entity/core/standard/Placement.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "f3fc1241": {
+    "com/bullhornsdk/data/model/entity/core/paybill/charge/PayExportBatch.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "b57c9830": {
+    "com/bullhornsdk/data/model/response/list/PayExportBatchListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/response/single/PayExportBatchWrapper.class": [
+      "add_class"
+    ]
+  },
+  "86517577": {
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceTerm.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceTermFileTypesForInvoicing.class": [
+      "add_class"
+    ]
+  },
+  "08be5577": {
+    "com/bullhornsdk/data/model/entity/core/paybill/charge/PayExportBatch.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "fd67bc2d": {
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/response/single/EarnCodeGroupWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/earncode/EarnCodeGroup.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/EarnCodeGroupListWrapper.class": [
+      "add_class"
+    ]
+  },
+  "d52e9711": {
+    "com/bullhornsdk/data/model/entity/core/paybill/earncode/EarnCode.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/earncode/EarnCodeGroup.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "ef355969": {
+    "com/bullhornsdk/data/model/response/single/BillMasterTransactionSalesTaxDetailWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillMasterTransactionSurchargeDetailWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/SurchargeRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillMasterTransactionDiscountRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/InvoiceStatementLineItemDiscountRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/BillMasterTransactionSalesTaxRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementLineDistributionWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/BillMasterTransactionDiscountRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/detail/BillMasterTransactionSalesTaxDetail.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementLineItemDiscountRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/BillMasterTransactionSurchargeRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementDistributionBatchListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/InvoiceStatementLineItemSurchargeRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillMasterTransactionSalesTaxRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementSalesTaxRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementLineDistributionListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementLineItemSurchargeRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillMasterTransactionDiscountDetailListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillMasterTransactionDiscountRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/DiscountRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillMasterTransactionSurchargeRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementDistributionBatch.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/InvoiceStatementSalesTaxRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementDistributionBatchWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/DiscountRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/SurchargeRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/detail/BillMasterTransactionSurchargeDetail.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementLineItemSurchargeRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillMasterTransactionSalesTaxRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementLineItemDiscountRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillMasterTransactionSurchargeRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillMasterTransactionSalesTaxDetailListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/detail/BillMasterTransactionDiscountDetail.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/SurchargeRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillMasterTransactionDiscountDetailWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementSalesTaxRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/DiscountRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillMasterTransactionSurchargeDetailListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/invoice/InvoiceStatementLineDistribution.class": [
+      "add_class"
+    ]
+  },
+  "708b4aa4": {
+    "com/bullhornsdk/data/model/entity/core/standard/PlacementRateCardLineGroup.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/PlacementRateCardLineListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/PlacementRateCardVersionWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/PlacementRateCardWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/PlacementRateCardLine.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/PlacementRateCardVersion.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/PlacementRateCardLineWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/PlacementRateCard.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/response/list/PlacementRateCardVersionListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/PlacementRateCardListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/PlacementRateCardLineGroupListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/PlacementRateCardLineGroupWrapper.class": [
+      "add_class"
+    ]
+  },
+  "4ca862b9": {
+    "com/bullhornsdk/data/model/entity/core/standard/PlacementRateCardLine.class": [
+      "add_field",
+      "add_instance_method"
+    ]
+  },
+  "d05d4ab9": {
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/BillMasterTransaction.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "3d28718b": {
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/InvoiceStatementLineItemSalesTaxRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementSurchargeRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementDiscountRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/BillMasterTransactionSurchargeRate.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementDiscountRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/InvoiceStatementLineItemSalesTaxRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementSurchargeRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/InvoiceStatementLineItemSalesTaxRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/InvoiceStatementSurchargeRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/InvoiceStatementDiscountRate.class": [
+      "add_class"
+    ]
+  },
+  "47de7ba3": {
+    "com/bullhornsdk/data/model/entity/core/standard/Category.class": [
+      "nochange"
+    ]
+  },
+  "89d4e5c9": {
+    "com/bullhornsdk/data/api/StandardBullhornData.class": [
+      "add_instance_method"
+    ]
+  },
+  "efa146ef": {
+    "com/bullhornsdk/data/model/entity/report/Report.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/ReportWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/response/list/ReportListWrapper.class": [
+      "add_class"
+    ]
+  },
+  "e3556d7f": {
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/DiscountRate.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "ad8f9eaf": {
+    "com/bullhornsdk/data/model/response/list/BillMasterDiscountRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/BillMasterDiscountRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/BillMasterDiscountRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/DiscountRate.class": [
+      "add_field",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "1ffa3c9e": {
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "fb396f76": {
+    "com/bullhornsdk/data/model/response/list/DiscountRateVersionListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/DiscountRateVersionWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/DiscountRateVersion.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/DiscountRate.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/association/paybill/DiscountRateAssociations.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/DiscountRateListWrapper.class": [
+      "nochange"
+    ]
+  },
+  "1276e0ed": {
+    "com/bullhornsdk/data/model/response/single/BillMasterTransactionDistributionBatchWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/distribution/BillMasterTransactionDistributionBatch.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/UnbilledRevenueDistributionWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/UnbilledRevenueDistributionBatchWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/distribution/UnbilledRevenueDistribution.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/distribution/UnbilledRevenueDistributionBatch.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/BillMasterTransactionDistributionBatchListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/BillMasterTransaction.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/response/list/UnbilledRevenueDistributionListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/transaction/UnbilledRevenueGeneralLedgerExportStatusLookup.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/UnbilledRevenueGeneralLedgerExportStatusLookupListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/UnbilledRevenueGeneralLedgerExportStatusLookupWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/UnbilledRevenueDistributionBatchListWrapper.class": [
+      "add_class"
+    ]
+  },
+  "eab39a7d": {
+    "com/bullhornsdk/data/model/response/list/PlacementTimeAndExpenseListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/PlacementTimeAndExpense.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/Placement.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/response/single/PlacementTimeAndExpenseWrapper.class": [
+      "add_class"
+    ]
+  },
+  "88f2c8f9": {
+    "com/bullhornsdk/data/model/response/single/SalesTaxRateVersionWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/ExternalSalesTaxRateVersion.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/InvoiceStatementLineItemSalesTaxRate.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/response/list/SalesTaxRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/SalesTaxRateVersionListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/BillMasterTransactionSalesTaxRate.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/response/list/ExternalSalesTaxRateVersionListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/AllSalesTaxRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/ExternalSalesTaxRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/SalesTaxRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/InvoiceStatementSalesTaxRate.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/AllSalesTaxRate.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/SalesTaxRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/ExternalSalesTaxRateVersionWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/AllSalesTaxRateListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/SalesTaxRateVersion.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/ExternalSalesTaxRateWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/paybill/rate/ExternalSalesTaxRate.class": [
+      "add_class"
+    ]
+  },
+  "ef0ed274": {
+    "com/bullhornsdk/data/api/BullhornData.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "com/bullhornsdk/data/api/StandardBullhornData.class": [
+      "method getSettingsObject(Ljava/util/Set;)Lcom/bullhornsdk/data/model/entity/core/standard/Settings;",
+      "remove_instance_method",
+      "add_instance_method",
+      "method getSettings(Ljava/util/Set;)Ljava/util/Map;"
+    ],
+    "com/bullhornsdk/data/api/helper/RestUrlFactory.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/model/parameter/SettingsParams.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/parameter/standard/ParamFactory.class": [
+      "add_static_method"
+    ],
+    "com/bullhornsdk/data/model/parameter/standard/StandardSettingsParams.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/api/helper/RestUriVariablesFactory.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ]
+  },
+  "b6f7764e": {
+    "com/bullhornsdk/data/model/entity/core/standard/JobData.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/JobOrder.class": [
+      "nochange"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/ClientCorporation.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z"
+    ]
+  },
+  "04fcfe79": {
+    "com/bullhornsdk/data/model/entity/core/standard/JobData.class": [
+      "change_base_class",
+      "method hashCode()I",
+      "method equals(Ljava/lang/Object;)Z",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/JobOrder.class": [
+      "nochange"
+    ]
+  },
+  "063f5da0": {
+    "com/bullhornsdk/data/model/entity/core/standard/ClientCorporation.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "24bb02d9": {
+    "com/bullhornsdk/data/model/entity/core/standard/ClientCorporation.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "b7a5db34": {
+    "com/bullhornsdk/data/model/entity/core/onboarding/OnboardingReceivedSent.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/Candidate.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/Placement.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ]
+  },
+  "cc5b3d1f": {
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/DocumentDataFlowback.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/DocumentDataFlowbackListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/DocumentDataFlowbackWrapper.class": [
+      "add_class"
+    ]
+  },
+  "d495540e": {
+    "com/bullhornsdk/data/model/response/list/LocalTaxFormListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/LocalTaxFormWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/FederalTaxFormWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/response/list/FederalTaxFormListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/onboarding365/forms/FederalTaxForm.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/onboarding365/forms/LocalTaxForm.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/single/StateTaxFormWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/customfields/CustomFieldsH.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/StateTaxFormListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/onboarding365/forms/StateTaxForm.class": [
+      "add_class"
+    ]
+  },
+  "fa913453": {
+    "com/bullhornsdk/data/model/entity/core/onboarding365/forms/FederalTaxForm.class": [
+      "change_signature"
+    ],
+    "com/bullhornsdk/data/model/entity/core/onboarding365/forms/LocalTaxForm.class": [
+      "change_signature"
+    ],
+    "com/bullhornsdk/data/model/entity/core/onboarding365/forms/StateTaxForm.class": [
+      "change_signature"
+    ],
+    "com/bullhornsdk/data/TestEntities.class": [
+      "add_field",
+      "add_instance_method",
+      "method toString()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestMeta.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRest.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestUpdate.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestCreate.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestQuery.class": [
+      "add_instance_method"
+    ]
+  },
+  "5dccd00c": {
+    "com/bullhornsdk/data/model/response/single/JobShiftWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/JobShift.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/response/list/JobShiftListWrapper.class": [
+      "add_class"
+    ],
+    "com/bullhornsdk/data/model/enums/BullhornEntityInfo.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/model/entity/core/standard/Note.class": [
+      "add_field",
+      "method hashCode()I",
+      "add_instance_method",
+      "method equals(Ljava/lang/Object;)Z",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/bullhornsdk/data/TestNestedEntities.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestEntities.class": [
+      "add_field",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestMeta.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRest.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestNoteAdd.class": [
+      "method getNote()Lcom/bullhornsdk/data/model/entity/core/standard/Note;"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestUpdate.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestCreate.class": [
+      "add_instance_method"
+    ],
+    "com/bullhornsdk/data/TestStandardBullhornApiRestQuery.class": [
+      "add_instance_method"
+    ]
+  },
+  "1617bb13": {
+    "com/bullhornsdk/data/model/entity/association/standard/ClientCorporationAssociations.class": [
+      "add_field",
+      "method allAssociations()Ljava/util/List;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ]
+  }
+}

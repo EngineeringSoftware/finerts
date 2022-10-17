@@ -1,0 +1,3302 @@
+{
+  "d8ca982f": {
+    "org/apache/commons/compress/archivers/sevenz/CLI$Mode$2.class": [
+      "method takeAction(Lorg/apache/commons/compress/archivers/sevenz/SevenZFile;Lorg/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry;)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/UnparseableExtraFieldData.class": [
+      "method parseFromCentralDirectoryData([BII)V",
+      "method parseFromLocalFileData([BII)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/PKWareExtraHeader.class": [
+      "method parseFromCentralDirectoryData([BII)V",
+      "method parseFromLocalFileData([BII)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.class": [
+      "method parseFromCentralDirectoryData([BII)V",
+      "method parseFromLocalFileData([BII)V"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder$1.class": [
+      "method close()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.class": [
+      "method getCentralDirectoryData()[B"
+    ],
+    "org/apache/commons/compress/archivers/ar/ArArchiveInputStream.class": [
+      "method getNextArEntry()Lorg/apache/commons/compress/archivers/ar/ArArchiveEntry;"
+    ],
+    "org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.class": [
+      "method readString(Ljava/io/DataInputStream;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/compress/archivers/zip/AsiExtraField.class": [
+      "method parseFromLocalFileData([BII)V"
+    ],
+    "org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream.class": [
+      "method init(Z)Z",
+      "method readToNull(Ljava/io/DataInput;)[B"
+    ],
+    "org/apache/commons/compress/archivers/zip/BinaryTree.class": [
+      "method decode(Ljava/io/InputStream;I)Lorg/apache/commons/compress/archivers/zip/BinaryTree;"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipUtil.class": [
+      "method toDosTime(Ljava/util/Calendar;J[BI)V",
+      "method copy([B)[B"
+    ],
+    "org/apache/commons/compress/archivers/zip/AsiExtraFieldTest.class": [
+      "method testReparse()V"
+    ]
+  },
+  "40b1d2fb": {
+    "org/apache/commons/compress/archivers/zip/ExplodingInputStream.class": [
+      "method fillBuffer()V"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/LZMADecoder.class": [
+      "method decode(Ljava/lang/String;Ljava/io/InputStream;JLorg/apache/commons/compress/archivers/sevenz/Coder;[BI)Ljava/io/InputStream;",
+      "method getOptionsFromCoder(Lorg/apache/commons/compress/archivers/sevenz/Coder;Ljava/io/InputStream;)Ljava/lang/Object;"
+    ],
+    "org/apache/commons/compress/archivers/zip/PKWareExtraHeader.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/zip/BitStream.class": [
+      "method nextBits(I)J"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/BoundedSeekableByteChannelInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/zip/X0016_CertificateIdForCentralDirectory.class": [
+      "method parseFromCentralDirectoryData([BII)V"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder$1.class": [
+      "method init()Ljavax/crypto/CipherInputStream;"
+    ],
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.class": [
+      "method parseFromLocalFileData([BII)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/AsiExtraField.class": [
+      "method parseFromLocalFileData([BII)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnix.class": [
+      "method parseFromLocalFileData([BII)V"
+    ],
+    "org/apache/commons/compress/compressors/lzw/LZWInputStream.class": [
+      "method initializeTables(II)V",
+      "method initializeTables(I)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.class": [
+      "add_instance_method",
+      "method parseFileFormat([BII)V",
+      "method parseCentralDirectoryFormat([BII)V"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.class": [
+      "method readOldAsciiEntry()Lorg/apache/commons/compress/archivers/cpio/CpioArchiveEntry;",
+      "method readCString(I)Ljava/lang/String;",
+      "method readOldBinaryEntry(Z)Lorg/apache/commons/compress/archivers/cpio/CpioArchiveEntry;",
+      "method readNewEntry(Z)Lorg/apache/commons/compress/archivers/cpio/CpioArchiveEntry;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ResourceAlignmentExtraField.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/X0015_CertificateIdForFile.class": [
+      "method parseFromCentralDirectoryData([BII)V"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFile.class": [
+      "method readArchiveProperties(Ljava/nio/ByteBuffer;)V",
+      "method readFilesInfo(Ljava/nio/ByteBuffer;Lorg/apache/commons/compress/archivers/sevenz/Archive;)V",
+      "method readFolder(Ljava/nio/ByteBuffer;)Lorg/apache/commons/compress/archivers/sevenz/Folder;",
+      "add_static_method",
+      "method readUnpackInfo(Ljava/nio/ByteBuffer;Lorg/apache/commons/compress/archivers/sevenz/Archive;)V",
+      "method readPackInfo(Ljava/nio/ByteBuffer;Lorg/apache/commons/compress/archivers/sevenz/Archive;)V",
+      "method readHeaders([B)Lorg/apache/commons/compress/archivers/sevenz/Archive;",
+      "method readEncodedHeader(Ljava/nio/ByteBuffer;Lorg/apache/commons/compress/archivers/sevenz/Archive;[B)Ljava/nio/ByteBuffer;",
+      "method readSubStreamsInfo(Ljava/nio/ByteBuffer;Lorg/apache/commons/compress/archivers/sevenz/Archive;)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/BinaryTree.class": [
+      "method decode(Ljava/io/InputStream;I)Lorg/apache/commons/compress/archivers/zip/BinaryTree;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.class": [
+      "method getDictionarySize(Lorg/apache/commons/compress/archivers/sevenz/Coder;)I"
+    ],
+    "org/apache/commons/compress/archivers/dump/TapeInputStream.class": [
+      "method resetBlockSize(IZ)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest$AiobThrowingExtraField.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.class": [
+      "add_field",
+      "method parseTurnsArrayIndexOutOfBoundsIntoZipException()V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "8cc87c6f": {
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtils.class": [
+      "method parse([BZLorg/apache/commons/compress/archivers/zip/ExtraFieldUtils$UnparseableExtraField;)[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;",
+      "add_static_method"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtils$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtils$ParseErrorBehavior.class": [
+      "add_class"
+    ]
+  },
+  "0c4f64c2": {
+    "org/apache/commons/compress/archivers/zip/ZipReadingOptions$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipReadingOptions.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipReadingOptions$Builder.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipEncodingHelper.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.class": [
+      "change_field_declaration",
+      "method getNextZipEntry()Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile.class": [
+      "change_field_declaration",
+      "method readCentralDirectoryEntry(Ljava/util/Map;)V",
+      "method getUnixSymlink(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;)Ljava/lang/String;",
+      "method getEncoding()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.class": [
+      "method testReadWinZipArchiveForStream()V",
+      "method testReadWinZipArchive()V"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveStreamFactoryTest.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFileIgnoringLocalFileHeaderTest.class": [
+      "method openZipWithoutLFH(Ljava/lang/String;)Lorg/apache/commons/compress/archivers/zip/ZipFile;"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.class": [
+      "method testCDOrderInMemory()V",
+      "method testConcurrentReadSeekable()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.class": [
+      "method testRead7ZipMultiVolumeArchiveForStream()V"
+    ]
+  },
+  "88e26c9f": {
+    "org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipEncodingHelper.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.class": [
+      "change_field_declaration",
+      "method getNextZipEntry()Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile.class": [
+      "change_field_declaration",
+      "method readCentralDirectoryEntry(Ljava/util/Map;)V",
+      "method getUnixSymlink(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;)Ljava/lang/String;",
+      "method getEncoding()Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.class": [
+      "method testReadWinZipArchiveForStream()V",
+      "method testReadWinZipArchive()V"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveStreamFactoryTest.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFileIgnoringLocalFileHeaderTest.class": [
+      "method openZipWithoutLFH(Ljava/lang/String;)Lorg/apache/commons/compress/archivers/zip/ZipFile;"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.class": [
+      "method testCDOrderInMemory()V",
+      "method testConcurrentReadSeekable()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.class": [
+      "method testRead7ZipMultiVolumeArchiveForStream()V"
+    ]
+  },
+  "73d237f3": {
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry.class": [
+      "method setCentralDirectoryExtra([B)V",
+      "method mergeExtraFields([Lorg/apache/commons/compress/archivers/zip/ZipExtraField;Z)V",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization",
+      "method setExtra([B)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry$ExtraFieldParsingMode.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipUtil.class": [
+      "method setNameAndCommentFromExtraFields(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;[B[B)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntryTest.class": [
+      "add_field",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "2bf678bb": {
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry.class": [
+      "method getRawName()[B",
+      "method copyOf([Lorg/apache/commons/compress/archivers/zip/ZipExtraField;I)[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;"
+    ]
+  },
+  "f43c608c": {
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtils.class": [
+      "add_static_method",
+      "remove_static_method",
+      "method parse([B)[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;",
+      "method parse([BZ)[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry.class": [
+      "method getExtraFields(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry$ExtraFieldParsingMode;)[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;",
+      "method setCentralDirectoryExtra([B)V",
+      "update_constructor_or_update_field_initialization",
+      "method setExtra([B)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/UnparseableExtraFieldBehavior.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtils$UnparseableExtraField.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.class": [
+      "method testParseWithSkip()V",
+      "method testParseWithRead()V"
+    ]
+  },
+  "1f5fed36": {},
+  "09ab7d44": {
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtils.class": [
+      "add_static_method",
+      "method createExtraField(Lorg/apache/commons/compress/archivers/zip/ZipShort;)Lorg/apache/commons/compress/archivers/zip/ZipExtraField;",
+      "remove_static_method",
+      "method parse([BZLorg/apache/commons/compress/archivers/zip/UnparseableExtraFieldBehavior;)[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry.class": [
+      "remove_instance_method",
+      "method setCentralDirectoryExtra([B)V",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization",
+      "method setExtra([B)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry$ExtraFieldParsingMode$2.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtils$1.class": [
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry$ExtraFieldParsingMode$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry$ExtraFieldParsingMode.class": [
+      "remove_instance_method",
+      "add_static_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldParsingBehavior.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntryTest.class": [
+      "method reparsingUnicodeExtraWithUnsupportedversionThrowsInStrictMode()V"
+    ]
+  },
+  "9b2e7874": {
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtils.class": [
+      "method parse([BZLorg/apache/commons/compress/archivers/zip/ExtraFieldParsingBehavior;)[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;",
+      "add_static_method",
+      "remove_static_method",
+      "method parse([B)[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;",
+      "method parse([BZ)[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStream.class": [
+      "remove_instance_method",
+      "method skipRecordPadding()V",
+      "method paxHeaders()V",
+      "method readRecord()[B",
+      "add_instance_method",
+      "method consumeRemainderOfLastBlock()V",
+      "method skip(J)J",
+      "method readOldGNUSparse()V",
+      "method readGlobalPaxHeaders()V",
+      "update_constructor_or_update_field_initialization",
+      "method available()I",
+      "change_field_declaration",
+      "method getNextTarEntry()Lorg/apache/commons/compress/archivers/tar/TarArchiveEntry;",
+      "method tryToConsumeSecondEOFRecord()V",
+      "method read([BII)I",
+      "method close()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExplodingInputStream.class": [
+      "method read()I",
+      "method init()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/utils/Charsets.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.class": [
+      "method getAndMoveToFrontDecode()V",
+      "method recvDecodingTables()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipShort.class": [
+      "method equals(Ljava/lang/Object;)Z"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileOptions$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile$Entry.class": [
+      "method equals(Ljava/lang/Object;)Z"
+    ],
+    "org/apache/commons/compress/utils/BoundedInputStream.class": [
+      "add_instance_method",
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.class": [
+      "method write(Ljava/lang/String;)J"
+    ],
+    "org/apache/commons/compress/utils/IOUtils.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdCompressorOutputStream.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.class": [
+      "method sendMTFValues4()V"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStream$TarArchiveSparseZeroInputStream.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/BoundedSeekableByteChannelInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStream.class": [
+      "change_field_declaration",
+      "method readCrc()J",
+      "method readOneByte()I",
+      "method readStreamIdentifier()V",
+      "method readOnce([BII)I",
+      "method read([BII)I",
+      "method readNextBlock()V",
+      "method close()V",
+      "method skipBlock()V",
+      "update_constructor_or_update_field_initialization",
+      "method available()I"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveStructSparse.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel$ZipSplitSegmentComparator.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/utils/FileNameUtils.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoder$InitialState.class": [
+      "method read([BII)I",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoder$HuffmanCodes.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarUtils.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStream$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry.class": [
+      "method isDirectory()Z",
+      "add_field",
+      "method setExtraFields([Lorg/apache/commons/compress/archivers/zip/ZipExtraField;)V",
+      "remove_instance_method",
+      "method getParseableExtraFields()[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;",
+      "method hashCode()I",
+      "method getExtraFields(Lorg/apache/commons/compress/archivers/zip/ExtraFieldParsingBehavior;)[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;",
+      "method removeExtraField(Lorg/apache/commons/compress/archivers/zip/ZipShort;)V",
+      "method mergeExtraFields([Lorg/apache/commons/compress/archivers/zip/ZipExtraField;Z)V",
+      "add_instance_method",
+      "method getAllExtraFields()[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;",
+      "method copyOf([Lorg/apache/commons/compress/archivers/zip/ZipExtraField;I)[Lorg/apache/commons/compress/archivers/zip/ZipExtraField;"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile$2.class": [
+      "method compare(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;)I"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Archive.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.class": [
+      "add_field",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileOptions$Builder.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.class": [
+      "add_field",
+      "method addArchiveEntry(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Lorg/apache/commons/compress/parallel/InputStreamSupplier;)V",
+      "method createCallable(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier;)Ljava/util/concurrent/Callable;",
+      "method addArchiveEntry(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier;)V",
+      "method createDeferred(Lorg/apache/commons/compress/parallel/ScatterGatherBackingStoreSupplier;)Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;",
+      "add_instance_method",
+      "method createCallable(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Lorg/apache/commons/compress/parallel/InputStreamSupplier;)Ljava/util/concurrent/Callable;",
+      "method submit(Ljava/util/concurrent/Callable;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/examples/CloseableConsumerAdapter.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoder.class": [
+      "method decode([BII)I",
+      "method getCodes([I)[I",
+      "method buildTree([I)Lorg/apache/commons/compress/compressors/deflate64/HuffmanDecoder$BinaryTreeNode;",
+      "method close()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/snappy/SnappyCompressorInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/Lister.class": [
+      "method list7z(Ljava/io/File;)V"
+    ],
+    "org/apache/commons/compress/changes/Change.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/utils/SeekableInMemoryByteChannel.class": [
+      "method truncate(J)Ljava/nio/channels/SeekableByteChannel;",
+      "remove_instance_method",
+      "method read(Ljava/nio/ByteBuffer;)I"
+    ],
+    "org/apache/commons/compress/utils/ChecksumVerifyingInputStream.class": [
+      "add_instance_method",
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipLong.class": [
+      "method equals(Ljava/lang/Object;)Z"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.class": [
+      "method writeLocalFileHeader(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Z)V",
+      "add_field",
+      "method isZip64Required(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Lorg/apache/commons/compress/archivers/zip/Zip64Mode;)Z",
+      "method hasZip64Extra(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;)Z",
+      "method createCentralFileHeader(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;)[B",
+      "add_instance_method",
+      "method writeZip64CentralDirectory()V",
+      "method finish()V",
+      "update_constructor_or_update_field_initialization",
+      "method handleZip64Extra(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;JZ)V",
+      "method createCentralFileHeader(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Ljava/nio/ByteBuffer;Lorg/apache/commons/compress/archivers/zip/ZipArchiveOutputStream$EntryMetaData;Z)[B",
+      "method createLocalFileHeader(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Ljava/nio/ByteBuffer;ZZJ)[B",
+      "method getZip64Extra(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;)Lorg/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField;",
+      "change_signature",
+      "method writeCentralDirectoryEnd()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$3.class": [
+      "change_field_declaration",
+      "method call()Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdCompressorInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/utils/ChecksumCalculatingInputStream.class": [
+      "method read([BII)I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/pack200/Pack200CompressorInputStream.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStream.class": [
+      "change_field_declaration",
+      "method getCompressedCount()J",
+      "method readOneByte()I",
+      "method verifyChecksum(Lorg/apache/commons/compress/compressors/lz4/XXHash32;Ljava/lang/String;)V",
+      "method readFrameDescriptor()V",
+      "method nextBlock()V",
+      "method read([BII)I",
+      "method readSignature(Z)Z",
+      "method close()V",
+      "method skipSkippableFrame([B)I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStream$BoundedInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64RequiredException.class": [
+      "add_field"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77Compressor.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.class": [
+      "method parseFromLocalFileData([BII)V"
+    ],
+    "org/apache/commons/compress/utils/CountingInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.class": [
+      "method writeFileNames(Ljava/io/DataOutput;)V"
+    ],
+    "org/apache/commons/compress/archivers/ar/ArArchiveInputStream.class": [
+      "method read([BII)I",
+      "method getNextArEntry()Lorg/apache/commons/compress/archivers/ar/ArArchiveEntry;"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipEightByteInteger.class": [
+      "method equals(Ljava/lang/Object;)Z"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoder$UncompressedState.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/CLI.class": [
+      "method usage()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/NioZipEncoding.class": [
+      "method encode(Ljava/lang/String;)Ljava/nio/ByteBuffer;"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/utils/ArchiveUtils.class": [
+      "method toAsciiBytes(Ljava/lang/String;)[B",
+      "method toAsciiString([B)Ljava/lang/String;",
+      "method toAsciiString([BII)Ljava/lang/String;",
+      "method matchAsciiBuffer(Ljava/lang/String;[BII)Z"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtils$1.class": [
+      "change_field_declaration",
+      "method onUnparseableExtraField([BIIZI)Lorg/apache/commons/compress/archivers/zip/ZipExtraField;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/Deflate64CompressorInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream.class": [
+      "method init(Z)Z",
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$4.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/CLI$Mode.class": [
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipSplitOutputStream.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileOptions.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/compressors/lzw/LZWInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/compressors/xz/XZCompressorInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.class": [
+      "add_field",
+      "remove_instance_method",
+      "method getNextZipEntry()Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;",
+      "method processZip64Extra(Lorg/apache/commons/compress/archivers/zip/ZipLong;Lorg/apache/commons/compress/archivers/zip/ZipLong;)V",
+      "method skipRemainderOfArchive()V",
+      "method readStoredEntry()V",
+      "add_instance_method",
+      "method read([BII)I",
+      "method bufferContainsSignature(Ljava/io/ByteArrayOutputStream;III)Z",
+      "update_constructor_or_update_field_initialization",
+      "method readFirstLocalFileHeader([B)V"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.class": [
+      "method readOldAsciiEntry()Lorg/apache/commons/compress/archivers/cpio/CpioArchiveEntry;",
+      "method read([BII)I",
+      "method getNextCPIOEntry()Lorg/apache/commons/compress/archivers/cpio/CpioArchiveEntry;",
+      "method readOldBinaryEntry(Z)Lorg/apache/commons/compress/archivers/cpio/CpioArchiveEntry;",
+      "method readNewEntry(Z)Lorg/apache/commons/compress/archivers/cpio/CpioArchiveEntry;"
+    ],
+    "org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$2.class": [
+      "change_field_declaration",
+      "method call()Lorg/apache/commons/compress/archivers/zip/ScatterZipOutputStream;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntry.class": [
+      "method isDirectory()Z",
+      "change_field_declaration",
+      "method getFile()Ljava/io/File;",
+      "method getDirectoryEntries()[Lorg/apache/commons/compress/archivers/tar/TarArchiveEntry;",
+      "add_instance_method",
+      "method fillGNUSparse1xData(Ljava/util/Map;)V",
+      "method parseTarHeader([BLorg/apache/commons/compress/archivers/zip/ZipEncoding;ZZ)V",
+      "method getRealSize()J",
+      "update_constructor_or_update_field_initialization",
+      "method isFile()Z"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.class": [
+      "method failForBigNumber(Ljava/lang/String;JJLjava/lang/String;)V",
+      "method encodeExtendedPaxHeadersContents(Ljava/util/Map;)[B",
+      "method handleLongName(Lorg/apache/commons/compress/archivers/tar/TarArchiveEntry;Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;BLjava/lang/String;)Z"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFile.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "method readFilesInfo(Ljava/nio/ByteBuffer;Lorg/apache/commons/compress/archivers/sevenz/Archive;)V",
+      "method getNextEntry()Lorg/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry;",
+      "method assertFitsIntoInt(Ljava/lang/String;J)V",
+      "method readHeaders([B)Lorg/apache/commons/compress/archivers/sevenz/Archive;",
+      "add_instance_method",
+      "method buildDecoderStack(Lorg/apache/commons/compress/archivers/sevenz/Folder;JILorg/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry;)Ljava/io/InputStream;",
+      "method readEncodedHeader(Ljava/nio/ByteBuffer;Lorg/apache/commons/compress/archivers/sevenz/Archive;[B)Ljava/nio/ByteBuffer;",
+      "method read([BII)I",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/gzip/GzipCompressorOutputStream.class": [
+      "method writeHeader(Lorg/apache/commons/compress/compressors/gzip/GzipParameters;)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile.class": [
+      "add_field",
+      "remove_instance_method",
+      "method readCentralDirectoryEntry(Ljava/util/Map;)V",
+      "method positionAtCentralDirectory64()V",
+      "method setDataOffset(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;)[I",
+      "method getInputStream(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;)Ljava/io/InputStream;",
+      "add_instance_method",
+      "method positionAtCentralDirectory32()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/brotli/BrotliCompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFile$1.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarConstants.class": [
+      "add_field"
+    ],
+    "org/apache/commons/compress/archivers/dump/TapeInputStream.class": [
+      "method read([BII)I"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64SupportIT.class": [
+      "add_static_method",
+      "add_instance_method",
+      "method withTemporaryArchive(Ljava/lang/String;Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;Z)V",
+      "method write3EntriesCreatingBigArchive(Lorg/apache/commons/compress/archivers/zip/Zip64Mode;)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "change_signature"
+    ],
+    "org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStreamTest.class": [
+      "method testMatches()V"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdCompressorInputStreamTest.class": [
+      "method testZstdDecode()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$5.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/ZipTestCase.class": [
+      "remove_instance_method",
+      "method testZipArchiveCreation()V",
+      "add_instance_method",
+      "method testZipArchiveCreationInMemory()V",
+      "method assertSameFileContents(Ljava/io/File;Ljava/io/File;)V",
+      "method testListAllFilesWithNestedArchive()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.class": [
+      "method assertUnicodeName(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Ljava/lang/String;Ljava/lang/String;)V",
+      "method createTestFile(Ljava/io/File;Ljava/lang/String;ZZ)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$10.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.class": [
+      "change_base_class",
+      "method readPaxHeaderWithEmbeddedNewline()V",
+      "add_instance_method",
+      "method datePriorToEpoch(Ljava/lang/String;)V",
+      "update_constructor_or_update_field_initialization",
+      "method paxHeaderEntryWithEmptyValueRemovesKey()V",
+      "method workaroundForBrokenTimeHeader()V",
+      "method readNonAsciiPaxHeader()V",
+      "method shouldThrowAnExceptionOnTruncatedEntries()V",
+      "method secondEntryWinsWhenPaxHeaderContainsDuplicateKey()V",
+      "method readSimplePaxHeader()V",
+      "method multiByteReadConsistentlyReturnsMinusOneAtEof()V",
+      "method singleByteReadConsistentlyReturnsMinusOneAtEof()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$1$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/AbstractTestCase.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoderTest.class": [
+      "method decodeFixedHuffmanBlockWithMemoryLookupInExactBuffer()V"
+    ],
+    "org/apache/commons/compress/archivers/TarTestCase.class": [
+      "method testTarArchiveLongNameCreation()V"
+    ],
+    "org/apache/commons/compress/compressors/brotli/BrotliCompressorInputStreamTest.class": [
+      "method testBrotliDecode()V"
+    ],
+    "org/apache/commons/compress/OsgiITest.class": [
+      "add_field",
+      "method config()[Lorg/ops4j/pax/exam/Option;",
+      "method loadBundle()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64SupportIT$19.class": [
+      "method test(Ljava/io/File;Lorg/apache/commons/compress/archivers/zip/ZipArchiveOutputStream;)V"
+    ],
+    "org/apache/commons/compress/archivers/tar/SparseFilesTest.class": [
+      "change_base_class",
+      "add_field",
+      "method testPaxGNU()V",
+      "method assertPaxGNUEntry(Lorg/apache/commons/compress/archivers/tar/TarArchiveInputStream;Ljava/lang/String;)V",
+      "method testOldGNU()V",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$4.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$CallableConsumer.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/utils/CharsetsTest.class": [
+      "method testToCharset()V"
+    ],
+    "org/apache/commons/compress/utils/SeekableInMemoryByteChannelTest.class": [
+      "method shouldReadDataFromSetPosition()V",
+      "remove_instance_method",
+      "method shouldSetProperPosition()V",
+      "method shouldTruncateContentsProperly()V",
+      "add_instance_method",
+      "method shouldSignalEOFWhenPositionAtTheEnd()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ScatterSampleTest.class": [
+      "method checkFile(Ljava/io/File;)V",
+      "method createFile(Ljava/io/File;)V"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFileTest.class": [
+      "method createAndReadBack(Lorg/apache/commons/compress/utils/SeekableInMemoryByteChannel;Ljava/lang/Iterable;)V",
+      "method createAndReadBack(Ljava/io/File;Ljava/lang/Iterable;)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.class": [
+      "method testParseWithSkip()V",
+      "method testParseWithRead()V"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZNativeHeapTest.class": [
+      "method testEndDeflaterOnCloseStream()V",
+      "method testEndInflaterOnCloseStream()V"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamTest.class": [
+      "method testCpioUnarchiveMultibyteCharName()V",
+      "method testCpioUnarchive()V",
+      "method testCpioUnarchiveCreatedByRedlineRpm()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64SupportIT$4.class": [
+      "add_field",
+      "method test(Ljava/io/File;Lorg/apache/commons/compress/archivers/zip/ZipArchiveOutputStream;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$11.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$6.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/ar/ArArchiveInputStreamTest.class": [
+      "method simpleInputStream()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64SupportIT$17.class": [
+      "method test(Ljava/io/File;Lorg/apache/commons/compress/archivers/zip/ZipArchiveOutputStream;)V"
+    ],
+    "org/apache/commons/compress/utils/ZipSplitReadOnlySeekableByteChannelTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/compressors/z/ZCompressorInputStreamTest.class": [
+      "method testFailsToCreateZCompressorInputStreamAndThrowsIOException()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$14.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$9.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$7.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/compressors/CompressorStreamFactoryRoundtripTest.class": [
+      "method testCompressorStreamFactoryRoundtrip()V"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarMemoryFileSystemTest$2.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$6$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64SupportIT$15.class": [
+      "method test(Ljava/io/File;Lorg/apache/commons/compress/archivers/zip/ZipArchiveOutputStream;)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$8.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$12.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarMemoryFileSystemTest$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$2.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntryTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$5$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$13.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/utils/FileNameUtilsTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/Deflate64CompressorInputStreamTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipEncodingTest.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64SupportIT$11.class": [
+      "method test(Ljava/io/File;Lorg/apache/commons/compress/archivers/zip/ZipArchiveOutputStream;)V"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStreamTest.class": [
+      "method testMatches()V"
+    ],
+    "org/apache/commons/compress/compressors/DetectCompressorTestCase.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.class": [
+      "method testBigNumberPosixMode()V",
+      "method testWriteNonAsciiLinkPathNamePaxHeader()V",
+      "method testPaxHeadersWithLength101()V",
+      "method testOldEntryPosixMode()V",
+      "method testWriteNonAsciiPathNamePaxHeader()V",
+      "method testWriteSimplePaxHeaders()V",
+      "method testPaxHeadersWithLength99()V",
+      "add_instance_method",
+      "method testWriteLongFileNamePosixMode()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntryTest.class": [
+      "method reparsingUnicodeExtraWithUnsupportedversionThrowsInStrictMode()V",
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarUtilsTest.class": [
+      "method testOverflow()V",
+      "method testParseOctalInvalid()V",
+      "method testParseOctal()V",
+      "method testNegative()V",
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipSplitOutputStreamTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/arj/ArjArchiveInputStreamTest.class": [
+      "method testArjUnarchive()V",
+      "method testReadingOfAttributesDosVersion()V",
+      "method testReadingOfAttributesUnixVersion()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.class": [
+      "add_field",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64SupportIT$7.class": [
+      "method test(Ljava/io/File;Lorg/apache/commons/compress/archivers/zip/ZipArchiveOutputStream;)V"
+    ],
+    "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest$ThrowingSeekableByteChannel.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$3.class": [
+      "remove_instance_method",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarMemoryFileSystemTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2NSelectorsOverflowTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77CompressorTest.class": [
+      "method assertLiteralBlock(Ljava/lang/String;Lorg/apache/commons/compress/compressors/lz77support/LZ77Compressor$Block;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.class": [
+      "add_instance_method",
+      "method testEntryAlignment()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$2$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStreamTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class": [
+      "add_field",
+      "method testRandomlySkippingEntries()V",
+      "method limitExtractionMemory()V",
+      "method test7zDecryptUnarchive()V",
+      "method checkHelloWorld(Ljava/lang/String;)V",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization",
+      "method test7zUnarchive(Lorg/apache/commons/compress/archivers/sevenz/SevenZFile;Lorg/apache/commons/compress/archivers/sevenz/SevenZMethod;)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/NioZipEncodingTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest$1.class": [
+      "add_class"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest.class": [
+      "method writeEntries(Lorg/apache/commons/compress/archivers/zip/ParallelScatterZipCreator;)Ljava/util/Map;",
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$1.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64SupportIT$9.class": [
+      "method test(Ljava/io/File;Lorg/apache/commons/compress/archivers/zip/ZipArchiveOutputStream;)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/DataDescriptorTest.class": [
+      "method writesDataDescriptorForDeflatedEntryOnUnseekableOutput()V",
+      "method doesntWriteDataDescriptorWhenAddingRawEntries()V",
+      "method doesntWriteDataDescriptorForDeflatedEntryOnSeekableOutput()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$CallableConsumerSupplier.class": [
+      "add_class"
+    ]
+  },
+  "101137bf": {
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStream.class": [
+      "add_field",
+      "method readRecord()[B",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/utils/IOUtils.class": [
+      "method skip(Ljava/io/InputStream;J)J",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "893b441d": {
+    "org/apache/commons/compress/utils/IOUtils.class": [
+      "method skip(Ljava/io/InputStream;J)J",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "d3b33f88": {},
+  "93105cab": {},
+  "8e34ee48": {
+    "org/apache/commons/compress/archivers/ArchiveStreamFactory$2.class": [
+      "method run()Ljava/util/SortedMap;"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveStreamFactory$1.class": [
+      "method run()Ljava/util/SortedMap;"
+    ],
+    "org/apache/commons/compress/archivers/examples/Archiver.class": [
+      "method create(Ljava/lang/String;Ljava/io/OutputStream;Ljava/io/File;Lorg/apache/commons/compress/archivers/examples/CloseableConsumer;)V"
+    ],
+    "org/apache/commons/compress/archivers/Lister.class": [
+      "change_field_declaration",
+      "method detectFormat(Ljava/io/File;)Ljava/lang/String;",
+      "update_constructor_or_update_field_initialization",
+      "method createArchiveInputStream([Ljava/lang/String;Ljava/io/InputStream;)Lorg/apache/commons/compress/archivers/ArchiveInputStream;"
+    ],
+    "org/apache/commons/compress/archivers/examples/Expander.class": [
+      "method expand(Ljava/io/File;Ljava/io/File;)V",
+      "method expand(Ljava/lang/String;Ljava/io/InputStream;Ljava/io/File;Lorg/apache/commons/compress/archivers/examples/CloseableConsumer;)V",
+      "method expand(Ljava/io/InputStream;Ljava/io/File;Lorg/apache/commons/compress/archivers/examples/CloseableConsumer;)V"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveStreamFactory.class": [
+      "change_field_declaration",
+      "remove_static_method",
+      "change_signature",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/ZipTestCase.class": [
+      "method testZipUnarchive()V",
+      "method testZipArchiveCreation()V",
+      "method testInputStreamStatistics(Ljava/lang/String;Ljava/util/Map;)V",
+      "method testZipArchiveCreationInMemory()V",
+      "method testListAllFilesWithNestedArchive()V"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.class": [
+      "method testDirectoryWithLongNameEndsWithSlash()V"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveServiceLoaderTest.class": [
+      "method testOutputStream()V",
+      "method testInputStream()V"
+    ],
+    "org/apache/commons/compress/AbstractTestCase.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/TarTestCase.class": [
+      "method testCOMPRESS178()V",
+      "method testTarArchiveCreation()V",
+      "method testTarArchiveLongNameCreation()V",
+      "method testTarUnarchive()V"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveStreamFactoryTest.class": [
+      "method cantWrite7zToStream()V",
+      "method shortTextFilesAreNoTARs()V",
+      "method detectsAndThrowsFor7z()V",
+      "method testCOMPRESS209()V",
+      "method cantRead7zFromStream()V",
+      "method skipsPK00Prefix()V",
+      "update_constructor_or_update_field_initialization",
+      "method aiffFilesAreNoTARs()V"
+    ],
+    "org/apache/commons/compress/compressors/pack200/Pack200UtilsTest.class": [
+      "method testNormalize()V",
+      "method testNormalizeInPlace()V"
+    ],
+    "org/apache/commons/compress/compressors/Pack200TestCase.class": [
+      "method jarUnarchiveAll(ZLorg/apache/commons/compress/compressors/pack200/Pack200Strategy;)V",
+      "method jarArchiveCreation(Lorg/apache/commons/compress/compressors/pack200/Pack200Strategy;)V"
+    ],
+    "org/apache/commons/compress/archivers/ExceptionMessageTest.class": [
+      "method testMessageWhenArchiverNameIsNull_2()V",
+      "method testMessageWhenArchiverNameIsNull_1()V",
+      "method testMessageWhenInputStreamIsNull()V",
+      "method testMessageWhenOutputStreamIsNull()V"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/Deflate64CompressorInputStreamTest.class": [
+      "method fuzzingTest([I)V"
+    ],
+    "org/apache/commons/compress/archivers/examples/ParameterizedArchiverTest.class": [
+      "method archiveStreamVersion()V",
+      "method verifyContent()V"
+    ],
+    "org/apache/commons/compress/archivers/JarTestCase.class": [
+      "method testJarUnarchive()V",
+      "method testJarUnarchiveAll()V",
+      "method testJarArchiveCreation()V"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.class": [
+      "method testCount()V"
+    ],
+    "org/apache/commons/compress/archivers/examples/ParameterizedExpanderTest.class": [
+      "method archiveInputStreamVersion()V",
+      "method setUp()V"
+    ],
+    "org/apache/commons/compress/archivers/CpioTestCase.class": [
+      "method testCpioArchiveCreation()V",
+      "method testCpioUnarchive()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.class": [
+      "method fuzzingTest([I)V"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarMemoryFileSystemTest.class": [
+      "method checkUserInformationInTarEntry()V",
+      "method tarFromMemoryFileSystem()V",
+      "method tarToMemoryFileSystem()V"
+    ],
+    "org/apache/commons/compress/archivers/examples/ExpanderTest.class": [
+      "method setupZip(Ljava/lang/String;)V",
+      "method setupZip()V"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStreamTest.class": [
+      "method fuzzingTest([I)V"
+    ],
+    "org/apache/commons/compress/archivers/DumpTestCase.class": [
+      "method unarchiveAll(Ljava/io/File;)V",
+      "method archiveDetection(Ljava/io/File;)V"
+    ],
+    "org/apache/commons/compress/archivers/ArTestCase.class": [
+      "method testArDelete()V",
+      "method testArArchiveCreation()V",
+      "method testArUnarchive()V"
+    ]
+  },
+  "379f75ac": {
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFileTest.class": [
+      "method testDirectoriesAndEmptyFiles()V"
+    ]
+  },
+  "fee64bc2": {
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFileTest.class": [
+      "method testDirectoriesAndEmptyFiles()V"
+    ]
+  },
+  "2c85b2cd": {
+    "org/apache/commons/compress/archivers/examples/Archiver.class": [
+      "add_field",
+      "method create(Ljava/lang/String;Ljava/io/File;Ljava/io/File;)V",
+      "remove_instance_method",
+      "method create(Lorg/apache/commons/compress/archivers/sevenz/SevenZOutputFile;Ljava/io/File;)V",
+      "method create(Lorg/apache/commons/compress/archivers/ArchiveOutputStream;Ljava/io/File;)V",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/examples/Archiver$1.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "change_field_declaration",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/examples/Archiver$ArchiverFileVisitor.class": [
+      "add_class"
+    ]
+  },
+  "56d780ac": {
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry.class": [
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.class": [
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveOutputStream.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/ZipTestCase.class": [
+      "method testFileEntryFromFile()V",
+      "add_instance_method"
+    ]
+  },
+  "29481dd0": {
+    "org/apache/commons/compress/archivers/examples/Archiver$1.class": [
+      "method visit(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;Z)Ljava/nio/file/FileVisitResult;"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFileTest.class": [
+      "method testDirectoriesAndEmptyFiles()V"
+    ]
+  },
+  "38195196": {
+    "org/apache/commons/compress/archivers/examples/Archiver$ArchiverFileVisitor.class": [
+      "method visit(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;Z)Ljava/nio/file/FileVisitResult;"
+    ]
+  },
+  "9cd1221c": {
+    "org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/ar/ArArchiveEntry.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/ArTestCase.class": [
+      "method testFileEntryFromFile()V",
+      "add_instance_method"
+    ]
+  },
+  "7eead05c": {
+    "org/apache/commons/compress/archivers/examples/ParameterizedExpanderTest.class": [
+      "method setUp()V"
+    ]
+  },
+  "5916d5ba": {
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/utils/IOUtils.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.class": [
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/AbstractTestCase.class": [
+      "method addArchiveEntry(Lorg/apache/commons/compress/archivers/ArchiveOutputStream;Ljava/lang/String;Ljava/io/File;)V"
+    ]
+  },
+  "8de9c397": {
+    "org/apache/commons/compress/archivers/examples/Archiver.class": [
+      "method create(Ljava/lang/String;Ljava/nio/file/Path;Ljava/nio/file/Path;)V",
+      "remove_instance_method",
+      "method create(Lorg/apache/commons/compress/archivers/ArchiveOutputStream;Ljava/nio/file/Path;)V",
+      "method create(Lorg/apache/commons/compress/archivers/ArchiveOutputStream;Ljava/io/File;)V",
+      "add_instance_method",
+      "method create(Ljava/lang/String;Ljava/nio/channels/SeekableByteChannel;Ljava/nio/file/Path;)V"
+    ],
+    "org/apache/commons/compress/archivers/examples/Archiver$ArchiverFileVisitor.class": [
+      "add_field",
+      "method visit(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;Z)Ljava/nio/file/FileVisitResult;",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "6529f610": {
+    "org/apache/commons/compress/archivers/examples/Archiver$1.class": [
+      "method visit(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;Z)Ljava/nio/file/FileVisitResult;"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFileTest.class": [
+      "method testDirectoriesAndEmptyFiles()V"
+    ]
+  },
+  "06e05dab": {
+    "org/apache/commons/compress/utils/IOUtils.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntry.class": [
+      "method isDirectory()Z",
+      "add_field",
+      "remove_instance_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization",
+      "method isFile()Z"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.class": [
+      "add_instance_method"
+    ]
+  },
+  "f3afb6e6": {
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorOutputStream.class": [
+      "method createParameterBuilder()Lorg/apache/commons/compress/compressors/lz77support/Parameters$Builder;"
+    ],
+    "org/apache/commons/compress/archivers/ZipTestCase.class": [
+      "method buildSplitZipWithSegmentAlreadyExistThrowsException()V",
+      "method createTestSplitZipSegments()V"
+    ],
+    "org/apache/commons/compress/utils/FixedLengthBlockOutputStreamTest$MockOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/snappy/SnappyRoundtripTest.class": [
+      "method tryReallyBigOffset()V",
+      "method tryReallyLongLiterals()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/PkWareExtraHeaderTest.class": [
+      "method testHashAlgorithm()V",
+      "method testEncryptionAlgorithm()V"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.class": [
+      "method testBlockSizes()V",
+      "method testPutGlobalPaxHeaderEntry()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipSplitOutputStreamTest.class": [
+      "method throwsIfUnsplittableSizeLargerThanSplitSize()V",
+      "method testCreateSplittedFiles()V"
+    ],
+    "org/apache/commons/compress/utils/FixedLengthBlockOutputStreamTest.class": [
+      "method testWriteFailsAfterDestClosedThrowsException()V",
+      "method testWriteBuf()V",
+      "method testWithFileOutputStream()V",
+      "method testWriteSingleBytes()V",
+      "method getClosedFLBOS()Lorg/apache/commons/compress/utils/FixedLengthBlockOutputStream;",
+      "method testMultiWriteBuf()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.class": [
+      "method testPhysicalOrderOfSpecificFile()V"
+    ]
+  },
+  "e0b3b1c7": {},
+  "228682a7": {
+    "org/apache/commons/compress/archivers/zip/StreamCompressor$SeekableByteChannelCompressor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ByteUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/snappy/PureJavaCrc32C.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/StreamCompressor$OutputStreamCompressor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.class": [
+      "method createLocalFileHeader(Lorg/apache/commons/compress/archivers/zip/ZipArchiveEntry;Ljava/nio/ByteBuffer;ZZJ)[B"
+    ],
+    "org/apache/commons/compress/archivers/zip/StreamCompressor$DataOutputCompressor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/Parameters.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/StreamCompressor$ScatterGatherBackingStoreCompressor.class": [
+      "nochange"
+    ]
+  },
+  "6383b06e": {
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.class": [
+      "method testReadWinZipArchiveForStream()V",
+      "method testReadWinZipArchive()V"
+    ]
+  },
+  "b9272806": {
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStream.class": [
+      "method skipRecordPadding()V",
+      "add_instance_method",
+      "method skip(J)J"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "870b54cd": {
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStream.class": [
+      "method skip(J)J"
+    ]
+  },
+  "464ba19a": {
+    "org/apache/commons/compress/archivers/sevenz/SevenZFile.class": [
+      "method readFilesInfo(Ljava/nio/ByteBuffer;Lorg/apache/commons/compress/archivers/sevenz/Archive;)V",
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "5fc625d9": {},
+  "20f2dfbc": {
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.class": [
+      "method processZip64Extra(Lorg/apache/commons/compress/archivers/zip/ZipLong;Lorg/apache/commons/compress/archivers/zip/ZipLong;)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "86bb35aa": {
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.class": [
+      "method bufferContainsSignature(Ljava/io/ByteArrayOutputStream;III)Z"
+    ]
+  },
+  "f4498cd5": {},
+  "c244d8ef": {
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/ShortFileException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Coders$DeflateDecoder$DeflateDecoderOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BlockSort.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/PKWareExtraHeader$HashAlgorithm.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/CompressorStreamFactory.class": [
+      "method findAvailableCompressorInputStreamProviders()Ljava/util/SortedMap;",
+      "add_static_method",
+      "method findAvailableCompressorOutputStreamProviders()Ljava/util/SortedMap;",
+      "remove_static_method"
+    ],
+    "org/apache/commons/compress/compressors/pack200/TempFileCachingStreamBridge$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/NID.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/Parameters$Builder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStream.class": [
+      "add_static_method",
+      "method buildSparseInputStreams()V"
+    ],
+    "org/apache/commons/compress/archivers/zip/InflaterInputStreamWithStatistics.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipEncoding.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/PKWareExtraHeader$EncryptionAlgorithm.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoder$DecoderState.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFile$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2Constants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/snappy/SnappyCompressorOutputStream$1.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/CoderBase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveEntry$PERMISSION.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExplodingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/pack200/Pack200CompressorOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/CompressorOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/jar/JarArchiveInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/pack200/Pack200Utils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/examples/Expander$EntryWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/FixedLengthBlockOutputStream$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveEntry$TYPE.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/examples/CloseableConsumer.class": [
+      "add_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/utils/ByteUtils$InputStreamByteSupplier.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/JarMarker.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/FlushShieldFilterOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/UnparseableExtraFieldData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/Charsets.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/LZMADecoder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/FixedLengthBlockOutputStream$BufferAtATimeOutputChannel.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipShort.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/PKWareExtraHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/CharsetNames.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileOptions$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/StreamCompressor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile$Entry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorOutputStream$BlockSize.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/arj/MainHeader$HostOS.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/StartHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/StreamCompressor$SeekableByteChannelCompressor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/BoundedInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/CompressorStreamProvider.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ar/ArArchiveOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/xz/XZCompressorOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ScatterZipOutputStream$ZipEntryWriter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ByteUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/CloseShieldFilterInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/IOUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lzma/LZMACompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdCompressorOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77Compressor$LiteralBlock.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Coders$CopyDecoder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/PasswordRequiredException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/gzip/GzipParameters.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/UnixStat.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/arj/LocalFileHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/BitStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoder$DecodingMemory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/Iterators.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/BindPair.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Coders$Deflate64Decoder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdUtils$CachedAvailability.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile$BoundedInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStream$TarArchiveSparseZeroInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/arj/LocalFileHeader$Methods.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ByteUtils$ByteConsumer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry$NameSource.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveInputStream$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/pack200/InMemoryCachingStreamBridge.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipMethod.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Folder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/BoundedSeekableByteChannelInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77Compressor$BackReference.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorInputStream$State.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntryPredicate.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStream.class": [
+      "remove_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/UnrecognizedExtraField.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/CompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveUtil.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ScatterZipOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/BitInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/TapeInputStream$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77Compressor$Callback.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/snappy/PureJavaCrc32C.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/arj/LocalFileHeader$Flags.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveStructSparse.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/CRC.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel$ZipSplitSegmentComparator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannel.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/FileNameUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoder$InitialState.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorOutputStream$1.class": [
+      "remove_instance_method",
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoder$HuffmanCodes.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Coder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/changes/ChangeSetPerformer$ZipFileIterator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/Parameters$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStream$1.class": [
+      "remove_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/snappy/SnappyCompressorInputStream$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/UnrecognizedFormatException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lzma/LZMAUtils$CachedAvailability.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ScatterZipOutputStream$CompressedEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Coders$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/X0016_CertificateIdForCentralDirectory.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/pack200/StreamBridge.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/gzip/GzipUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Archive.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77Compressor$Block.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveSparseEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile$NameAndComment.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveSummary.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/MemoryLimitException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/Dirent.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileOptions$Builder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarUtils$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/jar/JarArchiveEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStream$Data.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/StreamCompressor$OutputStreamCompressor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/examples/CloseableConsumerAdapter.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lzma/LZMACompressorOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Coders$DeflateDecoder$DeflateDecoderInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/changes/ChangeSetPerformer$ArchiveInputStreamIterator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/UnsupportedCompressionAlgorithmException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/snappy/SnappyCompressorOutputStream.class": [
+      "remove_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/AbstractUnicodeExtraField.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZMethodConfiguration.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/snappy/SnappyCompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/examples/Archiver.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorInputStream$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/Lister.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/parallel/ScatterGatherBackingStore.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/CLI$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/changes/Change.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SubStreamsInfo.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream$EntryMetaData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/SeekableInMemoryByteChannel.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ChecksumVerifyingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipLong.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ServiceLoaderIterator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/X0019_EncryptionRecipientCertificateList.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/EntryStreamOffsets.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/StreamingNotSupportedException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/UnparseableExtraFieldBehavior.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77Compressor$Block$BlockType.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraField.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdCompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Coders$BCJDecoder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/examples/Archiver$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/CountingOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ChecksumCalculatingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipExtraField.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/pack200/Pack200CompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Coders$DeflateDecoder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStream.class": [
+      "remove_static_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioUtil.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/pack200/Pack200Strategy$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStream$BoundedInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64RequiredException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/Lists.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile$BoundedFileChannelInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/changes/ChangeSetPerformer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/CRC32VerifyingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77Compressor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoder$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorOutputStream$Pair.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestamp.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/changes/ChangeSetPerformer$ArchiveEntryIterator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/parallel/FileBasedScatterGatherBackingStore.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/CountingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFile.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ar/ArArchiveInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/examples/Archiver$ArchiverFileVisitor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/arj/ArjArchiveEntry$HostOs.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/Rand.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream$CurrentEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ar/ArArchiveEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveConstants$COMPRESSION_TYPE.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipEightByteInteger.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStream$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/arj/ArjArchiveEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoder$UncompressedState.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Coders.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile$StoredStatisticsStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/snappy/SnappyCompressorInputStream$State.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/arj/ArjArchiveInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/CLI.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77Compressor$EOD.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/NioZipEncoding.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipEncodingHelper.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry$ExtraFieldParsingMode$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/StreamMap.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ArchiveUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/CircularBuffer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/changes/ChangeSet.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/FileNameUtil.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/UnicodePathExtraField.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtils$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtils$UnparseableExtraField.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/arj/MainHeader$Flags.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/jar/JarArchiveOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFile$OutputStreamWrapper.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/Deflate64CompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/UnshrinkingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/AsiExtraField.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/pack200/TempFileCachingStreamBridge.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry$ExtraFieldParsingMode$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate/DeflateParameters.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnix.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/gzip/GzipCompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveConstants$SEGMENT_TYPE.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/CompressorException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/xz/XZUtils$CachedAvailability.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64Mode.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry$CommentSource.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/examples/Expander.class": [
+      "method expand(Lorg/apache/commons/compress/archivers/ArchiveInputStream;Ljava/io/File;)V",
+      "add_static_method",
+      "method expand(Lorg/apache/commons/compress/archivers/zip/ZipFile;Ljava/io/File;)V",
+      "method expand(Lorg/apache/commons/compress/archivers/sevenz/SevenZFile;Ljava/io/File;)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$DefaultBackingStoreSupplier.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2CompressorOutputStream$Data.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/snappy/FramedSnappyDialect.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/CLI$Mode.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/X0014_X509Certificates.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/AES256SHA256Decoder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/changes/ChangeSetResults.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/FixedLengthBlockOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/pack200/Pack200Strategy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/Sets.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream$UnicodeExtraFieldPolicy.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipSplitOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/brotli/BrotliUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2Utils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFile$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorOutputStream$Parameters.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/InvalidFormatException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/UnsupportedZipFeatureException$Feature.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileOptions.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lzw/LZWInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/SkipShieldingInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/xz/XZCompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveStreamFactory.class": [
+      "method findAvailableArchiveInputStreamProviders()Ljava/util/SortedMap;",
+      "add_static_method",
+      "method findAvailableArchiveOutputStreamProviders()Ljava/util/SortedMap;",
+      "remove_static_method"
+    ],
+    "org/apache/commons/compress/compressors/z/ZCompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ByteUtils$OutputStreamByteConsumer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/CharsetAccessor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/arj/MainHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntryRequest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/brotli/BrotliUtils$CachedAvailability.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/xz/XZUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/X000A_NTFS.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/parallel/ScatterGatherBackingStoreSupplier.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/Coders$BZIP2Decoder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ResourceAlignmentExtraField.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/StreamCompressor$DataOutputCompressor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoder$BinaryTreeNode.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveStreamProvider.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntry$ExtraFieldParsingMode.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanState.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveEntry$TapeSegmentHeader.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/AbstractLZ77CompressorInputStream.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/utils/InputStreamStatistics.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/Parameters.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate/DeflateCompressorOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/UnsupportedZipFeatureException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lzma/LZMAUtils.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/XXHash32.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/UnicodeCommentExtraField.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorOutputStream.class": [
+      "method rewriteLastPairs()V",
+      "remove_static_method",
+      "add_instance_method",
+      "method clearUnusedPairs()V",
+      "method writeFinalLiteralBlock()V",
+      "update_constructor_or_update_field_initialization",
+      "method writeWritablePairs(I)V"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/CLI$Mode$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/GeneralPurposeBit.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/parallel/InputStreamSupplier.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldParsingBehavior.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/X0015_CertificateIdForFile.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFile.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/gzip/GzipCompressorOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFile.class": [
+      "method getEntries(Ljava/lang/String;)Ljava/lang/Iterable;"
+    ],
+    "org/apache/commons/compress/compressors/brotli/BrotliCompressorInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ByteUtils$ByteSupplier.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/BinaryTree.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/LZMA2Decoder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/StreamCompressor$ScatterGatherBackingStoreCompressor.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFile$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ScatterStatistics.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarConstants.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/pack200/Pack200Strategy$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStream$CurrentEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/examples/Expander$ArchiveEntrySupplier.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/arj/LocalFileHeader$FileTypes.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/DeltaDecoder.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipUtil.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZMethod.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/TapeInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreator$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/IOUtilsTest$3$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64SupportIT.class": [
+      "method writeBigDeflatedEntryToStream(ZLorg/apache/commons/compress/archivers/zip/Zip64Mode;)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "method read3EntriesCreatingBigArchiveFileUsingZipFile()V",
+      "method write100KFiles(Lorg/apache/commons/compress/archivers/zip/Zip64Mode;)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "method writeSmallStoredEntryModeAlways(Z)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "method writeBigDeflatedEntryKnownSizeToStreamModeNever()V",
+      "method writeBigDeflatedEntryUnknownSizeToStream(Lorg/apache/commons/compress/archivers/zip/Zip64Mode;)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "method writeSmallStoredEntry(ZLorg/apache/commons/compress/archivers/zip/Zip64Mode;)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "method writeSmallDeflatedEntryToStream(ZLorg/apache/commons/compress/archivers/zip/Zip64Mode;)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "method writeSmallDeflatedEntryToFile(ZLorg/apache/commons/compress/archivers/zip/Zip64Mode;)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "method writeBigDeflatedEntryToFileModeNever(Z)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "update_constructor_or_update_field_initialization",
+      "method writeBigStoredEntryModeNever(Z)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "method writeSmallDeflatedEntryToStreamModeAlways(Z)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "add_static_method",
+      "method readSelfGenerated100KFilesUsingZipFile()V",
+      "remove_static_method",
+      "method writeBigDeflatedEntryToFile(ZLorg/apache/commons/compress/archivers/zip/Zip64Mode;)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "method writeSmallDeflatedEntryToFileModeAlways(Z)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "method writeBigStoredEntry(ZLorg/apache/commons/compress/archivers/zip/Zip64Mode;)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;",
+      "method write3EntriesCreatingBigArchive(Lorg/apache/commons/compress/archivers/zip/Zip64Mode;Z)Lorg/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest;"
+    ],
+    "org/apache/commons/compress/utils/IOUtilsTest$4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/snappy/FramedSnappyCompressorInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77CompressorTest$5.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/ZTestCase$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdCompressorInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveUtilTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStreamTest$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$5.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ZipTestCase.class": [
+      "method inputStreamStatisticsForDeflate64Entry()V",
+      "method inputStreamStatisticsForStoredEntry()V",
+      "method inputStreamStatisticsOfZipBombExcel()V",
+      "add_static_method",
+      "method inputStreamStatisticsForImplodedEntry()V",
+      "method inputStreamStatisticsForShrunkEntry()V",
+      "method inputStreamStatisticsForBzip2Entry()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/AsiExtraFieldTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/UTF8ZipFilesTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$10.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BlockSortTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/FramedSnappyTestCase$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveServiceLoaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/LZMATestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ZipTestCase$6.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$1$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ar/ArArchiveOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFileTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioUtilTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/FixedLengthBlockOutputStreamTest$MockWritableByteChannel.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/SevenZTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/AbstractTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/HuffmanDecoderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate/DeflateParametersTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/TarTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest$AiobThrowingExtraField.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/brotli/BrotliCompressorInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate/DeflateCompressorOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/TestArchiveStreamProvider.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/IOMethodsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/SkipShieldingInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ScatterZipOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/EncryptedArchiveTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/xz/XZUtilsTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdRoundtripTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveStreamFactoryTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ScatterZipOutputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipLongTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/OsgiITest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/ChainingTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdRoundtripTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ScatterSample.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/LongPathTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/SparseFilesTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/AbstractLZ77CompressorInputStreamTest$TestStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$CallableConsumer.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFileTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ZipTestCase$1.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/pack200/Pack200UtilsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/CharsetsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/BZip2UtilsTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/BinaryTreeTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/XXHash32Test.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/X7875_NewUnixTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ZipTestCase$2.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipEncodingTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/SeekableInMemoryByteChannelTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/FramedSnappyTestCase$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ScatterSampleTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZOutputFileTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ZipTestCase$5.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExtraFieldUtilsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/Pack200TestCase.class": [
+      "method jarUnarchiveAll(ZLorg/apache/commons/compress/compressors/pack200/Pack200Strategy;)V"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZNativeHeapTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/FixedLengthBlockOutputStreamTest$MockOutputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/XZTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/examples/SevenZArchiverTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/TestCompressorStreamProvider.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ar/ArArchiveInputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$11.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$6.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ar/ArArchiveInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/ArchiveReadTest.class": [
+      "add_static_method",
+      "method data()Ljava/util/Collection;"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77CompressorTest$4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/xz/XZCompressorInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStreamTest$4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ZipSplitReadOnlySeekableByteChannelTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/CircularBufferTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/memory/MemoryArchiveInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/z/ZCompressorInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$14.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$9.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/FramedSnappyTestCase$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/DetectArchiverTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/ZTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ExceptionMessageTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/IOUtilsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/FixedLengthBlockOutputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/IOUtilsTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$7.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/CompressorStreamFactoryRoundtripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarMemoryFileSystemTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$6$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/BitStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/jar/JarArchiveOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$8.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/TestArchiveStreamProvider$ArchiveInvocationConfirmationException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BlockSortTest$DS.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/jar/JarMarkerTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/IOUtilsTest$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/ArchiveUtilsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipEightByteIntegerTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/snappy/SnappyRoundtripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/AES256SHA256DecoderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$12.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZArchiveEntryTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ZipTestCase$4.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStreamTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/DetectCompressorTestCase$TestData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarMemoryFileSystemTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/TestCompressorStreamProvider$InvocationConfirmationException.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/GzipUtilsTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/PythonTruncatedBzip2Test.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77CompressorTest$6.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/X000A_NTFSTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStreamTest$6.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveEntryTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/LongSymLinkTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$5$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77CompressorTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$13.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/FileNameUtilsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ChecksumVerifyingInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdRoundtripTest$4.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ExplodeSupportTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/xz/XZCompressorOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/X5455_ExtendedTimestampTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/Deflate64CompressorInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64ExtendedInformationExtraFieldTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/IOUtilsTest$StreamWrapper.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipEncodingTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/memory/MemoryArchiveTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ZipTestCase$3.class": [
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/utils/BitInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/StreamCompressorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/IOUtilsTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/SkipShieldingInputStreamTest$2.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStreamTest$StreamWrapper.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/Lister$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFileIgnoringLocalFileHeaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/FramedSnappyTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77CompressorTest$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/DetectCompressorTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/LongSymLinkTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/arj/CoverageTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/FolderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdUtilsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/PkWareExtraHeaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/examples/ParameterizedArchiverTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdRoundtripTest$OutputStreamCreator.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/JarTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/GZipTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipClassCoverageTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/SkipShieldingInputStreamTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/MockEvilInputStream.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorInputStreamTest$5.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/Lister.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/LongPathTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZNativeHeapTest$DelegatingInflater.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveEntryTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/examples/ParameterizedExpanderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/changes/ChangeSetTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FactoryTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/GeneralPurposeBitTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarUtilsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipSplitOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ArchiveStreamFactoryTest$TestData.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/CpioTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipUtilTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/arj/ArjArchiveInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/CompressorServiceLoaderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/SkipShieldingInputStreamTest$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/dump/DumpArchiveEntryTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest$ThrowingSeekableByteChannel.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ChecksumCalculatingInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ServiceLoaderIteratorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarMemoryFileSystemTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/ZTestCase$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2NSelectorsOverflowTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77CompressorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/LZ77CompressorTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdRoundtripTest$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorRoundtripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/FixedLengthBlockOutputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/memory/MemoryArchiveEntry.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/changes/ChangeTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/Zip64SupportIT$ZipOutputTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate/DeflateCompressorInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/BigFilesIT.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$2$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/AbstractTestCase$StreamWrapper.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZNativeHeapTest$DelegatingDeflater.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/CountingStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/CoverageTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/examples/ExpanderTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lzma/LZMAUtilsTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/bzip2/BZip2CompressorInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/IOUtilsTest$2$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZFileTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarLister.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/AbstractLZ77CompressorInputStreamTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz77support/ParametersTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/zstandard/ZstdRoundtripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/NioZipEncodingTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/cpio/CpioArchiveTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/MultiReadOnlySeekableByteChannelTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/deflate64/Deflate64BugsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/DeflateTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/ZTestCase$3.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/lz4/FramedLZ4CompressorRoundtripTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/DumpTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/utils/ByteUtilsTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/Maven221MultiVolumeTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/ArTestCase.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/DataDescriptorTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/sevenz/SevenZMethodConfigurationTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipShortTest.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ScatterSampleTest$1.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/Lister$CommandLine.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/archivers/zip/ParallelScatterZipCreatorTest$CallableConsumerSupplier.class": [
+      "nochange"
+    ],
+    "org/apache/commons/compress/compressors/BZip2TestCase.class": [
+      "nochange"
+    ]
+  },
+  "4bc90054": {
+    "org/apache/commons/compress/archivers/examples/Archiver.class": [
+      "method create(Lorg/apache/commons/compress/archivers/sevenz/SevenZOutputFile;Ljava/nio/file/Path;)V"
+    ],
+    "org/apache/commons/compress/archivers/examples/Archiver$1.class": [
+      "change_base_class",
+      "remove_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/compress/archivers/examples/Archiver$ArchiverFileVisitor.class": [
+      "add_field",
+      "method preVisitDirectory(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;",
+      "update_constructor_or_update_field_initialization",
+      "method visitFile(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;"
+    ]
+  },
+  "4ede2949": {},
+  "08d754cc": {
+    "org/apache/commons/compress/archivers/zip/AsiExtraField.class": [
+      "method parseFromLocalFileData([BII)V"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "a0ec219e": {},
+  "319a848c": {
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStream.class": [
+      "method readGlobalPaxHeaders()V"
+    ],
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "3b28227a": {
+    "org/apache/commons/compress/archivers/tar/TarArchiveInputStreamTest.class": [
+      "change_signature"
+    ]
+  },
+  "4eb3bbe8": {
+    "org/apache/commons/compress/archivers/zip/X0017_StrongEncryptionHeader.class": [
+      "method parseFileFormat([BII)V"
+    ]
+  },
+  "cf2f6c64": {
+    "org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/compress/archivers/zip/ZipFileTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "0628668e": {},
+  "8a65cc9f": {
+    "org/apache/commons/compress/archivers/zip/ZipArchiveInputStreamTest.class": [
+      "add_instance_method"
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+[
+    {
+        "sha": "41f4e410",
+        "classname": "/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "0cdff0ad",
+        "classname": "/org/apache/commons/pool2/impl/TestGenericObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "7d033060",
+        "classname": "/org/apache/commons/pool2/impl/GenericKeyedObjectPool$ObjectDeque.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "7d0b4594",
+        "classname": "/org/apache/commons/pool2/impl/GenericKeyedObjectPool$ObjectDeque.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "7d0b4594",
+        "classname": "/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool$SlowEvictionPolicy.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "7d0b4594",
+        "classname": "/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "/org/apache/commons/pool2/impl/SecurityManagerCallStack$PrivateSecurityManager.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "/org/apache/commons/pool2/impl/EvictionTimer$EvictorThreadFactory.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "/org/apache/commons/pool2/impl/SecurityManagerCallStack.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "/org/apache/commons/pool2/impl/SecurityManagerCallStack$1.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "/org/apache/commons/pool2/impl/SecurityManagerCallStack$Snapshot.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "/org/apache/commons/pool2/impl/TestGenericObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "/org/apache/commons/pool2/impl/TestDefaultPooledObject.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "/org/apache/commons/pool2/impl/TestGenericObjectPool$5.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "/org/apache/commons/pool2/TestPoolUtils.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "40e4649b",
+        "classname": "/org/apache/commons/pool2/TestPoolUtils$2.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "6610e575",
+        "classname": "/org/apache/commons/pool2/ObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "6610e575",
+        "classname": "/org/apache/commons/pool2/PoolUtils.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "ca96e5ef",
+        "classname": "/org/apache/commons/pool2/ObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "ca96e5ef",
+        "classname": "/org/apache/commons/pool2/PoolUtils.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "ca96e5ef",
+        "classname": "/org/apache/commons/pool2/KeyedObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "ca96e5ef",
+        "classname": "/org/apache/commons/pool2/impl/TestGenericKeyedObjectPool$SimpleFactory.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "af38a4e3",
+        "classname": "/org/apache/commons/pool2/PoolUtils.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    },
+    {
+        "sha": "af38a4e3",
+        "classname": "/org/apache/commons/pool2/KeyedObjectPool.class",
+        "projectname": "commons-pool",
+        "insight": "",
+        "comment": ""
+    }
+]

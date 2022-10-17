@@ -1,0 +1,86 @@
+{
+  "8c4ed3ec": {},
+  "11521c1f": {},
+  "41f4e410": {},
+  "347dc49b": {
+    "org/apache/commons/pool2/impl/GenericKeyedObjectPool$ObjectDeque.class": [
+      "remove_static_method"
+    ],
+    "org/apache/commons/pool2/impl/GenericKeyedObjectPool.class": [
+      "method returnObject(Ljava/lang/Object;Ljava/lang/Object;)V",
+      "method deregister(Ljava/lang/Object;)V"
+    ],
+    "org/apache/commons/pool2/impl/GenericObjectPool.class": [
+      "method destroy(Lorg/apache/commons/pool2/PooledObject;)V",
+      "method returnObject(Ljava/lang/Object;)V"
+    ],
+    "org/apache/commons/pool2/impl/TestGenericObjectPool.class": [
+      "remove_instance_method"
+    ]
+  },
+  "9754dd5d": {},
+  "221e85f1": {},
+  "cb38a1b6": {
+    "org/apache/commons/pool2/impl/GenericKeyedObjectPool.class": [
+      "method returnObject(Ljava/lang/Object;Ljava/lang/Object;)V"
+    ]
+  },
+  "597def3f": {
+    "org/apache/commons/pool2/impl/GenericObjectPool.class": [
+      "method destroy(Lorg/apache/commons/pool2/PooledObject;)V",
+      "method returnObject(Ljava/lang/Object;)V"
+    ],
+    "org/apache/commons/pool2/impl/TestGenericObjectPool.class": [
+      "add_instance_method"
+    ]
+  },
+  "7d033060": {
+    "org/apache/commons/pool2/impl/GenericKeyedObjectPool$ObjectDeque.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/pool2/impl/GenericKeyedObjectPool.class": [
+      "method deregister(Ljava/lang/Object;)V"
+    ]
+  },
+  "81ddcd73": {},
+  "40e4649b": {},
+  "c5328f9a": {},
+  "65980097": {},
+  "104a55cd": {},
+  "f3984f8f": {},
+  "6610e575": {},
+  "c9e5253a": {},
+  "ca96e5ef": {},
+  "2bd2bf6f": {},
+  "af38a4e3": {},
+  "3ca09a7a": {},
+  "479bd957": {},
+  "2d204923": {},
+  "134c01bc": {},
+  "9b6e7b8d": {},
+  "51b9354c": {},
+  "acc0f0af": {},
+  "b6775ade": {},
+  "4d4e6db8": {},
+  "424109f9": {},
+  "ea10d8aa": {},
+  "70c15548": {},
+  "fe0f90d8": {},
+  "2e28914a": {},
+  "c49d5b27": {},
+  "814df424": {},
+  "d74d9a0f": {},
+  "9e82bc8b": {},
+  "5de186ad": {},
+  "2360671b": {},
+  "06ba7ceb": {},
+  "6b5d56d3": {},
+  "e34ee19d": {},
+  "2edd1fc5": {},
+  "02056450": {},
+  "b96bf816": {},
+  "aca566e6": {},
+  "131642f4": {},
+  "879421cf": {},
+  "b1af9daa": {}
+}

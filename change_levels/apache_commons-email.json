@@ -1,0 +1,545 @@
+{
+  "78b9fdfc": {
+    "org/apache/commons/mail/Email.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/mail/EmailTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "3262ac78": {},
+  "9263e7d7": {},
+  "429d6bd2": {},
+  "e7233a3c": {
+    "org/apache/commons/mail/ByteArrayDataSource.class": [
+      "method getContentType()Ljava/lang/String;",
+      "method byteArrayDataSource(Ljava/io/InputStream;)V",
+      "method <init>([BLjava/lang/String;)V",
+      "method getInputStream()Ljava/io/InputStream;",
+      "method <init>(Ljava/lang/String;Ljava/lang/String;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/mail/EmailException.class": [
+      "method printStackTrace(Ljava/io/PrintWriter;)V",
+      "method printStackTrace(Ljava/io/PrintStream;)V"
+    ],
+    "org/apache/commons/mail/HtmlEmail.class": [
+      "method embed(Ljava/io/File;Ljava/lang/String;)Ljava/lang/String;",
+      "method embed(Ljavax/activation/DataSource;Ljava/lang/String;)Ljava/lang/String;",
+      "method build()V",
+      "method buildMimeMessage()V",
+      "method setHtmlMsg(Ljava/lang/String;)Lorg/apache/commons/mail/HtmlEmail;",
+      "method setTextMsg(Ljava/lang/String;)Lorg/apache/commons/mail/HtmlEmail;",
+      "method embed(Ljavax/activation/DataSource;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+      "method embed(Ljava/net/URL;Ljava/lang/String;)Ljava/lang/String;",
+      "method embed(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
+      "method setMsg(Ljava/lang/String;)Lorg/apache/commons/mail/Email;"
+    ],
+    "org/apache/commons/mail/EmailAttachment.class": [],
+    "org/apache/commons/mail/DefaultAuthenticator.class": [],
+    "org/apache/commons/mail/util/IDNEmailAddressConverter.class": [
+      "add_class"
+    ],
+    "org/apache/commons/mail/util/MimeMessageUtils.class": [
+      "method createMimeMessage(Ljavax/mail/Session;Ljava/io/File;)Ljavax/mail/internet/MimeMessage;",
+      "method writeMimeMessage(Ljavax/mail/internet/MimeMessage;Ljava/io/File;)V",
+      "method createMimeMessage(Ljavax/mail/Session;Ljava/lang/String;)Ljavax/mail/internet/MimeMessage;",
+      "method createMimeMessage(Ljavax/mail/Session;[B)Ljavax/mail/internet/MimeMessage;"
+    ],
+    "org/apache/commons/mail/util/MimeMessageParser.class": [
+      "method getDataSourceName(Ljavax/mail/Part;Ljavax/activation/DataSource;)Ljava/lang/String;",
+      "method isMimeType(Ljavax/mail/internet/MimePart;Ljava/lang/String;)Z",
+      "method getTo()Ljava/util/List;",
+      "method findAttachmentByName(Ljava/lang/String;)Ljavax/activation/DataSource;",
+      "method getBaseMimeType(Ljava/lang/String;)Ljava/lang/String;",
+      "method getCc()Ljava/util/List;",
+      "method stripContentId(Ljava/lang/String;)Ljava/lang/String;",
+      "method parse(Ljavax/mail/Multipart;Ljavax/mail/internet/MimePart;)V",
+      "method getReplyTo()Ljava/lang/String;",
+      "method getBcc()Ljava/util/List;",
+      "method getContent(Ljava/io/InputStream;)[B",
+      "method hasAttachments()Z",
+      "method hasPlainContent()Z",
+      "method hasHtmlContent()Z",
+      "method getFrom()Ljava/lang/String;"
+    ],
+    "org/apache/commons/mail/MultiPartEmail.class": [
+      "method attach(Ljava/net/URL;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/apache/commons/mail/MultiPartEmail;",
+      "method attach(Ljavax/activation/DataSource;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/apache/commons/mail/MultiPartEmail;",
+      "method attach(Ljavax/activation/DataSource;Ljava/lang/String;Ljava/lang/String;)Lorg/apache/commons/mail/MultiPartEmail;",
+      "method attach(Lorg/apache/commons/mail/EmailAttachment;)Lorg/apache/commons/mail/MultiPartEmail;",
+      "method buildMimeMessage()V",
+      "method init()V",
+      "method getContainer()Ljavax/mail/internet/MimeMultipart;",
+      "method addPart(Ljava/lang/String;Ljava/lang/String;)Lorg/apache/commons/mail/Email;",
+      "method addPart(Ljavax/mail/internet/MimeMultipart;)Lorg/apache/commons/mail/Email;",
+      "method attach(Ljava/io/File;)Lorg/apache/commons/mail/MultiPartEmail;",
+      "method addPart(Ljavax/mail/internet/MimeMultipart;I)Lorg/apache/commons/mail/Email;",
+      "method getPrimaryBodyPart()Ljavax/mail/BodyPart;",
+      "method setMsg(Ljava/lang/String;)Lorg/apache/commons/mail/Email;"
+    ],
+    "org/apache/commons/mail/EmailUtils.class": [
+      "method <clinit>()V",
+      "method encodeUrl(Ljava/lang/String;)Ljava/lang/String;",
+      "method random(IIIZZ[CLjava/util/Random;)Ljava/lang/String;",
+      "method isEmpty(Ljava/lang/String;)Z",
+      "update_constructor_or_update_field_initialization",
+      "method notNull(Ljava/lang/Object;Ljava/lang/String;)V",
+      "method isNotEmpty(Ljava/lang/String;)Z"
+    ],
+    "org/apache/commons/mail/EmailConstants.class": [],
+    "org/apache/commons/mail/SimpleEmail.class": [
+      "method setMsg(Ljava/lang/String;)Lorg/apache/commons/mail/Email;"
+    ],
+    "org/apache/commons/mail/DataSourceResolver.class": [],
+    "org/apache/commons/mail/Email.class": [
+      "method setMailSession(Ljavax/mail/Session;)V",
+      "method setBcc(Ljava/util/Collection;)Lorg/apache/commons/mail/Email;",
+      "method isStartTLSEnabled()Z",
+      "method sendMimeMessage()Ljava/lang/String;",
+      "method checkSessionAlreadyInitialized()V",
+      "method addBcc([Ljava/lang/String;)Lorg/apache/commons/mail/Email;",
+      "method getSslSmtpPort()Ljava/lang/String;",
+      "method addCc([Ljava/lang/String;)Lorg/apache/commons/mail/Email;",
+      "method updateContentType(Ljava/lang/String;)V",
+      "method addHeader(Ljava/lang/String;Ljava/lang/String;)V",
+      "method getSmtpPort()Ljava/lang/String;",
+      "method isSSLOnConnect()Z",
+      "method setReplyTo(Ljava/util/Collection;)Lorg/apache/commons/mail/Email;",
+      "method createFoldedHeaderValue(Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/String;",
+      "method getMailSession()Ljavax/mail/Session;",
+      "method setSmtpPort(I)V",
+      "method createInternetAddress(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/mail/internet/InternetAddress;",
+      "method setCc(Ljava/util/Collection;)Lorg/apache/commons/mail/Email;",
+      "method addTo([Ljava/lang/String;)Lorg/apache/commons/mail/Email;",
+      "method getHostName()Ljava/lang/String;",
+      "method buildMimeMessage()V",
+      "method setTo(Ljava/util/Collection;)Lorg/apache/commons/mail/Email;",
+      "method setMailSessionFromJNDI(Ljava/lang/String;)V",
+      "method setSentDate(Ljava/util/Date;)V",
+      "method setHeaders(Ljava/util/Map;)V",
+      "method getSentDate()Ljava/util/Date;"
+    ],
+    "org/apache/commons/mail/HtmlEmail$InlineImage.class": [
+      "method equals(Ljava/lang/Object;)Z"
+    ],
+    "org/apache/commons/mail/ImageHtmlEmail.class": [
+      "method buildMimeMessage()V",
+      "method replacePattern(Ljava/lang/String;Ljava/util/regex/Pattern;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/mail/resolver/DataSourceBaseResolver.class": [
+      "method isHttpUrl(Ljava/lang/String;)Z"
+    ],
+    "org/apache/commons/mail/resolver/DataSourceCompositeResolver.class": [
+      "method resolve(Ljava/lang/String;Z)Ljavax/activation/DataSource;",
+      "method resolve(Ljava/lang/String;)Ljavax/activation/DataSource;"
+    ],
+    "org/apache/commons/mail/resolver/DataSourceFileResolver.class": [
+      "method resolve(Ljava/lang/String;Z)Ljavax/activation/DataSource;"
+    ],
+    "org/apache/commons/mail/resolver/DataSourceClassPathResolver.class": [
+      "method <init>(Ljava/lang/String;)V",
+      "method <init>(Ljava/lang/String;Z)V",
+      "method resolve(Ljava/lang/String;Z)Ljavax/activation/DataSource;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/mail/resolver/DataSourceUrlResolver.class": [
+      "method createUrl(Ljava/lang/String;)Ljava/net/URL;",
+      "method resolve(Ljava/lang/String;Z)Ljavax/activation/DataSource;"
+    ],
+    "org/apache/commons/mail/SendWithAttachmentsTest.class": [],
+    "org/apache/commons/mail/mocks/MockMultiPartEmailConcrete.class": [
+      "method getMsg()Ljava/lang/String;"
+    ],
+    "org/apache/commons/mail/mocks/MockHtmlEmailConcrete.class": [
+      "method getMsg()Ljava/lang/String;"
+    ],
+    "org/apache/commons/mail/mocks/MockImageHtmlEmailConcrete.class": [
+      "method getMsg()Ljava/lang/String;"
+    ],
+    "org/apache/commons/mail/mocks/MockEmailConcrete.class": [],
+    "org/apache/commons/mail/mocks/MockSimpleEmail.class": [],
+    "org/apache/commons/mail/settings/EmailConfiguration.class": [],
+    "org/apache/commons/mail/EmailTest.class": [
+      "method testFoldingHeaders()V",
+      "method testSendBadHostName()V",
+      "method testAddBcc()V",
+      "add_instance_method",
+      "method testAddTo()V",
+      "method testSetFrom2()V",
+      "method testSetSubject()V",
+      "method testGetSetSentDate()V",
+      "method testAddHeader()V",
+      "method testAddReplyTo2()V",
+      "method testAddCc()V",
+      "method testSendCorrectSmtpPortContainedInException()V",
+      "method testSetFrom()V",
+      "method testAddBcc2()V",
+      "method testGetSetHostName()V",
+      "method testAddReplyTo()V",
+      "method testAddReplyToWithEncoding()V",
+      "method testAddCc2()V",
+      "method testAddCcWithEncoding()V",
+      "method testAddTo2()V",
+      "method testAddBccWithEncoding()V",
+      "method testAddToWithEncoding()V"
+    ],
+    "org/apache/commons/mail/EmailLiveTest.class": [
+      "method create(Ljava/lang/Class;)Lorg/apache/commons/mail/Email;",
+      "method testSendingEmailsInBatch()V"
+    ],
+    "org/apache/commons/mail/util/MimeMessageParserTest.class": [
+      "method testParseInlineCID()V",
+      "method testParseCreatedHtmlEmailWithNoContent()V",
+      "method testMultipartTextAttachmentOnly()V",
+      "method testParseSimpleEmail()V",
+      "method testParseCreatedHtmlEmailWithMixedContent()V",
+      "method testParseCreatedHtmlEmailWithTextContent()V",
+      "method testParseMultipartReport()V",
+      "method testParseHtmlEmailWithHtmlAttachment()V",
+      "method testParseHtmlEmailWithAttachments()V",
+      "method testParseHtmlEmailWithAttachmentAndEncodedFilename()V",
+      "method testMultipartTextAttachment()V",
+      "method testAttachmentOnly()V",
+      "method testParseSimpleReplyEmail()V"
+    ],
+    "org/apache/commons/mail/util/IDNEmailAddressConverterTest.class": [
+      "add_class"
+    ],
+    "org/apache/commons/mail/ImageHtmlEmailTest.class": [
+      "method testSendHTMLClassPathFile()V",
+      "method testSendEmptyHTML()V",
+      "method loadUrlContent(Ljava/net/URL;)Ljava/lang/String;",
+      "method testSendHtml()V",
+      "method testSendHTMLAutoResolveMultipleFiles()V",
+      "method testSendClassPathFileWithNullName()V",
+      "method testSendEmptyHTML2()V",
+      "method testSendHTMLAutoResolveFile()V"
+    ],
+    "org/apache/commons/mail/HtmlEmailTest.class": [
+      "method testGetSetHtmlMsg()V",
+      "method testEmbedUrl()V",
+      "method testSend2()V",
+      "method testGetSetTextMsg()V",
+      "method testCallingBuildMimeMessageBeforeSent()V",
+      "method testSend()V",
+      "method testEmbedDataSource()V",
+      "method testGetSetMsg()V",
+      "method testAddZipUrl()V",
+      "method testSendWithDefaultCharset()V"
+    ],
+    "org/apache/commons/mail/EmailUtilsTest.class": [],
+    "org/apache/commons/mail/EmailAttachmentTest.class": [
+      "method testGetSetDisposition()V",
+      "method testGetSetPath()V",
+      "method testGetSetURL()V",
+      "method testGetSetDescription()V",
+      "method testGetSetName()V"
+    ],
+    "org/apache/commons/mail/InvalidAddressTest.class": [
+      "method testAddInvalidCc()V",
+      "method testAddInvalidTo()V",
+      "method testSetInvalidFrom()V",
+      "method testAddInvalidBcc()V"
+    ],
+    "org/apache/commons/mail/DefaultAuthenticatorTest.class": [],
+    "org/apache/commons/mail/InvalidInternetAddressTest.class": [
+      "method testValidateMethod()V",
+      "method testValidateMethodCharset()V",
+      "method testStrictConstructor()V",
+      "method setUpInvalidInternetAddressTest()V"
+    ],
+    "org/apache/commons/mail/AbstractEmailTest.class": [
+      "method validateSend(Lorg/subethamail/wiser/Wiser;Ljava/lang/String;Ljavax/mail/internet/InternetAddress;Ljava/util/List;Ljava/util/List;Ljava/util/List;Z)Lorg/subethamail/wiser/WiserMessage;",
+      "method getMessageAsString(I)Ljava/lang/String;",
+      "method getMailServer()V",
+      "method tearDownEmailTest()V",
+      "method isMailServerStopped(Lorg/subethamail/wiser/Wiser;)Z",
+      "method getMessageBody(Lorg/subethamail/wiser/WiserMessage;)Ljava/lang/String;",
+      "method serializeEmailMessage(Lorg/subethamail/wiser/WiserMessage;)Ljava/lang/String;",
+      "method setUpAbstractEmailTest()V"
+    ],
+    "org/apache/commons/mail/MultiPartEmailTest.class": [
+      "method testInit()V",
+      "method testSetMsg()V",
+      "method testAttach3()V",
+      "method testAttach()V",
+      "method testSend()V",
+      "method testGetSetSubType()V"
+    ],
+    "org/apache/commons/mail/SimpleEmailTest.class": [
+      "method testDefaultMimeCharset()V",
+      "method testSend()V",
+      "method testGetSetMsg()V"
+    ],
+    "org/apache/commons/mail/ImageHtmlEmailTest$MockDataSourceClassPathResolver.class": [],
+    "org/apache/commons/mail/resolver/DataSourceCompositeResolverTest.class": [
+      "method testResolvingFilesLenient()V"
+    ],
+    "org/apache/commons/mail/resolver/AbstractDataSourceResolverTest.class": [
+      "method toByteArray(Ljavax/activation/DataSource;)[B"
+    ],
+    "org/apache/commons/mail/resolver/DataSourceClassPathResolverTest.class": [
+      "method testResolvingClassPathLenient()V"
+    ],
+    "org/apache/commons/mail/resolver/DataSourceFileResolverTest.class": [
+      "method testResolvingFileLenient()V"
+    ],
+    "org/apache/commons/mail/resolver/DataSourceUrlResolverTest.class": [
+      "method testResolvingHttpLenient()V",
+      "method testResolvingFilesLenient()V"
+    ]
+  },
+  "124a46c6": {
+    "org/apache/commons/mail/InvalidInternetAddressTest.class": [
+      "method <clinit>()V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "b38dad81": {},
+  "7b5f2d01": {},
+  "fd44ee37": {},
+  "4ad899d8": {
+    "org/apache/commons/mail/AbstractEmailTest.class": [
+      "method validateSend(Lorg/subethamail/wiser/Wiser;Ljava/lang/String;Ljava/lang/String;Ljavax/mail/internet/InternetAddress;Ljava/util/List;Ljava/util/List;Ljava/util/List;Z)V"
+    ]
+  },
+  "edcd565a": {
+    "org/apache/commons/mail/util/IDNEmailAddressConverter.class": [
+      "method toASCII(Ljava/lang/String;)Ljava/lang/String;",
+      "remove_instance_method",
+      "method toUnicode(Ljava/lang/String;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/mail/Email.class": [
+      "method setBounceAddress(Ljava/lang/String;)Lorg/apache/commons/mail/Email;",
+      "method createInternetAddress(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljavax/mail/internet/InternetAddress;"
+    ],
+    "org/apache/commons/mail/EmailTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/mail/util/IDNEmailAddressConverterTest.class": [
+      "remove_instance_method"
+    ]
+  },
+  "06aa0380": {},
+  "959a992b": {
+    "org/apache/commons/mail/resolver/DataSourceClassPathResolver.class": [
+      "method resolve(Ljava/lang/String;Z)Ljavax/activation/DataSource;"
+    ]
+  },
+  "c156f20a": {
+    "org/apache/commons/mail/SendWithAttachmentsTest.class": [
+      "method testSendWAttachments()V"
+    ]
+  },
+  "f4546573": {},
+  "837063d1": {
+    "org/apache/commons/mail/util/MimeMessageUtils.class": [
+      "method writeMimeMessage(Ljavax/mail/internet/MimeMessage;Ljava/io/File;)V"
+    ]
+  },
+  "00f6747f": {},
+  "772662b1": {
+    "org/apache/commons/mail/Email.class": [
+      "remove_instance_method",
+      "method buildMimeMessage()V",
+      "add_instance_method"
+    ]
+  },
+  "76195d85": {
+    "org/apache/commons/mail/Email.class": [
+      "method createFoldedHeaderValue(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;"
+    ]
+  },
+  "2495453f": {
+    "org/apache/commons/mail/mocks/MockEmailConcrete.class": [
+      "remove_instance_method"
+    ]
+  },
+  "63c06508": {
+    "org/apache/commons/mail/mocks/MockHtmlEmailConcrete.class": [
+      "remove_instance_method"
+    ],
+    "org/apache/commons/mail/mocks/MockImageHtmlEmailConcrete.class": [
+      "remove_instance_method"
+    ]
+  },
+  "50610689": {},
+  "79283664": {
+    "org/apache/commons/mail/EmailLiveTest.class": [
+      "method testImageHtmlEmailLocal()V"
+    ]
+  },
+  "f695701b": {},
+  "0a944fe3": {
+    "org/apache/commons/mail/EmailUtils.class": [
+      "add_static_method"
+    ],
+    "org/apache/commons/mail/Email.class": [
+      "method setSubject(Ljava/lang/String;)Lorg/apache/commons/mail/Email;"
+    ],
+    "org/apache/commons/mail/EmailTest.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "org/apache/commons/mail/EmailUtilsTest.class": [
+      "add_instance_method"
+    ],
+    "org/apache/commons/mail/AbstractEmailTest.class": [
+      "add_field",
+      "method <init>()V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "401460a1": {
+    "org/apache/commons/mail/EmailUtils.class": [
+      "change_signature"
+    ],
+    "org/apache/commons/mail/Email.class": [
+      "method setSubject(Ljava/lang/String;)Lorg/apache/commons/mail/Email;"
+    ],
+    "org/apache/commons/mail/EmailTest.class": [
+      "remove_instance_method",
+      "add_instance_method"
+    ],
+    "org/apache/commons/mail/EmailUtilsTest.class": [
+      "method testClearEndOfLineCharacters()V"
+    ],
+    "org/apache/commons/mail/AbstractEmailTest.class": [
+      "add_field", "remove_field",
+      "method <init>()V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "2a652f2b": {
+    "org/apache/commons/mail/EmailUtils.class": [
+      "method replaceEndOfLineCharactersWithSpaces(Ljava/lang/String;)Ljava/lang/String;"
+    ],
+    "org/apache/commons/mail/EmailTest.class": [
+      "method testEndOflineCharactersInSubjectAreReplacedWithSpaces()V"
+    ],
+    "org/apache/commons/mail/EmailUtilsTest.class": [
+      "method testClearEndOfLineCharacters()V"
+    ]
+  },
+  "fcd05a52": {
+    "org/apache/commons/mail/EmailTest.class": [
+      "method testEndOflineCharactersInSubjectAreReplacedWithSpaces()V",
+      "method testSetSubjectValid()V"
+    ],
+    "org/apache/commons/mail/EmailUtilsTest.class": [
+      "method testClearEndOfLineCharacters()V"
+    ]
+  },
+  "dbf991f3": {},
+  "d2719785": {
+    "org/apache/commons/mail/util/IDNEmailAddressConverterTest.class": []
+  },
+  "4652bffa": {},
+  "c8ff8240": {
+    "org/apache/commons/mail/Email.class": [
+      "method setBounceAddress(Ljava/lang/String;)Lorg/apache/commons/mail/Email;"
+    ],
+    "org/apache/commons/mail/EmailTest.class": [
+      "method testSetNullAndEmptyBounceAddress()V"
+    ]
+  },
+  "63db6bed": {},
+  "548a0ea3": {
+    "org/apache/commons/mail/ByteArrayDataSource.class": [],
+    "org/apache/commons/mail/EmailException.class": [],
+    "org/apache/commons/mail/HtmlEmail.class": [],
+    "org/apache/commons/mail/EmailAttachment.class": [],
+    "org/apache/commons/mail/DefaultAuthenticator.class": [],
+    "org/apache/commons/mail/util/IDNEmailAddressConverter.class": [],
+    "org/apache/commons/mail/util/MimeMessageUtils.class": [],
+    "org/apache/commons/mail/util/MimeMessageParser.class": [],
+    "org/apache/commons/mail/MultiPartEmail.class": [],
+    "org/apache/commons/mail/EmailUtils.class": [],
+    "org/apache/commons/mail/EmailConstants.class": [],
+    "org/apache/commons/mail/SimpleEmail.class": [],
+    "org/apache/commons/mail/DataSourceResolver.class": [],
+    "org/apache/commons/mail/Email.class": [],
+    "org/apache/commons/mail/HtmlEmail$InlineImage.class": [],
+    "org/apache/commons/mail/ImageHtmlEmail.class": [],
+    "org/apache/commons/mail/resolver/DataSourceBaseResolver.class": [],
+    "org/apache/commons/mail/resolver/DataSourceCompositeResolver.class": [],
+    "org/apache/commons/mail/resolver/DataSourceFileResolver.class": [],
+    "org/apache/commons/mail/resolver/DataSourceClassPathResolver.class": [],
+    "org/apache/commons/mail/resolver/DataSourceUrlResolver.class": [],
+    "org/apache/commons/mail/SendWithAttachmentsTest.class": [],
+    "org/apache/commons/mail/mocks/MockMultiPartEmailConcrete.class": [],
+    "org/apache/commons/mail/mocks/MockHtmlEmailConcrete.class": [],
+    "org/apache/commons/mail/mocks/MockImageHtmlEmailConcrete.class": [],
+    "org/apache/commons/mail/mocks/MockEmailConcrete.class": [],
+    "org/apache/commons/mail/mocks/MockSimpleEmail.class": [],
+    "org/apache/commons/mail/settings/EmailConfiguration.class": [],
+    "org/apache/commons/mail/EmailTest.class": [],
+    "org/apache/commons/mail/EmailLiveTest.class": [],
+    "org/apache/commons/mail/util/MimeMessageParserTest.class": [],
+    "org/apache/commons/mail/util/IDNEmailAddressConverterTest.class": [],
+    "org/apache/commons/mail/ImageHtmlEmailTest.class": [],
+    "org/apache/commons/mail/HtmlEmailTest.class": [],
+    "org/apache/commons/mail/EmailUtilsTest.class": [],
+    "org/apache/commons/mail/EmailAttachmentTest.class": [],
+    "org/apache/commons/mail/InvalidAddressTest.class": [],
+    "org/apache/commons/mail/DefaultAuthenticatorTest.class": [],
+    "org/apache/commons/mail/InvalidInternetAddressTest.class": [],
+    "org/apache/commons/mail/AbstractEmailTest.class": [],
+    "org/apache/commons/mail/MultiPartEmailTest.class": [],
+    "org/apache/commons/mail/SimpleEmailTest.class": [],
+    "org/apache/commons/mail/ImageHtmlEmailTest$MockDataSourceClassPathResolver.class": [],
+    "org/apache/commons/mail/resolver/DataSourceCompositeResolverTest.class": [],
+    "org/apache/commons/mail/resolver/AbstractDataSourceResolverTest.class": [],
+    "org/apache/commons/mail/resolver/DataSourceClassPathResolverTest.class": [],
+    "org/apache/commons/mail/resolver/DataSourceFileResolverTest.class": [],
+    "org/apache/commons/mail/resolver/DataSourceUrlResolverTest.class": []
+  },
+  "2f71f385": {},
+  "baf77b79": {},
+  "32c20845": {},
+  "1cc064d5": {},
+  "ade390e0": {},
+  "e1c6c762": {},
+  "83a7e904": {},
+  "005adcae": {
+    "org/apache/commons/mail/EmailException.class": [
+      "method printStackTrace(Ljava/io/PrintStream;)V"
+    ]
+  },
+  "9b142328": {
+    "org/apache/commons/mail/util/MimeMessageUtils.class": [
+      "method createMimeMessage(Ljavax/mail/Session;Ljava/lang/String;)Ljavax/mail/internet/MimeMessage;"
+    ]
+  },
+  "64d8ef58": {},
+  "affd6c47": {},
+  "ddc60155": {
+    "org/apache/commons/mail/SendWithAttachmentsTest.class": [
+      "method testSendWAttachments()V"
+    ],
+    "org/apache/commons/mail/HtmlEmailTest.class": [
+      "method testSend()V"
+    ]
+  },
+  "045bcb56": {},
+  "fa7b8118": {
+    "org/apache/commons/mail/ByteArrayDataSource.class": [
+      "method <init>([BLjava/lang/String;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "org/apache/commons/mail/util/MimeMessageUtils.class": [
+      "method createMimeMessage(Ljavax/mail/Session;Ljava/io/File;)Ljavax/mail/internet/MimeMessage;",
+      "method createMimeMessage(Ljavax/mail/Session;[B)Ljavax/mail/internet/MimeMessage;"
+    ],
+    "org/apache/commons/mail/resolver/AbstractDataSourceResolverTest.class": [
+      "method toByteArray(Ljavax/activation/DataSource;)[B"
+    ]
+  },
+  "7ae8c527": {},
+  "4f45556f": {
+    "org/apache/commons/mail/util/MimeMessageParser.class": [
+      "method findAttachmentByName(Ljava/lang/String;)Ljavax/activation/DataSource;"
+    ]
+  }
+}

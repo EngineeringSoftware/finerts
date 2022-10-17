@@ -1,0 +1,1068 @@
+{
+  "dad85341": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventKeys.class": [
+      "add_field"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/TopicChanged.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventType.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest.class": [
+      "add_instance_method",
+      "method testEventNotificationWithDefaultListenerImplemention()V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$10.class": [
+      "add_class"
+    ]
+  },
+  "546d72cf": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/ReviewerAdded.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventType.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest.class": [
+      "add_instance_method",
+      "method testEventNotificationWithDefaultListenerImplemention()V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$11.class": [
+      "add_class"
+    ]
+  },
+  "d99f8146": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventKeys.class": [
+      "add_field"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/MergeFailed.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventType.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest.class": [
+      "add_instance_method",
+      "method testEventNotificationWithDefaultListenerImplemention()V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$12.class": [
+      "add_class"
+    ]
+  },
+  "2e92fe44": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/RefUpdate.class": [
+      "method getRefName()Ljava/lang/String;"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/RefUpdatedTest.class": [
+      "add_class"
+    ]
+  },
+  "2511ec36": {
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshUtil.class": [
+      "method isPrivateKeyFileValid(Ljava/io/File;)Z",
+      "method checkPassPhrase(Ljava/io/File;Ljava/lang/String;)Z",
+      "add_static_method",
+      "remove_static_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/SSHUtilTest.class": [
+      "add_class"
+    ]
+  },
+  "43e6a94f": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/RefReplicationDone.class": [
+      "add_instance_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/RefReplicated.class": [
+      "add_instance_method"
+    ]
+  },
+  "7557af47": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/Approval.class": [
+      "add_field",
+      "method fromJson(Lnet/sf/json/JSONObject;)V",
+      "add_instance_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventKeys.class": [
+      "add_field"
+    ]
+  },
+  "0ab75903": {
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshUtil.class": [
+      "method parsePrivateKeyFile(Ljava/io/File;)Lcom/sshtools/publickey/SshPrivateKeyFile;"
+    ]
+  },
+  "a88e1754": {
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnection.class": [
+      "add_instance_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler.class": [
+      "add_instance_method"
+    ]
+  },
+  "98119a30": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/Approval.class": [
+      "add_field",
+      "method fromJson(Lnet/sf/json/JSONObject;)V",
+      "add_instance_method",
+      "method getUpdated()Ljava/lang/Boolean;"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventKeys.class": [
+      "add_field"
+    ]
+  },
+  "7f3547c6": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/ChangeMerged.class": [
+      "add_field",
+      "method fromJson(Lnet/sf/json/JSONObject;)V",
+      "add_instance_method"
+    ]
+  },
+  "8e6af6c2": {
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnection.class": [
+      "add_field",
+      "method run()V",
+      "method connect()Lcom/sonymobile/tools/gerrit/gerritevents/ssh/SshConnection;",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnectionTest.class": [
+      "change_field_declaration",
+      "method setUp()V",
+      "method testReceiveEvent()V",
+      "method shutDown()V"
+    ]
+  },
+  "226d0750": {
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnection.class": [
+      "method getLine(Ljava/nio/CharBuffer;)Ljava/lang/String;"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnectionTest.class": [
+      "add_field",
+      "method setUp()V",
+      "method testReceiveEvent()V"
+    ]
+  },
+  "3a599875": {
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshConnection.class": [
+      "add_instance_method",
+      "change_signature"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnection.class": [
+      "method run()V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshConnectionImpl.class": [
+      "add_instance_method",
+      "method executeCommandChannel(Ljava/lang/String;)Lcom/jcraft/jsch/ChannelExec;"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnectionTest.class": [
+      "method setUp()V"
+    ]
+  },
+  "2fefb80a": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/ReviewInput.class": [
+      "add_field",
+      "add_instance_method"
+    ]
+  },
+  "ef5fc8e8": {},
+  "cbfbc6d5": {},
+  "675593d0": {
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnection.class": [
+      "change_field_declaration",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "a0a18a3f": {
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnection.class": [
+      "add_field",
+      "method run()V",
+      "update_constructor_or_update_field_initialization",
+      "method getLine(Ljava/nio/CharBuffer;)Ljava/lang/String;"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnectionTest.class": [
+      "method setUp()V",
+      "method testReceiveEvent()V"
+    ]
+  },
+  "be34e0a7": {},
+  "5369f82f": {
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshConnectionFactory.class": [
+      "method getConnection(Ljava/lang/String;ILjava/lang/String;Lcom/sonymobile/tools/gerrit/gerritevents/ssh/Authentication;Lcom/sonymobile/tools/gerrit/gerritevents/ssh/AuthenticationUpdater;)Lcom/sonymobile/tools/gerrit/gerritevents/ssh/SshConnection;",
+      "add_static_method",
+      "method getConnection(Ljava/lang/String;ILjava/lang/String;Lcom/sonymobile/tools/gerrit/gerritevents/ssh/Authentication;)Lcom/sonymobile/tools/gerrit/gerritevents/ssh/SshConnection;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshConnectionImpl.class": [
+      "add_field",
+      "method connect()V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler.class": [
+      "add_field",
+      "method runQuery(Ljava/lang/String;ZZZZZLcom/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler$LineVisitor;)V",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritDefaultValues.class": [
+      "add_field"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/PatchSet.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandlerTest.class": [
+      "method setUp()V"
+    ]
+  },
+  "c9d1b4ec": {},
+  "bbdfedb2": {
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler.class": [
+      "method notifyListener(Lcom/sonymobile/tools/gerrit/gerritevents/GerritEventListener;Lcom/sonymobile/tools/gerrit/gerritevents/dto/GerritEvent;)V"
+    ]
+  },
+  "15cc215e": {
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler.class": [
+      "method ignoreEvent(Lcom/sonymobile/tools/gerrit/gerritevents/dto/events/CommentAdded;)Z"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest.class": [
+      "add_instance_method",
+      "method testIgnoreCommentAdded()V"
+    ]
+  },
+  "682f2f04": {
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler.class": [
+      "add_field",
+      "add_instance_method",
+      "method triggerEvent(Lcom/sonymobile/tools/gerrit/gerritevents/dto/GerritEvent;)V",
+      "update_constructor_or_update_field_initialization",
+      "method post(Lcom/sonymobile/tools/gerrit/gerritevents/workers/Work;)V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritSendCommandQueue.class": [
+      "change_field_declaration",
+      "method checkQueueSize()V",
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "5d79b32e": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/Change.class": [
+      "method getTopic()Ljava/lang/String;",
+      "add_field",
+      "method setTopic(Ljava/lang/String;)V",
+      "method fromJson(Lnet/sf/json/JSONObject;)V",
+      "add_instance_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/helpers/FileHelper.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler.class": [
+      "add_instance_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritChangeStatus.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/TopicChanged.class": [
+      "add_field",
+      "method fromJson(Lnet/sf/json/JSONObject;)V",
+      "add_instance_method",
+      "method getOldTopic()Ljava/lang/String;",
+      "method setOldTopic(Ljava/lang/String;)V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/ChangeBasedEvent.class": [
+      "add_instance_method",
+      "method getFiles(Lcom/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler;)Ljava/util/List;",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/Topic.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/ChangeTest.class": [
+      "method testInitJson()V"
+    ]
+  },
+  "d8f43ae2": {},
+  "f7c6592a": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/Change.class": [
+      "method fromJson(Lnet/sf/json/JSONObject;)V",
+      "method readResolve()Ljava/lang/Object;"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/TopicChanged.class": [
+      "method readResolve()Ljava/lang/Object;"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/Topic.class": [
+      "method getChanges(Lcom/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler;)Ljava/util/Map;"
+    ]
+  },
+  "83ed27b4": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/CommentedFile.class": [
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/LineComment.class": [
+      "add_instance_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/ReviewInput.class": [
+      "update_constructor_or_update_field_initialization"
+    ]
+  },
+  "54730d06": {
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler.class": [
+      "change_field_declaration",
+      "method getWorkQueue()Ljava/util/concurrent/BlockingQueue;",
+      "method checkQueueSize()V",
+      "method createEventThread(Ljava/lang/String;)Lcom/sonymobile/tools/gerrit/gerritevents/workers/EventThread;",
+      "method setNumberOfWorkerThreads(I)V",
+      "add_instance_method",
+      "method shutdown(Z)V",
+      "update_constructor_or_update_field_initialization",
+      "method post(Lcom/sonymobile/tools/gerrit/gerritevents/workers/Work;)V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler$1.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritDefaultValues.class": [
+      "add_field"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler$EventWorker.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/EventThread.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerQueueTest$SlowEventListener.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerQueueTest.class": [
+      "add_class"
+    ]
+  },
+  "3518591d": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/Change.class": [
+      "add_field",
+      "method fromJson(Lnet/sf/json/JSONObject;)V",
+      "add_instance_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventKeys.class": [
+      "add_field"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/PrivateStateChanged.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/WipStateChanged.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventType.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$14.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest.class": [
+      "add_instance_method",
+      "method testEventNotificationWithDefaultListenerImplemention()V",
+      "method testListenerWithSpecificSignature(Lcom/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$SpecificEventListener;Lcom/sonymobile/tools/gerrit/gerritevents/dto/GerritEvent;)V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/ChangeTest.class": [
+      "method testEquals()V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$13.class": [
+      "add_class"
+    ]
+  },
+  "e9e5bca6": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/Change.class": [
+      "method setPrivate(Z)V",
+      "change_field_declaration",
+      "method fromJson(Lnet/sf/json/JSONObject;)V",
+      "method isPrivate()Z"
+    ]
+  },
+  "45d10574": {},
+  "d7f5344b": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventKeys.class": [
+      "add_field"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventType.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/HashtagsChanged.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest.class": [
+      "add_instance_method",
+      "method testEventNotificationWithDefaultListenerImplemention()V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/HashtagsChangedTest.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$15.class": [
+      "add_class"
+    ]
+  },
+  "44650d55": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventKeys.class": [
+      "add_field"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/HashtagsChanged.class": [
+      "add_field",
+      "method fromJson(Lnet/sf/json/JSONObject;)V",
+      "add_instance_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/HashtagsChangedTest.class": [
+      "method fromJsonShouldDeserializeHashtagsCorrectly()V"
+    ]
+  },
+  "1bae1bd7": {
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshConnectionConfig.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshConnection.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/Change.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/DraftPublished.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritJsonEventFactory.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/cmd/AbstractSendCommandJob2.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/ChangeId.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/ReviewLabel.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/ChangeAbandoned.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshConnectionImpl$BlindHostKeyRepository.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritJsonDTO.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/Authentication.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshConnectionFactory.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/GerritWorkersConfig.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshException.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/JSONEventWork.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnection.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/helpers/FileHelper.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshConnectException.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/Approval.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/Comments.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEvent.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ConnectionListener.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/ReviewerAdded.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/rest/AbstractRestCommandJob.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnectionConfig2.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/RepositoryModifiedEvent.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/Handler.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshConnectionImpl.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/Account.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/Comment.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/RefUpdated.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventKeys.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/watchdog/WatchTimeExceptionData.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/RefReplicationDone.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritChangeKind.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnectionEvent.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryException.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/PrivateStateChanged.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/GerritEventWork.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/RefReplicated.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler$1.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritChangeStatus.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritCmdRunner.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/CommentedFile.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/CommentAdded.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/Connector.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/Provider.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/TopicChanged.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/rest/RestConnectionConfig.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/LineComment.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/AbstractGerritEventWork.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/GerritTriggeredEvent.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/ReviewInput.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/ChangeMerged.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler$2.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/ChangeBasedEvent.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/watchdog/WatchTimeExceptionData$Time.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/AuthenticationUpdater.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshUtil.class": [
+      "method isPrivateKeyFileValid(Ljava/io/File;)Z",
+      "method checkPassPhrase(Ljava/io/File;Ljava/lang/String;)Z",
+      "add_static_method",
+      "remove_static_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/watchdog/WatchTimeExceptionData$TimeSpan.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/ChangeRestored.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritDefaultValues.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritSendCommandQueue$1.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/PatchSet.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/Work.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/ssh/SshAuthenticationException.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/AbstractJsonObjectWork.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritSendCommandQueue.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/Notify.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler$EventWorker.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/ProjectCreated.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritEventListener.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/WipStateChanged.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/watchdog/StreamWatchdog.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/MergeFailed.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/PatchsetNotified.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnectionConfig.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/EventThread.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventType.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/PatchsetCreated.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/StreamEventsStringWork.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnection$1.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/RefUpdate.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/Coordinator.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler$LineVisitor.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/rest/AbstractRestCommandJob2.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler$1.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/Topic.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/HashtagsChanged.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritCmdRunner2.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/cmd/AbstractSendCommandJob.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritJsonEvent.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$14.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/cmd/AbstractSendCommandJob2Test.class": [
+      "method testSendCommandNoConnection()V",
+      "method testSendCommandWithError()V",
+      "method beforeClass()V",
+      "method testSendCommand()V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerQueueTest$SlowEventListener.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerQueueTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/rest/AbstractRestCommandJob2Test$1.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/watchdog/StreamWatchdogTest$WaitLongTimeCommand.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$7.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$3.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/DeserializeApprovalTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/RefUpdatedTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/ChangeIdTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/EventCreatedOnTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/mock/SshdServerMock$CommandMock.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/rest/AbstractRestCommandJobTest$2.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$10.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/mock/SshdServerMock$EofCommandMock.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/GerritEventWorkTest$1.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/watchdog/WatchTimeExceptionDataTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$6.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/mock/SshdServerMock$KeyPairFiles.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/rest/AbstractRestCommandJobTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/RefReplicationDoneTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandlerTest$1.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/rest/AbstractRestCommandJob2Test$2.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$11.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$9.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/GerritEventWorkTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/SshUtilTest.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/rest/AbstractRestCommandJob2Test.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/StreamEventsStringWorkTest$1.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/ChangeTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/mock/SshdServerMock$1.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/rest/AbstractRestCommandJobTest$TestHandler.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/DeserializeProviderTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/PatchSetTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$12.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$SpecificEventListener.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandlerTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/HashtagsChangedTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/AccountTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/mock/SshdServerMock$PrintLinesCommand.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/cmd/AbstractSendCommandJobTest$AbstractSendCommandJobImpl.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$8.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnectionTest$HandlerMock.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$2.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnectionTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/watchdog/StreamWatchdogTest$Listen.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritConnectionTest$ListenerMock.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$5.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$15.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/cmd/AbstractSendCommandJob2Test$AbstractSendCommandJob2Impl.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/RefReplicatedTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$4.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$13.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/mock/SshdServerMock$CommandLookup.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/mock/SshdServerMock.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/rest/AbstractRestCommandJobTest$1.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$ListenerMock.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$1.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/StreamEventsStringWorkTest.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/rest/AbstractRestCommandJob2Test$TestHandler.class": [
+      "nochange"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/cmd/AbstractSendCommandJobTest.class": [
+      "method testSendCommandNoConnection()V",
+      "method testSendCommandWithError()V",
+      "method testSendCommand2()V",
+      "method beforeClass()V",
+      "method testSendCommand()V",
+      "method testSendCommandStrWithError()V",
+      "method testSendCommandStrNoConnection()V",
+      "method testSendCommandStr()V",
+      "method testSendCommand2WithException()V",
+      "method testSendCommand2WithNoConnection()V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/watchdog/StreamWatchdogTest.class": [
+      "nochange"
+    ]
+  },
+  "9a443d13": {
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler.class": [
+      "add_instance_method",
+      "method runQuery(Ljava/lang/String;ZZZZZLcom/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler$LineVisitor;)V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandlerWithPersistedConnection.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandlerTestBase.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandlerWithPersistedConnectionTest.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandlerTest.class": [
+      "change_base_class",
+      "method setUp()V",
+      "add_instance_method",
+      "remove_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandlerTestBase$1.class": [
+      "add_class"
+    ]
+  },
+  "1655d70a": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventType.class": [
+      "add_instance_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventTypeTest.class": [
+      "add_class"
+    ]
+  },
+  "34a8f3c6": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventKeys.class": [
+      "add_field"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/VoteDeleted.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventType.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest.class": [
+      "add_instance_method",
+      "method testEventNotificationWithDefaultListenerImplemention()V",
+      "method testListenerWithSpecificSignature(Lcom/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$SpecificEventListener;Lcom/sonymobile/tools/gerrit/gerritevents/dto/GerritEvent;)V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/VoteDeletedTest.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest$16.class": [
+      "add_class"
+    ]
+  },
+  "26f536ff": {
+    "com/sonymobile/tools/gerrit/gerritevents/workers/GerritEventWork.class": [
+      "add_instance_method",
+      "method perform(Lcom/sonymobile/tools/gerrit/gerritevents/workers/Coordinator;)V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler.class": [
+      "add_field",
+      "method notifyListener(Lcom/sonymobile/tools/gerrit/gerritevents/GerritEventListener;Lcom/sonymobile/tools/gerrit/gerritevents/dto/GerritEvent;)V",
+      "add_static_method",
+      "add_instance_method",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/JSONEventWork.class": [
+      "add_instance_method",
+      "method perform(Lcom/sonymobile/tools/gerrit/gerritevents/workers/Coordinator;)V",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler$2.class": [
+      "add_class"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandler$EventWorker.class": [
+      "method run()V",
+      "add_instance_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/StreamEventsStringWork.class": [
+      "add_instance_method",
+      "method perform(Lcom/sonymobile/tools/gerrit/gerritevents/workers/Coordinator;)V",
+      "method toString()Ljava/lang/String;"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest.class": [
+      "add_instance_method"
+    ]
+  },
+  "04210e6a": {
+    "com/sonymobile/tools/gerrit/gerritevents/GerritHandlerTest.class": [
+      "method testWhitelistIgnore()V"
+    ]
+  },
+  "050aa4be": {
+    "com/sonymobile/tools/gerrit/gerritevents/workers/rest/AbstractRestCommandJob2Test$1.class": [
+      "method getGerritFrontEndUrl()Ljava/lang/String;"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/workers/rest/AbstractRestCommandJobTest$1.class": [
+      "method getGerritFrontEndUrl()Ljava/lang/String;"
+    ]
+  },
+  "16389d70": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/CommentAdded.class": [
+      "add_instance_method"
+    ]
+  },
+  "a5cdbc61": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/CommentAdded.class": [
+      "method hashCode()I"
+    ]
+  },
+  "df551a97": {},
+  "61d46e65": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/rest/Topic.class": [
+      "add_instance_method",
+      "method getChanges(Lcom/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler;)Ljava/util/Map;",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/GerritQueryHandler.class": [
+      "add_instance_method"
+    ]
+  },
+  "05ed8b51": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/GerritEventType.class": [
+      "add_field",
+      "update_constructor_or_update_field_initialization"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/events/RerunCheck.class": [
+      "add_class"
+    ]
+  },
+  "568904f4": {
+    "com/sonymobile/tools/gerrit/gerritevents/mock/SshdServerMock.class": [
+      "method startServer(ILcom/sonymobile/tools/gerrit/gerritevents/mock/SshdServerMock;)Lorg/apache/sshd/SshServer;"
+    ]
+  },
+  "0783f07f": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/DeserializeApprovalTest.class": [
+      "method testApprovalUsernameMigration()V"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/DeserializeProviderTest.class": [
+      "method testProtoToScheme()V"
+    ]
+  },
+  "d2f69726": {
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/Change.class": [
+      "add_field",
+      "method fromJson(Lnet/sf/json/JSONObject;)V",
+      "add_instance_method"
+    ],
+    "com/sonymobile/tools/gerrit/gerritevents/dto/attr/ChangeTest.class": [
+      "method testInitJson()V"
+    ]
+  }
+}

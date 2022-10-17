@@ -1,0 +1,77 @@
+[
+    {
+        "BM25Baseline": 2.8360393047332764,
+        "Fail-Basic": 0.05594515800476074,
+        "commit": "ba559195"
+    },
+    {
+        "BM25Baseline": 2.8392553329467773,
+        "Fail-Basic": 0.04940366744995117,
+        "commit": "4d24d49d"
+    },
+    {
+        "BM25Baseline": 2.842315435409546,
+        "Fail-Basic": 0.05675697326660156,
+        "commit": "ab1f195d"
+    },
+    {
+        "BM25Baseline": 2.8446311950683594,
+        "Fail-Basic": 0.05675697326660156,
+        "commit": "e7f0ac87"
+    },
+    {
+        "BM25Baseline": 2.839156150817871,
+        "Fail-Basic": 0.05046510696411133,
+        "commit": "63a111bc"
+    },
+    {
+        "BM25Baseline": 2.8863470554351807,
+        "Fail-Basic": 0.04986429214477539,
+        "commit": "e88831c2"
+    },
+    {
+        "BM25Baseline": 2.882852077484131,
+        "Fail-Basic": 0.05637955665588379,
+        "commit": "f8bb11cf"
+    },
+    {
+        "BM25Baseline": 2.842263698577881,
+        "Fail-Basic": 0.05018353462219238,
+        "commit": "fe29c2dd"
+    },
+    {
+        "BM25Baseline": 2.8889880180358887,
+        "Fail-Basic": 0.049591064453125,
+        "commit": "c53e5639"
+    },
+    {
+        "BM25Baseline": 2.883425235748291,
+        "Fail-Basic": 0.05629873275756836,
+        "commit": "342b4b2e"
+    },
+    {
+        "BM25Baseline": 2.847897529602051,
+        "Fail-Basic": 0.049973487854003906,
+        "commit": "de7a2666"
+    },
+    {
+        "BM25Baseline": 2.883518695831299,
+        "Fail-Basic": 0.06105828285217285,
+        "commit": "946da9d6"
+    },
+    {
+        "BM25Baseline": 2.88118577003479,
+        "Fail-Basic": 0.05028057098388672,
+        "commit": "b702664b"
+    },
+    {
+        "BM25Baseline": 2.891963005065918,
+        "Fail-Basic": 0.050409555435180664,
+        "commit": "b9d80c7c"
+    },
+    {
+        "BM25Baseline": 2.8532934188842773,
+        "Fail-Basic": 0.056479454040527344,
+        "commit": "e2feaed8"
+    }
+]
