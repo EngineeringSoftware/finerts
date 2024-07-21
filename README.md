@@ -1,9 +1,10 @@
-# FineRTS Tools
-[FineEkstazi](https://github.com/EngineeringSoftware/fine-ekstazi)
-[FineSTARTS](https://github.com/EngineeringSoftware/fine-starts)
+# FineRTS
+Select regression tests more precisely by reasoning about semantics-modifying changes.
+Based on [Ekstazi](https://github.com/gliga/ekstazi), we implemented [FineEkstazi](https://github.com/EngineeringSoftware/fine-ekstazi)
+Based on [STARTS](https://github.com/TestingResearchIllinois/starts), we implemented [FineSTARTS](https://github.com/EngineeringSoftware/fine-starts)
 
 
-## Content of this folder 
+## Content of this repository
 
 ### insights-of-class-level
 Contains the manual inspection results for the 5 projects. The file,
@@ -22,7 +23,10 @@ FineSTARTS<sup>F</sup>, FineSTARTS, and HyRTS.
 Contains the SHAs used in evaluation on 23 projects.
 
 ### predictiverts-results
-Contains the ML models prediction results
+Contains the ML models prediction results.
+
+### appendix.pdf
+Contains the appendix of the paper.
 
 ## Citation
 If you have used FineRTS in a research project, please cite the research paper in any related publication:
