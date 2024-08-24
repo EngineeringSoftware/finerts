@@ -30,6 +30,9 @@ Contains the ML models prediction results.
 ### appendix.pdf
 Contains the appendix of the paper.
 
+### python
+Contains the python scripts used in the evaluation.
+
 ## Citation
 If you have used FineRTS in a research project, please cite the research paper in any related publication:
 
