@@ -1,7 +1,7 @@
 # FineRTS
 Select regression tests more precisely by reasoning about semantics-modifying changes.
 
-Based on [Ekstazi](https://github.com/gliga/ekstazi), we implemented [FineEkstazi](https://github.com/EngineeringSoftware/fine-ekstazi).
+Based on [Ekstazi](https://github.com/gliga/ekstazi), we implemented [FineEkstazi](https://github.com/EngineeringSoftware/fine-ekstazi)
 
 Based on [STARTS](https://github.com/TestingResearchIllinois/starts), we implemented [FineSTARTS](https://github.com/EngineeringSoftware/fine-starts)
 
